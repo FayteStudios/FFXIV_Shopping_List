@@ -882,6 +882,22 @@ function App() {
           )}
         </div>
       </section>
+
+        <footer className="support-footer">
+          <a
+            className="support-card"
+            href="https://ko-fi.com/faytestudios"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>Support on Ko-fi</strong>
+            <span>Help keep updates and new features coming.</span>
+          </a>
+
+          <span className="support-disclaimer">
+            Fan-made FFXIV crafting utility. Not affiliated with Square Enix.
+          </span>
+        </footer>
     </main>
   );
 }

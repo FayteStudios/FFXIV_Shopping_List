@@ -1,0 +1,6207 @@
+{
+  "targetFile": "C:\\Users\\sorin\\onedrive\\desktop\\ffxiv_material_tracker_app\\src\\data\\recipes\\weaver.json",
+  "generatedFile": "C:\\Users\\sorin\\onedrive\\desktop\\ffxiv_material_tracker_app\\generated\\weaver-missing-generated.json",
+  "writeMode": false,
+  "targetCountBefore": 1765,
+  "generatedCount": 1542,
+  "added": [],
+  "skippedExactId": [
+    {
+      "id": "larboard-hull-component-weaver-1",
+      "name": "Larboard Hull Component"
+    },
+    {
+      "id": "bladder-component-weaver-1",
+      "name": "Bladder Component"
+    },
+    {
+      "id": "hull-interior-component-weaver-1",
+      "name": "Hull Interior Component"
+    },
+    {
+      "id": "starboard-hull-component-weaver-1",
+      "name": "Starboard Hull Component"
+    },
+    {
+      "id": "bladder-lining-component-weaver-1",
+      "name": "Bladder Lining Component"
+    },
+    {
+      "id": "engine-casing-component-weaver-3",
+      "name": "Engine Casing Component"
+    },
+    {
+      "id": "gyrodrive-component-weaver-3",
+      "name": "Gyrodrive Component"
+    },
+    {
+      "id": "crafting-tool-component-weaver-3",
+      "name": "Crafting Tool Component"
+    },
+    {
+      "id": "deck-component-weaver-3",
+      "name": "Deck Component"
+    },
+    {
+      "id": "propulsion-engine-component-weaver-3",
+      "name": "Propulsion Engine Component"
+    },
+    {
+      "id": "rigging-component-weaver-3",
+      "name": "Rigging Component"
+    },
+    {
+      "id": "aerodynamo-component-weaver-6",
+      "name": "Aerodynamo Component"
+    },
+    {
+      "id": "ballast-component-weaver-6",
+      "name": "Ballast Component"
+    },
+    {
+      "id": "cockpit-exterior-component-weaver-6",
+      "name": "Cockpit Exterior Component"
+    },
+    {
+      "id": "cockpit-interior-component-weaver-6",
+      "name": "Cockpit Interior Component"
+    },
+    {
+      "id": "engine-jointing-component-weaver-6",
+      "name": "Engine Jointing Component"
+    },
+    {
+      "id": "instrument-panel-component-weaver-6",
+      "name": "Instrument Panel Component"
+    },
+    {
+      "id": "larboard-wing-component-weaver-10",
+      "name": "Larboard Wing Component"
+    },
+    {
+      "id": "starboard-wing-component-weaver-10",
+      "name": "Starboard Wing Component"
+    },
+    {
+      "id": "heat-vent-component-weaver-10",
+      "name": "Heat Vent Component"
+    },
+    {
+      "id": "transmission-component-weaver-10",
+      "name": "Transmission Component"
+    },
+    {
+      "id": "larboard-wing-control-component-weaver-10",
+      "name": "Larboard Wing Control Component"
+    },
+    {
+      "id": "starboard-wing-control-component-weaver-10",
+      "name": "Starboard Wing Control Component"
+    },
+    {
+      "id": "lamp-component-weaver-15",
+      "name": "Lamp Component"
+    },
+    {
+      "id": "glamour-prism-weaver-15",
+      "name": "Glamour Prism"
+    },
+    {
+      "id": "exhaust-outlet-component-weaver-15",
+      "name": "Exhaust Outlet Component"
+    },
+    {
+      "id": "helm-component-weaver-15",
+      "name": "Helm Component"
+    },
+    {
+      "id": "speaking-tube-component-weaver-15",
+      "name": "Speaking Tube Component"
+    },
+    {
+      "id": "steering-mechanism-component-weaver-15",
+      "name": "Steering Mechanism Component"
+    },
+    {
+      "id": "ceruleum-tank-component-weaver-15",
+      "name": "Ceruleum Tank Component"
+    },
+    {
+      "id": "disposal-unit-component-weaver-15",
+      "name": "Disposal Unit Component"
+    },
+    {
+      "id": "refabrication-component-weaver-16",
+      "name": "Refabrication Component"
+    },
+    {
+      "id": "riviera-bed-weaver-16",
+      "name": "Riviera Bed"
+    },
+    {
+      "id": "auxiliary-aerodynamo-component-weaver-16",
+      "name": "Auxiliary Aerodynamo Component"
+    },
+    {
+      "id": "escape-flyer-component-weaver-16",
+      "name": "Escape Flyer Component"
+    },
+    {
+      "id": "isolator-component-weaver-16",
+      "name": "Isolator Component"
+    },
+    {
+      "id": "decorative-plating-component-weaver-16",
+      "name": "Decorative Plating Component"
+    },
+    {
+      "id": "hyperconductor-component-weaver-16",
+      "name": "Hyperconductor Component"
+    },
+    {
+      "id": "spare-tank-component-weaver-16",
+      "name": "Spare Tank Component"
+    },
+    {
+      "id": "glade-cottage-roof-wood-weaver-17",
+      "name": "Glade Cottage Roof (Wood)"
+    },
+    {
+      "id": "finishing-component-weaver-18",
+      "name": "Finishing Component"
+    },
+    {
+      "id": "figurehead-component-weaver-18",
+      "name": "Figurehead Component"
+    },
+    {
+      "id": "grade-2-skybuilders-rope-weaver-20",
+      "name": "Grade 2 Skybuilders' Rope"
+    },
+    {
+      "id": "grade-3-skybuilders-rope-weaver-20",
+      "name": "Grade 3 Skybuilders' Rope"
+    },
+    {
+      "id": "grade-4-skybuilders-rope-weaver-20",
+      "name": "Grade 4 Skybuilders' Rope"
+    },
+    {
+      "id": "skybuilders-rope-weaver-20",
+      "name": "Skybuilders' Rope"
+    },
+    {
+      "id": "glade-cottage-roof-stone-weaver-21",
+      "name": "Glade Cottage Roof (Stone)"
+    },
+    {
+      "id": "glade-bed-weaver-28",
+      "name": "Glade Bed"
+    },
+    {
+      "id": "standard-spectrum-dye-weaver-30",
+      "name": "Standard Spectrum Dye"
+    },
+    {
+      "id": "oasis-leaf-rug-weaver-32",
+      "name": "Oasis Leaf Rug"
+    },
+    {
+      "id": "riviera-awning-weaver-32",
+      "name": "Riviera Awning"
+    },
+    {
+      "id": "simple-curtain-weaver-33",
+      "name": "Simple Curtain"
+    },
+    {
+      "id": "glade-house-roof-wood-weaver-34",
+      "name": "Glade House Roof (Wood)"
+    },
+    {
+      "id": "oasis-bed-weaver-34",
+      "name": "Oasis Bed"
+    },
+    {
+      "id": "chirurgeons-curtain-weaver-35",
+      "name": "Chirurgeon's Curtain"
+    },
+    {
+      "id": "spotted-interior-wall-weaver-35",
+      "name": "Spotted Interior Wall"
+    },
+    {
+      "id": "prism-pouch-weaver-36",
+      "name": "Prism Pouch"
+    },
+    {
+      "id": "glade-fringed-rug-weaver-37",
+      "name": "Glade Fringed Rug"
+    },
+    {
+      "id": "oasis-rug-weaver-37",
+      "name": "Oasis Rug"
+    },
+    {
+      "id": "riviera-rug-weaver-37",
+      "name": "Riviera Rug"
+    },
+    {
+      "id": "glade-house-roof-stone-weaver-38",
+      "name": "Glade House Roof (Stone)"
+    },
+    {
+      "id": "linen-parasol-weaver-39",
+      "name": "Linen Parasol"
+    },
+    {
+      "id": "red-carpet-weaver-39",
+      "name": "Red Carpet"
+    },
+    {
+      "id": "woolen-turban-weaver-39",
+      "name": "Woolen Turban"
+    },
+    {
+      "id": "grade-2-skybuilders-cloth-weaver-40",
+      "name": "Grade 2 Skybuilders' Cloth"
+    },
+    {
+      "id": "grade-3-skybuilders-cloth-weaver-40",
+      "name": "Grade 3 Skybuilders' Cloth"
+    },
+    {
+      "id": "grade-4-skybuilders-cloth-weaver-40",
+      "name": "Grade 4 Skybuilders' Cloth"
+    },
+    {
+      "id": "skybuilders-cloth-weaver-40",
+      "name": "Skybuilders' Cloth"
+    },
+    {
+      "id": "glade-awning-weaver-40",
+      "name": "Glade Awning"
+    },
+    {
+      "id": "glade-rug-weaver-40",
+      "name": "Glade Rug"
+    },
+    {
+      "id": "riviera-doormat-weaver-40",
+      "name": "Riviera Doormat"
+    },
+    {
+      "id": "stuffed-ahriman-weaver-40",
+      "name": "Stuffed Ahriman"
+    },
+    {
+      "id": "vintage-chefs-apron-weaver-40",
+      "name": "Vintage Chef's Apron"
+    },
+    {
+      "id": "glade-flora-interior-wall-weaver-41",
+      "name": "Glade Flora Interior Wall"
+    },
+    {
+      "id": "oasis-flora-interior-wall-weaver-41",
+      "name": "Oasis Flora Interior Wall"
+    },
+    {
+      "id": "riviera-flora-interior-wall-weaver-41",
+      "name": "Riviera Flora Interior Wall"
+    },
+    {
+      "id": "vintage-chefs-hat-weaver-41",
+      "name": "Vintage Chef's Hat"
+    },
+    {
+      "id": "glade-doormat-weaver-42",
+      "name": "Glade Doormat"
+    },
+    {
+      "id": "oasis-bench-weaver-42",
+      "name": "Oasis Bench"
+    },
+    {
+      "id": "riviera-armchair-weaver-42",
+      "name": "Riviera Armchair"
+    },
+    {
+      "id": "altered-woolen-bracers-weaver-42",
+      "name": "Altered Woolen Bracers"
+    },
+    {
+      "id": "altered-woolen-hat-weaver-42",
+      "name": "Altered Woolen Hat"
+    },
+    {
+      "id": "altered-woolen-trousers-weaver-43",
+      "name": "Altered Woolen Trousers"
+    },
+    {
+      "id": "vintage-hose-weaver-43",
+      "name": "Vintage Hose"
+    },
+    {
+      "id": "glade-thatch-wall-weaver-44",
+      "name": "Glade Thatch Wall"
+    },
+    {
+      "id": "oasis-awning-weaver-44",
+      "name": "Oasis Awning"
+    },
+    {
+      "id": "riviera-couch-weaver-44",
+      "name": "Riviera Couch"
+    },
+    {
+      "id": "vintage-seneschal-coatee-weaver-44",
+      "name": "Vintage Seneschal Coatee"
+    },
+    {
+      "id": "goobbue-rug-weaver-45",
+      "name": "Goobbue Rug"
+    },
+    {
+      "id": "oasis-armchair-weaver-45",
+      "name": "Oasis Armchair"
+    },
+    {
+      "id": "oasis-doormat-weaver-45",
+      "name": "Oasis Doormat"
+    },
+    {
+      "id": "striped-interior-wall-weaver-45",
+      "name": "Striped Interior Wall"
+    },
+    {
+      "id": "teal-blue-carpeting-weaver-45",
+      "name": "Teal Blue Carpeting"
+    },
+    {
+      "id": "altered-woolen-cowl-weaver-45",
+      "name": "Altered Woolen Cowl"
+    },
+    {
+      "id": "cropped-wool-slops-weaver-45",
+      "name": "Cropped Wool Slops"
+    },
+    {
+      "id": "felt-chausses-weaver-45",
+      "name": "Felt Chausses"
+    },
+    {
+      "id": "felt-gown-weaver-45",
+      "name": "Felt Gown"
+    },
+    {
+      "id": "felt-halfgloves-weaver-45",
+      "name": "Felt Halfgloves"
+    },
+    {
+      "id": "felt-kecks-weaver-45",
+      "name": "Felt Kecks"
+    },
+    {
+      "id": "flat-cap-weaver-45",
+      "name": "Flat Cap"
+    },
+    {
+      "id": "rainmakers-hat-weaver-45",
+      "name": "Rainmaker's Hat"
+    },
+    {
+      "id": "rainmakers-tunic-weaver-45",
+      "name": "Rainmaker's Tunic"
+    },
+    {
+      "id": "vintage-jesters-cap-weaver-45",
+      "name": "Vintage Jester's Cap"
+    },
+    {
+      "id": "wool-knit-cap-weaver-45",
+      "name": "Wool Knit Cap"
+    },
+    {
+      "id": "wool-suspenders-weaver-45",
+      "name": "Wool Suspenders"
+    },
+    {
+      "id": "woolen-cowl-weaver-45",
+      "name": "Woolen Cowl"
+    },
+    {
+      "id": "oasis-argyle-rug-weaver-46",
+      "name": "Oasis Argyle Rug"
+    },
+    {
+      "id": "wavy-interior-wall-weaver-46",
+      "name": "Wavy Interior Wall"
+    },
+    {
+      "id": "felt-beret-weaver-46",
+      "name": "Felt Beret"
+    },
+    {
+      "id": "felt-bracers-weaver-46",
+      "name": "Felt Bracers"
+    },
+    {
+      "id": "felt-dress-shoes-weaver-46",
+      "name": "Felt Dress Shoes"
+    },
+    {
+      "id": "vintage-coif-weaver-46",
+      "name": "Vintage Coif"
+    },
+    {
+      "id": "oasis-couch-weaver-47",
+      "name": "Oasis Couch"
+    },
+    {
+      "id": "altered-felt-hat-weaver-47",
+      "name": "Altered Felt Hat"
+    },
+    {
+      "id": "felt-breeches-weaver-47",
+      "name": "Felt Breeches"
+    },
+    {
+      "id": "padded-woolen-trousers-weaver-47",
+      "name": "Padded Woolen Trousers"
+    },
+    {
+      "id": "vintage-robe-weaver-47",
+      "name": "Vintage Robe"
+    },
+    {
+      "id": "woolen-trousers-of-fending-weaver-47",
+      "name": "Woolen Trousers of Fending"
+    },
+    {
+      "id": "chocobo-flooring-weaver-48",
+      "name": "Chocobo Flooring"
+    },
+    {
+      "id": "chocobo-interior-wall-weaver-48",
+      "name": "Chocobo Interior Wall"
+    },
+    {
+      "id": "altered-felt-robe-weaver-48",
+      "name": "Altered Felt Robe"
+    },
+    {
+      "id": "felt-dress-gloves-weaver-48",
+      "name": "Felt Dress Gloves"
+    },
+    {
+      "id": "felt-gloves-weaver-48",
+      "name": "Felt Gloves"
+    },
+    {
+      "id": "felt-trousers-weaver-48",
+      "name": "Felt Trousers"
+    },
+    {
+      "id": "stuffed-chocobo-weaver-49",
+      "name": "Stuffed Chocobo"
+    },
+    {
+      "id": "fake-kupo-nut-weaver-50",
+      "name": "Fake Kupo Nut"
+    },
+    {
+      "id": "wind-up-aldgoat-weaver-50",
+      "name": "Wind-up Aldgoat"
+    },
+    {
+      "id": "wind-up-qiqirn-weaver-50",
+      "name": "Wind-up Qiqirn"
+    },
+    {
+      "id": "patricians-gloves-weaver-50",
+      "name": "Patrician's Gloves"
+    },
+    {
+      "id": "patricians-wedge-cap-weaver-50",
+      "name": "Patrician's Wedge Cap"
+    },
+    {
+      "id": "rarefied-rainbow-bolero-weaver-50",
+      "name": "Rarefied Rainbow Bolero"
+    },
+    {
+      "id": "training-supplies-weaver-50",
+      "name": "Training Supplies"
+    },
+    {
+      "id": "moogle-mollifier-weaver-50",
+      "name": "Moogle Mollifier"
+    },
+    {
+      "id": "statue-supplies-weaver-50",
+      "name": "Statue Supplies"
+    },
+    {
+      "id": "stonemasonry-supplies-weaver-50",
+      "name": "Stonemasonry Supplies"
+    },
+    {
+      "id": "cloudfish-lure-weaver-50",
+      "name": "Cloudfish Lure"
+    },
+    {
+      "id": "horn-component-weaver-50",
+      "name": "Horn Component"
+    },
+    {
+      "id": "veneer-component-weaver-50",
+      "name": "Veneer Component"
+    },
+    {
+      "id": "water-filter-component-weaver-50",
+      "name": "Water Filter Component"
+    },
+    {
+      "id": "basket-component-weaver-50",
+      "name": "Basket Component"
+    },
+    {
+      "id": "shearing-machine-component-weaver-50",
+      "name": "Shearing Machine Component"
+    },
+    {
+      "id": "gathering-tool-component-weaver-50",
+      "name": "Gathering Tool Component"
+    },
+    {
+      "id": "ishgardian-cuisine-miscellany-weaver-50",
+      "name": "Ishgardian Cuisine Miscellany"
+    },
+    {
+      "id": "mogstew-miscellany-weaver-50",
+      "name": "Mogstew Miscellany"
+    },
+    {
+      "id": "repurposed-construction-component-weaver-50",
+      "name": "Repurposed Construction Component"
+    },
+    {
+      "id": "austere-offering-weaver-50",
+      "name": "Austere Offering"
+    },
+    {
+      "id": "exploding-kupo-nut-weaver-50",
+      "name": "Exploding Kupo Nut"
+    },
+    {
+      "id": "moogle-statuette-weaver-50",
+      "name": "Moogle Statuette"
+    },
+    {
+      "id": "moogle-tool-component-weaver-50",
+      "name": "Moogle Tool Component"
+    },
+    {
+      "id": "dragonscale-rasp-weaver-50",
+      "name": "Dragonscale Rasp"
+    },
+    {
+      "id": "foundation-component-weaver-50",
+      "name": "Foundation Component"
+    },
+    {
+      "id": "makeshift-toy-airship-weaver-50",
+      "name": "Makeshift Toy Airship"
+    },
+    {
+      "id": "wall-repair-supplies-weaver-50",
+      "name": "Wall Repair Supplies"
+    },
+    {
+      "id": "tablet-supplies-weaver-50",
+      "name": "Tablet Supplies"
+    },
+    {
+      "id": "aetheric-shielding-weaver-50",
+      "name": "Aetheric Shielding"
+    },
+    {
+      "id": "treadwheel-crane-components-weaver-50",
+      "name": "Treadwheel Crane Components"
+    },
+    {
+      "id": "jute-yarn-weaver-50",
+      "name": "Jute Yarn"
+    },
+    {
+      "id": "classic-interior-wall-weaver-50",
+      "name": "Classic Interior Wall"
+    },
+    {
+      "id": "combed-wool-rug-weaver-50",
+      "name": "Combed Wool Rug"
+    },
+    {
+      "id": "glade-mansion-roof-stone-weaver-50",
+      "name": "Glade Mansion Roof (Stone)"
+    },
+    {
+      "id": "glade-mansion-roof-wood-weaver-50",
+      "name": "Glade Mansion Roof (Wood)"
+    },
+    {
+      "id": "tatami-mat-weaver-50",
+      "name": "Tatami Mat"
+    },
+    {
+      "id": "tonberry-bed-weaver-50",
+      "name": "Tonberry Bed"
+    },
+    {
+      "id": "tonberry-dining-table-weaver-50",
+      "name": "Tonberry Dining Table"
+    },
+    {
+      "id": "tonberry-floor-lamp-weaver-50",
+      "name": "Tonberry Floor Lamp"
+    },
+    {
+      "id": "tonberry-oval-rug-weaver-50",
+      "name": "Tonberry Oval Rug"
+    },
+    {
+      "id": "tonberry-round-table-weaver-50",
+      "name": "Tonberry Round Table"
+    },
+    {
+      "id": "tonberry-square-rug-weaver-50",
+      "name": "Tonberry Square Rug"
+    },
+    {
+      "id": "alchemists-coat-weaver-50",
+      "name": "Alchemist's Coat"
+    },
+    {
+      "id": "alchemists-gloves-weaver-50",
+      "name": "Alchemist's Gloves"
+    },
+    {
+      "id": "alchemists-trousers-weaver-50",
+      "name": "Alchemist's Trousers"
+    },
+    {
+      "id": "armorers-gown-weaver-50",
+      "name": "Armorer's Gown"
+    },
+    {
+      "id": "armorers-slops-weaver-50",
+      "name": "Armorer's Slops"
+    },
+    {
+      "id": "blacksmiths-slops-weaver-50",
+      "name": "Blacksmith's Slops"
+    },
+    {
+      "id": "botanists-gloves-weaver-50",
+      "name": "Botanist's Gloves"
+    },
+    {
+      "id": "botanists-slops-weaver-50",
+      "name": "Botanist's Slops"
+    },
+    {
+      "id": "carpenters-gown-weaver-50",
+      "name": "Carpenter's Gown"
+    },
+    {
+      "id": "carpenters-hood-weaver-50",
+      "name": "Carpenter's Hood"
+    },
+    {
+      "id": "coronal-straw-hat-weaver-50",
+      "name": "Coronal Straw Hat"
+    },
+    {
+      "id": "culinarians-apron-weaver-50",
+      "name": "Culinarian's Apron"
+    },
+    {
+      "id": "culinarians-hat-weaver-50",
+      "name": "Culinarian's Hat"
+    },
+    {
+      "id": "culinarians-mitts-weaver-50",
+      "name": "Culinarian's Mitts"
+    },
+    {
+      "id": "culinarians-trousers-weaver-50",
+      "name": "Culinarian's Trousers"
+    },
+    {
+      "id": "fishers-gaskins-weaver-50",
+      "name": "Fisher's Gaskins"
+    },
+    {
+      "id": "goldsmiths-doublet-weaver-50",
+      "name": "Goldsmith's Doublet"
+    },
+    {
+      "id": "goldsmiths-trousers-weaver-50",
+      "name": "Goldsmith's Trousers"
+    },
+    {
+      "id": "hamlet-cutters-hat-weaver-50",
+      "name": "Hamlet Cutter's Hat"
+    },
+    {
+      "id": "imperial-operative-dalmatica-weaver-50",
+      "name": "Imperial Operative Dalmatica"
+    },
+    {
+      "id": "imperial-operative-hat-weaver-50",
+      "name": "Imperial Operative Hat"
+    },
+    {
+      "id": "leatherworkers-trousers-weaver-50",
+      "name": "Leatherworker's Trousers"
+    },
+    {
+      "id": "militia-hat-weaver-50",
+      "name": "Militia Hat"
+    },
+    {
+      "id": "militia-robe-weaver-50",
+      "name": "Militia Robe"
+    },
+    {
+      "id": "militia-tights-weaver-50",
+      "name": "Militia Tights"
+    },
+    {
+      "id": "militia-trousers-weaver-50",
+      "name": "Militia Trousers"
+    },
+    {
+      "id": "moonfire-halter-weaver-50",
+      "name": "Moonfire Halter"
+    },
+    {
+      "id": "moonfire-hat-weaver-50",
+      "name": "Moonfire Hat"
+    },
+    {
+      "id": "moonfire-tanga-weaver-50",
+      "name": "Moonfire Tanga"
+    },
+    {
+      "id": "moonfire-trunks-weaver-50",
+      "name": "Moonfire Trunks"
+    },
+    {
+      "id": "moonfire-vest-weaver-50",
+      "name": "Moonfire Vest"
+    },
+    {
+      "id": "pearl-roselle-capeline-weaver-50",
+      "name": "Pearl Roselle Capeline"
+    },
+    {
+      "id": "sailor-brais-weaver-50",
+      "name": "Sailor Brais"
+    },
+    {
+      "id": "sailor-shirt-weaver-50",
+      "name": "Sailor Shirt"
+    },
+    {
+      "id": "straw-capeline-weaver-50",
+      "name": "Straw Capeline"
+    },
+    {
+      "id": "weavers-trousers-weaver-50",
+      "name": "Weaver's Trousers"
+    },
+    {
+      "id": "vanya-silk-weaver-50",
+      "name": "Vanya Silk"
+    },
+    {
+      "id": "carpeting-weaver-50",
+      "name": "Carpeting"
+    },
+    {
+      "id": "double-feather-bed-weaver-50",
+      "name": "Double Feather Bed"
+    },
+    {
+      "id": "glade-cushion-weaver-50",
+      "name": "Glade Cushion"
+    },
+    {
+      "id": "moogle-flooring-weaver-50",
+      "name": "Moogle Flooring"
+    },
+    {
+      "id": "moogle-interior-wall-weaver-50",
+      "name": "Moogle Interior Wall"
+    },
+    {
+      "id": "moogle-rug-weaver-50",
+      "name": "Moogle Rug"
+    },
+    {
+      "id": "oasis-cushion-weaver-50",
+      "name": "Oasis Cushion"
+    },
+    {
+      "id": "riviera-cushion-weaver-50",
+      "name": "Riviera Cushion"
+    },
+    {
+      "id": "south-seas-armchair-weaver-50",
+      "name": "South Seas Armchair"
+    },
+    {
+      "id": "south-seas-couch-weaver-50",
+      "name": "South Seas Couch"
+    },
+    {
+      "id": "stuffed-moogle-weaver-50",
+      "name": "Stuffed Moogle"
+    },
+    {
+      "id": "tatami-flooring-weaver-50",
+      "name": "Tatami Flooring"
+    },
+    {
+      "id": "best-mans-jacket-weaver-50",
+      "name": "Best Man's Jacket"
+    },
+    {
+      "id": "best-mans-slacks-weaver-50",
+      "name": "Best Man's Slacks"
+    },
+    {
+      "id": "bridesmaids-dress-weaver-50",
+      "name": "Bridesmaid's Dress"
+    },
+    {
+      "id": "bridesmaids-tights-weaver-50",
+      "name": "Bridesmaid's Tights"
+    },
+    {
+      "id": "crescent-moon-bottoms-weaver-50",
+      "name": "Crescent Moon Bottoms"
+    },
+    {
+      "id": "crescent-moon-cone-weaver-50",
+      "name": "Crescent Moon Cone"
+    },
+    {
+      "id": "crescent-moon-nightcap-weaver-50",
+      "name": "Crescent Moon Nightcap"
+    },
+    {
+      "id": "crescent-moon-nightgown-weaver-50",
+      "name": "Crescent Moon Nightgown"
+    },
+    {
+      "id": "crescent-moon-slippers-weaver-50",
+      "name": "Crescent Moon Slippers"
+    },
+    {
+      "id": "magitek-repair-materials-weaver-50",
+      "name": "Magitek Repair Materials"
+    },
+    {
+      "id": "silver-brocade-weaver-50",
+      "name": "Silver Brocade"
+    },
+    {
+      "id": "taffeta-loincloth-weaver-50",
+      "name": "Taffeta Loincloth"
+    },
+    {
+      "id": "taffeta-shawl-weaver-50",
+      "name": "Taffeta Shawl"
+    },
+    {
+      "id": "vanya-breeches-of-healing-weaver-50",
+      "name": "Vanya Breeches of Healing"
+    },
+    {
+      "id": "vanya-crakows-weaver-50",
+      "name": "Vanya Crakows"
+    },
+    {
+      "id": "vanya-gloves-of-healing-weaver-50",
+      "name": "Vanya Gloves of Healing"
+    },
+    {
+      "id": "vanya-hat-of-healing-weaver-50",
+      "name": "Vanya Hat of Healing"
+    },
+    {
+      "id": "vanya-robe-of-healing-weaver-50",
+      "name": "Vanya Robe of Healing"
+    },
+    {
+      "id": "vanya-silk-crakow-lining-weaver-50",
+      "name": "Vanya Silk Crakow Lining"
+    },
+    {
+      "id": "vanya-silk-glove-lining-weaver-50",
+      "name": "Vanya Silk Glove Lining"
+    },
+    {
+      "id": "vanya-silk-hat-lining-weaver-50",
+      "name": "Vanya Silk Hat Lining"
+    },
+    {
+      "id": "vanya-silk-robe-lining-weaver-50",
+      "name": "Vanya Silk Robe Lining"
+    },
+    {
+      "id": "vanya-trousers-weaver-50",
+      "name": "Vanya Trousers"
+    },
+    {
+      "id": "camlet-weaver-50",
+      "name": "Camlet"
+    },
+    {
+      "id": "plush-cushion-weaver-50",
+      "name": "Plush Cushion"
+    },
+    {
+      "id": "carbuncle-round-table-weaver-50",
+      "name": "Carbuncle Round Table"
+    },
+    {
+      "id": "large-woven-rug-weaver-50",
+      "name": "Large Woven Rug"
+    },
+    {
+      "id": "augmented-cashmere-robe-of-casting-weaver-50",
+      "name": "Augmented Cashmere Robe of Casting"
+    },
+    {
+      "id": "augmented-cashmere-robe-of-healing-weaver-50",
+      "name": "Augmented Cashmere Robe of Healing"
+    },
+    {
+      "id": "cashmere-breeches-of-casting-weaver-50",
+      "name": "Cashmere Breeches of Casting"
+    },
+    {
+      "id": "cashmere-cloth-weaver-50",
+      "name": "Cashmere Cloth"
+    },
+    {
+      "id": "cashmere-hat-of-aiming-weaver-50",
+      "name": "Cashmere Hat of Aiming"
+    },
+    {
+      "id": "cashmere-hat-of-casting-weaver-50",
+      "name": "Cashmere Hat of Casting"
+    },
+    {
+      "id": "cashmere-robe-of-casting-weaver-50",
+      "name": "Cashmere Robe of Casting"
+    },
+    {
+      "id": "cashmere-robe-of-healing-weaver-50",
+      "name": "Cashmere Robe of Healing"
+    },
+    {
+      "id": "cashmere-skirt-of-aiming-weaver-50",
+      "name": "Cashmere Skirt of Aiming"
+    },
+    {
+      "id": "cashmere-skirt-of-healing-weaver-50",
+      "name": "Cashmere Skirt of Healing"
+    },
+    {
+      "id": "cashmere-skirt-of-striking-weaver-50",
+      "name": "Cashmere Skirt of Striking"
+    },
+    {
+      "id": "cloche-weaver-50",
+      "name": "Cloche"
+    },
+    {
+      "id": "coronal-wristband-weaver-50",
+      "name": "Coronal Wristband"
+    },
+    {
+      "id": "intricate-silver-brocade-weaver-50",
+      "name": "Intricate Silver Brocade"
+    },
+    {
+      "id": "new-world-headdress-weaver-50",
+      "name": "New World Headdress"
+    },
+    {
+      "id": "new-world-hose-weaver-50",
+      "name": "New World Hose"
+    },
+    {
+      "id": "new-world-jacket-weaver-50",
+      "name": "New World Jacket"
+    },
+    {
+      "id": "perfect-cloth-weaver-50",
+      "name": "Perfect Cloth"
+    },
+    {
+      "id": "plain-long-skirt-weaver-50",
+      "name": "Plain Long Skirt"
+    },
+    {
+      "id": "spring-dress-weaver-50",
+      "name": "Spring Dress"
+    },
+    {
+      "id": "spring-dress-shoes-weaver-50",
+      "name": "Spring Dress Shoes"
+    },
+    {
+      "id": "spring-skirt-weaver-50",
+      "name": "Spring Skirt"
+    },
+    {
+      "id": "spring-straw-hat-weaver-50",
+      "name": "Spring Straw Hat"
+    },
+    {
+      "id": "nana-bear-weaver-50",
+      "name": "Nana Bear"
+    },
+    {
+      "id": "arachne-bandana-of-scouting-weaver-50",
+      "name": "Arachne Bandana of Scouting"
+    },
+    {
+      "id": "arachne-bandana-of-striking-weaver-50",
+      "name": "Arachne Bandana of Striking"
+    },
+    {
+      "id": "arachne-bolero-weaver-50",
+      "name": "Arachne Bolero"
+    },
+    {
+      "id": "arachne-culottes-of-casting-weaver-50",
+      "name": "Arachne Culottes of Casting"
+    },
+    {
+      "id": "arachne-culottes-of-healing-weaver-50",
+      "name": "Arachne Culottes of Healing"
+    },
+    {
+      "id": "arachne-field-dressing-of-scouting-weaver-50",
+      "name": "Arachne Field Dressing of Scouting"
+    },
+    {
+      "id": "arachne-field-dressing-of-striking-weaver-50",
+      "name": "Arachne Field Dressing of Striking"
+    },
+    {
+      "id": "arachne-gaskins-of-scouting-weaver-50",
+      "name": "Arachne Gaskins of Scouting"
+    },
+    {
+      "id": "arachne-gaskins-of-striking-weaver-50",
+      "name": "Arachne Gaskins of Striking"
+    },
+    {
+      "id": "arachne-robe-weaver-50",
+      "name": "Arachne Robe"
+    },
+    {
+      "id": "arachne-shirt-of-scouting-weaver-50",
+      "name": "Arachne Shirt of Scouting"
+    },
+    {
+      "id": "arachne-shirt-of-striking-weaver-50",
+      "name": "Arachne Shirt of Striking"
+    },
+    {
+      "id": "arachne-velveteen-weaver-50",
+      "name": "Arachne Velveteen"
+    },
+    {
+      "id": "artisans-apron-weaver-50",
+      "name": "Artisan's Apron"
+    },
+    {
+      "id": "artisans-culottes-weaver-50",
+      "name": "Artisan's Culottes"
+    },
+    {
+      "id": "foragers-slops-weaver-50",
+      "name": "Forager's Slops"
+    },
+    {
+      "id": "foragers-vest-weaver-50",
+      "name": "Forager's Vest"
+    },
+    {
+      "id": "rainbow-cloth-weaver-51",
+      "name": "Rainbow Cloth"
+    },
+    {
+      "id": "rainbow-thread-weaver-51",
+      "name": "Rainbow Thread"
+    },
+    {
+      "id": "rainbow-bolero-of-striking-weaver-51",
+      "name": "Rainbow Bolero of Striking"
+    },
+    {
+      "id": "rainbow-breeches-weaver-51",
+      "name": "Rainbow Breeches"
+    },
+    {
+      "id": "rainbow-bustle-weaver-51",
+      "name": "Rainbow Bustle"
+    },
+    {
+      "id": "rainbow-cap-of-aiming-weaver-51",
+      "name": "Rainbow Cap of Aiming"
+    },
+    {
+      "id": "rainbow-cap-of-casting-weaver-51",
+      "name": "Rainbow Cap of Casting"
+    },
+    {
+      "id": "rainbow-cap-of-healing-weaver-51",
+      "name": "Rainbow Cap of Healing"
+    },
+    {
+      "id": "rainbow-coif-of-scouting-weaver-51",
+      "name": "Rainbow Coif of Scouting"
+    },
+    {
+      "id": "rainbow-culottes-of-striking-weaver-51",
+      "name": "Rainbow Culottes of Striking"
+    },
+    {
+      "id": "rainbow-halfgloves-of-scouting-weaver-51",
+      "name": "Rainbow Halfgloves of Scouting"
+    },
+    {
+      "id": "rainbow-justaucorps-weaver-51",
+      "name": "Rainbow Justaucorps"
+    },
+    {
+      "id": "rainbow-ribbon-of-aiming-weaver-51",
+      "name": "Rainbow Ribbon of Aiming"
+    },
+    {
+      "id": "rainbow-ribbon-of-casting-weaver-51",
+      "name": "Rainbow Ribbon of Casting"
+    },
+    {
+      "id": "rainbow-ribbon-of-fending-weaver-51",
+      "name": "Rainbow Ribbon of Fending"
+    },
+    {
+      "id": "rainbow-ribbon-of-healing-weaver-51",
+      "name": "Rainbow Ribbon of Healing"
+    },
+    {
+      "id": "rainbow-ribbon-of-slaying-weaver-51",
+      "name": "Rainbow Ribbon of Slaying"
+    },
+    {
+      "id": "rainbow-robe-of-aiming-weaver-51",
+      "name": "Rainbow Robe of Aiming"
+    },
+    {
+      "id": "rainbow-robe-of-casting-weaver-51",
+      "name": "Rainbow Robe of Casting"
+    },
+    {
+      "id": "rainbow-robe-of-healing-weaver-51",
+      "name": "Rainbow Robe of Healing"
+    },
+    {
+      "id": "rainbow-sarouel-of-scouting-weaver-51",
+      "name": "Rainbow Sarouel of Scouting"
+    },
+    {
+      "id": "rainbow-shirt-of-scouting-weaver-51",
+      "name": "Rainbow Shirt of Scouting"
+    },
+    {
+      "id": "rainbow-slops-of-aiming-weaver-51",
+      "name": "Rainbow Slops of Aiming"
+    },
+    {
+      "id": "rainbow-slops-of-casting-weaver-51",
+      "name": "Rainbow Slops of Casting"
+    },
+    {
+      "id": "rainbow-slops-of-healing-weaver-51",
+      "name": "Rainbow Slops of Healing"
+    },
+    {
+      "id": "holy-rainbow-cloth-weaver-52",
+      "name": "Holy Rainbow Cloth"
+    },
+    {
+      "id": "holy-rainbow-hat-of-aiming-weaver-52",
+      "name": "Holy Rainbow Hat of Aiming"
+    },
+    {
+      "id": "holy-rainbow-sarouel-of-aiming-weaver-52",
+      "name": "Holy Rainbow Sarouel of Aiming"
+    },
+    {
+      "id": "holy-rainbow-sarouel-of-casting-weaver-52",
+      "name": "Holy Rainbow Sarouel of Casting"
+    },
+    {
+      "id": "holy-rainbow-sarouel-of-fending-weaver-52",
+      "name": "Holy Rainbow Sarouel of Fending"
+    },
+    {
+      "id": "holy-rainbow-sarouel-of-healing-weaver-52",
+      "name": "Holy Rainbow Sarouel of Healing"
+    },
+    {
+      "id": "holy-rainbow-sarouel-of-maiming-weaver-52",
+      "name": "Holy Rainbow Sarouel of Maiming"
+    },
+    {
+      "id": "holy-rainbow-sarouel-of-scouting-weaver-52",
+      "name": "Holy Rainbow Sarouel of Scouting"
+    },
+    {
+      "id": "holy-rainbow-sarouel-of-striking-weaver-52",
+      "name": "Holy Rainbow Sarouel of Striking"
+    },
+    {
+      "id": "holy-rainbow-scarf-of-scouting-weaver-52",
+      "name": "Holy Rainbow Scarf of Scouting"
+    },
+    {
+      "id": "rarefied-rainbow-ribbon-weaver-52",
+      "name": "Rarefied Rainbow Ribbon"
+    },
+    {
+      "id": "farreach-canvas-weaver-53",
+      "name": "Farreach Canvas"
+    },
+    {
+      "id": "holy-rainbow-gloves-weaver-53",
+      "name": "Holy Rainbow Gloves"
+    },
+    {
+      "id": "holy-rainbow-hat-weaver-53",
+      "name": "Holy Rainbow Hat"
+    },
+    {
+      "id": "holy-rainbow-shirt-of-aiming-weaver-53",
+      "name": "Holy Rainbow Shirt of Aiming"
+    },
+    {
+      "id": "holy-rainbow-shirt-of-casting-weaver-53",
+      "name": "Holy Rainbow Shirt of Casting"
+    },
+    {
+      "id": "holy-rainbow-shirt-of-fending-weaver-53",
+      "name": "Holy Rainbow Shirt of Fending"
+    },
+    {
+      "id": "holy-rainbow-shirt-of-healing-weaver-53",
+      "name": "Holy Rainbow Shirt of Healing"
+    },
+    {
+      "id": "holy-rainbow-shirt-of-maiming-weaver-53",
+      "name": "Holy Rainbow Shirt of Maiming"
+    },
+    {
+      "id": "holy-rainbow-shirt-of-scouting-weaver-53",
+      "name": "Holy Rainbow Shirt of Scouting"
+    },
+    {
+      "id": "holy-rainbow-shirt-of-striking-weaver-53",
+      "name": "Holy Rainbow Shirt of Striking"
+    },
+    {
+      "id": "holy-rainbow-wedge-cap-weaver-53",
+      "name": "Holy Rainbow Wedge Cap"
+    },
+    {
+      "id": "holy-rainbow-work-gloves-weaver-53",
+      "name": "Holy Rainbow Work Gloves"
+    },
+    {
+      "id": "ramie-cloth-weaver-54",
+      "name": "Ramie Cloth"
+    },
+    {
+      "id": "ramie-thread-weaver-54",
+      "name": "Ramie Thread"
+    },
+    {
+      "id": "holy-rainbow-bottoms-weaver-54",
+      "name": "Holy Rainbow Bottoms"
+    },
+    {
+      "id": "holy-rainbow-coatee-weaver-54",
+      "name": "Holy Rainbow Coatee"
+    },
+    {
+      "id": "holy-rainbow-hat-of-healing-weaver-54",
+      "name": "Holy Rainbow Hat of Healing"
+    },
+    {
+      "id": "holy-rainbow-shoes-weaver-54",
+      "name": "Holy Rainbow Shoes"
+    },
+    {
+      "id": "ramie-halfgloves-of-casting-weaver-54",
+      "name": "Ramie Halfgloves of Casting"
+    },
+    {
+      "id": "ramie-halfgloves-of-healing-weaver-54",
+      "name": "Ramie Halfgloves of Healing"
+    },
+    {
+      "id": "ramie-ribbon-of-aiming-weaver-54",
+      "name": "Ramie Ribbon of Aiming"
+    },
+    {
+      "id": "ramie-ribbon-of-casting-weaver-54",
+      "name": "Ramie Ribbon of Casting"
+    },
+    {
+      "id": "ramie-ribbon-of-fending-weaver-54",
+      "name": "Ramie Ribbon of Fending"
+    },
+    {
+      "id": "ramie-ribbon-of-healing-weaver-54",
+      "name": "Ramie Ribbon of Healing"
+    },
+    {
+      "id": "ramie-ribbon-of-slaying-weaver-54",
+      "name": "Ramie Ribbon of Slaying"
+    },
+    {
+      "id": "rarefied-holy-rainbow-hat-weaver-54",
+      "name": "Rarefied Holy Rainbow Hat"
+    },
+    {
+      "id": "bluesky-interior-wall-weaver-55",
+      "name": "Bluesky Interior Wall"
+    },
+    {
+      "id": "company-tabard-weaver-55",
+      "name": "Company Tabard"
+    },
+    {
+      "id": "ramie-hood-weaver-55",
+      "name": "Ramie Hood"
+    },
+    {
+      "id": "ramie-kecks-weaver-55",
+      "name": "Ramie Kecks"
+    },
+    {
+      "id": "ramie-pantalettes-weaver-55",
+      "name": "Ramie Pantalettes"
+    },
+    {
+      "id": "ramie-poncho-weaver-55",
+      "name": "Ramie Poncho"
+    },
+    {
+      "id": "ramie-robe-of-casting-weaver-55",
+      "name": "Ramie Robe of Casting"
+    },
+    {
+      "id": "ramie-robe-of-healing-weaver-55",
+      "name": "Ramie Robe of Healing"
+    },
+    {
+      "id": "ramie-slops-weaver-55",
+      "name": "Ramie Slops"
+    },
+    {
+      "id": "ramie-tabard-weaver-55",
+      "name": "Ramie Tabard"
+    },
+    {
+      "id": "ramie-tonban-of-casting-weaver-55",
+      "name": "Ramie Tonban of Casting"
+    },
+    {
+      "id": "ramie-tonban-of-healing-weaver-55",
+      "name": "Ramie Tonban of Healing"
+    },
+    {
+      "id": "ramie-trousers-of-aiming-weaver-55",
+      "name": "Ramie Trousers of Aiming"
+    },
+    {
+      "id": "ramie-trousers-of-scouting-weaver-55",
+      "name": "Ramie Trousers of Scouting"
+    },
+    {
+      "id": "ramie-trousers-of-striking-weaver-55",
+      "name": "Ramie Trousers of Striking"
+    },
+    {
+      "id": "ramie-turban-of-crafting-weaver-55",
+      "name": "Ramie Turban of Crafting"
+    },
+    {
+      "id": "hallowed-ramie-cloth-weaver-56",
+      "name": "Hallowed Ramie Cloth"
+    },
+    {
+      "id": "orthodox-barding-weaver-56",
+      "name": "Orthodox Barding"
+    },
+    {
+      "id": "carbuncle-bed-weaver-56",
+      "name": "Carbuncle Bed"
+    },
+    {
+      "id": "ramie-doublet-of-crafting-weaver-56",
+      "name": "Ramie Doublet of Crafting"
+    },
+    {
+      "id": "ramie-shirt-weaver-56",
+      "name": "Ramie Shirt"
+    },
+    {
+      "id": "ramie-skirt-weaver-56",
+      "name": "Ramie Skirt"
+    },
+    {
+      "id": "ramie-trousers-of-gathering-weaver-56",
+      "name": "Ramie Trousers of Gathering"
+    },
+    {
+      "id": "rarefied-ramie-turban-weaver-56",
+      "name": "Rarefied Ramie Turban"
+    },
+    {
+      "id": "crawler-silk-weaver-57",
+      "name": "Crawler Silk"
+    },
+    {
+      "id": "near-eastern-antique-component-weaver-57",
+      "name": "Near Eastern Antique Component"
+    },
+    {
+      "id": "near-eastern-antique-weaver-57",
+      "name": "Near Eastern Antique"
+    },
+    {
+      "id": "hallowed-ramie-doublet-of-aiming-weaver-57",
+      "name": "Hallowed Ramie Doublet of Aiming"
+    },
+    {
+      "id": "hallowed-ramie-doublet-of-casting-weaver-57",
+      "name": "Hallowed Ramie Doublet of Casting"
+    },
+    {
+      "id": "hallowed-ramie-doublet-of-healing-weaver-57",
+      "name": "Hallowed Ramie Doublet of Healing"
+    },
+    {
+      "id": "hallowed-ramie-gaskins-of-aiming-weaver-57",
+      "name": "Hallowed Ramie Gaskins of Aiming"
+    },
+    {
+      "id": "hallowed-ramie-gaskins-of-casting-weaver-57",
+      "name": "Hallowed Ramie Gaskins of Casting"
+    },
+    {
+      "id": "hallowed-ramie-gaskins-of-healing-weaver-57",
+      "name": "Hallowed Ramie Gaskins of Healing"
+    },
+    {
+      "id": "chimerical-felt-weaver-58",
+      "name": "Chimerical Felt"
+    },
+    {
+      "id": "uchiwa-components-weaver-58",
+      "name": "Uchiwa Components"
+    },
+    {
+      "id": "coerthan-souvenir-component-weaver-58",
+      "name": "Coerthan Souvenir Component"
+    },
+    {
+      "id": "coerthan-souvenir-weaver-58",
+      "name": "Coerthan Souvenir"
+    },
+    {
+      "id": "brazier-components-weaver-58",
+      "name": "Brazier Components"
+    },
+    {
+      "id": "chimerical-felt-cap-of-aiming-weaver-58",
+      "name": "Chimerical Felt Cap of Aiming"
+    },
+    {
+      "id": "chimerical-felt-cap-of-scouting-weaver-58",
+      "name": "Chimerical Felt Cap of Scouting"
+    },
+    {
+      "id": "chimerical-felt-cap-of-striking-weaver-58",
+      "name": "Chimerical Felt Cap of Striking"
+    },
+    {
+      "id": "chimerical-felt-gloves-of-healing-weaver-58",
+      "name": "Chimerical Felt Gloves of Healing"
+    },
+    {
+      "id": "chimerical-felt-klobuk-of-healing-weaver-58",
+      "name": "Chimerical Felt Klobuk of Healing"
+    },
+    {
+      "id": "finery-components-weaver-58",
+      "name": "Finery Components"
+    },
+    {
+      "id": "happi-components-weaver-58",
+      "name": "Happi Components"
+    },
+    {
+      "id": "rarefied-hallowed-ramie-doublet-weaver-58",
+      "name": "Rarefied Hallowed Ramie Doublet"
+    },
+    {
+      "id": "ritual-implement-components-weaver-58",
+      "name": "Ritual Implement Components"
+    },
+    {
+      "id": "trinket-components-weaver-58",
+      "name": "Trinket Components"
+    },
+    {
+      "id": "mol-tea-ceremony-paraphernalia-weaver-59",
+      "name": "Mol Tea Ceremony Paraphernalia"
+    },
+    {
+      "id": "maelstrom-materiel-component-weaver-59",
+      "name": "Maelstrom Materiel Component"
+    },
+    {
+      "id": "maelstrom-materiel-weaver-59",
+      "name": "Maelstrom Materiel"
+    },
+    {
+      "id": "sofa-cushions-weaver-59",
+      "name": "Sofa Cushions"
+    },
+    {
+      "id": "altar-components-weaver-59",
+      "name": "Altar Components"
+    },
+    {
+      "id": "azim-steppe-souvenir-components-weaver-59",
+      "name": "Azim Steppe Souvenir Components"
+    },
+    {
+      "id": "buuz-cooking-paraphernalia-weaver-59",
+      "name": "Buuz Cooking Paraphernalia"
+    },
+    {
+      "id": "catfish-lure-components-weaver-59",
+      "name": "Catfish Lure Components"
+    },
+    {
+      "id": "chimerical-felt-alb-of-healing-weaver-59",
+      "name": "Chimerical Felt Alb of Healing"
+    },
+    {
+      "id": "chimerical-felt-breeches-of-casting-weaver-59",
+      "name": "Chimerical Felt Breeches of Casting"
+    },
+    {
+      "id": "chimerical-felt-chausses-of-healing-weaver-59",
+      "name": "Chimerical Felt Chausses of Healing"
+    },
+    {
+      "id": "chimerical-felt-cyclas-of-aiming-weaver-59",
+      "name": "Chimerical Felt Cyclas of Aiming"
+    },
+    {
+      "id": "chimerical-felt-cyclas-of-scouting-weaver-59",
+      "name": "Chimerical Felt Cyclas of Scouting"
+    },
+    {
+      "id": "chimerical-felt-cyclas-of-striking-weaver-59",
+      "name": "Chimerical Felt Cyclas of Striking"
+    },
+    {
+      "id": "chimerical-felt-hose-of-aiming-weaver-59",
+      "name": "Chimerical Felt Hose of Aiming"
+    },
+    {
+      "id": "chimerical-felt-hose-of-scouting-weaver-59",
+      "name": "Chimerical Felt Hose of Scouting"
+    },
+    {
+      "id": "chimerical-felt-hose-of-striking-weaver-59",
+      "name": "Chimerical Felt Hose of Striking"
+    },
+    {
+      "id": "chimerical-felt-robe-of-casting-weaver-59",
+      "name": "Chimerical Felt Robe of Casting"
+    },
+    {
+      "id": "hingan-ritual-paraphernalia-weaver-59",
+      "name": "Hingan Ritual Paraphernalia"
+    },
+    {
+      "id": "substitute-offering-weaver-59",
+      "name": "Substitute Offering"
+    },
+    {
+      "id": "confetti-making-tools-weaver-60",
+      "name": "Confetti-making Tools"
+    },
+    {
+      "id": "gyr-abanian-souvenir-component-weaver-60",
+      "name": "Gyr Abanian Souvenir Component"
+    },
+    {
+      "id": "heartfelt-gift-component-weaver-60",
+      "name": "Heartfelt Gift Component"
+    },
+    {
+      "id": "gyr-abanian-souvenir-weaver-60",
+      "name": "Gyr Abanian Souvenir"
+    },
+    {
+      "id": "heartfelt-gift-weaver-60",
+      "name": "Heartfelt Gift"
+    },
+    {
+      "id": "grade-2-skybuilders-broom-weaver-60",
+      "name": "Grade 2 Skybuilders' Broom"
+    },
+    {
+      "id": "grade-3-skybuilders-broom-weaver-60",
+      "name": "Grade 3 Skybuilders' Broom"
+    },
+    {
+      "id": "grade-4-skybuilders-broom-weaver-60",
+      "name": "Grade 4 Skybuilders' Broom"
+    },
+    {
+      "id": "skybuilders-broom-weaver-60",
+      "name": "Skybuilders' Broom"
+    },
+    {
+      "id": "chimerical-felt-breeches-of-fending-weaver-60",
+      "name": "Chimerical Felt Breeches of Fending"
+    },
+    {
+      "id": "chimerical-felt-breeches-of-healing-weaver-60",
+      "name": "Chimerical Felt Breeches of Healing"
+    },
+    {
+      "id": "chimerical-felt-coat-of-casting-weaver-60",
+      "name": "Chimerical Felt Coat of Casting"
+    },
+    {
+      "id": "chimerical-felt-coif-of-aiming-weaver-60",
+      "name": "Chimerical Felt Coif of Aiming"
+    },
+    {
+      "id": "chimerical-felt-coif-of-scouting-weaver-60",
+      "name": "Chimerical Felt Coif of Scouting"
+    },
+    {
+      "id": "chimerical-felt-coif-of-striking-weaver-60",
+      "name": "Chimerical Felt Coif of Striking"
+    },
+    {
+      "id": "chimerical-felt-doublet-of-crafting-weaver-60",
+      "name": "Chimerical Felt Doublet of Crafting"
+    },
+    {
+      "id": "chimerical-felt-hat-of-casting-weaver-60",
+      "name": "Chimerical Felt Hat of Casting"
+    },
+    {
+      "id": "chimerical-felt-robe-of-healing-weaver-60",
+      "name": "Chimerical Felt Robe of Healing"
+    },
+    {
+      "id": "chimerical-felt-skirt-weaver-60",
+      "name": "Chimerical Felt Skirt"
+    },
+    {
+      "id": "chimerical-felt-tabard-of-aiming-weaver-60",
+      "name": "Chimerical Felt Tabard of Aiming"
+    },
+    {
+      "id": "chimerical-felt-tabard-of-scouting-weaver-60",
+      "name": "Chimerical Felt Tabard of Scouting"
+    },
+    {
+      "id": "chimerical-felt-tabard-of-striking-weaver-60",
+      "name": "Chimerical Felt Tabard of Striking"
+    },
+    {
+      "id": "chimerical-felt-trousers-weaver-60",
+      "name": "Chimerical Felt Trousers"
+    },
+    {
+      "id": "chimerical-felt-turban-of-crafting-weaver-60",
+      "name": "Chimerical Felt Turban of Crafting"
+    },
+    {
+      "id": "elixir-mixing-paraphernalia-weaver-60",
+      "name": "Elixir Mixing Paraphernalia"
+    },
+    {
+      "id": "land-diving-gear-weaver-60",
+      "name": "Land Diving Gear"
+    },
+    {
+      "id": "rarefied-chimerical-felt-cyclas-weaver-60",
+      "name": "Rarefied Chimerical Felt Cyclas"
+    },
+    {
+      "id": "stable-supplies-weaver-60",
+      "name": "Stable Supplies"
+    },
+    {
+      "id": "steeping-accessory-weaver-60",
+      "name": "Steeping Accessory"
+    },
+    {
+      "id": "survival-halfslops-weaver-60",
+      "name": "Survival Halfslops"
+    },
+    {
+      "id": "survival-shirt-weaver-60",
+      "name": "Survival Shirt"
+    },
+    {
+      "id": "effigy-components-weaver-60",
+      "name": "Effigy Components"
+    },
+    {
+      "id": "ceremonial-bow-components-weaver-60",
+      "name": "Ceremonial Bow Components"
+    },
+    {
+      "id": "culinary-knife-component-weaver-60",
+      "name": "Culinary Knife Component"
+    },
+    {
+      "id": "dzo-shear-components-weaver-60",
+      "name": "Dzo Shear Components"
+    },
+    {
+      "id": "korrigan-doll-weaver-60",
+      "name": "Korrigan Doll"
+    },
+    {
+      "id": "pristine-fruit-figurine-weaver-60",
+      "name": "Pristine Fruit Figurine"
+    },
+    {
+      "id": "generous-gift-weaver-60",
+      "name": "Generous Gift"
+    },
+    {
+      "id": "drum-parts-weaver-60",
+      "name": "Drum Parts"
+    },
+    {
+      "id": "mikoshi-frippery-weaver-60",
+      "name": "Mikoshi Frippery"
+    },
+    {
+      "id": "cloud-cloth-weaver-60",
+      "name": "Cloud Cloth"
+    },
+    {
+      "id": "far-eastern-antique-component-weaver-60",
+      "name": "Far Eastern Antique Component"
+    },
+    {
+      "id": "orphanage-donation-component-weaver-60",
+      "name": "Orphanage Donation Component"
+    },
+    {
+      "id": "far-eastern-antique-weaver-60",
+      "name": "Far Eastern Antique"
+    },
+    {
+      "id": "orphanage-donation-weaver-60",
+      "name": "Orphanage Donation"
+    },
+    {
+      "id": "wind-up-bismarck-weaver-60",
+      "name": "Wind-up Bismarck"
+    },
+    {
+      "id": "wind-up-garuda-weaver-60",
+      "name": "Wind-up Garuda"
+    },
+    {
+      "id": "wind-up-ifrit-weaver-60",
+      "name": "Wind-up Ifrit"
+    },
+    {
+      "id": "wind-up-illuminatus-weaver-60",
+      "name": "Wind-up Illuminatus"
+    },
+    {
+      "id": "wind-up-leviathan-weaver-60",
+      "name": "Wind-up Leviathan"
+    },
+    {
+      "id": "wind-up-ramuh-weaver-60",
+      "name": "Wind-up Ramuh"
+    },
+    {
+      "id": "wind-up-ravana-weaver-60",
+      "name": "Wind-up Ravana"
+    },
+    {
+      "id": "wind-up-shiva-weaver-60",
+      "name": "Wind-up Shiva"
+    },
+    {
+      "id": "wind-up-titan-weaver-60",
+      "name": "Wind-up Titan"
+    },
+    {
+      "id": "stuffed-bear-weaver-60",
+      "name": "Stuffed Bear"
+    },
+    {
+      "id": "blessed-fletchings-weaver-60",
+      "name": "Blessed Fletchings"
+    },
+    {
+      "id": "cashmere-hood-weaver-60",
+      "name": "Cashmere Hood"
+    },
+    {
+      "id": "cashmere-poncho-weaver-60",
+      "name": "Cashmere Poncho"
+    },
+    {
+      "id": "cashmere-slops-weaver-60",
+      "name": "Cashmere Slops"
+    },
+    {
+      "id": "chivalric-doublet-of-casting-weaver-60",
+      "name": "Chivalric Doublet of Casting"
+    },
+    {
+      "id": "chivalric-doublet-of-healing-weaver-60",
+      "name": "Chivalric Doublet of Healing"
+    },
+    {
+      "id": "cropped-flannel-slops-weaver-60",
+      "name": "Cropped Flannel Slops"
+    },
+    {
+      "id": "falconers-shirt-weaver-60",
+      "name": "Falconer's Shirt"
+    },
+    {
+      "id": "flannel-knit-cap-weaver-60",
+      "name": "Flannel Knit Cap"
+    },
+    {
+      "id": "flannel-suspenders-weaver-60",
+      "name": "Flannel Suspenders"
+    },
+    {
+      "id": "high-house-breeches-weaver-60",
+      "name": "High House Breeches"
+    },
+    {
+      "id": "high-house-bustle-weaver-60",
+      "name": "High House Bustle"
+    },
+    {
+      "id": "high-house-justaucorps-weaver-60",
+      "name": "High House Justaucorps"
+    },
+    {
+      "id": "thavnairian-armlets-weaver-60",
+      "name": "Thavnairian Armlets"
+    },
+    {
+      "id": "thavnairian-bustier-weaver-60",
+      "name": "Thavnairian Bustier"
+    },
+    {
+      "id": "thavnairian-headdress-weaver-60",
+      "name": "Thavnairian Headdress"
+    },
+    {
+      "id": "thavnairian-sarouel-weaver-60",
+      "name": "Thavnairian Sarouel"
+    },
+    {
+      "id": "thavnairian-turban-weaver-60",
+      "name": "Thavnairian Turban"
+    },
+    {
+      "id": "wind-silk-bottoms-weaver-60",
+      "name": "Wind Silk Bottoms"
+    },
+    {
+      "id": "wind-silk-coatee-weaver-60",
+      "name": "Wind Silk Coatee"
+    },
+    {
+      "id": "wind-silk-wedge-cap-weaver-60",
+      "name": "Wind Silk Wedge Cap"
+    },
+    {
+      "id": "fortemps-manor-interior-wall-weaver-60",
+      "name": "Fortemps Manor Interior Wall"
+    },
+    {
+      "id": "pudding-throw-rug-weaver-60",
+      "name": "Pudding Throw Rug"
+    },
+    {
+      "id": "stuffed-brina-weaver-60",
+      "name": "Stuffed Brina"
+    },
+    {
+      "id": "stuffed-calca-weaver-60",
+      "name": "Stuffed Calca"
+    },
+    {
+      "id": "stuffed-eggplant-knight-weaver-60",
+      "name": "Stuffed Eggplant Knight"
+    },
+    {
+      "id": "stuffed-garlic-jester-weaver-60",
+      "name": "Stuffed Garlic Jester"
+    },
+    {
+      "id": "stuffed-mandragora-queen-weaver-60",
+      "name": "Stuffed Mandragora Queen"
+    },
+    {
+      "id": "stuffed-onion-prince-weaver-60",
+      "name": "Stuffed Onion Prince"
+    },
+    {
+      "id": "stuffed-tomato-king-weaver-60",
+      "name": "Stuffed Tomato King"
+    },
+    {
+      "id": "astral-silk-weaver-60",
+      "name": "Astral Silk"
+    },
+    {
+      "id": "astral-silk-bottoms-of-casting-weaver-60",
+      "name": "Astral Silk Bottoms of Casting"
+    },
+    {
+      "id": "astral-silk-bottoms-of-healing-weaver-60",
+      "name": "Astral Silk Bottoms of Healing"
+    },
+    {
+      "id": "astral-silk-doublet-of-casting-weaver-60",
+      "name": "Astral Silk Doublet of Casting"
+    },
+    {
+      "id": "astral-silk-doublet-of-healing-weaver-60",
+      "name": "Astral Silk Doublet of Healing"
+    },
+    {
+      "id": "astral-silk-dress-gloves-of-casting-weaver-60",
+      "name": "Astral Silk Dress Gloves of Casting"
+    },
+    {
+      "id": "astral-silk-gloves-of-healing-weaver-60",
+      "name": "Astral Silk Gloves of Healing"
+    },
+    {
+      "id": "astral-silk-robe-weaver-60",
+      "name": "Astral Silk Robe"
+    },
+    {
+      "id": "astral-silk-slops-of-aiming-weaver-60",
+      "name": "Astral Silk Slops of Aiming"
+    },
+    {
+      "id": "boltmasters-dreadnought-weaver-60",
+      "name": "Boltmaster's Dreadnought"
+    },
+    {
+      "id": "boltmasters-gibus-weaver-60",
+      "name": "Boltmaster's Gibus"
+    },
+    {
+      "id": "boltmasters-slacks-weaver-60",
+      "name": "Boltmaster's Slacks"
+    },
+    {
+      "id": "carbonweave-apron-of-crafting-weaver-60",
+      "name": "Carbonweave Apron of Crafting"
+    },
+    {
+      "id": "carbonweave-breeches-of-crafting-weaver-60",
+      "name": "Carbonweave Breeches of Crafting"
+    },
+    {
+      "id": "carbonweave-cap-of-crafting-weaver-60",
+      "name": "Carbonweave Cap of Crafting"
+    },
+    {
+      "id": "carbonweave-sleeves-of-crafting-weaver-60",
+      "name": "Carbonweave Sleeves of Crafting"
+    },
+    {
+      "id": "carbonweave-slops-of-gathering-weaver-60",
+      "name": "Carbonweave Slops of Gathering"
+    },
+    {
+      "id": "cauldronmasters-gloves-weaver-60",
+      "name": "Cauldronmaster's Gloves"
+    },
+    {
+      "id": "cauldronmasters-longkilt-weaver-60",
+      "name": "Cauldronmaster's Longkilt"
+    },
+    {
+      "id": "cauldronmasters-overcoat-weaver-60",
+      "name": "Cauldronmaster's Overcoat"
+    },
+    {
+      "id": "forgemasters-redingote-weaver-60",
+      "name": "Forgemaster's Redingote"
+    },
+    {
+      "id": "forgemasters-slops-weaver-60",
+      "name": "Forgemaster's Slops"
+    },
+    {
+      "id": "galleymasters-toque-weaver-60",
+      "name": "Galleymaster's Toque"
+    },
+    {
+      "id": "galleymasters-trousers-weaver-60",
+      "name": "Galleymaster's Trousers"
+    },
+    {
+      "id": "galleymasters-whites-weaver-60",
+      "name": "Galleymaster's Whites"
+    },
+    {
+      "id": "gemmasters-gown-weaver-60",
+      "name": "Gemmaster's Gown"
+    },
+    {
+      "id": "gemmasters-trousers-weaver-60",
+      "name": "Gemmaster's Trousers"
+    },
+    {
+      "id": "hammermasters-slops-weaver-60",
+      "name": "Hammermaster's Slops"
+    },
+    {
+      "id": "hidemasters-trousers-weaver-60",
+      "name": "Hidemaster's Trousers"
+    },
+    {
+      "id": "millmasters-apron-weaver-60",
+      "name": "Millmaster's Apron"
+    },
+    {
+      "id": "millmasters-cap-weaver-60",
+      "name": "Millmaster's Cap"
+    },
+    {
+      "id": "millmasters-slops-weaver-60",
+      "name": "Millmaster's Slops"
+    },
+    {
+      "id": "replica-allagan-breeches-of-casting-weaver-60",
+      "name": "Replica Allagan Breeches of Casting"
+    },
+    {
+      "id": "replica-allagan-breeches-of-healing-weaver-60",
+      "name": "Replica Allagan Breeches of Healing"
+    },
+    {
+      "id": "replica-allagan-trousers-of-aiming-weaver-60",
+      "name": "Replica Allagan Trousers of Aiming"
+    },
+    {
+      "id": "replica-allagan-trousers-of-maiming-weaver-60",
+      "name": "Replica Allagan Trousers of Maiming"
+    },
+    {
+      "id": "replica-allagan-trousers-of-striking-weaver-60",
+      "name": "Replica Allagan Trousers of Striking"
+    },
+    {
+      "id": "replica-allagan-tunic-of-casting-weaver-60",
+      "name": "Replica Allagan Tunic of Casting"
+    },
+    {
+      "id": "replica-allagan-tunic-of-healing-weaver-60",
+      "name": "Replica Allagan Tunic of Healing"
+    },
+    {
+      "id": "replica-dreadwyrm-hood-of-healing-weaver-60",
+      "name": "Replica Dreadwyrm Hood of Healing"
+    },
+    {
+      "id": "replica-dreadwyrm-robe-of-healing-weaver-60",
+      "name": "Replica Dreadwyrm Robe of Healing"
+    },
+    {
+      "id": "replica-dreadwyrm-sarouel-of-fending-weaver-60",
+      "name": "Replica Dreadwyrm Sarouel of Fending"
+    },
+    {
+      "id": "replica-dreadwyrm-slops-of-scouting-weaver-60",
+      "name": "Replica Dreadwyrm Slops of Scouting"
+    },
+    {
+      "id": "replica-dreadwyrm-slops-of-striking-weaver-60",
+      "name": "Replica Dreadwyrm Slops of Striking"
+    },
+    {
+      "id": "replica-dreadwyrm-tonban-of-casting-weaver-60",
+      "name": "Replica Dreadwyrm Tonban of Casting"
+    },
+    {
+      "id": "replica-dreadwyrm-tonban-of-healing-weaver-60",
+      "name": "Replica Dreadwyrm Tonban of Healing"
+    },
+    {
+      "id": "replica-high-allagan-coat-of-aiming-weaver-60",
+      "name": "Replica High Allagan Coat of Aiming"
+    },
+    {
+      "id": "replica-high-allagan-coat-of-casting-weaver-60",
+      "name": "Replica High Allagan Coat of Casting"
+    },
+    {
+      "id": "replica-high-allagan-coat-of-healing-weaver-60",
+      "name": "Replica High Allagan Coat of Healing"
+    },
+    {
+      "id": "replica-high-allagan-pantaloons-of-healing-weaver-60",
+      "name": "Replica High Allagan Pantaloons of Healing"
+    },
+    {
+      "id": "sewing-thread-weaver-60",
+      "name": "Sewing Thread"
+    },
+    {
+      "id": "sky-pirates-bottoms-of-casting-weaver-60",
+      "name": "Sky Pirate's Bottoms of Casting"
+    },
+    {
+      "id": "sky-pirates-bottoms-of-healing-weaver-60",
+      "name": "Sky Pirate's Bottoms of Healing"
+    },
+    {
+      "id": "sky-pirates-coat-of-casting-weaver-60",
+      "name": "Sky Pirate's Coat of Casting"
+    },
+    {
+      "id": "sky-pirates-coat-of-healing-weaver-60",
+      "name": "Sky Pirate's Coat of Healing"
+    },
+    {
+      "id": "sky-pirates-gaskins-of-fending-weaver-60",
+      "name": "Sky Pirate's Gaskins of Fending"
+    },
+    {
+      "id": "sky-pirates-gaskins-of-maiming-weaver-60",
+      "name": "Sky Pirate's Gaskins of Maiming"
+    },
+    {
+      "id": "sky-pirates-halfslops-of-aiming-weaver-60",
+      "name": "Sky Pirate's Halfslops of Aiming"
+    },
+    {
+      "id": "sky-pirates-trousers-of-scouting-weaver-60",
+      "name": "Sky Pirate's Trousers of Scouting"
+    },
+    {
+      "id": "sky-pirates-trousers-of-striking-weaver-60",
+      "name": "Sky Pirate's Trousers of Striking"
+    },
+    {
+      "id": "sky-pirates-vest-of-aiming-weaver-60",
+      "name": "Sky Pirate's Vest of Aiming"
+    },
+    {
+      "id": "bloodhempen-cloth-weaver-61",
+      "name": "Bloodhempen Cloth"
+    },
+    {
+      "id": "bloodhempen-yarn-weaver-61",
+      "name": "Bloodhempen Yarn"
+    },
+    {
+      "id": "gold-saucer-consolation-prize-component-weaver-61",
+      "name": "Gold Saucer Consolation Prize Component"
+    },
+    {
+      "id": "gold-saucer-consolation-prize-weaver-61",
+      "name": "Gold Saucer Consolation Prize"
+    },
+    {
+      "id": "bloodhempen-armguards-of-scouting-weaver-61",
+      "name": "Bloodhempen Armguards of Scouting"
+    },
+    {
+      "id": "bloodhempen-armguards-of-striking-weaver-61",
+      "name": "Bloodhempen Armguards of Striking"
+    },
+    {
+      "id": "bloodhempen-brais-of-scouting-weaver-61",
+      "name": "Bloodhempen Brais of Scouting"
+    },
+    {
+      "id": "bloodhempen-brais-of-striking-weaver-61",
+      "name": "Bloodhempen Brais of Striking"
+    },
+    {
+      "id": "bloodhempen-chestwrap-of-casting-weaver-61",
+      "name": "Bloodhempen Chestwrap of Casting"
+    },
+    {
+      "id": "bloodhempen-chestwrap-of-healing-weaver-61",
+      "name": "Bloodhempen Chestwrap of Healing"
+    },
+    {
+      "id": "bloodhempen-culottes-of-casting-weaver-61",
+      "name": "Bloodhempen Culottes of Casting"
+    },
+    {
+      "id": "bloodhempen-culottes-of-healing-weaver-61",
+      "name": "Bloodhempen Culottes of Healing"
+    },
+    {
+      "id": "bloodhempen-doublet-of-crafting-weaver-61",
+      "name": "Bloodhempen Doublet of Crafting"
+    },
+    {
+      "id": "bloodhempen-skirt-weaver-61",
+      "name": "Bloodhempen Skirt"
+    },
+    {
+      "id": "bloodhempen-trousers-of-gathering-weaver-61",
+      "name": "Bloodhempen Trousers of Gathering"
+    },
+    {
+      "id": "bloodhempen-turban-of-crafting-weaver-61",
+      "name": "Bloodhempen Turban of Crafting"
+    },
+    {
+      "id": "bloodhempen-vest-of-scouting-weaver-61",
+      "name": "Bloodhempen Vest of Scouting"
+    },
+    {
+      "id": "bloodhempen-vest-of-striking-weaver-61",
+      "name": "Bloodhempen Vest of Striking"
+    },
+    {
+      "id": "replica-sky-pirates-bottoms-of-casting-weaver-61",
+      "name": "Replica Sky Pirate's Bottoms of Casting"
+    },
+    {
+      "id": "replica-sky-pirates-bottoms-of-healing-weaver-61",
+      "name": "Replica Sky Pirate's Bottoms of Healing"
+    },
+    {
+      "id": "replica-sky-pirates-coat-of-casting-weaver-61",
+      "name": "Replica Sky Pirate's Coat of Casting"
+    },
+    {
+      "id": "replica-sky-pirates-coat-of-healing-weaver-61",
+      "name": "Replica Sky Pirate's Coat of Healing"
+    },
+    {
+      "id": "replica-sky-pirates-gaskins-of-fending-weaver-61",
+      "name": "Replica Sky Pirate's Gaskins of Fending"
+    },
+    {
+      "id": "replica-sky-pirates-gaskins-of-maiming-weaver-61",
+      "name": "Replica Sky Pirate's Gaskins of Maiming"
+    },
+    {
+      "id": "replica-sky-pirates-halfslops-of-aiming-weaver-61",
+      "name": "Replica Sky Pirate's Halfslops of Aiming"
+    },
+    {
+      "id": "replica-sky-pirates-trousers-of-scouting-weaver-61",
+      "name": "Replica Sky Pirate's Trousers of Scouting"
+    },
+    {
+      "id": "replica-sky-pirates-trousers-of-striking-weaver-61",
+      "name": "Replica Sky Pirate's Trousers of Striking"
+    },
+    {
+      "id": "replica-sky-pirates-vest-of-aiming-weaver-61",
+      "name": "Replica Sky Pirate's Vest of Aiming"
+    },
+    {
+      "id": "replica-sky-rat-breeches-of-aiming-weaver-61",
+      "name": "Replica Sky Rat Breeches of Aiming"
+    },
+    {
+      "id": "replica-sky-rat-breeches-of-casting-weaver-61",
+      "name": "Replica Sky Rat Breeches of Casting"
+    },
+    {
+      "id": "replica-sky-rat-breeches-of-fending-weaver-61",
+      "name": "Replica Sky Rat Breeches of Fending"
+    },
+    {
+      "id": "replica-sky-rat-breeches-of-healing-weaver-61",
+      "name": "Replica Sky Rat Breeches of Healing"
+    },
+    {
+      "id": "replica-sky-rat-breeches-of-maiming-weaver-61",
+      "name": "Replica Sky Rat Breeches of Maiming"
+    },
+    {
+      "id": "replica-sky-rat-breeches-of-scouting-weaver-61",
+      "name": "Replica Sky Rat Breeches of Scouting"
+    },
+    {
+      "id": "replica-sky-rat-breeches-of-striking-weaver-61",
+      "name": "Replica Sky Rat Breeches of Striking"
+    },
+    {
+      "id": "ruby-cotton-cloth-weaver-62",
+      "name": "Ruby Cotton Cloth"
+    },
+    {
+      "id": "ruby-cotton-yarn-weaver-62",
+      "name": "Ruby Cotton Yarn"
+    },
+    {
+      "id": "gyr-abanian-remedy-components-weaver-62",
+      "name": "Gyr Abanian Remedy Components"
+    },
+    {
+      "id": "harpoon-components-weaver-62",
+      "name": "Harpoon Components"
+    },
+    {
+      "id": "m-tribe-sundry-component-weaver-62",
+      "name": "M Tribe Sundry Component"
+    },
+    {
+      "id": "anti-shark-harpoon-weaver-62",
+      "name": "Anti-shark Harpoon"
+    },
+    {
+      "id": "gyr-abanian-remedies-weaver-62",
+      "name": "Gyr Abanian Remedies"
+    },
+    {
+      "id": "m-tribe-sundries-weaver-62",
+      "name": "M Tribe Sundries"
+    },
+    {
+      "id": "hingan-chair-weaver-62",
+      "name": "Hingan Chair"
+    },
+    {
+      "id": "rarefied-bloodhempen-skirt-weaver-62",
+      "name": "Rarefied Bloodhempen Skirt"
+    },
+    {
+      "id": "ruby-cotton-bandana-of-scouting-weaver-62",
+      "name": "Ruby Cotton Bandana of Scouting"
+    },
+    {
+      "id": "ruby-cotton-bandana-of-striking-weaver-62",
+      "name": "Ruby Cotton Bandana of Striking"
+    },
+    {
+      "id": "ruby-cotton-fingerless-gloves-of-casting-weaver-62",
+      "name": "Ruby Cotton Fingerless Gloves of Casting"
+    },
+    {
+      "id": "ruby-cotton-hat-of-casting-weaver-62",
+      "name": "Ruby Cotton Hat of Casting"
+    },
+    {
+      "id": "cold-weather-gear-components-weaver-63",
+      "name": "Cold-weather Gear Components"
+    },
+    {
+      "id": "resistance-materiel-component-weaver-63",
+      "name": "Resistance Materiel Component"
+    },
+    {
+      "id": "sui-no-sato-special-components-weaver-63",
+      "name": "Sui-no-Sato Special Components"
+    },
+    {
+      "id": "coerthan-cold-weather-gear-weaver-63",
+      "name": "Coerthan Cold-weather Gear"
+    },
+    {
+      "id": "resistance-materiel-weaver-63",
+      "name": "Resistance Materiel"
+    },
+    {
+      "id": "sui-no-sato-special-weaver-63",
+      "name": "Sui-no-Sato Special"
+    },
+    {
+      "id": "elegant-bustle-weaver-63",
+      "name": "Elegant Bustle"
+    },
+    {
+      "id": "hingan-interior-wall-weaver-63",
+      "name": "Hingan Interior Wall"
+    },
+    {
+      "id": "ruby-cotton-bottoms-weaver-63",
+      "name": "Ruby Cotton Bottoms"
+    },
+    {
+      "id": "ruby-cotton-cap-weaver-63",
+      "name": "Ruby Cotton Cap"
+    },
+    {
+      "id": "ruby-cotton-chasuble-weaver-63",
+      "name": "Ruby Cotton Chasuble"
+    },
+    {
+      "id": "ruby-cotton-coatee-weaver-63",
+      "name": "Ruby Cotton Coatee"
+    },
+    {
+      "id": "ruby-cotton-gambison-weaver-63",
+      "name": "Ruby Cotton Gambison"
+    },
+    {
+      "id": "ruby-cotton-gaskins-of-scouting-weaver-63",
+      "name": "Ruby Cotton Gaskins of Scouting"
+    },
+    {
+      "id": "ruby-cotton-gaskins-of-striking-weaver-63",
+      "name": "Ruby Cotton Gaskins of Striking"
+    },
+    {
+      "id": "ruby-cotton-gilet-of-scouting-weaver-63",
+      "name": "Ruby Cotton Gilet of Scouting"
+    },
+    {
+      "id": "ruby-cotton-gilet-of-striking-weaver-63",
+      "name": "Ruby Cotton Gilet of Striking"
+    },
+    {
+      "id": "ruby-cotton-longkilt-weaver-63",
+      "name": "Ruby Cotton Longkilt"
+    },
+    {
+      "id": "ruby-cotton-robe-of-casting-weaver-63",
+      "name": "Ruby Cotton Robe of Casting"
+    },
+    {
+      "id": "ruby-cotton-sarouel-weaver-63",
+      "name": "Ruby Cotton Sarouel"
+    },
+    {
+      "id": "ruby-cotton-smalls-weaver-63",
+      "name": "Ruby Cotton Smalls"
+    },
+    {
+      "id": "kudzu-cloth-weaver-64",
+      "name": "Kudzu Cloth"
+    },
+    {
+      "id": "kudzu-thread-weaver-64",
+      "name": "Kudzu Thread"
+    },
+    {
+      "id": "cloud-pearl-components-weaver-64",
+      "name": "Cloud Pearl Components"
+    },
+    {
+      "id": "cloud-pearl-weaver-64",
+      "name": "Cloud Pearl"
+    },
+    {
+      "id": "kudzu-hat-of-casting-weaver-64",
+      "name": "Kudzu Hat of Casting"
+    },
+    {
+      "id": "kudzu-hat-of-healing-weaver-64",
+      "name": "Kudzu Hat of Healing"
+    },
+    {
+      "id": "kudzu-longkilt-of-casting-weaver-64",
+      "name": "Kudzu Longkilt of Casting"
+    },
+    {
+      "id": "kudzu-longkilt-of-fending-weaver-64",
+      "name": "Kudzu Longkilt of Fending"
+    },
+    {
+      "id": "kudzu-longkilt-of-healing-weaver-64",
+      "name": "Kudzu Longkilt of Healing"
+    },
+    {
+      "id": "kudzu-longkilt-of-maiming-weaver-64",
+      "name": "Kudzu Longkilt of Maiming"
+    },
+    {
+      "id": "kudzu-trousers-of-aiming-weaver-64",
+      "name": "Kudzu Trousers of Aiming"
+    },
+    {
+      "id": "kudzu-trousers-of-scouting-weaver-64",
+      "name": "Kudzu Trousers of Scouting"
+    },
+    {
+      "id": "rarefied-ruby-cotton-gilet-weaver-64",
+      "name": "Rarefied Ruby Cotton Gilet"
+    },
+    {
+      "id": "winsome-spring-dress-weaver-65",
+      "name": "Winsome Spring Dress"
+    },
+    {
+      "id": "kudzu-cap-of-crafting-weaver-65",
+      "name": "Kudzu Cap of Crafting"
+    },
+    {
+      "id": "kudzu-coat-of-gathering-weaver-65",
+      "name": "Kudzu Coat of Gathering"
+    },
+    {
+      "id": "kudzu-culottes-of-crafting-weaver-65",
+      "name": "Kudzu Culottes of Crafting"
+    },
+    {
+      "id": "kudzu-culottes-of-gathering-weaver-65",
+      "name": "Kudzu Culottes of Gathering"
+    },
+    {
+      "id": "kudzu-robe-of-casting-weaver-65",
+      "name": "Kudzu Robe of Casting"
+    },
+    {
+      "id": "kudzu-robe-of-crafting-weaver-65",
+      "name": "Kudzu Robe of Crafting"
+    },
+    {
+      "id": "kudzu-robe-of-healing-weaver-65",
+      "name": "Kudzu Robe of Healing"
+    },
+    {
+      "id": "kudzu-trousers-of-striking-weaver-65",
+      "name": "Kudzu Trousers of Striking"
+    },
+    {
+      "id": "kudzu-tunic-of-aiming-weaver-65",
+      "name": "Kudzu Tunic of Aiming"
+    },
+    {
+      "id": "kudzu-tunic-of-scouting-weaver-65",
+      "name": "Kudzu Tunic of Scouting"
+    },
+    {
+      "id": "kudzu-tunic-of-striking-weaver-65",
+      "name": "Kudzu Tunic of Striking"
+    },
+    {
+      "id": "steppe-serge-weaver-66",
+      "name": "Steppe Serge"
+    },
+    {
+      "id": "worsted-yarn-weaver-66",
+      "name": "Worsted Yarn"
+    },
+    {
+      "id": "ishgardian-culinary-materials-weaver-66",
+      "name": "Ishgardian Culinary Materials"
+    },
+    {
+      "id": "juice-fermenting-supplies-weaver-66",
+      "name": "Juice Fermenting Supplies"
+    },
+    {
+      "id": "fermented-juice-weaver-66",
+      "name": "Fermented Juice"
+    },
+    {
+      "id": "ishgardian-culinary-essentials-weaver-66",
+      "name": "Ishgardian Culinary Essentials"
+    },
+    {
+      "id": "fat-cat-sofa-weaver-66",
+      "name": "Fat Cat Sofa"
+    },
+    {
+      "id": "hingan-sofa-weaver-66",
+      "name": "Hingan Sofa"
+    },
+    {
+      "id": "unfinished-shawl-weaver-66",
+      "name": "Unfinished Shawl"
+    },
+    {
+      "id": "rarefied-kudzu-hat-weaver-66",
+      "name": "Rarefied Kudzu Hat"
+    },
+    {
+      "id": "serge-hat-of-aiming-weaver-66",
+      "name": "Serge Hat of Aiming"
+    },
+    {
+      "id": "serge-hat-of-casting-weaver-66",
+      "name": "Serge Hat of Casting"
+    },
+    {
+      "id": "serge-hat-of-healing-weaver-66",
+      "name": "Serge Hat of Healing"
+    },
+    {
+      "id": "winter-sweater-weaver-66",
+      "name": "Winter Sweater"
+    },
+    {
+      "id": "decorative-tavern-furnishing-materials-weaver-67",
+      "name": "Decorative Tavern Furnishing Materials"
+    },
+    {
+      "id": "signature-buuz-cookware-materials-weaver-67",
+      "name": "Signature Buuz Cookware Materials"
+    },
+    {
+      "id": "hard-place-decorative-furnishings-weaver-67",
+      "name": "Hard Place Decorative Furnishings"
+    },
+    {
+      "id": "signature-buuz-cookware-weaver-67",
+      "name": "Signature Buuz Cookware"
+    },
+    {
+      "id": "serge-gambison-of-aiming-weaver-67",
+      "name": "Serge Gambison of Aiming"
+    },
+    {
+      "id": "serge-gambison-of-casting-weaver-67",
+      "name": "Serge Gambison of Casting"
+    },
+    {
+      "id": "serge-gambison-of-healing-weaver-67",
+      "name": "Serge Gambison of Healing"
+    },
+    {
+      "id": "serge-hose-of-aiming-weaver-67",
+      "name": "Serge Hose of Aiming"
+    },
+    {
+      "id": "serge-hose-of-casting-weaver-67",
+      "name": "Serge Hose of Casting"
+    },
+    {
+      "id": "serge-hose-of-healing-weaver-67",
+      "name": "Serge Hose of Healing"
+    },
+    {
+      "id": "serge-sarouel-of-crafting-weaver-67",
+      "name": "Serge Sarouel of Crafting"
+    },
+    {
+      "id": "serge-sarouel-of-gathering-weaver-67",
+      "name": "Serge Sarouel of Gathering"
+    },
+    {
+      "id": "serge-turban-of-crafting-weaver-67",
+      "name": "Serge Turban of Crafting"
+    },
+    {
+      "id": "serge-turban-of-gathering-weaver-67",
+      "name": "Serge Turban of Gathering"
+    },
+    {
+      "id": "twinsilk-weaver-68",
+      "name": "Twinsilk"
+    },
+    {
+      "id": "twinthread-weaver-68",
+      "name": "Twinthread"
+    },
+    {
+      "id": "arkhi-brewing-vat-materials-weaver-68",
+      "name": "Arkhi Brewing Vat Materials"
+    },
+    {
+      "id": "arkhi-brewing-set-weaver-68",
+      "name": "Arkhi Brewing Set"
+    },
+    {
+      "id": "seductive-bustier-weaver-68",
+      "name": "Seductive Bustier"
+    },
+    {
+      "id": "rarefied-serge-hose-weaver-68",
+      "name": "Rarefied Serge Hose"
+    },
+    {
+      "id": "twinsilk-hood-of-casting-weaver-68",
+      "name": "Twinsilk Hood of Casting"
+    },
+    {
+      "id": "twinsilk-hood-of-healing-weaver-68",
+      "name": "Twinsilk Hood of Healing"
+    },
+    {
+      "id": "twinsilk-hood-of-striking-weaver-68",
+      "name": "Twinsilk Hood of Striking"
+    },
+    {
+      "id": "twinsilk-turban-of-aiming-weaver-68",
+      "name": "Twinsilk Turban of Aiming"
+    },
+    {
+      "id": "twinsilk-turban-of-scouting-weaver-68",
+      "name": "Twinsilk Turban of Scouting"
+    },
+    {
+      "id": "kimono-hanger-weaver-69",
+      "name": "Kimono Hanger"
+    },
+    {
+      "id": "twinsilk-coat-of-casting-weaver-69",
+      "name": "Twinsilk Coat of Casting"
+    },
+    {
+      "id": "twinsilk-robe-of-aiming-weaver-69",
+      "name": "Twinsilk Robe of Aiming"
+    },
+    {
+      "id": "twinsilk-slops-of-aiming-weaver-69",
+      "name": "Twinsilk Slops of Aiming"
+    },
+    {
+      "id": "twinsilk-slops-of-casting-weaver-69",
+      "name": "Twinsilk Slops of Casting"
+    },
+    {
+      "id": "twinsilk-slops-of-fending-weaver-69",
+      "name": "Twinsilk Slops of Fending"
+    },
+    {
+      "id": "twinsilk-slops-of-healing-weaver-69",
+      "name": "Twinsilk Slops of Healing"
+    },
+    {
+      "id": "armament-repair-kit-weaver-70",
+      "name": "Armament Repair Kit"
+    },
+    {
+      "id": "axle-component-weaver-70",
+      "name": "Axle Component"
+    },
+    {
+      "id": "core-tank-component-weaver-70",
+      "name": "Core Tank Component"
+    },
+    {
+      "id": "eye-catching-custom-option-weaver-70",
+      "name": "Eye-catching Custom Option"
+    },
+    {
+      "id": "filtration-supplies-weaver-70",
+      "name": "Filtration Supplies"
+    },
+    {
+      "id": "heat-resistant-component-weaver-70",
+      "name": "Heat-resistant Component"
+    },
+    {
+      "id": "low-profile-custom-option-weaver-70",
+      "name": "Low-profile Custom Option"
+    },
+    {
+      "id": "steel-plate-component-weaver-70",
+      "name": "Steel Plate Component"
+    },
+    {
+      "id": "test-fire-target-dummy-weaver-70",
+      "name": "Test-fire Target Dummy"
+    },
+    {
+      "id": "flyer-printing-set-weaver-70",
+      "name": "Flyer Printing Set"
+    },
+    {
+      "id": "grade-2-skybuilders-gloves-weaver-70",
+      "name": "Grade 2 Skybuilders' Gloves"
+    },
+    {
+      "id": "grade-3-skybuilders-gloves-weaver-70",
+      "name": "Grade 3 Skybuilders' Gloves"
+    },
+    {
+      "id": "grade-4-skybuilders-gloves-weaver-70",
+      "name": "Grade 4 Skybuilders' Gloves"
+    },
+    {
+      "id": "skybuilders-gloves-weaver-70",
+      "name": "Skybuilders' Gloves"
+    },
+    {
+      "id": "kholusian-cuisine-set-weaver-70",
+      "name": "Kholusian Cuisine Set"
+    },
+    {
+      "id": "workshop-supplies-weaver-70",
+      "name": "Workshop Supplies"
+    },
+    {
+      "id": "automaton-repair-component-weaver-70",
+      "name": "Automaton Repair Component"
+    },
+    {
+      "id": "bespoke-barter-item-weaver-70",
+      "name": "Bespoke Barter Item"
+    },
+    {
+      "id": "engine-component-weaver-70",
+      "name": "Engine Component"
+    },
+    {
+      "id": "experimental-plating-component-weaver-70",
+      "name": "Experimental Plating Component"
+    },
+    {
+      "id": "tavern-materials-weaver-70",
+      "name": "Tavern Materials"
+    },
+    {
+      "id": "unfailing-eye-opener-weaver-70",
+      "name": "Unfailing Eye Opener"
+    },
+    {
+      "id": "brewery-supplies-weaver-70",
+      "name": "Brewery Supplies"
+    },
+    {
+      "id": "blueprint-supplies-weaver-70",
+      "name": "Blueprint Supplies"
+    },
+    {
+      "id": "cask-component-weaver-70",
+      "name": "Cask Component"
+    },
+    {
+      "id": "cooling-device-component-weaver-70",
+      "name": "Cooling Device Component"
+    },
+    {
+      "id": "crystal-cannon-supplies-weaver-70",
+      "name": "Crystal Cannon Supplies"
+    },
+    {
+      "id": "grooming-kit-weaver-70",
+      "name": "Grooming Kit"
+    },
+    {
+      "id": "workshop-expansion-supplies-weaver-70",
+      "name": "Workshop Expansion Supplies"
+    },
+    {
+      "id": "automaton-worker-supplies-weaver-70",
+      "name": "Automaton Worker Supplies"
+    },
+    {
+      "id": "canvas-repair-materials-weaver-70",
+      "name": "Canvas Repair Materials"
+    },
+    {
+      "id": "tennyo-hagoromo-weaver-70",
+      "name": "Tennyo Hagoromo"
+    },
+    {
+      "id": "cropped-twinsilk-slops-weaver-70",
+      "name": "Cropped Twinsilk Slops"
+    },
+    {
+      "id": "rarefied-twinsilk-apron-weaver-70",
+      "name": "Rarefied Twinsilk Apron"
+    },
+    {
+      "id": "serge-hood-weaver-70",
+      "name": "Serge Hood"
+    },
+    {
+      "id": "serge-knit-cap-weaver-70",
+      "name": "Serge Knit Cap"
+    },
+    {
+      "id": "serge-poncho-weaver-70",
+      "name": "Serge Poncho"
+    },
+    {
+      "id": "serge-work-gloves-weaver-70",
+      "name": "Serge Work Gloves"
+    },
+    {
+      "id": "twinsilk-slops-of-gathering-weaver-70",
+      "name": "Twinsilk Slops of Gathering"
+    },
+    {
+      "id": "twinsilk-suspenders-weaver-70",
+      "name": "Twinsilk Suspenders"
+    },
+    {
+      "id": "wind-up-lakshmi-weaver-70",
+      "name": "Wind-up Lakshmi"
+    },
+    {
+      "id": "wind-up-shinryu-weaver-70",
+      "name": "Wind-up Shinryu"
+    },
+    {
+      "id": "wind-up-susano-weaver-70",
+      "name": "Wind-up Susano"
+    },
+    {
+      "id": "wind-up-chimera-weaver-70",
+      "name": "Wind-up Chimera"
+    },
+    {
+      "id": "ao-dai-weaver-70",
+      "name": "Ao Dai"
+    },
+    {
+      "id": "non-la-weaver-70",
+      "name": "Non La"
+    },
+    {
+      "id": "quan-weaver-70",
+      "name": "Quan"
+    },
+    {
+      "id": "taoists-cap-weaver-70",
+      "name": "Taoist's Cap"
+    },
+    {
+      "id": "taoists-shirt-weaver-70",
+      "name": "Taoist's Shirt"
+    },
+    {
+      "id": "taoists-slops-weaver-70",
+      "name": "Taoist's Slops"
+    },
+    {
+      "id": "house-borel-interior-wall-weaver-70",
+      "name": "House Borel Interior Wall"
+    },
+    {
+      "id": "miniature-iloh-weaver-70",
+      "name": "Miniature Iloh"
+    },
+    {
+      "id": "picnic-set-weaver-70",
+      "name": "Picnic Set"
+    },
+    {
+      "id": "sewing-baskets-weaver-70",
+      "name": "Sewing Baskets"
+    },
+    {
+      "id": "wind-up-magnai-weaver-70",
+      "name": "Wind-up Magnai"
+    },
+    {
+      "id": "wind-up-sadu-weaver-70",
+      "name": "Wind-up Sadu"
+    },
+    {
+      "id": "adventuring-sweater-weaver-70",
+      "name": "Adventuring Sweater"
+    },
+    {
+      "id": "ala-mhigan-bottoms-of-crafting-weaver-70",
+      "name": "Ala Mhigan Bottoms of Crafting"
+    },
+    {
+      "id": "ala-mhigan-bottoms-of-gathering-weaver-70",
+      "name": "Ala Mhigan Bottoms of Gathering"
+    },
+    {
+      "id": "ala-mhigan-coat-of-gathering-weaver-70",
+      "name": "Ala Mhigan Coat of Gathering"
+    },
+    {
+      "id": "ala-mhigan-doublet-of-crafting-weaver-70",
+      "name": "Ala Mhigan Doublet of Crafting"
+    },
+    {
+      "id": "ala-mhigan-gown-weaver-70",
+      "name": "Ala Mhigan Gown"
+    },
+    {
+      "id": "ala-mhigan-turban-of-crafting-weaver-70",
+      "name": "Ala Mhigan Turban of Crafting"
+    },
+    {
+      "id": "ala-mhigan-turban-of-gathering-weaver-70",
+      "name": "Ala Mhigan Turban of Gathering"
+    },
+    {
+      "id": "boulevardiers-hat-weaver-70",
+      "name": "Boulevardier's Hat"
+    },
+    {
+      "id": "boulevardiers-ruffled-pantaloons-weaver-70",
+      "name": "Boulevardier's Ruffled Pantaloons"
+    },
+    {
+      "id": "boulevardiers-ruffled-shirt-weaver-70",
+      "name": "Boulevardier's Ruffled Shirt"
+    },
+    {
+      "id": "hannish-wool-autumn-shirt-weaver-70",
+      "name": "Hannish Wool Autumn Shirt"
+    },
+    {
+      "id": "indigo-ramie-robe-of-casting-weaver-70",
+      "name": "Indigo Ramie Robe of Casting"
+    },
+    {
+      "id": "indigo-ramie-robe-of-healing-weaver-70",
+      "name": "Indigo Ramie Robe of Healing"
+    },
+    {
+      "id": "indigo-ramie-sarouel-of-scouting-weaver-70",
+      "name": "Indigo Ramie Sarouel of Scouting"
+    },
+    {
+      "id": "indigo-ramie-sarouel-of-striking-weaver-70",
+      "name": "Indigo Ramie Sarouel of Striking"
+    },
+    {
+      "id": "indigo-ramie-skirt-of-casting-weaver-70",
+      "name": "Indigo Ramie Skirt of Casting"
+    },
+    {
+      "id": "indigo-ramie-skirt-of-healing-weaver-70",
+      "name": "Indigo Ramie Skirt of Healing"
+    },
+    {
+      "id": "indigo-ramie-tabard-of-aiming-weaver-70",
+      "name": "Indigo Ramie Tabard of Aiming"
+    },
+    {
+      "id": "quaintrelles-hat-weaver-70",
+      "name": "Quaintrelle's Hat"
+    },
+    {
+      "id": "quaintrelles-ruffled-dress-weaver-70",
+      "name": "Quaintrelle's Ruffled Dress"
+    },
+    {
+      "id": "quaintrelles-ruffled-skirt-weaver-70",
+      "name": "Quaintrelle's Ruffled Skirt"
+    },
+    {
+      "id": "rhea-cloth-weaver-70",
+      "name": "Rhea Cloth"
+    },
+    {
+      "id": "thavnairian-wool-autumn-dress-weaver-70",
+      "name": "Thavnairian Wool Autumn Dress"
+    },
+    {
+      "id": "thavnairian-wool-autumn-shirt-weaver-70",
+      "name": "Thavnairian Wool Autumn Shirt"
+    },
+    {
+      "id": "true-linen-weaver-70",
+      "name": "True Linen"
+    },
+    {
+      "id": "byakko-cub-weaver-70",
+      "name": "Byakko Cub"
+    },
+    {
+      "id": "lunar-barding-weaver-70",
+      "name": "Lunar Barding"
+    },
+    {
+      "id": "stuffed-alpha-weaver-70",
+      "name": "Stuffed Alpha"
+    },
+    {
+      "id": "stuffed-tsukuyomi-weaver-70",
+      "name": "Stuffed Tsukuyomi"
+    },
+    {
+      "id": "onishi-dogi-weaver-70",
+      "name": "Onishi Dogi"
+    },
+    {
+      "id": "onishi-kasa-weaver-70",
+      "name": "Onishi Kasa"
+    },
+    {
+      "id": "onishi-momohiki-weaver-70",
+      "name": "Onishi Momohiki"
+    },
+    {
+      "id": "rain-hood-weaver-70",
+      "name": "Rain Hood"
+    },
+    {
+      "id": "raincoat-weaver-70",
+      "name": "Raincoat"
+    },
+    {
+      "id": "true-linen-breeches-of-aiming-weaver-70",
+      "name": "True Linen Breeches of Aiming"
+    },
+    {
+      "id": "true-linen-breeches-of-casting-weaver-70",
+      "name": "True Linen Breeches of Casting"
+    },
+    {
+      "id": "true-linen-breeches-of-healing-weaver-70",
+      "name": "True Linen Breeches of Healing"
+    },
+    {
+      "id": "true-linen-breeches-of-maiming-weaver-70",
+      "name": "True Linen Breeches of Maiming"
+    },
+    {
+      "id": "true-linen-breeches-of-scouting-weaver-70",
+      "name": "True Linen Breeches of Scouting"
+    },
+    {
+      "id": "true-linen-cap-of-aiming-weaver-70",
+      "name": "True Linen Cap of Aiming"
+    },
+    {
+      "id": "true-linen-cap-of-scouting-weaver-70",
+      "name": "True Linen Cap of Scouting"
+    },
+    {
+      "id": "true-linen-coat-of-striking-weaver-70",
+      "name": "True Linen Coat of Striking"
+    },
+    {
+      "id": "true-linen-gloves-of-casting-weaver-70",
+      "name": "True Linen Gloves of Casting"
+    },
+    {
+      "id": "true-linen-gloves-of-healing-weaver-70",
+      "name": "True Linen Gloves of Healing"
+    },
+    {
+      "id": "true-linen-halfgloves-of-striking-weaver-70",
+      "name": "True Linen Halfgloves of Striking"
+    },
+    {
+      "id": "true-linen-hat-of-casting-weaver-70",
+      "name": "True Linen Hat of Casting"
+    },
+    {
+      "id": "true-linen-hat-of-healing-weaver-70",
+      "name": "True Linen Hat of Healing"
+    },
+    {
+      "id": "true-linen-jacket-of-aiming-weaver-70",
+      "name": "True Linen Jacket of Aiming"
+    },
+    {
+      "id": "true-linen-jacket-of-scouting-weaver-70",
+      "name": "True Linen Jacket of Scouting"
+    },
+    {
+      "id": "true-linen-robe-of-casting-weaver-70",
+      "name": "True Linen Robe of Casting"
+    },
+    {
+      "id": "true-linen-robe-of-healing-weaver-70",
+      "name": "True Linen Robe of Healing"
+    },
+    {
+      "id": "true-linen-skirt-of-fending-weaver-70",
+      "name": "True Linen Skirt of Fending"
+    },
+    {
+      "id": "true-linen-trousers-of-striking-weaver-70",
+      "name": "True Linen Trousers of Striking"
+    },
+    {
+      "id": "whisperfine-woolen-boots-weaver-70",
+      "name": "Whisperfine Woolen Boots"
+    },
+    {
+      "id": "whisperfine-woolen-coat-weaver-70",
+      "name": "Whisperfine Woolen Coat"
+    },
+    {
+      "id": "whisperfine-woolen-shorts-weaver-70",
+      "name": "Whisperfine Woolen Shorts"
+    },
+    {
+      "id": "yamashi-dogi-weaver-70",
+      "name": "Yamashi Dogi"
+    },
+    {
+      "id": "yamashi-momohiki-weaver-70",
+      "name": "Yamashi Momohiki"
+    },
+    {
+      "id": "stardust-cotton-cloth-weaver-70",
+      "name": "Stardust Cotton Cloth"
+    },
+    {
+      "id": "scarlet-peacock-weaver-70",
+      "name": "Scarlet Peacock"
+    },
+    {
+      "id": "seitei-weaver-70",
+      "name": "Seitei"
+    },
+    {
+      "id": "rakshasa-dogi-of-casting-weaver-70",
+      "name": "Rakshasa Dogi of Casting"
+    },
+    {
+      "id": "rakshasa-dogi-of-healing-weaver-70",
+      "name": "Rakshasa Dogi of Healing"
+    },
+    {
+      "id": "rakshasa-hakama-of-aiming-weaver-70",
+      "name": "Rakshasa Hakama of Aiming"
+    },
+    {
+      "id": "rakshasa-hakama-of-scouting-weaver-70",
+      "name": "Rakshasa Hakama of Scouting"
+    },
+    {
+      "id": "rakshasa-hakama-of-striking-weaver-70",
+      "name": "Rakshasa Hakama of Striking"
+    },
+    {
+      "id": "rakshasa-haori-of-aiming-weaver-70",
+      "name": "Rakshasa Haori of Aiming"
+    },
+    {
+      "id": "rakshasa-haori-of-scouting-weaver-70",
+      "name": "Rakshasa Haori of Scouting"
+    },
+    {
+      "id": "rakshasa-haori-of-striking-weaver-70",
+      "name": "Rakshasa Haori of Striking"
+    },
+    {
+      "id": "rakshasa-kasaya-of-fending-weaver-70",
+      "name": "Rakshasa Kasaya of Fending"
+    },
+    {
+      "id": "rakshasa-kasaya-of-maiming-weaver-70",
+      "name": "Rakshasa Kasaya of Maiming"
+    },
+    {
+      "id": "rakshasa-tsutsu-hakama-of-casting-weaver-70",
+      "name": "Rakshasa Tsutsu-hakama of Casting"
+    },
+    {
+      "id": "rakshasa-tsutsu-hakama-of-fending-weaver-70",
+      "name": "Rakshasa Tsutsu-hakama of Fending"
+    },
+    {
+      "id": "rakshasa-tsutsu-hakama-of-healing-weaver-70",
+      "name": "Rakshasa Tsutsu-hakama of Healing"
+    },
+    {
+      "id": "rakshasa-tsutsu-hakama-of-maiming-weaver-70",
+      "name": "Rakshasa Tsutsu-hakama of Maiming"
+    },
+    {
+      "id": "bright-linen-cloth-weaver-71",
+      "name": "Bright Linen Cloth"
+    },
+    {
+      "id": "bright-linen-yarn-weaver-71",
+      "name": "Bright Linen Yarn"
+    },
+    {
+      "id": "custom-gathering-tool-components-weaver-71",
+      "name": "Custom Gathering Tool Components"
+    },
+    {
+      "id": "honeybee-trappings-weaver-71",
+      "name": "Honeybee Trappings"
+    },
+    {
+      "id": "patient-necessities-weaver-71",
+      "name": "Patient Necessities"
+    },
+    {
+      "id": "brightlinen-bottoms-of-aiming-weaver-71",
+      "name": "Brightlinen Bottoms of Aiming"
+    },
+    {
+      "id": "brightlinen-bottoms-of-crafting-weaver-71",
+      "name": "Brightlinen Bottoms of Crafting"
+    },
+    {
+      "id": "brightlinen-bottoms-of-gathering-weaver-71",
+      "name": "Brightlinen Bottoms of Gathering"
+    },
+    {
+      "id": "brightlinen-bottoms-of-striking-weaver-71",
+      "name": "Brightlinen Bottoms of Striking"
+    },
+    {
+      "id": "brightlinen-cap-of-casting-weaver-71",
+      "name": "Brightlinen Cap of Casting"
+    },
+    {
+      "id": "brightlinen-cap-of-healing-weaver-71",
+      "name": "Brightlinen Cap of Healing"
+    },
+    {
+      "id": "brightlinen-coat-of-gathering-weaver-71",
+      "name": "Brightlinen Coat of Gathering"
+    },
+    {
+      "id": "brightlinen-cyclas-of-casting-weaver-71",
+      "name": "Brightlinen Cyclas of Casting"
+    },
+    {
+      "id": "brightlinen-cyclas-of-healing-weaver-71",
+      "name": "Brightlinen Cyclas of Healing"
+    },
+    {
+      "id": "brightlinen-doublet-vest-of-crafting-weaver-71",
+      "name": "Brightlinen Doublet Vest of Crafting"
+    },
+    {
+      "id": "brightlinen-gambison-of-scouting-weaver-71",
+      "name": "Brightlinen Gambison of Scouting"
+    },
+    {
+      "id": "brightlinen-himation-of-aiming-weaver-71",
+      "name": "Brightlinen Himation of Aiming"
+    },
+    {
+      "id": "brightlinen-himation-of-striking-weaver-71",
+      "name": "Brightlinen Himation of Striking"
+    },
+    {
+      "id": "brightlinen-hood-of-aiming-weaver-71",
+      "name": "Brightlinen Hood of Aiming"
+    },
+    {
+      "id": "brightlinen-hood-of-striking-weaver-71",
+      "name": "Brightlinen Hood of Striking"
+    },
+    {
+      "id": "brightlinen-hose-of-casting-weaver-71",
+      "name": "Brightlinen Hose of Casting"
+    },
+    {
+      "id": "brightlinen-hose-of-healing-weaver-71",
+      "name": "Brightlinen Hose of Healing"
+    },
+    {
+      "id": "brightlinen-hose-of-scouting-weaver-71",
+      "name": "Brightlinen Hose of Scouting"
+    },
+    {
+      "id": "brightlinen-long-gloves-of-aiming-weaver-71",
+      "name": "Brightlinen Long Gloves of Aiming"
+    },
+    {
+      "id": "brightlinen-long-gloves-of-striking-weaver-71",
+      "name": "Brightlinen Long Gloves of Striking"
+    },
+    {
+      "id": "brightlinen-tabard-of-maiming-weaver-71",
+      "name": "Brightlinen Tabard of Maiming"
+    },
+    {
+      "id": "brightlinen-turban-of-crafting-weaver-71",
+      "name": "Brightlinen Turban of Crafting"
+    },
+    {
+      "id": "brightlinen-turban-of-gathering-weaver-71",
+      "name": "Brightlinen Turban of Gathering"
+    },
+    {
+      "id": "iridescent-silk-weaver-72",
+      "name": "Iridescent Silk"
+    },
+    {
+      "id": "iridescent-silk-thread-weaver-72",
+      "name": "Iridescent Silk Thread"
+    },
+    {
+      "id": "airship-fittings-weaver-72",
+      "name": "Airship Fittings"
+    },
+    {
+      "id": "custom-weaving-components-weaver-72",
+      "name": "Custom Weaving Components"
+    },
+    {
+      "id": "medical-supplies-weaver-72",
+      "name": "Medical Supplies"
+    },
+    {
+      "id": "iridescent-hat-of-aiming-weaver-72",
+      "name": "Iridescent Hat of Aiming"
+    },
+    {
+      "id": "iridescent-hat-of-casting-weaver-72",
+      "name": "Iridescent Hat of Casting"
+    },
+    {
+      "id": "iridescent-hat-of-healing-weaver-72",
+      "name": "Iridescent Hat of Healing"
+    },
+    {
+      "id": "iridescent-hat-of-scouting-weaver-72",
+      "name": "Iridescent Hat of Scouting"
+    },
+    {
+      "id": "iridescent-hat-of-striking-weaver-72",
+      "name": "Iridescent Hat of Striking"
+    },
+    {
+      "id": "iridescent-hood-of-maiming-weaver-72",
+      "name": "Iridescent Hood of Maiming"
+    },
+    {
+      "id": "rarefied-brightlinen-himation-weaver-72",
+      "name": "Rarefied Brightlinen Himation"
+    },
+    {
+      "id": "beehive-souvenir-weaver-73",
+      "name": "Beehive Souvenir"
+    },
+    {
+      "id": "custom-crafting-tool-components-weaver-73",
+      "name": "Custom Crafting Tool Components"
+    },
+    {
+      "id": "rehabilitation-aids-weaver-73",
+      "name": "Rehabilitation Aids"
+    },
+    {
+      "id": "upholstery-repair-materials-weaver-73",
+      "name": "Upholstery Repair Materials"
+    },
+    {
+      "id": "iridescent-acton-of-aiming-weaver-73",
+      "name": "Iridescent Acton of Aiming"
+    },
+    {
+      "id": "iridescent-acton-of-scouting-weaver-73",
+      "name": "Iridescent Acton of Scouting"
+    },
+    {
+      "id": "iridescent-acton-of-striking-weaver-73",
+      "name": "Iridescent Acton of Striking"
+    },
+    {
+      "id": "iridescent-bottoms-of-aiming-weaver-73",
+      "name": "Iridescent Bottoms of Aiming"
+    },
+    {
+      "id": "iridescent-bottoms-of-casting-weaver-73",
+      "name": "Iridescent Bottoms of Casting"
+    },
+    {
+      "id": "iridescent-bottoms-of-healing-weaver-73",
+      "name": "Iridescent Bottoms of Healing"
+    },
+    {
+      "id": "iridescent-bottoms-of-scouting-weaver-73",
+      "name": "Iridescent Bottoms of Scouting"
+    },
+    {
+      "id": "iridescent-bottoms-of-striking-weaver-73",
+      "name": "Iridescent Bottoms of Striking"
+    },
+    {
+      "id": "iridescent-top-of-casting-weaver-73",
+      "name": "Iridescent Top of Casting"
+    },
+    {
+      "id": "iridescent-top-of-healing-weaver-73",
+      "name": "Iridescent Top of Healing"
+    },
+    {
+      "id": "pixie-cotton-weaver-74",
+      "name": "Pixie Cotton"
+    },
+    {
+      "id": "pixie-floss-weaver-74",
+      "name": "Pixie Floss"
+    },
+    {
+      "id": "handpicked-culinary-essentials-weaver-74",
+      "name": "Handpicked Culinary Essentials"
+    },
+    {
+      "id": "pixie-cotton-apron-of-crafting-weaver-74",
+      "name": "Pixie Cotton Apron of Crafting"
+    },
+    {
+      "id": "pixie-cotton-breeches-of-crafting-weaver-74",
+      "name": "Pixie Cotton Breeches of Crafting"
+    },
+    {
+      "id": "pixie-cotton-hat-of-crafting-weaver-74",
+      "name": "Pixie Cotton Hat of Crafting"
+    },
+    {
+      "id": "pixie-cotton-hat-of-striking-weaver-74",
+      "name": "Pixie Cotton Hat of Striking"
+    },
+    {
+      "id": "pixie-cotton-hood-of-healing-weaver-74",
+      "name": "Pixie Cotton Hood of Healing"
+    },
+    {
+      "id": "pixie-cotton-sleeves-of-crafting-weaver-74",
+      "name": "Pixie Cotton Sleeves of Crafting"
+    },
+    {
+      "id": "pixie-cotton-sleeves-of-striking-weaver-74",
+      "name": "Pixie Cotton Sleeves of Striking"
+    },
+    {
+      "id": "pixie-cotton-slops-of-gathering-weaver-74",
+      "name": "Pixie Cotton Slops of Gathering"
+    },
+    {
+      "id": "rarefied-iridescent-top-weaver-74",
+      "name": "Rarefied Iridescent Top"
+    },
+    {
+      "id": "high-tea-essentials-weaver-75",
+      "name": "High Tea Essentials"
+    },
+    {
+      "id": "printing-essentials-weaver-75",
+      "name": "Printing Essentials"
+    },
+    {
+      "id": "amaro-barding-repair-materials-weaver-75",
+      "name": "Amaro Barding Repair Materials"
+    },
+    {
+      "id": "workshop-sign-weaver-75",
+      "name": "Workshop Sign"
+    },
+    {
+      "id": "pixie-cotton-acton-of-striking-weaver-75",
+      "name": "Pixie Cotton Acton of Striking"
+    },
+    {
+      "id": "pixie-cotton-brais-of-aiming-weaver-75",
+      "name": "Pixie Cotton Brais of Aiming"
+    },
+    {
+      "id": "pixie-cotton-brais-of-scouting-weaver-75",
+      "name": "Pixie Cotton Brais of Scouting"
+    },
+    {
+      "id": "pixie-cotton-culottes-of-striking-weaver-75",
+      "name": "Pixie Cotton Culottes of Striking"
+    },
+    {
+      "id": "pixie-cotton-robe-of-healing-weaver-75",
+      "name": "Pixie Cotton Robe of Healing"
+    },
+    {
+      "id": "pixie-cotton-slops-of-casting-weaver-75",
+      "name": "Pixie Cotton Slops of Casting"
+    },
+    {
+      "id": "pixie-cotton-slops-of-healing-weaver-75",
+      "name": "Pixie Cotton Slops of Healing"
+    },
+    {
+      "id": "ovim-wool-weaver-76",
+      "name": "Ovim Wool"
+    },
+    {
+      "id": "ovim-wool-yarn-weaver-76",
+      "name": "Ovim Wool Yarn"
+    },
+    {
+      "id": "ovim-wool-bottoms-of-aiming-weaver-76",
+      "name": "Ovim Wool Bottoms of Aiming"
+    },
+    {
+      "id": "ovim-wool-bottoms-of-casting-weaver-76",
+      "name": "Ovim Wool Bottoms of Casting"
+    },
+    {
+      "id": "ovim-wool-bottoms-of-scouting-weaver-76",
+      "name": "Ovim Wool Bottoms of Scouting"
+    },
+    {
+      "id": "ovim-wool-jacket-of-scouting-weaver-76",
+      "name": "Ovim Wool Jacket of Scouting"
+    },
+    {
+      "id": "ovim-wool-muffed-met-of-casting-weaver-76",
+      "name": "Ovim Wool Muffed Met of Casting"
+    },
+    {
+      "id": "ovim-wool-muffed-met-of-healing-weaver-76",
+      "name": "Ovim Wool Muffed Met of Healing"
+    },
+    {
+      "id": "ovim-wool-skirt-of-healing-weaver-76",
+      "name": "Ovim Wool Skirt of Healing"
+    },
+    {
+      "id": "ovim-wool-tunic-of-aiming-weaver-76",
+      "name": "Ovim Wool Tunic of Aiming"
+    },
+    {
+      "id": "ovim-wool-tunic-of-casting-weaver-76",
+      "name": "Ovim Wool Tunic of Casting"
+    },
+    {
+      "id": "ovim-wool-ushanka-of-aiming-weaver-76",
+      "name": "Ovim Wool Ushanka of Aiming"
+    },
+    {
+      "id": "rarefied-pixie-cotton-hood-weaver-76",
+      "name": "Rarefied Pixie Cotton Hood"
+    },
+    {
+      "id": "art-supplies-weaver-77",
+      "name": "Art Supplies"
+    },
+    {
+      "id": "ovim-wool-bottoms-of-fending-weaver-77",
+      "name": "Ovim Wool Bottoms of Fending"
+    },
+    {
+      "id": "ovim-wool-bottoms-of-maiming-weaver-77",
+      "name": "Ovim Wool Bottoms of Maiming"
+    },
+    {
+      "id": "ovim-wool-coat-of-healing-weaver-77",
+      "name": "Ovim Wool Coat of Healing"
+    },
+    {
+      "id": "ovim-wool-coat-of-striking-weaver-77",
+      "name": "Ovim Wool Coat of Striking"
+    },
+    {
+      "id": "ovim-wool-gaskins-of-crafting-weaver-77",
+      "name": "Ovim Wool Gaskins of Crafting"
+    },
+    {
+      "id": "ovim-wool-gaskins-of-gathering-weaver-77",
+      "name": "Ovim Wool Gaskins of Gathering"
+    },
+    {
+      "id": "ovim-wool-skirt-of-striking-weaver-77",
+      "name": "Ovim Wool Skirt of Striking"
+    },
+    {
+      "id": "ovim-wool-turban-of-crafting-weaver-77",
+      "name": "Ovim Wool Turban of Crafting"
+    },
+    {
+      "id": "ovim-wool-turban-of-gathering-weaver-77",
+      "name": "Ovim Wool Turban of Gathering"
+    },
+    {
+      "id": "ovim-wool-ushanka-of-striking-weaver-77",
+      "name": "Ovim Wool Ushanka of Striking"
+    },
+    {
+      "id": "dwarven-cotton-weaver-78",
+      "name": "Dwarven Cotton"
+    },
+    {
+      "id": "dwarven-cotton-thread-weaver-78",
+      "name": "Dwarven Cotton Thread"
+    },
+    {
+      "id": "lute-repair-materials-weaver-78",
+      "name": "Lute Repair Materials"
+    },
+    {
+      "id": "eulmoran-inner-wall-weaver-78",
+      "name": "Eulmoran Inner Wall"
+    },
+    {
+      "id": "misplaced-mog-slippers-weaver-78",
+      "name": "Misplaced Mog Slippers"
+    },
+    {
+      "id": "tabletop-hat-stand-weaver-78",
+      "name": "Tabletop Hat Stand"
+    },
+    {
+      "id": "dwarven-cotton-gaskins-of-casting-weaver-78",
+      "name": "Dwarven Cotton Gaskins of Casting"
+    },
+    {
+      "id": "dwarven-cotton-gaskins-of-fending-weaver-78",
+      "name": "Dwarven Cotton Gaskins of Fending"
+    },
+    {
+      "id": "dwarven-cotton-gaskins-of-healing-weaver-78",
+      "name": "Dwarven Cotton Gaskins of Healing"
+    },
+    {
+      "id": "dwarven-cotton-gaskins-of-maiming-weaver-78",
+      "name": "Dwarven Cotton Gaskins of Maiming"
+    },
+    {
+      "id": "dwarven-cotton-gaskins-of-striking-weaver-78",
+      "name": "Dwarven Cotton Gaskins of Striking"
+    },
+    {
+      "id": "dwarven-cotton-petasos-of-casting-weaver-78",
+      "name": "Dwarven Cotton Petasos of Casting"
+    },
+    {
+      "id": "dwarven-cotton-petasos-of-healing-weaver-78",
+      "name": "Dwarven Cotton Petasos of Healing"
+    },
+    {
+      "id": "rarefied-ovim-wool-tunic-weaver-78",
+      "name": "Rarefied Ovim Wool Tunic"
+    },
+    {
+      "id": "dwarven-cotton-gaskins-of-aiming-weaver-79",
+      "name": "Dwarven Cotton Gaskins of Aiming"
+    },
+    {
+      "id": "dwarven-cotton-gaskins-of-scouting-weaver-79",
+      "name": "Dwarven Cotton Gaskins of Scouting"
+    },
+    {
+      "id": "dwarven-cotton-turban-of-aiming-weaver-79",
+      "name": "Dwarven Cotton Turban of Aiming"
+    },
+    {
+      "id": "dwarven-cotton-turban-of-scouting-weaver-79",
+      "name": "Dwarven Cotton Turban of Scouting"
+    },
+    {
+      "id": "audio-spare-parts-weaver-80",
+      "name": "Audio Spare Parts"
+    },
+    {
+      "id": "carrotlight-pieces-weaver-80",
+      "name": "Carrotlight Pieces"
+    },
+    {
+      "id": "cleaner-upgrade-component-weaver-80",
+      "name": "Cleaner Upgrade Component"
+    },
+    {
+      "id": "coin-manufacturing-component-weaver-80",
+      "name": "Coin Manufacturing Component"
+    },
+    {
+      "id": "cookbook-printing-paraphernalia-weaver-80",
+      "name": "Cookbook Printing Paraphernalia"
+    },
+    {
+      "id": "fungi-fighter-weaver-80",
+      "name": "Fungi Fighter"
+    },
+    {
+      "id": "musicking-station-component-weaver-80",
+      "name": "Musicking Station Component"
+    },
+    {
+      "id": "paint-mixers-toolbox-weaver-80",
+      "name": "Paint-mixer's Toolbox"
+    },
+    {
+      "id": "parasital-infection-protection-suit-component-weaver-80",
+      "name": "Parasital Infection Protection Suit Component"
+    },
+    {
+      "id": "signed-memorabilia-weaver-80",
+      "name": "Signed Memorabilia"
+    },
+    {
+      "id": "aetheroconductive-quill-weaver-80",
+      "name": "Aetheroconductive Quill"
+    },
+    {
+      "id": "grade-2-skybuilders-gazebo-weaver-80",
+      "name": "Grade 2 Skybuilders' Gazebo"
+    },
+    {
+      "id": "grade-3-skybuilders-awning-weaver-80",
+      "name": "Grade 3 Skybuilders' Awning"
+    },
+    {
+      "id": "grade-4-skybuilders-awning-weaver-80",
+      "name": "Grade 4 Skybuilders' Awning"
+    },
+    {
+      "id": "skybuilders-waterproof-sheet-weaver-80",
+      "name": "Skybuilders' Waterproof Sheet"
+    },
+    {
+      "id": "aetheroconductive-focus-weaver-80",
+      "name": "Aetheroconductive Focus"
+    },
+    {
+      "id": "lighting-parts-weaver-80",
+      "name": "Lighting Parts"
+    },
+    {
+      "id": "loporrits-gathering-tool-component-weaver-80",
+      "name": "Loporrit's Gathering Tool Component"
+    },
+    {
+      "id": "machining-supplies-weaver-80",
+      "name": "Machining Supplies"
+    },
+    {
+      "id": "popular-kitchen-goods-weaver-80",
+      "name": "Popular Kitchen Goods"
+    },
+    {
+      "id": "restaurant-grade-supplies-weaver-80",
+      "name": "Restaurant-grade Supplies"
+    },
+    {
+      "id": "wind-instrument-component-weaver-80",
+      "name": "Wind Instrument Component"
+    },
+    {
+      "id": "exercise-equipment-weaver-80",
+      "name": "\"Exercise Equipment\""
+    },
+    {
+      "id": "audio-recording-component-weaver-80",
+      "name": "Audio Recording Component"
+    },
+    {
+      "id": "carrot-chiller-component-weaver-80",
+      "name": "Carrot Chiller Component"
+    },
+    {
+      "id": "fashionable-thingums-weaver-80",
+      "name": "Fashionable Thingums"
+    },
+    {
+      "id": "occult-paraphernalia-weaver-80",
+      "name": "Occult Paraphernalia"
+    },
+    {
+      "id": "super-sudsy-soap-bars-weaver-80",
+      "name": "Super Sudsy Soap Bars"
+    },
+    {
+      "id": "painting-supplies-weaver-80",
+      "name": "Painting Supplies"
+    },
+    {
+      "id": "radio-equipment-weaver-80",
+      "name": "Radio Equipment"
+    },
+    {
+      "id": "lute-modification-component-weaver-80",
+      "name": "Lute Modification Component"
+    },
+    {
+      "id": "starlens-brace-weaver-80",
+      "name": "Starlens Brace"
+    },
+    {
+      "id": "apparel-showcase-weaver-80",
+      "name": "Apparel Showcase"
+    },
+    {
+      "id": "cream-yellow-carpet-weaver-80",
+      "name": "Cream Yellow Carpet"
+    },
+    {
+      "id": "designers-show-window-weaver-80",
+      "name": "Designer's Show Window"
+    },
+    {
+      "id": "floor-sofa-weaver-80",
+      "name": "Floor Sofa"
+    },
+    {
+      "id": "folded-futon-weaver-80",
+      "name": "Folded Futon"
+    },
+    {
+      "id": "nomads-tent-weaver-80",
+      "name": "Nomad's Tent"
+    },
+    {
+      "id": "picnic-basket-weaver-80",
+      "name": "Picnic Basket"
+    },
+    {
+      "id": "stage-curtain-weaver-80",
+      "name": "Stage Curtain"
+    },
+    {
+      "id": "swag-valance-weaver-80",
+      "name": "Swag Valance"
+    },
+    {
+      "id": "toy-showcase-weaver-80",
+      "name": "Toy Showcase"
+    },
+    {
+      "id": "toymakers-show-window-weaver-80",
+      "name": "Toymaker's Show Window"
+    },
+    {
+      "id": "dwarven-cotton-bandana-weaver-80",
+      "name": "Dwarven Cotton Bandana"
+    },
+    {
+      "id": "dwarven-cotton-beret-weaver-80",
+      "name": "Dwarven Cotton Beret"
+    },
+    {
+      "id": "dwarven-cotton-breeches-weaver-80",
+      "name": "Dwarven Cotton Breeches"
+    },
+    {
+      "id": "dwarven-cotton-jacket-weaver-80",
+      "name": "Dwarven Cotton Jacket"
+    },
+    {
+      "id": "dwarven-cotton-trousers-weaver-80",
+      "name": "Dwarven Cotton Trousers"
+    },
+    {
+      "id": "oddly-specific-moonbeam-silk-weaver-80",
+      "name": "Oddly Specific Moonbeam Silk"
+    },
+    {
+      "id": "rarefied-dwarven-cotton-beret-weaver-80",
+      "name": "Rarefied Dwarven Cotton Beret"
+    },
+    {
+      "id": "cropped-summer-indigo-slops-weaver-80",
+      "name": "Cropped Summer Indigo Slops"
+    },
+    {
+      "id": "summer-indigo-shirt-weaver-80",
+      "name": "Summer Indigo Shirt"
+    },
+    {
+      "id": "ethereal-silk-weaver-80",
+      "name": "Ethereal Silk"
+    },
+    {
+      "id": "oddly-specific-velvet-weaver-80",
+      "name": "Oddly Specific Velvet"
+    },
+    {
+      "id": "oddly-specific-cloth-weaver-80",
+      "name": "Oddly Specific Cloth"
+    },
+    {
+      "id": "dalmascan-draped-bottoms-weaver-80",
+      "name": "Dalmascan Draped Bottoms"
+    },
+    {
+      "id": "dalmascan-draped-top-weaver-80",
+      "name": "Dalmascan Draped Top"
+    },
+    {
+      "id": "facet-bottoms-of-casting-weaver-80",
+      "name": "Facet Bottoms of Casting"
+    },
+    {
+      "id": "facet-bottoms-of-gathering-weaver-80",
+      "name": "Facet Bottoms of Gathering"
+    },
+    {
+      "id": "facet-brais-of-aiming-weaver-80",
+      "name": "Facet Brais of Aiming"
+    },
+    {
+      "id": "facet-coat-of-casting-weaver-80",
+      "name": "Facet Coat of Casting"
+    },
+    {
+      "id": "facet-coat-of-crafting-weaver-80",
+      "name": "Facet Coat of Crafting"
+    },
+    {
+      "id": "facet-coat-of-gathering-weaver-80",
+      "name": "Facet Coat of Gathering"
+    },
+    {
+      "id": "facet-coat-of-healing-weaver-80",
+      "name": "Facet Coat of Healing"
+    },
+    {
+      "id": "facet-dolman-of-scouting-weaver-80",
+      "name": "Facet Dolman of Scouting"
+    },
+    {
+      "id": "facet-dress-gloves-of-healing-weaver-80",
+      "name": "Facet Dress Gloves of Healing"
+    },
+    {
+      "id": "facet-fingerless-gloves-of-gathering-weaver-80",
+      "name": "Facet Fingerless Gloves of Gathering"
+    },
+    {
+      "id": "facet-gaskins-of-striking-weaver-80",
+      "name": "Facet Gaskins of Striking"
+    },
+    {
+      "id": "facet-halfgloves-of-aiming-weaver-80",
+      "name": "Facet Halfgloves of Aiming"
+    },
+    {
+      "id": "facet-hat-of-casting-weaver-80",
+      "name": "Facet Hat of Casting"
+    },
+    {
+      "id": "facet-hat-of-crafting-weaver-80",
+      "name": "Facet Hat of Crafting"
+    },
+    {
+      "id": "facet-hat-of-healing-weaver-80",
+      "name": "Facet Hat of Healing"
+    },
+    {
+      "id": "facet-tabard-of-aiming-weaver-80",
+      "name": "Facet Tabard of Aiming"
+    },
+    {
+      "id": "facet-trousers-of-crafting-weaver-80",
+      "name": "Facet Trousers of Crafting"
+    },
+    {
+      "id": "facet-trousers-of-healing-weaver-80",
+      "name": "Facet Trousers of Healing"
+    },
+    {
+      "id": "facet-turban-of-aiming-weaver-80",
+      "name": "Facet Turban of Aiming"
+    },
+    {
+      "id": "facet-turban-of-scouting-weaver-80",
+      "name": "Facet Turban of Scouting"
+    },
+    {
+      "id": "rebel-coat-weaver-80",
+      "name": "Rebel Coat"
+    },
+    {
+      "id": "urban-coat-weaver-80",
+      "name": "Urban Coat"
+    },
+    {
+      "id": "duskcourt-cloth-weaver-80",
+      "name": "Duskcourt Cloth"
+    },
+    {
+      "id": "grade-2-artisanal-skybuilders-wallpaper-weaver-80",
+      "name": "Grade 2 Artisanal Skybuilders' Wallpaper"
+    },
+    {
+      "id": "oddly-specific-undyed-woolen-cloth-weaver-80",
+      "name": "Oddly Specific Undyed Woolen Cloth"
+    },
+    {
+      "id": "aesthetes-cap-of-crafting-weaver-80",
+      "name": "Aesthete's Cap of Crafting"
+    },
+    {
+      "id": "aesthetes-doublet-of-crafting-weaver-80",
+      "name": "Aesthete's Doublet of Crafting"
+    },
+    {
+      "id": "aesthetes-hat-of-gathering-weaver-80",
+      "name": "Aesthete's Hat of Gathering"
+    },
+    {
+      "id": "aesthetes-trousers-of-crafting-weaver-80",
+      "name": "Aesthete's Trousers of Crafting"
+    },
+    {
+      "id": "aesthetes-trousers-of-gathering-weaver-80",
+      "name": "Aesthete's Trousers of Gathering"
+    },
+    {
+      "id": "neo-ishgardian-bottoms-of-aiming-weaver-80",
+      "name": "Neo-Ishgardian Bottoms of Aiming"
+    },
+    {
+      "id": "neo-ishgardian-bottoms-of-casting-weaver-80",
+      "name": "Neo-Ishgardian Bottoms of Casting"
+    },
+    {
+      "id": "neo-ishgardian-bottoms-of-fending-weaver-80",
+      "name": "Neo-Ishgardian Bottoms of Fending"
+    },
+    {
+      "id": "neo-ishgardian-bottoms-of-healing-weaver-80",
+      "name": "Neo-Ishgardian Bottoms of Healing"
+    },
+    {
+      "id": "neo-ishgardian-bottoms-of-maiming-weaver-80",
+      "name": "Neo-Ishgardian Bottoms of Maiming"
+    },
+    {
+      "id": "neo-ishgardian-bottoms-of-scouting-weaver-80",
+      "name": "Neo-Ishgardian Bottoms of Scouting"
+    },
+    {
+      "id": "neo-ishgardian-bottoms-of-striking-weaver-80",
+      "name": "Neo-Ishgardian Bottoms of Striking"
+    },
+    {
+      "id": "neo-ishgardian-cap-of-aiming-weaver-80",
+      "name": "Neo-Ishgardian Cap of Aiming"
+    },
+    {
+      "id": "neo-ishgardian-cap-of-fending-weaver-80",
+      "name": "Neo-Ishgardian Cap of Fending"
+    },
+    {
+      "id": "neo-ishgardian-cap-of-healing-weaver-80",
+      "name": "Neo-Ishgardian Cap of Healing"
+    },
+    {
+      "id": "neo-ishgardian-cap-of-maiming-weaver-80",
+      "name": "Neo-Ishgardian Cap of Maiming"
+    },
+    {
+      "id": "neo-ishgardian-hat-of-casting-weaver-80",
+      "name": "Neo-Ishgardian Hat of Casting"
+    },
+    {
+      "id": "neo-ishgardian-hat-of-scouting-weaver-80",
+      "name": "Neo-Ishgardian Hat of Scouting"
+    },
+    {
+      "id": "neo-ishgardian-hat-of-striking-weaver-80",
+      "name": "Neo-Ishgardian Hat of Striking"
+    },
+    {
+      "id": "neo-ishgardian-top-of-striking-weaver-80",
+      "name": "Neo-Ishgardian Top of Striking"
+    },
+    {
+      "id": "southern-seas-shirt-weaver-80",
+      "name": "Southern Seas Shirt"
+    },
+    {
+      "id": "southern-seas-skirt-weaver-80",
+      "name": "Southern Seas Skirt"
+    },
+    {
+      "id": "southern-seas-trousers-weaver-80",
+      "name": "Southern Seas Trousers"
+    },
+    {
+      "id": "saffron-cloth-weaver-80",
+      "name": "Saffron Cloth"
+    },
+    {
+      "id": "grade-3-artisanal-skybuilders-apron-weaver-80",
+      "name": "Grade 3 Artisanal Skybuilders' Apron"
+    },
+    {
+      "id": "grade-4-artisanal-skybuilders-vest-weaver-80",
+      "name": "Grade 4 Artisanal Skybuilders' Vest"
+    },
+    {
+      "id": "resplendent-weavers-component-a-weaver-80",
+      "name": "Resplendent Weaver's Component A"
+    },
+    {
+      "id": "resplendent-weavers-component-b-weaver-80",
+      "name": "Resplendent Weaver's Component B"
+    },
+    {
+      "id": "oddly-delicate-rhea-cloth-weaver-80",
+      "name": "Oddly Delicate Rhea Cloth"
+    },
+    {
+      "id": "exarchic-bottoms-of-aiming-weaver-80",
+      "name": "Exarchic Bottoms of Aiming"
+    },
+    {
+      "id": "exarchic-bottoms-of-scouting-weaver-80",
+      "name": "Exarchic Bottoms of Scouting"
+    },
+    {
+      "id": "exarchic-bottoms-of-striking-weaver-80",
+      "name": "Exarchic Bottoms of Striking"
+    },
+    {
+      "id": "exarchic-coat-of-healing-weaver-80",
+      "name": "Exarchic Coat of Healing"
+    },
+    {
+      "id": "exarchic-gloves-of-healing-weaver-80",
+      "name": "Exarchic Gloves of Healing"
+    },
+    {
+      "id": "exarchic-hood-of-aiming-weaver-80",
+      "name": "Exarchic Hood of Aiming"
+    },
+    {
+      "id": "exarchic-hood-of-scouting-weaver-80",
+      "name": "Exarchic Hood of Scouting"
+    },
+    {
+      "id": "exarchic-hood-of-striking-weaver-80",
+      "name": "Exarchic Hood of Striking"
+    },
+    {
+      "id": "exarchic-shoes-of-healing-weaver-80",
+      "name": "Exarchic Shoes of Healing"
+    },
+    {
+      "id": "exarchic-top-of-aiming-weaver-80",
+      "name": "Exarchic Top of Aiming"
+    },
+    {
+      "id": "exarchic-top-of-scouting-weaver-80",
+      "name": "Exarchic Top of Scouting"
+    },
+    {
+      "id": "exarchic-top-of-striking-weaver-80",
+      "name": "Exarchic Top of Striking"
+    },
+    {
+      "id": "frontier-dress-weaver-80",
+      "name": "Frontier Dress"
+    },
+    {
+      "id": "frontier-dress-gloves-weaver-80",
+      "name": "Frontier Dress Gloves"
+    },
+    {
+      "id": "frontier-hat-weaver-80",
+      "name": "Frontier Hat"
+    },
+    {
+      "id": "frontier-ribbon-weaver-80",
+      "name": "Frontier Ribbon"
+    },
+    {
+      "id": "frontier-trousers-weaver-80",
+      "name": "Frontier Trousers"
+    },
+    {
+      "id": "resplendent-weavers-component-c-weaver-80",
+      "name": "Resplendent Weaver's Component C"
+    },
+    {
+      "id": "dark-hempen-cloth-weaver-81",
+      "name": "Dark Hempen Cloth"
+    },
+    {
+      "id": "cushion-care-package-weaver-81",
+      "name": "Cushion Care Package"
+    },
+    {
+      "id": "luncheon-coffer-weaver-81",
+      "name": "Luncheon Coffer"
+    },
+    {
+      "id": "sheep-equipment-weaver-81",
+      "name": "Sheep Equipment"
+    },
+    {
+      "id": "darkhempen-bottoms-of-casting-weaver-81",
+      "name": "Darkhempen Bottoms of Casting"
+    },
+    {
+      "id": "darkhempen-bottoms-of-healing-weaver-81",
+      "name": "Darkhempen Bottoms of Healing"
+    },
+    {
+      "id": "darkhempen-coat-of-casting-weaver-81",
+      "name": "Darkhempen Coat of Casting"
+    },
+    {
+      "id": "darkhempen-coat-of-healing-weaver-81",
+      "name": "Darkhempen Coat of Healing"
+    },
+    {
+      "id": "darkhempen-dogi-weaver-81",
+      "name": "Darkhempen Dogi"
+    },
+    {
+      "id": "darkhempen-hat-weaver-81",
+      "name": "Darkhempen Hat"
+    },
+    {
+      "id": "darkhempen-kyakui-weaver-81",
+      "name": "Darkhempen Kyakui"
+    },
+    {
+      "id": "darkhempen-momohiki-weaver-81",
+      "name": "Darkhempen Momohiki"
+    },
+    {
+      "id": "darkhempen-skirt-of-scouting-weaver-81",
+      "name": "Darkhempen Skirt of Scouting"
+    },
+    {
+      "id": "darkhempen-skirt-of-striking-weaver-81",
+      "name": "Darkhempen Skirt of Striking"
+    },
+    {
+      "id": "darkhempen-tabigoromo-weaver-81",
+      "name": "Darkhempen Tabigoromo"
+    },
+    {
+      "id": "darkhempen-trousers-of-aiming-weaver-81",
+      "name": "Darkhempen Trousers of Aiming"
+    },
+    {
+      "id": "darkhempen-trousers-of-fending-weaver-81",
+      "name": "Darkhempen Trousers of Fending"
+    },
+    {
+      "id": "darkhempen-trousers-of-maiming-weaver-81",
+      "name": "Darkhempen Trousers of Maiming"
+    },
+    {
+      "id": "fingerless-darkhempen-gloves-of-casting-weaver-81",
+      "name": "Fingerless Darkhempen Gloves of Casting"
+    },
+    {
+      "id": "fingerless-darkhempen-gloves-of-healing-weaver-81",
+      "name": "Fingerless Darkhempen Gloves of Healing"
+    },
+    {
+      "id": "rarefied-darkhempen-hat-weaver-81",
+      "name": "Rarefied Darkhempen Hat"
+    },
+    {
+      "id": "almasty-serge-weaver-82",
+      "name": "Almasty Serge"
+    },
+    {
+      "id": "aetheroconductive-mammet-weaver-82",
+      "name": "Aetheroconductive Mammet"
+    },
+    {
+      "id": "feline-recreational-device-weaver-82",
+      "name": "Feline Recreational Device"
+    },
+    {
+      "id": "mountain-garb-weaver-82",
+      "name": "Mountain Garb"
+    },
+    {
+      "id": "almasty-serge-hat-of-aiming-weaver-82",
+      "name": "Almasty Serge Hat of Aiming"
+    },
+    {
+      "id": "almasty-serge-hat-of-casting-weaver-82",
+      "name": "Almasty Serge Hat of Casting"
+    },
+    {
+      "id": "almasty-serge-hat-of-healing-weaver-82",
+      "name": "Almasty Serge Hat of Healing"
+    },
+    {
+      "id": "almasty-serge-headband-of-scouting-weaver-82",
+      "name": "Almasty Serge Headband of Scouting"
+    },
+    {
+      "id": "almasty-serge-headband-of-striking-weaver-82",
+      "name": "Almasty Serge Headband of Striking"
+    },
+    {
+      "id": "school-supplies-weaver-83",
+      "name": "School Supplies"
+    },
+    {
+      "id": "classic-voeburtite-cuisine-weaver-83",
+      "name": "Classic Voeburtite Cuisine"
+    },
+    {
+      "id": "mesmerizing-miniature-weaver-83",
+      "name": "Mesmerizing Miniature"
+    },
+    {
+      "id": "aetherial-lens-weaver-83",
+      "name": "Aetherial Lens"
+    },
+    {
+      "id": "almasty-serge-coat-of-aiming-weaver-83",
+      "name": "Almasty Serge Coat of Aiming"
+    },
+    {
+      "id": "almasty-serge-coat-of-casting-weaver-83",
+      "name": "Almasty Serge Coat of Casting"
+    },
+    {
+      "id": "almasty-serge-coat-of-healing-weaver-83",
+      "name": "Almasty Serge Coat of Healing"
+    },
+    {
+      "id": "almasty-serge-gloves-of-aiming-weaver-83",
+      "name": "Almasty Serge Gloves of Aiming"
+    },
+    {
+      "id": "almasty-serge-gloves-of-casting-weaver-83",
+      "name": "Almasty Serge Gloves of Casting"
+    },
+    {
+      "id": "almasty-serge-gloves-of-healing-weaver-83",
+      "name": "Almasty Serge Gloves of Healing"
+    },
+    {
+      "id": "rarefied-almasty-serge-gloves-weaver-83",
+      "name": "Rarefied Almasty Serge Gloves"
+    },
+    {
+      "id": "snow-linen-weaver-84",
+      "name": "Snow Linen"
+    },
+    {
+      "id": "traditional-voeburtite-handicraft-weaver-84",
+      "name": "Traditional Voeburtite Handicraft"
+    },
+    {
+      "id": "snow-linen-bottoms-of-aiming-weaver-84",
+      "name": "Snow Linen Bottoms of Aiming"
+    },
+    {
+      "id": "snow-linen-bottoms-of-healing-weaver-84",
+      "name": "Snow Linen Bottoms of Healing"
+    },
+    {
+      "id": "snow-linen-bottoms-of-striking-weaver-84",
+      "name": "Snow Linen Bottoms of Striking"
+    },
+    {
+      "id": "snow-linen-cap-of-healing-weaver-84",
+      "name": "Snow Linen Cap of Healing"
+    },
+    {
+      "id": "snow-linen-cap-of-scouting-weaver-84",
+      "name": "Snow Linen Cap of Scouting"
+    },
+    {
+      "id": "snow-linen-cap-of-striking-weaver-84",
+      "name": "Snow Linen Cap of Striking"
+    },
+    {
+      "id": "snow-linen-jacket-of-casting-weaver-84",
+      "name": "Snow Linen Jacket of Casting"
+    },
+    {
+      "id": "snow-linen-jacket-of-healing-weaver-84",
+      "name": "Snow Linen Jacket of Healing"
+    },
+    {
+      "id": "snow-linen-sarouel-of-casting-weaver-84",
+      "name": "Snow Linen Sarouel of Casting"
+    },
+    {
+      "id": "snow-linen-sarouel-of-scouting-weaver-84",
+      "name": "Snow Linen Sarouel of Scouting"
+    },
+    {
+      "id": "energizing-eye-lixir-weaver-85",
+      "name": "Energizing Eye-lixir"
+    },
+    {
+      "id": "lovely-box-of-pretty-things-weaver-85",
+      "name": "Lovely Box of Pretty Things"
+    },
+    {
+      "id": "aetherial-amplifier-weaver-85",
+      "name": "Aetherial Amplifier"
+    },
+    {
+      "id": "writing-utensils-weaver-85",
+      "name": "Writing Utensils"
+    },
+    {
+      "id": "rarefied-snow-linen-doublet-weaver-85",
+      "name": "Rarefied Snow Linen Doublet"
+    },
+    {
+      "id": "snow-linen-bottoms-of-crafting-weaver-85",
+      "name": "Snow Linen Bottoms of Crafting"
+    },
+    {
+      "id": "snow-linen-bottoms-of-gathering-weaver-85",
+      "name": "Snow Linen Bottoms of Gathering"
+    },
+    {
+      "id": "snow-linen-coat-of-gathering-weaver-85",
+      "name": "Snow Linen Coat of Gathering"
+    },
+    {
+      "id": "snow-linen-doublet-of-crafting-weaver-85",
+      "name": "Snow Linen Doublet of Crafting"
+    },
+    {
+      "id": "snow-linen-turban-of-crafting-weaver-85",
+      "name": "Snow Linen Turban of Crafting"
+    },
+    {
+      "id": "snow-linen-turban-of-gathering-weaver-85",
+      "name": "Snow Linen Turban of Gathering"
+    },
+    {
+      "id": "scarlet-moko-cloth-weaver-86",
+      "name": "Scarlet Moko Cloth"
+    },
+    {
+      "id": "fat-cat-rug-weaver-86",
+      "name": "Fat Cat Rug"
+    },
+    {
+      "id": "matching-cushions-weaver-86",
+      "name": "Matching Cushions"
+    },
+    {
+      "id": "scarlet-moko-chausses-of-the-black-griffin-weaver-86",
+      "name": "Scarlet Moko Chausses of the Black Griffin"
+    },
+    {
+      "id": "scarlet-moko-chausses-of-the-white-griffin-weaver-86",
+      "name": "Scarlet Moko Chausses of the White Griffin"
+    },
+    {
+      "id": "scarlet-moko-gaskins-of-the-falling-dragon-weaver-86",
+      "name": "Scarlet Moko Gaskins of the Falling Dragon"
+    },
+    {
+      "id": "scarlet-moko-gaskins-of-the-rising-dragon-weaver-86",
+      "name": "Scarlet Moko Gaskins of the Rising Dragon"
+    },
+    {
+      "id": "scarlet-moko-hood-of-the-black-griffin-weaver-86",
+      "name": "Scarlet Moko Hood of the Black Griffin"
+    },
+    {
+      "id": "scarlet-moko-hood-of-the-white-griffin-weaver-86",
+      "name": "Scarlet Moko Hood of the White Griffin"
+    },
+    {
+      "id": "scarlet-moko-longkilt-of-the-last-unicorn-weaver-86",
+      "name": "Scarlet Moko Longkilt of the Last Unicorn"
+    },
+    {
+      "id": "scarlet-moko-robe-of-the-black-griffin-weaver-86",
+      "name": "Scarlet Moko Robe of the Black Griffin"
+    },
+    {
+      "id": "scarlet-moko-robe-of-the-last-unicorn-weaver-86",
+      "name": "Scarlet Moko Robe of the Last Unicorn"
+    },
+    {
+      "id": "scarlet-moko-robe-of-the-white-griffin-weaver-86",
+      "name": "Scarlet Moko Robe of the White Griffin"
+    },
+    {
+      "id": "researchers-relaxation-kit-weaver-87",
+      "name": "Researcher's Relaxation Kit"
+    },
+    {
+      "id": "rarefied-scarlet-moko-wedge-cap-weaver-87",
+      "name": "Rarefied Scarlet Moko Wedge Cap"
+    },
+    {
+      "id": "scarlet-moko-beret-of-gathering-weaver-87",
+      "name": "Scarlet Moko Beret of Gathering"
+    },
+    {
+      "id": "scarlet-moko-bottoms-of-crafting-weaver-87",
+      "name": "Scarlet Moko Bottoms of Crafting"
+    },
+    {
+      "id": "scarlet-moko-coatee-of-crafting-weaver-87",
+      "name": "Scarlet Moko Coatee of Crafting"
+    },
+    {
+      "id": "scarlet-moko-halfslops-of-gathering-weaver-87",
+      "name": "Scarlet Moko Halfslops of Gathering"
+    },
+    {
+      "id": "scarlet-moko-vest-of-gathering-weaver-87",
+      "name": "Scarlet Moko Vest of Gathering"
+    },
+    {
+      "id": "scarlet-moko-wedge-cap-of-crafting-weaver-87",
+      "name": "Scarlet Moko Wedge Cap of Crafting"
+    },
+    {
+      "id": "ar-caean-velvet-weaver-88",
+      "name": "AR-Caean Velvet"
+    },
+    {
+      "id": "aetherial-conductor-weaver-88",
+      "name": "Aetherial Conductor"
+    },
+    {
+      "id": "ar-caean-velvet-cap-of-aiming-weaver-88",
+      "name": "AR-Caean Velvet Cap of Aiming"
+    },
+    {
+      "id": "ar-caean-velvet-cap-of-fending-weaver-88",
+      "name": "AR-Caean Velvet Cap of Fending"
+    },
+    {
+      "id": "ar-caean-velvet-cap-of-healing-weaver-88",
+      "name": "AR-Caean Velvet Cap of Healing"
+    },
+    {
+      "id": "ar-caean-velvet-cap-of-maiming-weaver-88",
+      "name": "AR-Caean Velvet Cap of Maiming"
+    },
+    {
+      "id": "ar-caean-velvet-hat-of-casting-weaver-88",
+      "name": "AR-Caean Velvet Hat of Casting"
+    },
+    {
+      "id": "ar-caean-velvet-hat-of-scouting-weaver-88",
+      "name": "AR-Caean Velvet Hat of Scouting"
+    },
+    {
+      "id": "ar-caean-velvet-hat-of-striking-weaver-88",
+      "name": "AR-Caean Velvet Hat of Striking"
+    },
+    {
+      "id": "ar-caean-velvet-bottoms-of-aiming-weaver-89",
+      "name": "AR-Caean Velvet Bottoms of Aiming"
+    },
+    {
+      "id": "ar-caean-velvet-bottoms-of-casting-weaver-89",
+      "name": "AR-Caean Velvet Bottoms of Casting"
+    },
+    {
+      "id": "ar-caean-velvet-bottoms-of-fending-weaver-89",
+      "name": "AR-Caean Velvet Bottoms of Fending"
+    },
+    {
+      "id": "ar-caean-velvet-bottoms-of-healing-weaver-89",
+      "name": "AR-Caean Velvet Bottoms of Healing"
+    },
+    {
+      "id": "ar-caean-velvet-bottoms-of-maiming-weaver-89",
+      "name": "AR-Caean Velvet Bottoms of Maiming"
+    },
+    {
+      "id": "ar-caean-velvet-bottoms-of-scouting-weaver-89",
+      "name": "AR-Caean Velvet Bottoms of Scouting"
+    },
+    {
+      "id": "ar-caean-velvet-bottoms-of-striking-weaver-89",
+      "name": "AR-Caean Velvet Bottoms of Striking"
+    },
+    {
+      "id": "ar-caean-velvet-top-of-striking-weaver-89",
+      "name": "AR-Caean Velvet Top of Striking"
+    },
+    {
+      "id": "rarefied-ar-caean-velvet-bottoms-weaver-89",
+      "name": "Rarefied AR-Caean Velvet Bottoms"
+    },
+    {
+      "id": "cropland-expansion-supplies-weaver-90",
+      "name": "Cropland Expansion Supplies"
+    },
+    {
+      "id": "hand-warmer-components-weaver-90",
+      "name": "Hand Warmer Components"
+    },
+    {
+      "id": "home-exterior-component-weaver-90",
+      "name": "Home Exterior Component"
+    },
+    {
+      "id": "replacement-golem-component-weaver-90",
+      "name": "Replacement Golem Component"
+    },
+    {
+      "id": "snow-removal-tool-weaver-90",
+      "name": "Snow Removal Tool"
+    },
+    {
+      "id": "stonemasonry-tools-weaver-90",
+      "name": "Stonemasonry Tools"
+    },
+    {
+      "id": "storage-supplies-weaver-90",
+      "name": "Storage Supplies"
+    },
+    {
+      "id": "tableware-supplies-weaver-90",
+      "name": "Tableware Supplies"
+    },
+    {
+      "id": "visitors-winterwear-weaver-90",
+      "name": "Visitor's Winterwear"
+    },
+    {
+      "id": "warmth-necessities-weaver-90",
+      "name": "Warmth Necessities"
+    },
+    {
+      "id": "warmth-repair-supplies-weaver-90",
+      "name": "Warmth Repair Supplies"
+    },
+    {
+      "id": "rail-grindstone-weaver-90",
+      "name": "Rail Grindstone"
+    },
+    {
+      "id": "cart-component-weaver-90",
+      "name": "Cart Component"
+    },
+    {
+      "id": "master-masons-tools-weaver-90",
+      "name": "Master Mason's Tools"
+    },
+    {
+      "id": "salvaged-stone-supplies-weaver-90",
+      "name": "Salvaged Stone Supplies"
+    },
+    {
+      "id": "shelving-components-weaver-90",
+      "name": "Shelving Components"
+    },
+    {
+      "id": "brewery-maintenance-supplies-weaver-90",
+      "name": "Brewery Maintenance Supplies"
+    },
+    {
+      "id": "ice-removal-tools-weaver-90",
+      "name": "Ice Removal Tools"
+    },
+    {
+      "id": "mountaineering-paraphernalia-weaver-90",
+      "name": "Mountaineering Paraphernalia"
+    },
+    {
+      "id": "tonawawtan-cookware-weaver-90",
+      "name": "Tonawawtan Cookware"
+    },
+    {
+      "id": "trail-repair-supplies-weaver-90",
+      "name": "Trail Repair Supplies"
+    },
+    {
+      "id": "yok-huy-handicrafts-weaver-90",
+      "name": "Yok Huy Handicrafts"
+    },
+    {
+      "id": "conductive-golem-components-weaver-90",
+      "name": "Conductive Golem Components"
+    },
+    {
+      "id": "living-sepulchre-supplies-weaver-90",
+      "name": "Living Sepulchre Supplies"
+    },
+    {
+      "id": "handcrafted-cover-components-weaver-90",
+      "name": "Handcrafted Cover Components"
+    },
+    {
+      "id": "starlens-wand-weaver-90",
+      "name": "Starlens Wand"
+    },
+    {
+      "id": "ar-caean-velvet-culottes-of-gathering-weaver-90",
+      "name": "AR-Caean Velvet Culottes of Gathering"
+    },
+    {
+      "id": "ar-caean-velvet-hose-of-crafting-weaver-90",
+      "name": "AR-Caean Velvet Hose of Crafting"
+    },
+    {
+      "id": "ar-caean-velvet-jacket-of-gathering-weaver-90",
+      "name": "AR-Caean Velvet Jacket of Gathering"
+    },
+    {
+      "id": "ar-caean-velvet-trappers-hat-of-gathering-weaver-90",
+      "name": "AR-Caean Velvet Trapper's Hat of Gathering"
+    },
+    {
+      "id": "ar-caean-velvet-work-cap-of-crafting-weaver-90",
+      "name": "AR-Caean Velvet Work Cap of Crafting"
+    },
+    {
+      "id": "ar-caean-velvet-work-shirt-of-crafting-weaver-90",
+      "name": "AR-Caean Velvet Work Shirt of Crafting"
+    },
+    {
+      "id": "camping-tent-weaver-90",
+      "name": "Camping Tent"
+    },
+    {
+      "id": "eulmoran-divan-weaver-90",
+      "name": "Eulmoran Divan"
+    },
+    {
+      "id": "greige-carpet-weaver-90",
+      "name": "Greige Carpet"
+    },
+    {
+      "id": "nursery-canopy-weaver-90",
+      "name": "Nursery Canopy"
+    },
+    {
+      "id": "rarefied-ar-caean-velvet-work-cap-weaver-90",
+      "name": "Rarefied AR-Caean Velvet Work Cap"
+    },
+    {
+      "id": "side-tied-curtain-weaver-90",
+      "name": "Side-tied Curtain"
+    },
+    {
+      "id": "tatami-loft-weaver-90",
+      "name": "Tatami Loft"
+    },
+    {
+      "id": "plush-carriage-seating-weaver-90",
+      "name": "Plush Carriage Seating"
+    },
+    {
+      "id": "connoisseurs-swag-valance-weaver-90",
+      "name": "Connoisseur's Swag Valance"
+    },
+    {
+      "id": "buttoned-varsity-jacket-weaver-90",
+      "name": "Buttoned Varsity Jacket"
+    },
+    {
+      "id": "cape-of-happiness-weaver-90",
+      "name": "Cape of Happiness"
+    },
+    {
+      "id": "red-ribbon-weaver-90",
+      "name": "Red Ribbon"
+    },
+    {
+      "id": "varsity-bottoms-weaver-90",
+      "name": "Varsity Bottoms"
+    },
+    {
+      "id": "varsity-flat-cap-weaver-90",
+      "name": "Varsity Flat Cap"
+    },
+    {
+      "id": "varsity-jacket-weaver-90",
+      "name": "Varsity Jacket"
+    },
+    {
+      "id": "varsity-skirt-weaver-90",
+      "name": "Varsity Skirt"
+    },
+    {
+      "id": "adventure-basket-weaver-90",
+      "name": "Adventure Basket"
+    },
+    {
+      "id": "barding-of-divine-light-weaver-90",
+      "name": "Barding of Divine Light"
+    },
+    {
+      "id": "golden-silk-weaver-90",
+      "name": "Golden Silk"
+    },
+    {
+      "id": "connoisseurs-red-carpet-weaver-90",
+      "name": "Connoisseur's Red Carpet"
+    },
+    {
+      "id": "classical-dimachaeriuss-loincloth-weaver-90",
+      "name": "Classical Dimachaerius's Loincloth"
+    },
+    {
+      "id": "classical-equess-chiton-weaver-90",
+      "name": "Classical Eques's Chiton"
+    },
+    {
+      "id": "classical-equess-loincloth-weaver-90",
+      "name": "Classical Eques's Loincloth"
+    },
+    {
+      "id": "classical-hoplomachuss-loincloth-weaver-90",
+      "name": "Classical Hoplomachus's Loincloth"
+    },
+    {
+      "id": "classical-hoplomachuss-lorica-weaver-90",
+      "name": "Classical Hoplomachus's Lorica"
+    },
+    {
+      "id": "classical-medicuss-chiton-weaver-90",
+      "name": "Classical Medicus's Chiton"
+    },
+    {
+      "id": "classical-medicuss-loincloth-weaver-90",
+      "name": "Classical Medicus's Loincloth"
+    },
+    {
+      "id": "classical-sagittariuss-headband-weaver-90",
+      "name": "Classical Sagittarius's Headband"
+    },
+    {
+      "id": "classical-sagittariuss-loincloth-weaver-90",
+      "name": "Classical Sagittarius's Loincloth"
+    },
+    {
+      "id": "classical-sagittariuss-wrist-torque-weaver-90",
+      "name": "Classical Sagittarius's Wrist Torque"
+    },
+    {
+      "id": "classical-secutors-loincloth-weaver-90",
+      "name": "Classical Secutor's Loincloth"
+    },
+    {
+      "id": "classical-signifers-chiton-weaver-90",
+      "name": "Classical Signifer's Chiton"
+    },
+    {
+      "id": "classical-signifers-culottes-weaver-90",
+      "name": "Classical Signifer's Culottes"
+    },
+    {
+      "id": "island-prism-weaver-90",
+      "name": "Island Prism"
+    },
+    {
+      "id": "lawless-enforcers-hat-weaver-90",
+      "name": "Lawless Enforcer's Hat"
+    },
+    {
+      "id": "lawless-enforcers-jacket-weaver-90",
+      "name": "Lawless Enforcer's Jacket"
+    },
+    {
+      "id": "lawless-enforcers-slacks-weaver-90",
+      "name": "Lawless Enforcer's Slacks"
+    },
+    {
+      "id": "pactmakers-coat-of-gathering-weaver-90",
+      "name": "Pactmaker's Coat of Gathering"
+    },
+    {
+      "id": "pactmakers-sarouel-of-crafting-weaver-90",
+      "name": "Pactmaker's Sarouel of Crafting"
+    },
+    {
+      "id": "pactmakers-turban-of-crafting-weaver-90",
+      "name": "Pactmaker's Turban of Crafting"
+    },
+    {
+      "id": "pactmakers-ushanka-of-gathering-weaver-90",
+      "name": "Pactmaker's Ushanka of Gathering"
+    },
+    {
+      "id": "pactmakers-vest-of-crafting-weaver-90",
+      "name": "Pactmaker's Vest of Crafting"
+    },
+    {
+      "id": "bayberry-cloth-weaver-90",
+      "name": "Bayberry Cloth"
+    },
+    {
+      "id": "connoisseurs-linen-parasol-weaver-90",
+      "name": "Connoisseur's Linen Parasol"
+    },
+    {
+      "id": "connoisseurs-jacket-weaver-90",
+      "name": "Connoisseur's Jacket"
+    },
+    {
+      "id": "water-otter-fountain-lumber-weaver-90",
+      "name": "Water Otter Fountain Lumber"
+    },
+    {
+      "id": "smaller-water-otter-fountain-lumber-weaver-90",
+      "name": "Smaller Water Otter Fountain Lumber"
+    },
+    {
+      "id": "cactuar-pajama-bottoms-weaver-90",
+      "name": "Cactuar Pajama Bottoms"
+    },
+    {
+      "id": "cactuar-pajama-eye-mask-weaver-90",
+      "name": "Cactuar Pajama Eye Mask"
+    },
+    {
+      "id": "cactuar-pajama-shirt-weaver-90",
+      "name": "Cactuar Pajama Shirt"
+    },
+    {
+      "id": "chocobo-pajama-bottoms-weaver-90",
+      "name": "Chocobo Pajama Bottoms"
+    },
+    {
+      "id": "chocobo-pajama-eye-mask-weaver-90",
+      "name": "Chocobo Pajama Eye Mask"
+    },
+    {
+      "id": "chocobo-pajama-shirt-weaver-90",
+      "name": "Chocobo Pajama Shirt"
+    },
+    {
+      "id": "flamecloaked-barding-weaver-90",
+      "name": "Flamecloaked Barding"
+    },
+    {
+      "id": "plain-pajama-bottoms-weaver-90",
+      "name": "Plain Pajama Bottoms"
+    },
+    {
+      "id": "plain-pajama-eye-mask-weaver-90",
+      "name": "Plain Pajama Eye Mask"
+    },
+    {
+      "id": "plain-pajama-shirt-weaver-90",
+      "name": "Plain Pajama Shirt"
+    },
+    {
+      "id": "salon-servers-bottoms-weaver-90",
+      "name": "Salon Server's Bottoms"
+    },
+    {
+      "id": "salon-servers-dress-gloves-weaver-90",
+      "name": "Salon Server's Dress Gloves"
+    },
+    {
+      "id": "salon-servers-dress-vest-weaver-90",
+      "name": "Salon Server's Dress Vest"
+    },
+    {
+      "id": "salon-servers-hat-weaver-90",
+      "name": "Salon Server's Hat"
+    },
+    {
+      "id": "salon-servers-skirt-weaver-90",
+      "name": "Salon Server's Skirt"
+    },
+    {
+      "id": "salon-servers-vest-weaver-90",
+      "name": "Salon Server's Vest"
+    },
+    {
+      "id": "wind-up-barbariccia-weaver-90",
+      "name": "Wind-up Barbariccia"
+    },
+    {
+      "id": "rinascita-coat-of-casting-weaver-90",
+      "name": "Rinascita Coat of Casting"
+    },
+    {
+      "id": "rinascita-coat-of-healing-weaver-90",
+      "name": "Rinascita Coat of Healing"
+    },
+    {
+      "id": "rinascita-jacket-of-aiming-weaver-90",
+      "name": "Rinascita Jacket of Aiming"
+    },
+    {
+      "id": "rinascita-jacket-of-scouting-weaver-90",
+      "name": "Rinascita Jacket of Scouting"
+    },
+    {
+      "id": "rinascita-jacket-of-striking-weaver-90",
+      "name": "Rinascita Jacket of Striking"
+    },
+    {
+      "id": "rinascita-poleyns-of-aiming-weaver-90",
+      "name": "Rinascita Poleyns of Aiming"
+    },
+    {
+      "id": "rinascita-poleyns-of-casting-weaver-90",
+      "name": "Rinascita Poleyns of Casting"
+    },
+    {
+      "id": "rinascita-poleyns-of-fending-weaver-90",
+      "name": "Rinascita Poleyns of Fending"
+    },
+    {
+      "id": "rinascita-poleyns-of-healing-weaver-90",
+      "name": "Rinascita Poleyns of Healing"
+    },
+    {
+      "id": "rinascita-poleyns-of-maiming-weaver-90",
+      "name": "Rinascita Poleyns of Maiming"
+    },
+    {
+      "id": "rinascita-poleyns-of-scouting-weaver-90",
+      "name": "Rinascita Poleyns of Scouting"
+    },
+    {
+      "id": "rinascita-poleyns-of-striking-weaver-90",
+      "name": "Rinascita Poleyns of Striking"
+    },
+    {
+      "id": "indagators-bottoms-of-gathering-weaver-90",
+      "name": "Indagator's Bottoms of Gathering"
+    },
+    {
+      "id": "indagators-bracelet-of-gathering-weaver-90",
+      "name": "Indagator's Bracelet of Gathering"
+    },
+    {
+      "id": "indagators-coat-of-crafting-weaver-90",
+      "name": "Indagator's Coat of Crafting"
+    },
+    {
+      "id": "indagators-doublet-vest-of-gathering-weaver-90",
+      "name": "Indagator's Doublet Vest of Gathering"
+    },
+    {
+      "id": "indagators-trousers-of-crafting-weaver-90",
+      "name": "Indagator's Trousers of Crafting"
+    },
+    {
+      "id": "garnet-cotton-weaver-90",
+      "name": "Garnet Cotton"
+    },
+    {
+      "id": "connoisseurs-petasos-weaver-90",
+      "name": "Connoisseur's Petasos"
+    },
+    {
+      "id": "connoisseurs-fat-cat-sofa-weaver-90",
+      "name": "Connoisseur's Fat Cat Sofa"
+    },
+    {
+      "id": "uncharted-course-lumber-weaver-90",
+      "name": "Uncharted Course Lumber"
+    },
+    {
+      "id": "martial-artists-sleeveless-vest-weaver-90",
+      "name": "Martial Artist's Sleeveless Vest"
+    },
+    {
+      "id": "martial-artists-slops-weaver-90",
+      "name": "Martial Artist's Slops"
+    },
+    {
+      "id": "martial-artists-vest-weaver-90",
+      "name": "Martial Artist's Vest"
+    },
+    {
+      "id": "diadochos-armlets-of-casting-weaver-90",
+      "name": "Diadochos Armlets of Casting"
+    },
+    {
+      "id": "diadochos-armlets-of-healing-weaver-90",
+      "name": "Diadochos Armlets of Healing"
+    },
+    {
+      "id": "diadochos-beret-of-casting-weaver-90",
+      "name": "Diadochos Beret of Casting"
+    },
+    {
+      "id": "diadochos-beret-of-healing-weaver-90",
+      "name": "Diadochos Beret of Healing"
+    },
+    {
+      "id": "diadochos-bottoms-of-casting-weaver-90",
+      "name": "Diadochos Bottoms of Casting"
+    },
+    {
+      "id": "diadochos-bottoms-of-healing-weaver-90",
+      "name": "Diadochos Bottoms of Healing"
+    },
+    {
+      "id": "diadochos-bottoms-of-scouting-weaver-90",
+      "name": "Diadochos Bottoms of Scouting"
+    },
+    {
+      "id": "diadochos-bottoms-of-striking-weaver-90",
+      "name": "Diadochos Bottoms of Striking"
+    },
+    {
+      "id": "diadochos-coat-of-casting-weaver-90",
+      "name": "Diadochos Coat of Casting"
+    },
+    {
+      "id": "diadochos-coat-of-healing-weaver-90",
+      "name": "Diadochos Coat of Healing"
+    },
+    {
+      "id": "diadochos-headband-of-aiming-weaver-90",
+      "name": "Diadochos Headband of Aiming"
+    },
+    {
+      "id": "diadochos-headband-of-fending-weaver-90",
+      "name": "Diadochos Headband of Fending"
+    },
+    {
+      "id": "diadochos-headband-of-maiming-weaver-90",
+      "name": "Diadochos Headband of Maiming"
+    },
+    {
+      "id": "diadochos-jacket-of-scouting-weaver-90",
+      "name": "Diadochos Jacket of Scouting"
+    },
+    {
+      "id": "diadochos-jacket-of-striking-weaver-90",
+      "name": "Diadochos Jacket of Striking"
+    },
+    {
+      "id": "aetherial-arbor-lumber-weaver-90",
+      "name": "Aetherial Arbor Lumber"
+    },
+    {
+      "id": "snow-cotton-cloth-weaver-91",
+      "name": "Snow Cotton Cloth"
+    },
+    {
+      "id": "map-printing-essentials-weaver-91",
+      "name": "Map Printing Essentials"
+    },
+    {
+      "id": "rarefied-snow-cotton-beret-weaver-91",
+      "name": "Rarefied Snow Cotton Beret"
+    },
+    {
+      "id": "snow-cotton-bandana-weaver-91",
+      "name": "Snow Cotton Bandana"
+    },
+    {
+      "id": "snow-cotton-beret-weaver-91",
+      "name": "Snow Cotton Beret"
+    },
+    {
+      "id": "snow-cotton-bottoms-of-fending-weaver-91",
+      "name": "Snow Cotton Bottoms of Fending"
+    },
+    {
+      "id": "snow-cotton-bottoms-of-healing-weaver-91",
+      "name": "Snow Cotton Bottoms of Healing"
+    },
+    {
+      "id": "snow-cotton-bottoms-of-maiming-weaver-91",
+      "name": "Snow Cotton Bottoms of Maiming"
+    },
+    {
+      "id": "snow-cotton-bottoms-of-scouting-weaver-91",
+      "name": "Snow Cotton Bottoms of Scouting"
+    },
+    {
+      "id": "snow-cotton-bottoms-of-striking-weaver-91",
+      "name": "Snow Cotton Bottoms of Striking"
+    },
+    {
+      "id": "snow-cotton-breeches-weaver-91",
+      "name": "Snow Cotton Breeches"
+    },
+    {
+      "id": "snow-cotton-coat-of-aiming-weaver-91",
+      "name": "Snow Cotton Coat of Aiming"
+    },
+    {
+      "id": "snow-cotton-coat-of-casting-weaver-91",
+      "name": "Snow Cotton Coat of Casting"
+    },
+    {
+      "id": "snow-cotton-headband-of-striking-weaver-91",
+      "name": "Snow Cotton Headband of Striking"
+    },
+    {
+      "id": "snow-cotton-jacket-weaver-91",
+      "name": "Snow Cotton Jacket"
+    },
+    {
+      "id": "snow-cotton-jacket-of-striking-weaver-91",
+      "name": "Snow Cotton Jacket of Striking"
+    },
+    {
+      "id": "snow-cotton-muffed-met-of-casting-weaver-91",
+      "name": "Snow Cotton Muffed Met of Casting"
+    },
+    {
+      "id": "snow-cotton-muffed-met-of-healing-weaver-91",
+      "name": "Snow Cotton Muffed Met of Healing"
+    },
+    {
+      "id": "snow-cotton-skirt-of-aiming-weaver-91",
+      "name": "Snow Cotton Skirt of Aiming"
+    },
+    {
+      "id": "snow-cotton-skirt-of-casting-weaver-91",
+      "name": "Snow Cotton Skirt of Casting"
+    },
+    {
+      "id": "snow-cotton-trousers-weaver-91",
+      "name": "Snow Cotton Trousers"
+    },
+    {
+      "id": "snow-cotton-tunic-of-healing-weaver-91",
+      "name": "Snow Cotton Tunic of Healing"
+    },
+    {
+      "id": "snow-cotton-tunic-of-scouting-weaver-91",
+      "name": "Snow Cotton Tunic of Scouting"
+    },
+    {
+      "id": "snow-cotton-ushanka-of-aiming-weaver-91",
+      "name": "Snow Cotton Ushanka of Aiming"
+    },
+    {
+      "id": "snow-cotton-ushanka-of-scouting-weaver-91",
+      "name": "Snow Cotton Ushanka of Scouting"
+    },
+    {
+      "id": "mountain-linen-weaver-92",
+      "name": "Mountain Linen"
+    },
+    {
+      "id": "engineers-supply-kit-weaver-92",
+      "name": "Engineer's Supply Kit"
+    },
+    {
+      "id": "mountain-linen-bandana-of-scouting-weaver-92",
+      "name": "Mountain Linen Bandana of Scouting"
+    },
+    {
+      "id": "mountain-linen-bandana-of-striking-weaver-92",
+      "name": "Mountain Linen Bandana of Striking"
+    },
+    {
+      "id": "mountain-linen-field-dressing-of-aiming-weaver-92",
+      "name": "Mountain Linen Field Dressing of Aiming"
+    },
+    {
+      "id": "mountain-linen-hat-of-casting-weaver-92",
+      "name": "Mountain Linen Hat of Casting"
+    },
+    {
+      "id": "mountain-linen-hat-of-healing-weaver-92",
+      "name": "Mountain Linen Hat of Healing"
+    },
+    {
+      "id": "railroad-repair-kit-weaver-93",
+      "name": "Railroad Repair Kit"
+    },
+    {
+      "id": "pelupelu-cover-components-weaver-93",
+      "name": "Pelupelu Cover Components"
+    },
+    {
+      "id": "mountain-linen-cloak-of-aiming-weaver-93",
+      "name": "Mountain Linen Cloak of Aiming"
+    },
+    {
+      "id": "mountain-linen-cloak-of-casting-weaver-93",
+      "name": "Mountain Linen Cloak of Casting"
+    },
+    {
+      "id": "mountain-linen-cloak-of-healing-weaver-93",
+      "name": "Mountain Linen Cloak of Healing"
+    },
+    {
+      "id": "mountain-linen-hose-of-fending-weaver-93",
+      "name": "Mountain Linen Hose of Fending"
+    },
+    {
+      "id": "mountain-linen-hose-of-maiming-weaver-93",
+      "name": "Mountain Linen Hose of Maiming"
+    },
+    {
+      "id": "mountain-linen-longkilt-of-aiming-weaver-93",
+      "name": "Mountain Linen Longkilt of Aiming"
+    },
+    {
+      "id": "mountain-linen-longkilt-of-casting-weaver-93",
+      "name": "Mountain Linen Longkilt of Casting"
+    },
+    {
+      "id": "mountain-linen-longkilt-of-healing-weaver-93",
+      "name": "Mountain Linen Longkilt of Healing"
+    },
+    {
+      "id": "mountain-linen-top-of-scouting-weaver-93",
+      "name": "Mountain Linen Top of Scouting"
+    },
+    {
+      "id": "mountain-linen-top-of-striking-weaver-93",
+      "name": "Mountain Linen Top of Striking"
+    },
+    {
+      "id": "rarefied-mountain-linen-top-weaver-93",
+      "name": "Rarefied Mountain Linen Top"
+    },
+    {
+      "id": "sarcenet-cloth-weaver-94",
+      "name": "Sarcenet Cloth"
+    },
+    {
+      "id": "sarcenet-headband-of-scouting-weaver-94",
+      "name": "Sarcenet Headband of Scouting"
+    },
+    {
+      "id": "sarcenet-trappers-hat-of-gathering-weaver-94",
+      "name": "Sarcenet Trapper's Hat of Gathering"
+    },
+    {
+      "id": "sarcenet-work-cap-of-crafting-weaver-94",
+      "name": "Sarcenet Work Cap of Crafting"
+    },
+    {
+      "id": "moblin-cover-components-weaver-95",
+      "name": "Moblin Cover Components"
+    },
+    {
+      "id": "yok-huy-cover-weaver-95",
+      "name": "Yok Huy Cover"
+    },
+    {
+      "id": "rarefied-sarcenet-kecks-weaver-95",
+      "name": "Rarefied Sarcenet Kecks"
+    },
+    {
+      "id": "sarcenet-chestwrap-of-aiming-weaver-95",
+      "name": "Sarcenet Chestwrap of Aiming"
+    },
+    {
+      "id": "sarcenet-chestwrap-of-casting-weaver-95",
+      "name": "Sarcenet Chestwrap of Casting"
+    },
+    {
+      "id": "sarcenet-chestwrap-of-healing-weaver-95",
+      "name": "Sarcenet Chestwrap of Healing"
+    },
+    {
+      "id": "sarcenet-chestwrap-of-scouting-weaver-95",
+      "name": "Sarcenet Chestwrap of Scouting"
+    },
+    {
+      "id": "sarcenet-chestwrap-of-striking-weaver-95",
+      "name": "Sarcenet Chestwrap of Striking"
+    },
+    {
+      "id": "sarcenet-culottes-of-gathering-weaver-95",
+      "name": "Sarcenet Culottes of Gathering"
+    },
+    {
+      "id": "sarcenet-hose-of-crafting-weaver-95",
+      "name": "Sarcenet Hose of Crafting"
+    },
+    {
+      "id": "sarcenet-jacket-of-gathering-weaver-95",
+      "name": "Sarcenet Jacket of Gathering"
+    },
+    {
+      "id": "sarcenet-kecks-of-fending-weaver-95",
+      "name": "Sarcenet Kecks of Fending"
+    },
+    {
+      "id": "sarcenet-kecks-of-maiming-weaver-95",
+      "name": "Sarcenet Kecks of Maiming"
+    },
+    {
+      "id": "sarcenet-slops-of-aiming-weaver-95",
+      "name": "Sarcenet Slops of Aiming"
+    },
+    {
+      "id": "sarcenet-slops-of-casting-weaver-95",
+      "name": "Sarcenet Slops of Casting"
+    },
+    {
+      "id": "sarcenet-slops-of-healing-weaver-95",
+      "name": "Sarcenet Slops of Healing"
+    },
+    {
+      "id": "sarcenet-slops-of-scouting-weaver-95",
+      "name": "Sarcenet Slops of Scouting"
+    },
+    {
+      "id": "sarcenet-slops-of-striking-weaver-95",
+      "name": "Sarcenet Slops of Striking"
+    },
+    {
+      "id": "sarcenet-work-shirt-of-crafting-weaver-95",
+      "name": "Sarcenet Work Shirt of Crafting"
+    },
+    {
+      "id": "rroneek-serge-weaver-96",
+      "name": "Rroneek Serge"
+    },
+    {
+      "id": "rroneek-serge-halfgloves-of-aiming-weaver-96",
+      "name": "Rroneek Serge Halfgloves of Aiming"
+    },
+    {
+      "id": "rroneek-serge-halfgloves-of-casting-weaver-96",
+      "name": "Rroneek Serge Halfgloves of Casting"
+    },
+    {
+      "id": "rroneek-serge-halfgloves-of-healing-weaver-96",
+      "name": "Rroneek Serge Halfgloves of Healing"
+    },
+    {
+      "id": "tiled-carpeting-weaver-96",
+      "name": "Tiled Carpeting"
+    },
+    {
+      "id": "rarefied-rroneek-serge-hat-weaver-97",
+      "name": "Rarefied Rroneek Serge Hat"
+    },
+    {
+      "id": "rroneek-serge-cap-of-crafting-weaver-97",
+      "name": "Rroneek Serge Cap of Crafting"
+    },
+    {
+      "id": "rroneek-serge-doublet-of-crafting-weaver-97",
+      "name": "Rroneek Serge Doublet of Crafting"
+    },
+    {
+      "id": "rroneek-serge-hat-of-gathering-weaver-97",
+      "name": "Rroneek Serge Hat of Gathering"
+    },
+    {
+      "id": "rroneek-serge-trousers-of-crafting-weaver-97",
+      "name": "Rroneek Serge Trousers of Crafting"
+    },
+    {
+      "id": "rroneek-serge-trousers-of-gathering-weaver-97",
+      "name": "Rroneek Serge Trousers of Gathering"
+    },
+    {
+      "id": "thunderyards-silk-weaver-98",
+      "name": "Thunderyards Silk"
+    },
+    {
+      "id": "mamool-ja-cover-components-weaver-98",
+      "name": "Mamool Ja Cover Components"
+    },
+    {
+      "id": "thunderyards-silk-gloves-of-casting-weaver-98",
+      "name": "Thunderyards Silk Gloves of Casting"
+    },
+    {
+      "id": "thunderyards-silk-gloves-of-healing-weaver-98",
+      "name": "Thunderyards Silk Gloves of Healing"
+    },
+    {
+      "id": "thunderyards-silk-tabard-of-aiming-weaver-98",
+      "name": "Thunderyards Silk Tabard of Aiming"
+    },
+    {
+      "id": "thunderyards-silk-tabard-of-scouting-weaver-98",
+      "name": "Thunderyards Silk Tabard of Scouting"
+    },
+    {
+      "id": "thunderyards-silk-trousers-of-aiming-weaver-98",
+      "name": "Thunderyards Silk Trousers of Aiming"
+    },
+    {
+      "id": "thunderyards-silk-trousers-of-scouting-weaver-98",
+      "name": "Thunderyards Silk Trousers of Scouting"
+    },
+    {
+      "id": "rarefied-thunderyards-silk-gloves-weaver-99",
+      "name": "Rarefied Thunderyards Silk Gloves"
+    },
+    {
+      "id": "thunderyards-silk-coat-of-casting-weaver-99",
+      "name": "Thunderyards Silk Coat of Casting"
+    },
+    {
+      "id": "thunderyards-silk-coat-of-healing-weaver-99",
+      "name": "Thunderyards Silk Coat of Healing"
+    },
+    {
+      "id": "thunderyards-silk-trousers-of-casting-weaver-99",
+      "name": "Thunderyards Silk Trousers of Casting"
+    },
+    {
+      "id": "thunderyards-silk-trousers-of-healing-weaver-99",
+      "name": "Thunderyards Silk Trousers of Healing"
+    },
+    {
+      "id": "tonawawtan-cover-components-weaver-100",
+      "name": "Tonawawtan Cover Components"
+    },
+    {
+      "id": "curved-everkeep-sofa-weaver-100",
+      "name": "Curved Everkeep Sofa"
+    },
+    {
+      "id": "everkeep-platform-bed-weaver-100",
+      "name": "Everkeep Platform Bed"
+    },
+    {
+      "id": "everkeep-rug-weaver-100",
+      "name": "Everkeep Rug"
+    },
+    {
+      "id": "everkeep-sofa-weaver-100",
+      "name": "Everkeep Sofa"
+    },
+    {
+      "id": "frilly-curtains-weaver-100",
+      "name": "Frilly Curtains"
+    },
+    {
+      "id": "hingan-event-partition-weaver-100",
+      "name": "Hingan Event Partition"
+    },
+    {
+      "id": "honeycomb-carpet-weaver-100",
+      "name": "Honeycomb Carpet"
+    },
+    {
+      "id": "indoor-awning-weaver-100",
+      "name": "Indoor Awning"
+    },
+    {
+      "id": "plaid-interior-wall-weaver-100",
+      "name": "Plaid Interior Wall"
+    },
+    {
+      "id": "rarefied-thunderyards-silk-culottes-weaver-100",
+      "name": "Rarefied Thunderyards Silk Culottes"
+    },
+    {
+      "id": "teal-carpet-weaver-100",
+      "name": "Teal Carpet"
+    },
+    {
+      "id": "thunderyards-silk-cap-of-crafting-weaver-100",
+      "name": "Thunderyards Silk Cap of Crafting"
+    },
+    {
+      "id": "thunderyards-silk-culottes-of-crafting-weaver-100",
+      "name": "Thunderyards Silk Culottes of Crafting"
+    },
+    {
+      "id": "thunderyards-silk-culottes-of-gathering-weaver-100",
+      "name": "Thunderyards Silk Culottes of Gathering"
+    },
+    {
+      "id": "thunderyards-silk-shirt-of-crafting-weaver-100",
+      "name": "Thunderyards Silk Shirt of Crafting"
+    },
+    {
+      "id": "thunderyards-silk-vest-of-gathering-weaver-100",
+      "name": "Thunderyards Silk Vest of Gathering"
+    },
+    {
+      "id": "tuliyollan-rug-weaver-100",
+      "name": "Tuliyollan Rug"
+    },
+    {
+      "id": "scientists-breeches-weaver-100",
+      "name": "Scientist's Breeches"
+    },
+    {
+      "id": "scientists-coat-weaver-100",
+      "name": "Scientist's Coat"
+    },
+    {
+      "id": "turali-traders-culottes-weaver-100",
+      "name": "Turali Trader's Culottes"
+    },
+    {
+      "id": "turali-traders-shirt-weaver-100",
+      "name": "Turali Trader's Shirt"
+    },
+    {
+      "id": "turali-travelers-shirt-weaver-100",
+      "name": "Turali Traveler's Shirt"
+    },
+    {
+      "id": "wintertide-blouson-weaver-100",
+      "name": "Wintertide Blouson"
+    },
+    {
+      "id": "wintertide-culottes-weaver-100",
+      "name": "Wintertide Culottes"
+    },
+    {
+      "id": "wintertide-sheath-skirt-weaver-100",
+      "name": "Wintertide Sheath Skirt"
+    },
+    {
+      "id": "wintertide-trappers-hat-weaver-100",
+      "name": "Wintertide Trapper's Hat"
+    },
+    {
+      "id": "blackseed-cotton-cloth-weaver-100",
+      "name": "Blackseed Cotton Cloth"
+    },
+    {
+      "id": "archeo-kingdom-coat-of-casting-weaver-100",
+      "name": "Archeo Kingdom Coat of Casting"
+    },
+    {
+      "id": "archeo-kingdom-coat-of-healing-weaver-100",
+      "name": "Archeo Kingdom Coat of Healing"
+    },
+    {
+      "id": "archeo-kingdom-jacket-of-aiming-weaver-100",
+      "name": "Archeo Kingdom Jacket of Aiming"
+    },
+    {
+      "id": "archeo-kingdom-jacket-of-scouting-weaver-100",
+      "name": "Archeo Kingdom Jacket of Scouting"
+    },
+    {
+      "id": "archeo-kingdom-jacket-of-striking-weaver-100",
+      "name": "Archeo Kingdom Jacket of Striking"
+    },
+    {
+      "id": "archeo-kingdom-poleyns-of-aiming-weaver-100",
+      "name": "Archeo Kingdom Poleyns of Aiming"
+    },
+    {
+      "id": "archeo-kingdom-poleyns-of-casting-weaver-100",
+      "name": "Archeo Kingdom Poleyns of Casting"
+    },
+    {
+      "id": "archeo-kingdom-poleyns-of-fending-weaver-100",
+      "name": "Archeo Kingdom Poleyns of Fending"
+    },
+    {
+      "id": "archeo-kingdom-poleyns-of-healing-weaver-100",
+      "name": "Archeo Kingdom Poleyns of Healing"
+    },
+    {
+      "id": "archeo-kingdom-poleyns-of-maiming-weaver-100",
+      "name": "Archeo Kingdom Poleyns of Maiming"
+    },
+    {
+      "id": "archeo-kingdom-poleyns-of-scouting-weaver-100",
+      "name": "Archeo Kingdom Poleyns of Scouting"
+    },
+    {
+      "id": "archeo-kingdom-poleyns-of-striking-weaver-100",
+      "name": "Archeo Kingdom Poleyns of Striking"
+    },
+    {
+      "id": "bouncers-holster-slacks-weaver-100",
+      "name": "Bouncer's Holster Slacks"
+    },
+    {
+      "id": "bouncers-holster-vest-weaver-100",
+      "name": "Bouncer's Holster Vest"
+    },
+    {
+      "id": "bouncers-slacks-weaver-100",
+      "name": "Bouncer's Slacks"
+    },
+    {
+      "id": "bouncers-vest-weaver-100",
+      "name": "Bouncer's Vest"
+    },
+    {
+      "id": "everseekers-armguards-of-crafting-weaver-100",
+      "name": "Everseeker's Armguards of Crafting"
+    },
+    {
+      "id": "everseekers-coat-of-gathering-weaver-100",
+      "name": "Everseeker's Coat of Gathering"
+    },
+    {
+      "id": "everseekers-kecks-of-gathering-weaver-100",
+      "name": "Everseeker's Kecks of Gathering"
+    },
+    {
+      "id": "everseekers-slops-of-crafting-weaver-100",
+      "name": "Everseeker's Slops of Crafting"
+    },
+    {
+      "id": "everseekers-top-of-crafting-weaver-100",
+      "name": "Everseeker's Top of Crafting"
+    },
+    {
+      "id": "neon-street-cap-weaver-100",
+      "name": "Neon Street Cap"
+    },
+    {
+      "id": "neon-street-cargo-trousers-weaver-100",
+      "name": "Neon Street Cargo Trousers"
+    },
+    {
+      "id": "diatryma-felt-weaver-100",
+      "name": "Diatryma Felt"
+    },
+    {
+      "id": "synthetic-dark-matter-beta-weaver-100",
+      "name": "Synthetic Dark Matter Beta"
+    },
+    {
+      "id": "ceremonial-culottes-of-aiming-weaver-100",
+      "name": "Ceremonial Culottes of Aiming"
+    },
+    {
+      "id": "ceremonial-culottes-of-scouting-weaver-100",
+      "name": "Ceremonial Culottes of Scouting"
+    },
+    {
+      "id": "ceremonial-culottes-of-striking-weaver-100",
+      "name": "Ceremonial Culottes of Striking"
+    },
+    {
+      "id": "ceremonial-hood-of-casting-weaver-100",
+      "name": "Ceremonial Hood of Casting"
+    },
+    {
+      "id": "ceremonial-hood-of-healing-weaver-100",
+      "name": "Ceremonial Hood of Healing"
+    },
+    {
+      "id": "ceremonial-hose-of-casting-weaver-100",
+      "name": "Ceremonial Hose of Casting"
+    },
+    {
+      "id": "ceremonial-hose-of-fending-weaver-100",
+      "name": "Ceremonial Hose of Fending"
+    },
+    {
+      "id": "ceremonial-hose-of-healing-weaver-100",
+      "name": "Ceremonial Hose of Healing"
+    },
+    {
+      "id": "ceremonial-hose-of-maiming-weaver-100",
+      "name": "Ceremonial Hose of Maiming"
+    },
+    {
+      "id": "ceremonial-longcap-of-aiming-weaver-100",
+      "name": "Ceremonial Longcap of Aiming"
+    },
+    {
+      "id": "ceremonial-longcap-of-fending-weaver-100",
+      "name": "Ceremonial Longcap of Fending"
+    },
+    {
+      "id": "ceremonial-longcap-of-maiming-weaver-100",
+      "name": "Ceremonial Longcap of Maiming"
+    },
+    {
+      "id": "ceremonial-longcap-of-scouting-weaver-100",
+      "name": "Ceremonial Longcap of Scouting"
+    },
+    {
+      "id": "ceremonial-longcap-of-striking-weaver-100",
+      "name": "Ceremonial Longcap of Striking"
+    },
+    {
+      "id": "ceremonial-tunic-of-casting-weaver-100",
+      "name": "Ceremonial Tunic of Casting"
+    },
+    {
+      "id": "ceremonial-tunic-of-healing-weaver-100",
+      "name": "Ceremonial Tunic of Healing"
+    },
+    {
+      "id": "ceremonial-vest-of-aiming-weaver-100",
+      "name": "Ceremonial Vest of Aiming"
+    },
+    {
+      "id": "ceremonial-vest-of-scouting-weaver-100",
+      "name": "Ceremonial Vest of Scouting"
+    },
+    {
+      "id": "ceremonial-vest-of-striking-weaver-100",
+      "name": "Ceremonial Vest of Striking"
+    },
+    {
+      "id": "chiton-of-legend-weaver-100",
+      "name": "Chiton of Legend"
+    },
+    {
+      "id": "loincloth-of-legend-weaver-100",
+      "name": "Loincloth of Legend"
+    },
+    {
+      "id": "summertide-formal-dress-weaver-100",
+      "name": "Summertide Formal Dress"
+    },
+    {
+      "id": "summertide-formal-jacket-weaver-100",
+      "name": "Summertide Formal Jacket"
+    },
+    {
+      "id": "summertide-formal-slacks-weaver-100",
+      "name": "Summertide Formal Slacks"
+    },
+    {
+      "id": "crested-coat-of-gathering-weaver-100",
+      "name": "Crested Coat of Gathering"
+    },
+    {
+      "id": "crested-culottes-of-crafting-weaver-100",
+      "name": "Crested Culottes of Crafting"
+    },
+    {
+      "id": "crested-gloves-of-crafting-weaver-100",
+      "name": "Crested Gloves of Crafting"
+    },
+    {
+      "id": "crested-headband-of-crafting-weaver-100",
+      "name": "Crested Headband of Crafting"
+    },
+    {
+      "id": "crested-hood-of-gathering-weaver-100",
+      "name": "Crested Hood of Gathering"
+    },
+    {
+      "id": "crested-shirt-of-crafting-weaver-100",
+      "name": "Crested Shirt of Crafting"
+    },
+    {
+      "id": "crested-slops-of-gathering-weaver-100",
+      "name": "Crested Slops of Gathering"
+    },
+    {
+      "id": "aspected-aether-agglomerate-weaver-100",
+      "name": "Aspected Aether Agglomerate"
+    },
+    {
+      "id": "urqopacha-linen-weaver-100",
+      "name": "Urqopacha Linen"
+    },
+    {
+      "id": "baggy-twill-trousers-weaver-100",
+      "name": "Baggy Twill Trousers"
+    },
+    {
+      "id": "bell-bottom-twill-trousers-weaver-100",
+      "name": "Bell-bottom Twill Trousers"
+    },
+    {
+      "id": "courtly-lovers-brais-of-striking-weaver-100",
+      "name": "Courtly Lover's Brais of Striking"
+    },
+    {
+      "id": "courtly-lovers-choker-of-aiming-weaver-100",
+      "name": "Courtly Lover's Choker of Aiming"
+    },
+    {
+      "id": "courtly-lovers-choker-of-casting-weaver-100",
+      "name": "Courtly Lover's Choker of Casting"
+    },
+    {
+      "id": "courtly-lovers-choker-of-fending-weaver-100",
+      "name": "Courtly Lover's Choker of Fending"
+    },
+    {
+      "id": "courtly-lovers-choker-of-healing-weaver-100",
+      "name": "Courtly Lover's Choker of Healing"
+    },
+    {
+      "id": "courtly-lovers-choker-of-slaying-weaver-100",
+      "name": "Courtly Lover's Choker of Slaying"
+    },
+    {
+      "id": "courtly-lovers-cloak-of-striking-weaver-100",
+      "name": "Courtly Lover's Cloak of Striking"
+    },
+    {
+      "id": "courtly-lovers-halfgloves-of-aiming-weaver-100",
+      "name": "Courtly Lover's Halfgloves of Aiming"
+    },
+    {
+      "id": "courtly-lovers-halfgloves-of-scouting-weaver-100",
+      "name": "Courtly Lover's Halfgloves of Scouting"
+    },
+    {
+      "id": "courtly-lovers-hood-of-casting-weaver-100",
+      "name": "Courtly Lover's Hood of Casting"
+    },
+    {
+      "id": "courtly-lovers-hood-of-healing-weaver-100",
+      "name": "Courtly Lover's Hood of Healing"
+    },
+    {
+      "id": "courtly-lovers-longcoat-of-casting-weaver-100",
+      "name": "Courtly Lover's Longcoat of Casting"
+    },
+    {
+      "id": "courtly-lovers-longcoat-of-healing-weaver-100",
+      "name": "Courtly Lover's Longcoat of Healing"
+    },
+    {
+      "id": "courtly-lovers-pantaloons-of-casting-weaver-100",
+      "name": "Courtly Lover's Pantaloons of Casting"
+    },
+    {
+      "id": "courtly-lovers-pantaloons-of-healing-weaver-100",
+      "name": "Courtly Lover's Pantaloons of Healing"
+    },
+    {
+      "id": "courtly-lovers-shirt-of-aiming-weaver-100",
+      "name": "Courtly Lover's Shirt of Aiming"
+    },
+    {
+      "id": "courtly-lovers-shirt-of-scouting-weaver-100",
+      "name": "Courtly Lover's Shirt of Scouting"
+    },
+    {
+      "id": "festival-hooded-tunic-weaver-100",
+      "name": "Festival Hooded Tunic"
+    },
+    {
+      "id": "form-fitting-festival-hooded-tunic-weaver-100",
+      "name": "Form-fitting Festival Hooded Tunic"
+    },
+    {
+      "id": "form-fitting-plain-hooded-tunic-weaver-100",
+      "name": "Form-fitting Plain Hooded Tunic"
+    },
+    {
+      "id": "form-fitting-succubus-hooded-tunic-weaver-100",
+      "name": "Form-fitting Succubus Hooded Tunic"
+    },
+    {
+      "id": "oversized-festival-hooded-tunic-weaver-100",
+      "name": "Oversized Festival Hooded Tunic"
+    },
+    {
+      "id": "oversized-plain-hooded-tunic-weaver-100",
+      "name": "Oversized Plain Hooded Tunic"
+    },
+    {
+      "id": "oversized-succubus-hooded-tunic-weaver-100",
+      "name": "Oversized Succubus Hooded Tunic"
+    },
+    {
+      "id": "plain-hooded-tunic-weaver-100",
+      "name": "Plain Hooded Tunic"
+    },
+    {
+      "id": "stonewashed-baggy-twill-trousers-weaver-100",
+      "name": "Stonewashed Baggy Twill Trousers"
+    },
+    {
+      "id": "stonewashed-bell-bottom-twill-trousers-weaver-100",
+      "name": "Stonewashed Bell-bottom Twill Trousers"
+    },
+    {
+      "id": "stonewashed-twill-trousers-weaver-100",
+      "name": "Stonewashed Twill Trousers"
+    },
+    {
+      "id": "straight-cut-twill-trousers-weaver-100",
+      "name": "Straight-cut Twill Trousers"
+    },
+    {
+      "id": "succubus-hooded-tunic-weaver-100",
+      "name": "Succubus Hooded Tunic"
+    },
+    {
+      "id": "worn-baggy-twill-trousers-weaver-100",
+      "name": "Worn Baggy Twill Trousers"
+    },
+    {
+      "id": "worn-bell-bottom-twill-trousers-weaver-100",
+      "name": "Worn Bell-bottom Twill Trousers"
+    },
+    {
+      "id": "worn-twill-trousers-weaver-100",
+      "name": "Worn Twill Trousers"
+    }
+  ],
+  "skippedLogicalDuplicate": [
+    {
+      "generatedId": "felt-cavaliers-hat-weaver-47",
+      "existingId": "felt-cavalier-hat-weaver-47",
+      "name": "Felt Cavalier's Hat",
+      "level": 47,
+      "stars": 0
+    },
+    {
+      "generatedId": "silk-thread-weaver-50",
+      "existingId": "silk-thread-weaver-50-1star",
+      "name": "Silk Thread",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "weavers-gibus-weaver-50",
+      "existingId": "weavers-gibus-weaver-50-1star",
+      "name": "Weaver's Gibus",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "weavers-swallowtail-weaver-50",
+      "existingId": "weavers-swallowtail-weaver-50-1star",
+      "name": "Weaver's Swallowtail",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "vanya-breeches-of-casting-weaver-50",
+      "existingId": "vanya-breeches-of-casting-weaver-50-2star",
+      "name": "Vanya Breeches of Casting",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "vanya-gloves-of-casting-weaver-50",
+      "existingId": "vanya-gloves-of-casting-weaver-50-2star",
+      "name": "Vanya Gloves of Casting",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "vanya-hat-of-casting-weaver-50",
+      "existingId": "vanya-hat-of-casting-weaver-50-2star",
+      "name": "Vanya Hat of Casting",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "vanya-robe-of-casting-weaver-50",
+      "existingId": "vanya-robe-of-casting-weaver-50-2star",
+      "name": "Vanya Robe of Casting",
+      "level": 50,
+      "stars": 2
+    }
+  ],
+  "skippedInvalid": [],
+  "idCollisions": [],
+  "targetCountAfter": 1765
+}

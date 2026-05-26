@@ -1,0 +1,5279 @@
+{
+  "targetFile": "C:\\Users\\sorin\\onedrive\\desktop\\ffxiv_material_tracker_app\\src\\data\\recipes\\alchemist.json",
+  "generatedFile": "C:\\Users\\sorin\\onedrive\\desktop\\ffxiv_material_tracker_app\\generated\\alchemist-missing-generated.json",
+  "writeMode": false,
+  "targetCountBefore": 1422,
+  "generatedCount": 1307,
+  "added": [],
+  "skippedExactId": [
+    {
+      "id": "larboard-hull-component-alchemist-1",
+      "name": "Larboard Hull Component"
+    },
+    {
+      "id": "bladder-component-alchemist-1",
+      "name": "Bladder Component"
+    },
+    {
+      "id": "hull-interior-component-alchemist-1",
+      "name": "Hull Interior Component"
+    },
+    {
+      "id": "starboard-hull-component-alchemist-1",
+      "name": "Starboard Hull Component"
+    },
+    {
+      "id": "bladder-lining-component-alchemist-1",
+      "name": "Bladder Lining Component"
+    },
+    {
+      "id": "engine-casing-component-alchemist-3",
+      "name": "Engine Casing Component"
+    },
+    {
+      "id": "gyrodrive-component-alchemist-3",
+      "name": "Gyrodrive Component"
+    },
+    {
+      "id": "crafting-tool-component-alchemist-3",
+      "name": "Crafting Tool Component"
+    },
+    {
+      "id": "deck-component-alchemist-3",
+      "name": "Deck Component"
+    },
+    {
+      "id": "propulsion-engine-component-alchemist-3",
+      "name": "Propulsion Engine Component"
+    },
+    {
+      "id": "rigging-component-alchemist-3",
+      "name": "Rigging Component"
+    },
+    {
+      "id": "aerodynamo-component-alchemist-6",
+      "name": "Aerodynamo Component"
+    },
+    {
+      "id": "ballast-component-alchemist-6",
+      "name": "Ballast Component"
+    },
+    {
+      "id": "cockpit-exterior-component-alchemist-6",
+      "name": "Cockpit Exterior Component"
+    },
+    {
+      "id": "cockpit-interior-component-alchemist-6",
+      "name": "Cockpit Interior Component"
+    },
+    {
+      "id": "engine-jointing-component-alchemist-6",
+      "name": "Engine Jointing Component"
+    },
+    {
+      "id": "instrument-panel-component-alchemist-6",
+      "name": "Instrument Panel Component"
+    },
+    {
+      "id": "larboard-wing-component-alchemist-10",
+      "name": "Larboard Wing Component"
+    },
+    {
+      "id": "starboard-wing-component-alchemist-10",
+      "name": "Starboard Wing Component"
+    },
+    {
+      "id": "heat-vent-component-alchemist-10",
+      "name": "Heat Vent Component"
+    },
+    {
+      "id": "transmission-component-alchemist-10",
+      "name": "Transmission Component"
+    },
+    {
+      "id": "larboard-wing-control-component-alchemist-10",
+      "name": "Larboard Wing Control Component"
+    },
+    {
+      "id": "starboard-wing-control-component-alchemist-10",
+      "name": "Starboard Wing Control Component"
+    },
+    {
+      "id": "roof-tile-alchemist-11",
+      "name": "Roof Tile"
+    },
+    {
+      "id": "honey-pot-alchemist-12",
+      "name": "Honey Pot"
+    },
+    {
+      "id": "terracotta-pot-alchemist-13",
+      "name": "Terracotta Pot"
+    },
+    {
+      "id": "lamp-component-alchemist-15",
+      "name": "Lamp Component"
+    },
+    {
+      "id": "glamour-prism-alchemist-15",
+      "name": "Glamour Prism"
+    },
+    {
+      "id": "ink-and-quill-alchemist-15",
+      "name": "Ink & Quill"
+    },
+    {
+      "id": "exhaust-outlet-component-alchemist-15",
+      "name": "Exhaust Outlet Component"
+    },
+    {
+      "id": "helm-component-alchemist-15",
+      "name": "Helm Component"
+    },
+    {
+      "id": "speaking-tube-component-alchemist-15",
+      "name": "Speaking Tube Component"
+    },
+    {
+      "id": "steering-mechanism-component-alchemist-15",
+      "name": "Steering Mechanism Component"
+    },
+    {
+      "id": "ceruleum-tank-component-alchemist-15",
+      "name": "Ceruleum Tank Component"
+    },
+    {
+      "id": "disposal-unit-component-alchemist-15",
+      "name": "Disposal Unit Component"
+    },
+    {
+      "id": "refabrication-component-alchemist-16",
+      "name": "Refabrication Component"
+    },
+    {
+      "id": "auxiliary-aerodynamo-component-alchemist-16",
+      "name": "Auxiliary Aerodynamo Component"
+    },
+    {
+      "id": "escape-flyer-component-alchemist-16",
+      "name": "Escape Flyer Component"
+    },
+    {
+      "id": "isolator-component-alchemist-16",
+      "name": "Isolator Component"
+    },
+    {
+      "id": "decorative-plating-component-alchemist-16",
+      "name": "Decorative Plating Component"
+    },
+    {
+      "id": "hyperconductor-component-alchemist-16",
+      "name": "Hyperconductor Component"
+    },
+    {
+      "id": "spare-tank-component-alchemist-16",
+      "name": "Spare Tank Component"
+    },
+    {
+      "id": "low-barrel-planter-alchemist-17",
+      "name": "Low Barrel Planter"
+    },
+    {
+      "id": "firebricks-alchemist-18",
+      "name": "Firebricks"
+    },
+    {
+      "id": "finishing-component-alchemist-18",
+      "name": "Finishing Component"
+    },
+    {
+      "id": "figurehead-component-alchemist-18",
+      "name": "Figurehead Component"
+    },
+    {
+      "id": "grade-2-skybuilders-ink-alchemist-20",
+      "name": "Grade 2 Skybuilders' Ink"
+    },
+    {
+      "id": "grade-3-skybuilders-ink-alchemist-20",
+      "name": "Grade 3 Skybuilders' Ink"
+    },
+    {
+      "id": "grade-4-skybuilders-ink-alchemist-20",
+      "name": "Grade 4 Skybuilders' Ink"
+    },
+    {
+      "id": "skybuilders-ink-alchemist-20",
+      "name": "Skybuilders' Ink"
+    },
+    {
+      "id": "brick-flooring-alchemist-20",
+      "name": "Brick Flooring"
+    },
+    {
+      "id": "desert-ironwood-alchemist-20",
+      "name": "Desert Ironwood"
+    },
+    {
+      "id": "glade-tiled-awning-alchemist-20",
+      "name": "Glade Tiled Awning"
+    },
+    {
+      "id": "island-palm-alchemist-20",
+      "name": "Island Palm"
+    },
+    {
+      "id": "riviera-cottage-roof-wood-alchemist-20",
+      "name": "Riviera Cottage Roof (Wood)"
+    },
+    {
+      "id": "shroud-broadleaf-alchemist-20",
+      "name": "Shroud Broadleaf"
+    },
+    {
+      "id": "potted-maguey-alchemist-22",
+      "name": "Potted Maguey"
+    },
+    {
+      "id": "ghostmaws-alchemist-23",
+      "name": "Ghostmaws"
+    },
+    {
+      "id": "glade-cottage-roof-composite-alchemist-23",
+      "name": "Glade Cottage Roof (Composite)"
+    },
+    {
+      "id": "glade-flower-vase-alchemist-23",
+      "name": "Glade Flower Vase"
+    },
+    {
+      "id": "oasis-flower-vase-alchemist-23",
+      "name": "Oasis Flower Vase"
+    },
+    {
+      "id": "riviera-flower-vase-alchemist-23",
+      "name": "Riviera Flower Vase"
+    },
+    {
+      "id": "pyrepods-alchemist-24",
+      "name": "Pyrepods"
+    },
+    {
+      "id": "unbreakable-rock-alchemist-24",
+      "name": "Unbreakable Rock"
+    },
+    {
+      "id": "blue-coral-formation-alchemist-25",
+      "name": "Blue Coral Formation"
+    },
+    {
+      "id": "half-barrel-planter-alchemist-25",
+      "name": "Half Barrel Planter"
+    },
+    {
+      "id": "turnkeys-cups-alchemist-25",
+      "name": "Turnkey's Cups"
+    },
+    {
+      "id": "bisque-flooring-alchemist-26",
+      "name": "Bisque Flooring"
+    },
+    {
+      "id": "wall-planter-alchemist-27",
+      "name": "Wall Planter"
+    },
+    {
+      "id": "campfire-alchemist-28",
+      "name": "Campfire"
+    },
+    {
+      "id": "botanists-garden-alchemist-30",
+      "name": "Botanist's Garden"
+    },
+    {
+      "id": "dark-vows-orchestrion-roll-alchemist-30",
+      "name": "Dark Vows Orchestrion Roll"
+    },
+    {
+      "id": "riptide-orchestrion-roll-alchemist-30",
+      "name": "Riptide Orchestrion Roll"
+    },
+    {
+      "id": "stone-flooring-alchemist-30",
+      "name": "Stone Flooring"
+    },
+    {
+      "id": "stone-interior-wall-alchemist-30",
+      "name": "Stone Interior Wall"
+    },
+    {
+      "id": "the-darks-embrace-orchestrion-roll-alchemist-30",
+      "name": "The Dark's Embrace Orchestrion Roll"
+    },
+    {
+      "id": "standard-spectrum-dye-alchemist-30",
+      "name": "Standard Spectrum Dye"
+    },
+    {
+      "id": "oasis-interior-wall-alchemist-31",
+      "name": "Oasis Interior Wall"
+    },
+    {
+      "id": "mossy-rock-alchemist-33",
+      "name": "Mossy Rock"
+    },
+    {
+      "id": "axilflower-alchemist-33",
+      "name": "Axilflower"
+    },
+    {
+      "id": "potted-azalea-alchemist-33",
+      "name": "Potted Azalea"
+    },
+    {
+      "id": "potted-spider-plant-alchemist-33",
+      "name": "Potted Spider Plant"
+    },
+    {
+      "id": "oak-low-barrel-planter-alchemist-34",
+      "name": "Oak Low Barrel Planter"
+    },
+    {
+      "id": "rounded-shrub-alchemist-35",
+      "name": "Rounded Shrub"
+    },
+    {
+      "id": "riviera-house-roof-wood-alchemist-36",
+      "name": "Riviera House Roof (Wood)"
+    },
+    {
+      "id": "lotus-parasol-alchemist-37",
+      "name": "Lotus Parasol"
+    },
+    {
+      "id": "clinker-bricks-alchemist-39",
+      "name": "Clinker Bricks"
+    },
+    {
+      "id": "planter-partition-alchemist-39",
+      "name": "Planter Partition"
+    },
+    {
+      "id": "grade-2-skybuilders-plant-oil-alchemist-40",
+      "name": "Grade 2 Skybuilders' Plant Oil"
+    },
+    {
+      "id": "grade-3-skybuilders-plant-oil-alchemist-40",
+      "name": "Grade 3 Skybuilders' Plant Oil"
+    },
+    {
+      "id": "grade-4-skybuilders-plant-oil-alchemist-40",
+      "name": "Grade 4 Skybuilders' Plant Oil"
+    },
+    {
+      "id": "skybuilders-plant-oil-alchemist-40",
+      "name": "Skybuilders' Plant Oil"
+    },
+    {
+      "id": "glade-house-roof-composite-alchemist-40",
+      "name": "Glade House Roof (Composite)"
+    },
+    {
+      "id": "water-lilies-alchemist-41",
+      "name": "Water Lilies"
+    },
+    {
+      "id": "bathroom-floor-tiles-alchemist-43",
+      "name": "Bathroom Floor Tiles"
+    },
+    {
+      "id": "bathroom-wall-tiles-alchemist-43",
+      "name": "Bathroom Wall Tiles"
+    },
+    {
+      "id": "sylphic-flower-vase-alchemist-43",
+      "name": "Sylphic Flower Vase"
+    },
+    {
+      "id": "planter-box-alchemist-45",
+      "name": "Planter Box"
+    },
+    {
+      "id": "bloodblossoms-alchemist-46",
+      "name": "Bloodblossoms"
+    },
+    {
+      "id": "deaths-fingers-alchemist-49",
+      "name": "Death's Fingers"
+    },
+    {
+      "id": "fake-kupo-nut-alchemist-50",
+      "name": "Fake Kupo Nut"
+    },
+    {
+      "id": "a-world-apart-orchestrion-roll-alchemist-50",
+      "name": "A World Apart Orchestrion Roll"
+    },
+    {
+      "id": "another-round-orchestrion-roll-alchemist-50",
+      "name": "Another Round Orchestrion Roll"
+    },
+    {
+      "id": "country-flooring-alchemist-50",
+      "name": "Country Flooring"
+    },
+    {
+      "id": "country-interior-wall-alchemist-50",
+      "name": "Country Interior Wall"
+    },
+    {
+      "id": "large-planter-box-alchemist-50",
+      "name": "Large Planter Box"
+    },
+    {
+      "id": "the-only-path-orchestrion-roll-alchemist-50",
+      "name": "The Only Path Orchestrion Roll"
+    },
+    {
+      "id": "rarefied-archaeoskin-grimoire-alchemist-50",
+      "name": "Rarefied Archaeoskin Grimoire"
+    },
+    {
+      "id": "training-supplies-alchemist-50",
+      "name": "Training Supplies"
+    },
+    {
+      "id": "moogle-mollifier-alchemist-50",
+      "name": "Moogle Mollifier"
+    },
+    {
+      "id": "statue-supplies-alchemist-50",
+      "name": "Statue Supplies"
+    },
+    {
+      "id": "stonemasonry-supplies-alchemist-50",
+      "name": "Stonemasonry Supplies"
+    },
+    {
+      "id": "cloudfish-lure-alchemist-50",
+      "name": "Cloudfish Lure"
+    },
+    {
+      "id": "horn-component-alchemist-50",
+      "name": "Horn Component"
+    },
+    {
+      "id": "veneer-component-alchemist-50",
+      "name": "Veneer Component"
+    },
+    {
+      "id": "water-filter-component-alchemist-50",
+      "name": "Water Filter Component"
+    },
+    {
+      "id": "basket-component-alchemist-50",
+      "name": "Basket Component"
+    },
+    {
+      "id": "shearing-machine-component-alchemist-50",
+      "name": "Shearing Machine Component"
+    },
+    {
+      "id": "gathering-tool-component-alchemist-50",
+      "name": "Gathering Tool Component"
+    },
+    {
+      "id": "ishgardian-cuisine-miscellany-alchemist-50",
+      "name": "Ishgardian Cuisine Miscellany"
+    },
+    {
+      "id": "mogstew-miscellany-alchemist-50",
+      "name": "Mogstew Miscellany"
+    },
+    {
+      "id": "repurposed-construction-component-alchemist-50",
+      "name": "Repurposed Construction Component"
+    },
+    {
+      "id": "austere-offering-alchemist-50",
+      "name": "Austere Offering"
+    },
+    {
+      "id": "exploding-kupo-nut-alchemist-50",
+      "name": "Exploding Kupo Nut"
+    },
+    {
+      "id": "moogle-statuette-alchemist-50",
+      "name": "Moogle Statuette"
+    },
+    {
+      "id": "moogle-tool-component-alchemist-50",
+      "name": "Moogle Tool Component"
+    },
+    {
+      "id": "dragonscale-rasp-alchemist-50",
+      "name": "Dragonscale Rasp"
+    },
+    {
+      "id": "foundation-component-alchemist-50",
+      "name": "Foundation Component"
+    },
+    {
+      "id": "makeshift-toy-airship-alchemist-50",
+      "name": "Makeshift Toy Airship"
+    },
+    {
+      "id": "wall-repair-supplies-alchemist-50",
+      "name": "Wall Repair Supplies"
+    },
+    {
+      "id": "tablet-supplies-alchemist-50",
+      "name": "Tablet Supplies"
+    },
+    {
+      "id": "aetheric-shielding-alchemist-50",
+      "name": "Aetheric Shielding"
+    },
+    {
+      "id": "treadwheel-crane-components-alchemist-50",
+      "name": "Treadwheel Crane Components"
+    },
+    {
+      "id": "corner-hedge-partition-alchemist-50",
+      "name": "Corner Hedge Partition"
+    },
+    {
+      "id": "glade-hedgewall-alchemist-50",
+      "name": "Glade Hedgewall"
+    },
+    {
+      "id": "glade-mansion-roof-composite-alchemist-50",
+      "name": "Glade Mansion Roof (Composite)"
+    },
+    {
+      "id": "hedge-partition-alchemist-50",
+      "name": "Hedge Partition"
+    },
+    {
+      "id": "potted-dragon-tree-alchemist-50",
+      "name": "Potted Dragon Tree"
+    },
+    {
+      "id": "potted-oliphants-ear-alchemist-50",
+      "name": "Potted Oliphant's Ear"
+    },
+    {
+      "id": "riviera-mansion-roof-wood-alchemist-50",
+      "name": "Riviera Mansion Roof (Wood)"
+    },
+    {
+      "id": "stuffed-mazlaya-marlin-alchemist-50",
+      "name": "Stuffed Mazlaya Marlin"
+    },
+    {
+      "id": "grade-1-wheel-of-capacity-alchemist-50",
+      "name": "Grade 1 Wheel of Capacity"
+    },
+    {
+      "id": "grade-1-wheel-of-company-alchemist-50",
+      "name": "Grade 1 Wheel of Company"
+    },
+    {
+      "id": "grade-1-wheel-of-confrontation-alchemist-50",
+      "name": "Grade 1 Wheel of Confrontation"
+    },
+    {
+      "id": "grade-1-wheel-of-dedication-alchemist-50",
+      "name": "Grade 1 Wheel of Dedication"
+    },
+    {
+      "id": "grade-1-wheel-of-efficiency-alchemist-50",
+      "name": "Grade 1 Wheel of Efficiency"
+    },
+    {
+      "id": "grade-1-wheel-of-industry-alchemist-50",
+      "name": "Grade 1 Wheel of Industry"
+    },
+    {
+      "id": "grade-1-wheel-of-initiation-alchemist-50",
+      "name": "Grade 1 Wheel of Initiation"
+    },
+    {
+      "id": "grade-1-wheel-of-longeing-alchemist-50",
+      "name": "Grade 1 Wheel of Longeing"
+    },
+    {
+      "id": "grade-1-wheel-of-nutriment-alchemist-50",
+      "name": "Grade 1 Wheel of Nutriment"
+    },
+    {
+      "id": "grade-1-wheel-of-observation-alchemist-50",
+      "name": "Grade 1 Wheel of Observation"
+    },
+    {
+      "id": "grade-1-wheel-of-permanence-alchemist-50",
+      "name": "Grade 1 Wheel of Permanence"
+    },
+    {
+      "id": "grade-1-wheel-of-pilgrimage-alchemist-50",
+      "name": "Grade 1 Wheel of Pilgrimage"
+    },
+    {
+      "id": "grade-1-wheel-of-precision-alchemist-50",
+      "name": "Grade 1 Wheel of Precision"
+    },
+    {
+      "id": "grade-1-wheel-of-productivity-alchemist-50",
+      "name": "Grade 1 Wheel of Productivity"
+    },
+    {
+      "id": "grade-1-wheel-of-recreation-alchemist-50",
+      "name": "Grade 1 Wheel of Recreation"
+    },
+    {
+      "id": "grade-1-wheel-of-rivalry-alchemist-50",
+      "name": "Grade 1 Wheel of Rivalry"
+    },
+    {
+      "id": "grade-1-wheel-of-swiftness-alchemist-50",
+      "name": "Grade 1 Wheel of Swiftness"
+    },
+    {
+      "id": "a-light-in-the-storm-orchestrion-roll-alchemist-50",
+      "name": "A Light in the Storm Orchestrion Roll"
+    },
+    {
+      "id": "battle-on-the-big-bridge-orchestrion-roll-alchemist-50",
+      "name": "Battle on the Big Bridge Orchestrion Roll"
+    },
+    {
+      "id": "potted-umbrella-fig-alchemist-50",
+      "name": "Potted Umbrella Fig"
+    },
+    {
+      "id": "stuffed-takitaro-alchemist-50",
+      "name": "Stuffed Takitaro"
+    },
+    {
+      "id": "the-scars-of-battle-orchestrion-roll-alchemist-50",
+      "name": "The Scars of Battle Orchestrion Roll"
+    },
+    {
+      "id": "wild-banana-tree-alchemist-50",
+      "name": "Wild Banana Tree"
+    },
+    {
+      "id": "alkalurops-alchemist-50",
+      "name": "Alkalurops"
+    },
+    {
+      "id": "cantamina-thavnaria-alchemist-50",
+      "name": "Cantamina Thavnaria"
+    },
+    {
+      "id": "deus-ex-gratia-alchemist-50",
+      "name": "Deus Ex Gratia"
+    },
+    {
+      "id": "deus-ex-verbis-alchemist-50",
+      "name": "Deus Ex Verbis"
+    },
+    {
+      "id": "earth-ward-mega-potion-alchemist-50",
+      "name": "Earth Ward Mega-Potion"
+    },
+    {
+      "id": "fire-ward-mega-potion-alchemist-50",
+      "name": "Fire Ward Mega-Potion"
+    },
+    {
+      "id": "giantsgall-cane-alchemist-50",
+      "name": "Giantsgall Cane"
+    },
+    {
+      "id": "giantsgall-claws-alchemist-50",
+      "name": "Giantsgall Claws"
+    },
+    {
+      "id": "giantsgall-cleavers-alchemist-50",
+      "name": "Giantsgall Cleavers"
+    },
+    {
+      "id": "giantsgall-guillotine-alchemist-50",
+      "name": "Giantsgall Guillotine"
+    },
+    {
+      "id": "giantsgall-knifelock-alchemist-50",
+      "name": "Giantsgall Knifelock"
+    },
+    {
+      "id": "giantsgall-longbow-alchemist-50",
+      "name": "Giantsgall Longbow"
+    },
+    {
+      "id": "giantsgall-longstaff-alchemist-50",
+      "name": "Giantsgall Longstaff"
+    },
+    {
+      "id": "giantsgall-longsword-alchemist-50",
+      "name": "Giantsgall Longsword"
+    },
+    {
+      "id": "giantsgall-star-globe-alchemist-50",
+      "name": "Giantsgall Star Globe"
+    },
+    {
+      "id": "giantsgall-trident-alchemist-50",
+      "name": "Giantsgall Trident"
+    },
+    {
+      "id": "giantsgall-war-axe-alchemist-50",
+      "name": "Giantsgall War Axe"
+    },
+    {
+      "id": "hi-elixir-alchemist-50",
+      "name": "Hi-Elixir"
+    },
+    {
+      "id": "ice-ward-mega-potion-alchemist-50",
+      "name": "Ice Ward Mega-Potion"
+    },
+    {
+      "id": "lightning-ward-mega-potion-alchemist-50",
+      "name": "Lightning Ward Mega-Potion"
+    },
+    {
+      "id": "magitek-repair-materials-alchemist-50",
+      "name": "Magitek Repair Materials"
+    },
+    {
+      "id": "medica-thavnaria-alchemist-50",
+      "name": "Medica Thavnaria"
+    },
+    {
+      "id": "spirits-of-salt-alchemist-50",
+      "name": "Spirits of Salt"
+    },
+    {
+      "id": "suspended-trillium-flower-alchemist-50",
+      "name": "Suspended Trillium Flower"
+    },
+    {
+      "id": "water-ward-mega-potion-alchemist-50",
+      "name": "Water Ward Mega-Potion"
+    },
+    {
+      "id": "wind-ward-mega-potion-alchemist-50",
+      "name": "Wind Ward Mega-Potion"
+    },
+    {
+      "id": "x-ether-alchemist-50",
+      "name": "X-Ether"
+    },
+    {
+      "id": "x-potion-alchemist-50",
+      "name": "X-Potion"
+    },
+    {
+      "id": "x-potion-of-dexterity-alchemist-50",
+      "name": "X-Potion of Dexterity"
+    },
+    {
+      "id": "x-potion-of-intelligence-alchemist-50",
+      "name": "X-Potion of Intelligence"
+    },
+    {
+      "id": "x-potion-of-mind-alchemist-50",
+      "name": "X-Potion of Mind"
+    },
+    {
+      "id": "x-potion-of-strength-alchemist-50",
+      "name": "X-Potion of Strength"
+    },
+    {
+      "id": "x-potion-of-vitality-alchemist-50",
+      "name": "X-Potion of Vitality"
+    },
+    {
+      "id": "choral-attire-augmentation-alchemist-50",
+      "name": "Choral Attire Augmentation"
+    },
+    {
+      "id": "drachen-armor-augmentation-alchemist-50",
+      "name": "Drachen Armor Augmentation"
+    },
+    {
+      "id": "enchanted-quicksilver-alchemist-50",
+      "name": "Enchanted Quicksilver"
+    },
+    {
+      "id": "evokers-attire-augmentation-alchemist-50",
+      "name": "Evoker's Attire Augmentation"
+    },
+    {
+      "id": "fighters-armor-augmentation-alchemist-50",
+      "name": "Fighter's Armor Augmentation"
+    },
+    {
+      "id": "gallant-armor-augmentation-alchemist-50",
+      "name": "Gallant Armor Augmentation"
+    },
+    {
+      "id": "healers-attire-augmentation-alchemist-50",
+      "name": "Healer's Attire Augmentation"
+    },
+    {
+      "id": "ninja-garb-augmentation-alchemist-50",
+      "name": "Ninja Garb Augmentation"
+    },
+    {
+      "id": "scholars-attire-augmentation-alchemist-50",
+      "name": "Scholar's Attire Augmentation"
+    },
+    {
+      "id": "temple-attire-augmentation-alchemist-50",
+      "name": "Temple Attire Augmentation"
+    },
+    {
+      "id": "wizards-attire-augmentation-alchemist-50",
+      "name": "Wizard's Attire Augmentation"
+    },
+    {
+      "id": "fallen-angel-orchestrion-roll-alchemist-50",
+      "name": "Fallen Angel Orchestrion Roll"
+    },
+    {
+      "id": "good-king-moggle-mog-xii-orchestrion-roll-alchemist-50",
+      "name": "Good King Moggle Mog XII Orchestrion Roll"
+    },
+    {
+      "id": "primal-judgment-orchestrion-roll-alchemist-50",
+      "name": "Primal Judgment Orchestrion Roll"
+    },
+    {
+      "id": "the-makers-ruin-orchestrion-roll-alchemist-50",
+      "name": "The Maker's Ruin Orchestrion Roll"
+    },
+    {
+      "id": "through-the-maelstrom-orchestrion-roll-alchemist-50",
+      "name": "Through the Maelstrom Orchestrion Roll"
+    },
+    {
+      "id": "under-the-weight-orchestrion-roll-alchemist-50",
+      "name": "Under the Weight Orchestrion Roll"
+    },
+    {
+      "id": "wreck-to-the-seaman-orchestrion-roll-alchemist-50",
+      "name": "Wreck to the Seaman Orchestrion Roll"
+    },
+    {
+      "id": "concentrated-spirits-of-salt-alchemist-50",
+      "name": "Concentrated Spirits of Salt"
+    },
+    {
+      "id": "cordial-alchemist-50",
+      "name": "Cordial"
+    },
+    {
+      "id": "embrace-of-the-vortex-alchemist-50",
+      "name": "Embrace of the Vortex"
+    },
+    {
+      "id": "enchanted-platinum-ink-alchemist-50",
+      "name": "Enchanted Platinum Ink"
+    },
+    {
+      "id": "inferno-codex-alchemist-50",
+      "name": "Inferno Codex"
+    },
+    {
+      "id": "inferno-grimoire-alchemist-50",
+      "name": "Inferno Grimoire"
+    },
+    {
+      "id": "majestic-moggle-mogtome-alchemist-50",
+      "name": "Majestic Moggle Mogtome"
+    },
+    {
+      "id": "malevolent-moggle-mogwand-alchemist-50",
+      "name": "Malevolent Moggle Mogwand"
+    },
+    {
+      "id": "mighty-moggle-mogrod-alchemist-50",
+      "name": "Mighty Moggle Mogrod"
+    },
+    {
+      "id": "munificent-moggle-mogtome-alchemist-50",
+      "name": "Munificent Moggle Mogtome"
+    },
+    {
+      "id": "perfect-pounce-alchemist-50",
+      "name": "Perfect Pounce"
+    },
+    {
+      "id": "terminus-putty-alchemist-50",
+      "name": "Terminus Putty"
+    },
+    {
+      "id": "the-greater-key-of-tremors-alchemist-50",
+      "name": "The Greater Key of Tremors"
+    },
+    {
+      "id": "the-holy-key-of-tremors-alchemist-50",
+      "name": "The Holy Key of Tremors"
+    },
+    {
+      "id": "tremor-axe-alchemist-50",
+      "name": "Tremor Axe"
+    },
+    {
+      "id": "tremor-bow-alchemist-50",
+      "name": "Tremor Bow"
+    },
+    {
+      "id": "tremor-cane-alchemist-50",
+      "name": "Tremor Cane"
+    },
+    {
+      "id": "tremor-cleavers-alchemist-50",
+      "name": "Tremor Cleavers"
+    },
+    {
+      "id": "tremor-cudgel-alchemist-50",
+      "name": "Tremor Cudgel"
+    },
+    {
+      "id": "tremor-culverin-alchemist-50",
+      "name": "Tremor Culverin"
+    },
+    {
+      "id": "tremor-foil-alchemist-50",
+      "name": "Tremor Foil"
+    },
+    {
+      "id": "tremor-guillotine-alchemist-50",
+      "name": "Tremor Guillotine"
+    },
+    {
+      "id": "tremor-katana-alchemist-50",
+      "name": "Tremor Katana"
+    },
+    {
+      "id": "tremor-knuckles-alchemist-50",
+      "name": "Tremor Knuckles"
+    },
+    {
+      "id": "tremor-shield-alchemist-50",
+      "name": "Tremor Shield"
+    },
+    {
+      "id": "tremor-spear-alchemist-50",
+      "name": "Tremor Spear"
+    },
+    {
+      "id": "tremor-staff-alchemist-50",
+      "name": "Tremor Staff"
+    },
+    {
+      "id": "tremor-star-globe-alchemist-50",
+      "name": "Tremor Star Globe"
+    },
+    {
+      "id": "will-of-the-vortex-alchemist-50",
+      "name": "Will of the Vortex"
+    },
+    {
+      "id": "blind-to-the-dark-orchestrion-roll-alchemist-50",
+      "name": "Blind to the Dark Orchestrion Roll"
+    },
+    {
+      "id": "footsteps-in-the-snow-orchestrion-roll-alchemist-50",
+      "name": "Footsteps in the Snow Orchestrion Roll"
+    },
+    {
+      "id": "from-the-ashes-orchestrion-roll-alchemist-50",
+      "name": "From the Ashes Orchestrion Roll"
+    },
+    {
+      "id": "hubris-orchestrion-roll-alchemist-50",
+      "name": "Hubris Orchestrion Roll"
+    },
+    {
+      "id": "hunger-orchestrion-roll-alchemist-50",
+      "name": "Hunger Orchestrion Roll"
+    },
+    {
+      "id": "now-i-know-the-truth-orchestrion-roll-alchemist-50",
+      "name": "Now I Know the Truth Orchestrion Roll"
+    },
+    {
+      "id": "oblivion-orchestrion-roll-alchemist-50",
+      "name": "Oblivion Orchestrion Roll"
+    },
+    {
+      "id": "out-of-the-labyrinth-orchestrion-roll-alchemist-50",
+      "name": "Out of the Labyrinth Orchestrion Roll"
+    },
+    {
+      "id": "rise-of-the-white-raven-orchestrion-roll-alchemist-50",
+      "name": "Rise of the White Raven Orchestrion Roll"
+    },
+    {
+      "id": "the-corpse-hall-orchestrion-roll-alchemist-50",
+      "name": "The Corpse Hall Orchestrion Roll"
+    },
+    {
+      "id": "thunder-rolls-orchestrion-roll-alchemist-50",
+      "name": "Thunder Rolls Orchestrion Roll"
+    },
+    {
+      "id": "thunderer-orchestrion-roll-alchemist-50",
+      "name": "Thunderer Orchestrion Roll"
+    },
+    {
+      "id": "tumbling-down-orchestrion-roll-alchemist-50",
+      "name": "Tumbling Down Orchestrion Roll"
+    },
+    {
+      "id": "kirimu-codex-alchemist-50",
+      "name": "Kirimu Codex"
+    },
+    {
+      "id": "kirimu-grimoire-alchemist-50",
+      "name": "Kirimu Grimoire"
+    },
+    {
+      "id": "ona-ramuhda-first-edition-alchemist-50",
+      "name": "Ona Ramuhda First Edition"
+    },
+    {
+      "id": "the-law-of-levin-first-edition-alchemist-50",
+      "name": "The Law of Levin First Edition"
+    },
+    {
+      "id": "tinkers-calm-alchemist-50",
+      "name": "Tinker's Calm"
+    },
+    {
+      "id": "enchanted-mythrite-ink-alchemist-51",
+      "name": "Enchanted Mythrite Ink"
+    },
+    {
+      "id": "growth-formula-epsilon-alchemist-51",
+      "name": "Growth Formula Epsilon"
+    },
+    {
+      "id": "void-glue-alchemist-51",
+      "name": "Void Glue"
+    },
+    {
+      "id": "archaeoskin-codex-alchemist-51",
+      "name": "Archaeoskin Codex"
+    },
+    {
+      "id": "archaeoskin-grimoire-alchemist-51",
+      "name": "Archaeoskin Grimoire"
+    },
+    {
+      "id": "deep-blue-enchanted-ink-alchemist-51",
+      "name": "Deep-blue Enchanted Ink"
+    },
+    {
+      "id": "deep-green-enchanted-ink-alchemist-51",
+      "name": "Deep-green Enchanted Ink"
+    },
+    {
+      "id": "deep-red-enchanted-ink-alchemist-51",
+      "name": "Deep-red Enchanted Ink"
+    },
+    {
+      "id": "holy-water-alchemist-52",
+      "name": "Holy Water"
+    },
+    {
+      "id": "holy-cedar-wand-alchemist-52",
+      "name": "Holy Cedar Wand"
+    },
+    {
+      "id": "rarefied-archaeoskin-codex-alchemist-52",
+      "name": "Rarefied Archaeoskin Codex"
+    },
+    {
+      "id": "wyvernskin-codex-alchemist-52",
+      "name": "Wyvernskin Codex"
+    },
+    {
+      "id": "wyvernskin-grimoire-alchemist-52",
+      "name": "Wyvernskin Grimoire"
+    },
+    {
+      "id": "grade-1-dexterity-dissolvent-alchemist-53",
+      "name": "Grade 1 Dexterity Dissolvent"
+    },
+    {
+      "id": "grade-1-strength-dissolvent-alchemist-53",
+      "name": "Grade 1 Strength Dissolvent"
+    },
+    {
+      "id": "black-brightlily-corsage-alchemist-53",
+      "name": "Black Brightlily Corsage"
+    },
+    {
+      "id": "black-cherry-blossom-corsage-alchemist-53",
+      "name": "Black Cherry Blossom Corsage"
+    },
+    {
+      "id": "black-daisy-corsage-alchemist-53",
+      "name": "Black Daisy Corsage"
+    },
+    {
+      "id": "black-viola-corsage-alchemist-53",
+      "name": "Black Viola Corsage"
+    },
+    {
+      "id": "blue-brightlily-corsage-alchemist-53",
+      "name": "Blue Brightlily Corsage"
+    },
+    {
+      "id": "blue-cherry-blossom-corsage-alchemist-53",
+      "name": "Blue Cherry Blossom Corsage"
+    },
+    {
+      "id": "blue-daisy-corsage-alchemist-53",
+      "name": "Blue Daisy Corsage"
+    },
+    {
+      "id": "blue-viola-corsage-alchemist-53",
+      "name": "Blue Viola Corsage"
+    },
+    {
+      "id": "dried-black-oldrose-alchemist-53",
+      "name": "Dried Black Oldrose"
+    },
+    {
+      "id": "dried-blue-oldrose-alchemist-53",
+      "name": "Dried Blue Oldrose"
+    },
+    {
+      "id": "dried-green-oldrose-alchemist-53",
+      "name": "Dried Green Oldrose"
+    },
+    {
+      "id": "dried-orange-oldrose-alchemist-53",
+      "name": "Dried Orange Oldrose"
+    },
+    {
+      "id": "dried-purple-oldrose-alchemist-53",
+      "name": "Dried Purple Oldrose"
+    },
+    {
+      "id": "dried-red-oldrose-alchemist-53",
+      "name": "Dried Red Oldrose"
+    },
+    {
+      "id": "dried-white-oldrose-alchemist-53",
+      "name": "Dried White Oldrose"
+    },
+    {
+      "id": "dried-yellow-oldrose-alchemist-53",
+      "name": "Dried Yellow Oldrose"
+    },
+    {
+      "id": "green-brightlily-corsage-alchemist-53",
+      "name": "Green Brightlily Corsage"
+    },
+    {
+      "id": "green-cherry-blossom-corsage-alchemist-53",
+      "name": "Green Cherry Blossom Corsage"
+    },
+    {
+      "id": "green-daisy-corsage-alchemist-53",
+      "name": "Green Daisy Corsage"
+    },
+    {
+      "id": "green-viola-corsage-alchemist-53",
+      "name": "Green Viola Corsage"
+    },
+    {
+      "id": "oldrose-corsage-alchemist-53",
+      "name": "Oldrose Corsage"
+    },
+    {
+      "id": "orange-brightlily-corsage-alchemist-53",
+      "name": "Orange Brightlily Corsage"
+    },
+    {
+      "id": "orange-cherry-blossom-corsage-alchemist-53",
+      "name": "Orange Cherry Blossom Corsage"
+    },
+    {
+      "id": "orange-daisy-corsage-alchemist-53",
+      "name": "Orange Daisy Corsage"
+    },
+    {
+      "id": "orange-viola-corsage-alchemist-53",
+      "name": "Orange Viola Corsage"
+    },
+    {
+      "id": "pink-cherry-blossom-corsage-alchemist-53",
+      "name": "Pink Cherry Blossom Corsage"
+    },
+    {
+      "id": "purple-brightlily-corsage-alchemist-53",
+      "name": "Purple Brightlily Corsage"
+    },
+    {
+      "id": "purple-cherry-blossom-corsage-alchemist-53",
+      "name": "Purple Cherry Blossom Corsage"
+    },
+    {
+      "id": "purple-daisy-corsage-alchemist-53",
+      "name": "Purple Daisy Corsage"
+    },
+    {
+      "id": "purple-viola-corsage-alchemist-53",
+      "name": "Purple Viola Corsage"
+    },
+    {
+      "id": "rainbow-brightlily-corsage-alchemist-53",
+      "name": "Rainbow Brightlily Corsage"
+    },
+    {
+      "id": "rainbow-daisy-corsage-alchemist-53",
+      "name": "Rainbow Daisy Corsage"
+    },
+    {
+      "id": "rainbow-viola-corsage-alchemist-53",
+      "name": "Rainbow Viola Corsage"
+    },
+    {
+      "id": "red-brightlily-corsage-alchemist-53",
+      "name": "Red Brightlily Corsage"
+    },
+    {
+      "id": "red-cherry-blossom-corsage-alchemist-53",
+      "name": "Red Cherry Blossom Corsage"
+    },
+    {
+      "id": "red-daisy-corsage-alchemist-53",
+      "name": "Red Daisy Corsage"
+    },
+    {
+      "id": "red-viola-corsage-alchemist-53",
+      "name": "Red Viola Corsage"
+    },
+    {
+      "id": "white-brightlily-corsage-alchemist-53",
+      "name": "White Brightlily Corsage"
+    },
+    {
+      "id": "white-cherry-blossom-corsage-alchemist-53",
+      "name": "White Cherry Blossom Corsage"
+    },
+    {
+      "id": "white-daisy-corsage-alchemist-53",
+      "name": "White Daisy Corsage"
+    },
+    {
+      "id": "white-viola-corsage-alchemist-53",
+      "name": "White Viola Corsage"
+    },
+    {
+      "id": "yellow-brightlily-corsage-alchemist-53",
+      "name": "Yellow Brightlily Corsage"
+    },
+    {
+      "id": "yellow-cherry-blossom-corsage-alchemist-53",
+      "name": "Yellow Cherry Blossom Corsage"
+    },
+    {
+      "id": "yellow-daisy-corsage-alchemist-53",
+      "name": "Yellow Daisy Corsage"
+    },
+    {
+      "id": "yellow-viola-corsage-alchemist-53",
+      "name": "Yellow Viola Corsage"
+    },
+    {
+      "id": "enchanted-hardsilver-ink-alchemist-54",
+      "name": "Enchanted Hardsilver Ink"
+    },
+    {
+      "id": "grade-1-intelligence-dissolvent-alchemist-54",
+      "name": "Grade 1 Intelligence Dissolvent"
+    },
+    {
+      "id": "grade-1-mind-dissolvent-alchemist-54",
+      "name": "Grade 1 Mind Dissolvent"
+    },
+    {
+      "id": "grade-1-vitality-dissolvent-alchemist-54",
+      "name": "Grade 1 Vitality Dissolvent"
+    },
+    {
+      "id": "rarefied-dissolvent-alchemist-54",
+      "name": "Rarefied Dissolvent"
+    },
+    {
+      "id": "wing-glue-alchemist-55",
+      "name": "Wing Glue"
+    },
+    {
+      "id": "lupin-plot-alchemist-55",
+      "name": "Lupin Plot"
+    },
+    {
+      "id": "topiary-carbuncle-alchemist-55",
+      "name": "Topiary Carbuncle"
+    },
+    {
+      "id": "topiary-chocobo-alchemist-55",
+      "name": "Topiary Chocobo"
+    },
+    {
+      "id": "topiary-moogle-alchemist-55",
+      "name": "Topiary Moogle"
+    },
+    {
+      "id": "topiary-paissa-alchemist-55",
+      "name": "Topiary Paissa"
+    },
+    {
+      "id": "topiary-sabotender-alchemist-55",
+      "name": "Topiary Sabotender"
+    },
+    {
+      "id": "dhalmelskin-codex-alchemist-55",
+      "name": "Dhalmelskin Codex"
+    },
+    {
+      "id": "dhalmelskin-grimoire-alchemist-55",
+      "name": "Dhalmelskin Grimoire"
+    },
+    {
+      "id": "hallowed-water-alchemist-56",
+      "name": "Hallowed Water"
+    },
+    {
+      "id": "hallowed-chestnut-wand-alchemist-56",
+      "name": "Hallowed Chestnut Wand"
+    },
+    {
+      "id": "rarefied-dhalmelskin-codex-alchemist-56",
+      "name": "Rarefied Dhalmelskin Codex"
+    },
+    {
+      "id": "near-eastern-antique-component-alchemist-57",
+      "name": "Near Eastern Antique Component"
+    },
+    {
+      "id": "near-eastern-antique-alchemist-57",
+      "name": "Near Eastern Antique"
+    },
+    {
+      "id": "dragonskin-codex-alchemist-57",
+      "name": "Dragonskin Codex"
+    },
+    {
+      "id": "dragonskin-grimoire-alchemist-57",
+      "name": "Dragonskin Grimoire"
+    },
+    {
+      "id": "enchanted-aurum-regis-ink-alchemist-58",
+      "name": "Enchanted Aurum Regis Ink"
+    },
+    {
+      "id": "growth-formula-zeta-alchemist-58",
+      "name": "Growth Formula Zeta"
+    },
+    {
+      "id": "uchiwa-components-alchemist-58",
+      "name": "Uchiwa Components"
+    },
+    {
+      "id": "coerthan-souvenir-component-alchemist-58",
+      "name": "Coerthan Souvenir Component"
+    },
+    {
+      "id": "coerthan-souvenir-alchemist-58",
+      "name": "Coerthan Souvenir"
+    },
+    {
+      "id": "book-of-aurum-regis-alchemist-58",
+      "name": "Book of Aurum Regis"
+    },
+    {
+      "id": "brazier-components-alchemist-58",
+      "name": "Brazier Components"
+    },
+    {
+      "id": "draconian-potion-of-dexterity-alchemist-58",
+      "name": "Draconian Potion of Dexterity"
+    },
+    {
+      "id": "draconian-potion-of-strength-alchemist-58",
+      "name": "Draconian Potion of Strength"
+    },
+    {
+      "id": "finery-components-alchemist-58",
+      "name": "Finery Components"
+    },
+    {
+      "id": "happi-components-alchemist-58",
+      "name": "Happi Components"
+    },
+    {
+      "id": "nobles-picatrix-alchemist-58",
+      "name": "Noble's Picatrix"
+    },
+    {
+      "id": "rarefied-max-potion-alchemist-58",
+      "name": "Rarefied Max-Potion"
+    },
+    {
+      "id": "ritual-implement-components-alchemist-58",
+      "name": "Ritual Implement Components"
+    },
+    {
+      "id": "trinket-components-alchemist-58",
+      "name": "Trinket Components"
+    },
+    {
+      "id": "scale-glue-alchemist-59",
+      "name": "Scale Glue"
+    },
+    {
+      "id": "mol-tea-ceremony-paraphernalia-alchemist-59",
+      "name": "Mol Tea Ceremony Paraphernalia"
+    },
+    {
+      "id": "maelstrom-materiel-component-alchemist-59",
+      "name": "Maelstrom Materiel Component"
+    },
+    {
+      "id": "maelstrom-materiel-alchemist-59",
+      "name": "Maelstrom Materiel"
+    },
+    {
+      "id": "oriental-grass-plot-alchemist-59",
+      "name": "Oriental Grass Plot"
+    },
+    {
+      "id": "altar-components-alchemist-59",
+      "name": "Altar Components"
+    },
+    {
+      "id": "azim-steppe-souvenir-components-alchemist-59",
+      "name": "Azim Steppe Souvenir Components"
+    },
+    {
+      "id": "buuz-cooking-paraphernalia-alchemist-59",
+      "name": "Buuz Cooking Paraphernalia"
+    },
+    {
+      "id": "catfish-lure-components-alchemist-59",
+      "name": "Catfish Lure Components"
+    },
+    {
+      "id": "draconian-potion-of-intelligence-alchemist-59",
+      "name": "Draconian Potion of Intelligence"
+    },
+    {
+      "id": "draconian-potion-of-mind-alchemist-59",
+      "name": "Draconian Potion of Mind"
+    },
+    {
+      "id": "draconian-potion-of-vitality-alchemist-59",
+      "name": "Draconian Potion of Vitality"
+    },
+    {
+      "id": "hingan-ritual-paraphernalia-alchemist-59",
+      "name": "Hingan Ritual Paraphernalia"
+    },
+    {
+      "id": "substitute-offering-alchemist-59",
+      "name": "Substitute Offering"
+    },
+    {
+      "id": "confetti-making-tools-alchemist-60",
+      "name": "Confetti-making Tools"
+    },
+    {
+      "id": "gyr-abanian-souvenir-component-alchemist-60",
+      "name": "Gyr Abanian Souvenir Component"
+    },
+    {
+      "id": "heartfelt-gift-component-alchemist-60",
+      "name": "Heartfelt Gift Component"
+    },
+    {
+      "id": "gyr-abanian-souvenir-alchemist-60",
+      "name": "Gyr Abanian Souvenir"
+    },
+    {
+      "id": "heartfelt-gift-alchemist-60",
+      "name": "Heartfelt Gift"
+    },
+    {
+      "id": "grade-2-skybuilders-dye-alchemist-60",
+      "name": "Grade 2 Skybuilders' Dye"
+    },
+    {
+      "id": "grade-3-skybuilders-holy-water-alchemist-60",
+      "name": "Grade 3 Skybuilders' Holy Water"
+    },
+    {
+      "id": "grade-4-skybuilders-holy-water-alchemist-60",
+      "name": "Grade 4 Skybuilders' Holy Water"
+    },
+    {
+      "id": "skybuilders-charcoal-alchemist-60",
+      "name": "Skybuilders' Charcoal"
+    },
+    {
+      "id": "against-the-wind-orchestrion-roll-alchemist-60",
+      "name": "Against the Wind Orchestrion Roll"
+    },
+    {
+      "id": "black-and-white-orchestrion-roll-alchemist-60",
+      "name": "Black and White Orchestrion Roll"
+    },
+    {
+      "id": "blood-for-blood-orchestrion-roll-alchemist-60",
+      "name": "Blood for Blood Orchestrion Roll"
+    },
+    {
+      "id": "botanists-dried-herbs-alchemist-60",
+      "name": "Botanist's Dried Herbs"
+    },
+    {
+      "id": "close-to-the-heavens-orchestrion-roll-alchemist-60",
+      "name": "Close to the Heavens Orchestrion Roll"
+    },
+    {
+      "id": "engage-orchestrion-roll-alchemist-60",
+      "name": "Engage Orchestrion Roll"
+    },
+    {
+      "id": "imagination-orchestrion-roll-alchemist-60",
+      "name": "Imagination Orchestrion Roll"
+    },
+    {
+      "id": "landlords-orchestrion-roll-alchemist-60",
+      "name": "Landlords Orchestrion Roll"
+    },
+    {
+      "id": "lost-in-the-clouds-orchestrion-roll-alchemist-60",
+      "name": "Lost in the Clouds Orchestrion Roll"
+    },
+    {
+      "id": "missing-pages-orchestrion-roll-alchemist-60",
+      "name": "Missing Pages Orchestrion Roll"
+    },
+    {
+      "id": "painted-foothills-orchestrion-roll-alchemist-60",
+      "name": "Painted Foothills Orchestrion Roll"
+    },
+    {
+      "id": "skylords-orchestrion-roll-alchemist-60",
+      "name": "Skylords Orchestrion Roll"
+    },
+    {
+      "id": "starved-orchestrion-roll-alchemist-60",
+      "name": "Starved Orchestrion Roll"
+    },
+    {
+      "id": "the-silent-regard-of-stars-orchestrion-roll-alchemist-60",
+      "name": "The Silent Regard of Stars Orchestrion Roll"
+    },
+    {
+      "id": "elixir-mixing-paraphernalia-alchemist-60",
+      "name": "Elixir Mixing Paraphernalia"
+    },
+    {
+      "id": "hakutaku-eye-cluster-alchemist-60",
+      "name": "Hakutaku Eye Cluster"
+    },
+    {
+      "id": "highland-classical-window-alchemist-60",
+      "name": "Highland Classical Window"
+    },
+    {
+      "id": "highland-composite-awning-alchemist-60",
+      "name": "Highland Composite Awning"
+    },
+    {
+      "id": "highland-cottage-roof-composite-alchemist-60",
+      "name": "Highland Cottage Roof (Composite)"
+    },
+    {
+      "id": "highland-cottage-wall-composite-alchemist-60",
+      "name": "Highland Cottage Wall (Composite)"
+    },
+    {
+      "id": "highland-house-roof-composite-alchemist-60",
+      "name": "Highland House Roof (Composite)"
+    },
+    {
+      "id": "highland-house-wall-composite-alchemist-60",
+      "name": "Highland House Wall (Composite)"
+    },
+    {
+      "id": "highland-interior-wall-alchemist-60",
+      "name": "Highland Interior Wall"
+    },
+    {
+      "id": "highland-mansion-roof-composite-alchemist-60",
+      "name": "Highland Mansion Roof (Composite)"
+    },
+    {
+      "id": "highland-mansion-wall-composite-alchemist-60",
+      "name": "Highland Mansion Wall (Composite)"
+    },
+    {
+      "id": "land-diving-gear-alchemist-60",
+      "name": "Land Diving Gear"
+    },
+    {
+      "id": "max-ether-alchemist-60",
+      "name": "Max-Ether"
+    },
+    {
+      "id": "max-potion-alchemist-60",
+      "name": "Max-Potion"
+    },
+    {
+      "id": "noble-gold-alchemist-60",
+      "name": "Noble Gold"
+    },
+    {
+      "id": "nobles-codex-alchemist-60",
+      "name": "Noble's Codex"
+    },
+    {
+      "id": "potion-of-harmony-alchemist-60",
+      "name": "Potion of Harmony"
+    },
+    {
+      "id": "rarefied-book-of-aurum-regis-alchemist-60",
+      "name": "Rarefied Book of Aurum Regis"
+    },
+    {
+      "id": "stable-supplies-alchemist-60",
+      "name": "Stable Supplies"
+    },
+    {
+      "id": "steeping-accessory-alchemist-60",
+      "name": "Steeping Accessory"
+    },
+    {
+      "id": "effigy-components-alchemist-60",
+      "name": "Effigy Components"
+    },
+    {
+      "id": "ceremonial-bow-components-alchemist-60",
+      "name": "Ceremonial Bow Components"
+    },
+    {
+      "id": "culinary-knife-component-alchemist-60",
+      "name": "Culinary Knife Component"
+    },
+    {
+      "id": "dzo-shear-components-alchemist-60",
+      "name": "Dzo Shear Components"
+    },
+    {
+      "id": "korrigan-doll-alchemist-60",
+      "name": "Korrigan Doll"
+    },
+    {
+      "id": "pristine-fruit-figurine-alchemist-60",
+      "name": "Pristine Fruit Figurine"
+    },
+    {
+      "id": "generous-gift-alchemist-60",
+      "name": "Generous Gift"
+    },
+    {
+      "id": "drum-parts-alchemist-60",
+      "name": "Drum Parts"
+    },
+    {
+      "id": "mikoshi-frippery-alchemist-60",
+      "name": "Mikoshi Frippery"
+    },
+    {
+      "id": "far-eastern-antique-component-alchemist-60",
+      "name": "Far Eastern Antique Component"
+    },
+    {
+      "id": "orphanage-donation-component-alchemist-60",
+      "name": "Orphanage Donation Component"
+    },
+    {
+      "id": "far-eastern-antique-alchemist-60",
+      "name": "Far Eastern Antique"
+    },
+    {
+      "id": "orphanage-donation-alchemist-60",
+      "name": "Orphanage Donation"
+    },
+    {
+      "id": "atrophied-atomos-alchemist-60",
+      "name": "Atrophied Atomos"
+    },
+    {
+      "id": "down-the-up-staircase-orchestrion-roll-alchemist-60",
+      "name": "Down the Up Staircase Orchestrion Roll"
+    },
+    {
+      "id": "eternal-wind-orchestrion-roll-alchemist-60",
+      "name": "Eternal Wind Orchestrion Roll"
+    },
+    {
+      "id": "fiend-orchestrion-roll-alchemist-60",
+      "name": "Fiend Orchestrion Roll"
+    },
+    {
+      "id": "heroes-orchestrion-roll-alchemist-60",
+      "name": "Heroes Orchestrion Roll"
+    },
+    {
+      "id": "limitless-blue-orchestrion-roll-alchemist-60",
+      "name": "Limitless Blue Orchestrion Roll"
+    },
+    {
+      "id": "the-hand-that-gives-the-rose-orchestrion-roll-alchemist-60",
+      "name": "The Hand that Gives the Rose Orchestrion Roll"
+    },
+    {
+      "id": "unbending-steel-orchestrion-roll-alchemist-60",
+      "name": "Unbending Steel Orchestrion Roll"
+    },
+    {
+      "id": "woe-that-is-madness-orchestrion-roll-alchemist-60",
+      "name": "Woe that Is Madness Orchestrion Roll"
+    },
+    {
+      "id": "astral-oil-alchemist-60",
+      "name": "Astral Oil"
+    },
+    {
+      "id": "superior-deep-blue-enchanted-ink-alchemist-60",
+      "name": "Superior Deep-blue Enchanted Ink"
+    },
+    {
+      "id": "superior-deep-green-enchanted-ink-alchemist-60",
+      "name": "Superior Deep-green Enchanted Ink"
+    },
+    {
+      "id": "superior-deep-red-enchanted-ink-alchemist-60",
+      "name": "Superior Deep-red Enchanted Ink"
+    },
+    {
+      "id": "titanium-alloy-mirror-alchemist-60",
+      "name": "Titanium Alloy Mirror"
+    },
+    {
+      "id": "answers-orchestrion-roll-alchemist-60",
+      "name": "Answers Orchestrion Roll"
+    },
+    {
+      "id": "dravanian-down-tree-alchemist-60",
+      "name": "Dravanian Down Tree"
+    },
+    {
+      "id": "equilibrium-orchestrion-roll-alchemist-60",
+      "name": "Equilibrium Orchestrion Roll"
+    },
+    {
+      "id": "revenge-of-the-horde-orchestrion-roll-alchemist-60",
+      "name": "Revenge of the Horde Orchestrion Roll"
+    },
+    {
+      "id": "sephirot-root-alchemist-60",
+      "name": "Sephirot Root"
+    },
+    {
+      "id": "solid-brick-interior-wall-alchemist-60",
+      "name": "Solid-brick Interior Wall"
+    },
+    {
+      "id": "wine-glass-alchemist-60",
+      "name": "Wine Glass"
+    },
+    {
+      "id": "camphor-alchemist-60",
+      "name": "Camphor"
+    },
+    {
+      "id": "dead-hive-codex-alchemist-60",
+      "name": "Dead Hive Codex"
+    },
+    {
+      "id": "dead-hive-grimoire-alchemist-60",
+      "name": "Dead Hive Grimoire"
+    },
+    {
+      "id": "endless-expanse-codex-alchemist-60",
+      "name": "Endless Expanse Codex"
+    },
+    {
+      "id": "endless-expanse-grimoire-alchemist-60",
+      "name": "Endless Expanse Grimoire"
+    },
+    {
+      "id": "grade-2-dexterity-dissolvent-alchemist-60",
+      "name": "Grade 2 Dexterity Dissolvent"
+    },
+    {
+      "id": "grade-2-intelligence-dissolvent-alchemist-60",
+      "name": "Grade 2 Intelligence Dissolvent"
+    },
+    {
+      "id": "grade-2-mind-dissolvent-alchemist-60",
+      "name": "Grade 2 Mind Dissolvent"
+    },
+    {
+      "id": "grade-2-strength-dissolvent-alchemist-60",
+      "name": "Grade 2 Strength Dissolvent"
+    },
+    {
+      "id": "grade-2-vitality-dissolvent-alchemist-60",
+      "name": "Grade 2 Vitality Dissolvent"
+    },
+    {
+      "id": "luminous-fiber-alchemist-60",
+      "name": "Luminous Fiber"
+    },
+    {
+      "id": "powdered-horn-alchemist-60",
+      "name": "Powdered Horn"
+    },
+    {
+      "id": "tempered-glass-alchemist-60",
+      "name": "Tempered Glass"
+    },
+    {
+      "id": "infinity-orchestrion-roll-alchemist-60",
+      "name": "Infinity Orchestrion Roll"
+    },
+    {
+      "id": "sephirot-tree-alchemist-60",
+      "name": "Sephirot Tree"
+    },
+    {
+      "id": "codex-of-the-round-alchemist-60",
+      "name": "Codex of the Round"
+    },
+    {
+      "id": "grimoire-of-the-round-alchemist-60",
+      "name": "Grimoire of the Round"
+    },
+    {
+      "id": "max-potion-of-dexterity-alchemist-60",
+      "name": "Max-Potion of Dexterity"
+    },
+    {
+      "id": "max-potion-of-intelligence-alchemist-60",
+      "name": "Max-Potion of Intelligence"
+    },
+    {
+      "id": "max-potion-of-mind-alchemist-60",
+      "name": "Max-Potion of Mind"
+    },
+    {
+      "id": "max-potion-of-strength-alchemist-60",
+      "name": "Max-Potion of Strength"
+    },
+    {
+      "id": "max-potion-of-vitality-alchemist-60",
+      "name": "Max-Potion of Vitality"
+    },
+    {
+      "id": "replica-allagan-grimoire-of-casting-alchemist-60",
+      "name": "Replica Allagan Grimoire of Casting"
+    },
+    {
+      "id": "replica-allagan-grimoire-of-healing-alchemist-60",
+      "name": "Replica Allagan Grimoire of Healing"
+    },
+    {
+      "id": "replica-high-allagan-grimoire-of-casting-alchemist-60",
+      "name": "Replica High Allagan Grimoire of Casting"
+    },
+    {
+      "id": "replica-high-allagan-grimoire-of-healing-alchemist-60",
+      "name": "Replica High Allagan Grimoire of Healing"
+    },
+    {
+      "id": "seeing-horde-codex-alchemist-60",
+      "name": "Seeing Horde Codex"
+    },
+    {
+      "id": "seeing-horde-grimoire-alchemist-60",
+      "name": "Seeing Horde Grimoire"
+    },
+    {
+      "id": "song-of-the-demon-alchemist-60",
+      "name": "Song of the Demon"
+    },
+    {
+      "id": "song-of-the-fiend-alchemist-60",
+      "name": "Song of the Fiend"
+    },
+    {
+      "id": "song-of-the-goddess-alchemist-60",
+      "name": "Song of the Goddess"
+    },
+    {
+      "id": "word-of-the-demon-alchemist-60",
+      "name": "Word of the Demon"
+    },
+    {
+      "id": "word-of-the-fiend-alchemist-60",
+      "name": "Word of the Fiend"
+    },
+    {
+      "id": "word-of-the-goddess-alchemist-60",
+      "name": "Word of the Goddess"
+    },
+    {
+      "id": "grade-3-dexterity-dissolvent-alchemist-60",
+      "name": "Grade 3 Dexterity Dissolvent"
+    },
+    {
+      "id": "grade-3-intelligence-dissolvent-alchemist-60",
+      "name": "Grade 3 Intelligence Dissolvent"
+    },
+    {
+      "id": "grade-3-mind-dissolvent-alchemist-60",
+      "name": "Grade 3 Mind Dissolvent"
+    },
+    {
+      "id": "grade-3-strength-dissolvent-alchemist-60",
+      "name": "Grade 3 Strength Dissolvent"
+    },
+    {
+      "id": "grade-3-vitality-dissolvent-alchemist-60",
+      "name": "Grade 3 Vitality Dissolvent"
+    },
+    {
+      "id": "hemiskin-codex-alchemist-60",
+      "name": "Hemiskin Codex"
+    },
+    {
+      "id": "hemiskin-grimoire-alchemist-60",
+      "name": "Hemiskin Grimoire"
+    },
+    {
+      "id": "supramax-potion-of-dexterity-alchemist-60",
+      "name": "Supramax-Potion of Dexterity"
+    },
+    {
+      "id": "supramax-potion-of-intelligence-alchemist-60",
+      "name": "Supramax-Potion of Intelligence"
+    },
+    {
+      "id": "supramax-potion-of-mind-alchemist-60",
+      "name": "Supramax-Potion of Mind"
+    },
+    {
+      "id": "supramax-potion-of-strength-alchemist-60",
+      "name": "Supramax-Potion of Strength"
+    },
+    {
+      "id": "supramax-potion-of-vitality-alchemist-60",
+      "name": "Supramax-Potion of Vitality"
+    },
+    {
+      "id": "enchanted-koppranickel-ink-alchemist-61",
+      "name": "Enchanted Koppranickel Ink"
+    },
+    {
+      "id": "growth-formula-eta-alchemist-61",
+      "name": "Growth Formula Eta"
+    },
+    {
+      "id": "gold-saucer-consolation-prize-component-alchemist-61",
+      "name": "Gold Saucer Consolation Prize Component"
+    },
+    {
+      "id": "gold-saucer-consolation-prize-alchemist-61",
+      "name": "Gold Saucer Consolation Prize"
+    },
+    {
+      "id": "koppranickel-codex-alchemist-61",
+      "name": "Koppranickel Codex"
+    },
+    {
+      "id": "koppranickel-index-alchemist-61",
+      "name": "Koppranickel Index"
+    },
+    {
+      "id": "gyr-abanian-remedy-components-alchemist-62",
+      "name": "Gyr Abanian Remedy Components"
+    },
+    {
+      "id": "harpoon-components-alchemist-62",
+      "name": "Harpoon Components"
+    },
+    {
+      "id": "m-tribe-sundry-component-alchemist-62",
+      "name": "M Tribe Sundry Component"
+    },
+    {
+      "id": "anti-shark-harpoon-alchemist-62",
+      "name": "Anti-shark Harpoon"
+    },
+    {
+      "id": "gyr-abanian-remedies-alchemist-62",
+      "name": "Gyr Abanian Remedies"
+    },
+    {
+      "id": "m-tribe-sundries-alchemist-62",
+      "name": "M Tribe Sundries"
+    },
+    {
+      "id": "gyuki-leather-codex-alchemist-62",
+      "name": "Gyuki Leather Codex"
+    },
+    {
+      "id": "gyuki-leather-grimoire-alchemist-62",
+      "name": "Gyuki Leather Grimoire"
+    },
+    {
+      "id": "potent-spiritbond-potion-alchemist-62",
+      "name": "Potent Spiritbond Potion"
+    },
+    {
+      "id": "rarefied-koppranickel-index-alchemist-62",
+      "name": "Rarefied Koppranickel Index"
+    },
+    {
+      "id": "grade-1-reisui-of-dexterity-alchemist-63",
+      "name": "Grade 1 Reisui of Dexterity"
+    },
+    {
+      "id": "grade-1-reisui-of-intelligence-alchemist-63",
+      "name": "Grade 1 Reisui of Intelligence"
+    },
+    {
+      "id": "grade-1-reisui-of-mind-alchemist-63",
+      "name": "Grade 1 Reisui of Mind"
+    },
+    {
+      "id": "grade-1-reisui-of-strength-alchemist-63",
+      "name": "Grade 1 Reisui of Strength"
+    },
+    {
+      "id": "grade-1-reisui-of-vitality-alchemist-63",
+      "name": "Grade 1 Reisui of Vitality"
+    },
+    {
+      "id": "cold-weather-gear-components-alchemist-63",
+      "name": "Cold-weather Gear Components"
+    },
+    {
+      "id": "resistance-materiel-component-alchemist-63",
+      "name": "Resistance Materiel Component"
+    },
+    {
+      "id": "sui-no-sato-special-components-alchemist-63",
+      "name": "Sui-no-Sato Special Components"
+    },
+    {
+      "id": "coerthan-cold-weather-gear-alchemist-63",
+      "name": "Coerthan Cold-weather Gear"
+    },
+    {
+      "id": "resistance-materiel-alchemist-63",
+      "name": "Resistance Materiel"
+    },
+    {
+      "id": "sui-no-sato-special-alchemist-63",
+      "name": "Sui-no-Sato Special"
+    },
+    {
+      "id": "intellectuary-alchemist-63",
+      "name": "Intellectuary"
+    },
+    {
+      "id": "beetle-glue-alchemist-64",
+      "name": "Beetle Glue"
+    },
+    {
+      "id": "enchanted-durium-ink-alchemist-64",
+      "name": "Enchanted Durium Ink"
+    },
+    {
+      "id": "cloud-pearl-components-alchemist-64",
+      "name": "Cloud Pearl Components"
+    },
+    {
+      "id": "cloud-pearl-alchemist-64",
+      "name": "Cloud Pearl"
+    },
+    {
+      "id": "bag-of-booty-alchemist-64",
+      "name": "Bag of Booty"
+    },
+    {
+      "id": "competent-craftsmans-tea-alchemist-64",
+      "name": "Competent Craftsman's Tea"
+    },
+    {
+      "id": "rarefied-reisui-alchemist-64",
+      "name": "Rarefied Reisui"
+    },
+    {
+      "id": "twice-fermented-mun-tuy-juice-alchemist-65",
+      "name": "Twice-fermented Mun-Tuy Juice"
+    },
+    {
+      "id": "commanding-craftsmans-tea-alchemist-65",
+      "name": "Commanding Craftsman's Tea"
+    },
+    {
+      "id": "tigerskin-codex-alchemist-65",
+      "name": "Tigerskin Codex"
+    },
+    {
+      "id": "tigerskin-grimoire-alchemist-65",
+      "name": "Tigerskin Grimoire"
+    },
+    {
+      "id": "growth-formula-theta-alchemist-66",
+      "name": "Growth Formula Theta"
+    },
+    {
+      "id": "persimmon-tannin-alchemist-66",
+      "name": "Persimmon Tannin"
+    },
+    {
+      "id": "ishgardian-culinary-materials-alchemist-66",
+      "name": "Ishgardian Culinary Materials"
+    },
+    {
+      "id": "juice-fermenting-supplies-alchemist-66",
+      "name": "Juice Fermenting Supplies"
+    },
+    {
+      "id": "fermented-juice-alchemist-66",
+      "name": "Fermented Juice"
+    },
+    {
+      "id": "ishgardian-culinary-essentials-alchemist-66",
+      "name": "Ishgardian Culinary Essentials"
+    },
+    {
+      "id": "black-arum-corsage-alchemist-66",
+      "name": "Black Arum Corsage"
+    },
+    {
+      "id": "black-campanula-corsage-alchemist-66",
+      "name": "Black Campanula Corsage"
+    },
+    {
+      "id": "black-dahlia-corsage-alchemist-66",
+      "name": "Black Dahlia Corsage"
+    },
+    {
+      "id": "black-hydrangea-corsage-alchemist-66",
+      "name": "Black Hydrangea Corsage"
+    },
+    {
+      "id": "black-lily-of-the-valley-corsage-alchemist-66",
+      "name": "Black Lily of the Valley Corsage"
+    },
+    {
+      "id": "black-tulip-corsage-alchemist-66",
+      "name": "Black Tulip Corsage"
+    },
+    {
+      "id": "blue-arum-corsage-alchemist-66",
+      "name": "Blue Arum Corsage"
+    },
+    {
+      "id": "blue-campanula-corsage-alchemist-66",
+      "name": "Blue Campanula Corsage"
+    },
+    {
+      "id": "blue-dahlia-corsage-alchemist-66",
+      "name": "Blue Dahlia Corsage"
+    },
+    {
+      "id": "blue-hydrangea-corsage-alchemist-66",
+      "name": "Blue Hydrangea Corsage"
+    },
+    {
+      "id": "blue-lily-of-the-valley-corsage-alchemist-66",
+      "name": "Blue Lily of the Valley Corsage"
+    },
+    {
+      "id": "blue-tulip-corsage-alchemist-66",
+      "name": "Blue Tulip Corsage"
+    },
+    {
+      "id": "green-arum-corsage-alchemist-66",
+      "name": "Green Arum Corsage"
+    },
+    {
+      "id": "green-campanula-corsage-alchemist-66",
+      "name": "Green Campanula Corsage"
+    },
+    {
+      "id": "green-dahlia-corsage-alchemist-66",
+      "name": "Green Dahlia Corsage"
+    },
+    {
+      "id": "green-hydrangea-corsage-alchemist-66",
+      "name": "Green Hydrangea Corsage"
+    },
+    {
+      "id": "green-lily-of-the-valley-corsage-alchemist-66",
+      "name": "Green Lily of the Valley Corsage"
+    },
+    {
+      "id": "green-tulip-corsage-alchemist-66",
+      "name": "Green Tulip Corsage"
+    },
+    {
+      "id": "orange-arum-corsage-alchemist-66",
+      "name": "Orange Arum Corsage"
+    },
+    {
+      "id": "orange-campanula-corsage-alchemist-66",
+      "name": "Orange Campanula Corsage"
+    },
+    {
+      "id": "orange-dahlia-corsage-alchemist-66",
+      "name": "Orange Dahlia Corsage"
+    },
+    {
+      "id": "orange-hydrangea-corsage-alchemist-66",
+      "name": "Orange Hydrangea Corsage"
+    },
+    {
+      "id": "orange-lily-of-the-valley-corsage-alchemist-66",
+      "name": "Orange Lily of the Valley Corsage"
+    },
+    {
+      "id": "orange-tulip-corsage-alchemist-66",
+      "name": "Orange Tulip Corsage"
+    },
+    {
+      "id": "purple-arum-corsage-alchemist-66",
+      "name": "Purple Arum Corsage"
+    },
+    {
+      "id": "purple-campanula-corsage-alchemist-66",
+      "name": "Purple Campanula Corsage"
+    },
+    {
+      "id": "purple-dahlia-corsage-alchemist-66",
+      "name": "Purple Dahlia Corsage"
+    },
+    {
+      "id": "purple-hydrangea-corsage-alchemist-66",
+      "name": "Purple Hydrangea Corsage"
+    },
+    {
+      "id": "purple-lily-of-the-valley-corsage-alchemist-66",
+      "name": "Purple Lily of the Valley Corsage"
+    },
+    {
+      "id": "purple-tulip-corsage-alchemist-66",
+      "name": "Purple Tulip Corsage"
+    },
+    {
+      "id": "rainbow-arum-corsage-alchemist-66",
+      "name": "Rainbow Arum Corsage"
+    },
+    {
+      "id": "rainbow-campanula-corsage-alchemist-66",
+      "name": "Rainbow Campanula Corsage"
+    },
+    {
+      "id": "rainbow-dahlia-corsage-alchemist-66",
+      "name": "Rainbow Dahlia Corsage"
+    },
+    {
+      "id": "rainbow-hydrangea-corsage-alchemist-66",
+      "name": "Rainbow Hydrangea Corsage"
+    },
+    {
+      "id": "rainbow-lily-of-the-valley-corsage-alchemist-66",
+      "name": "Rainbow Lily of the Valley Corsage"
+    },
+    {
+      "id": "rainbow-tulip-corsage-alchemist-66",
+      "name": "Rainbow Tulip Corsage"
+    },
+    {
+      "id": "rarefied-tigerskin-grimoire-alchemist-66",
+      "name": "Rarefied Tigerskin Grimoire"
+    },
+    {
+      "id": "red-arum-corsage-alchemist-66",
+      "name": "Red Arum Corsage"
+    },
+    {
+      "id": "red-campanula-corsage-alchemist-66",
+      "name": "Red Campanula Corsage"
+    },
+    {
+      "id": "red-dahlia-corsage-alchemist-66",
+      "name": "Red Dahlia Corsage"
+    },
+    {
+      "id": "red-hydrangea-corsage-alchemist-66",
+      "name": "Red Hydrangea Corsage"
+    },
+    {
+      "id": "red-lily-of-the-valley-corsage-alchemist-66",
+      "name": "Red Lily of the Valley Corsage"
+    },
+    {
+      "id": "red-tulip-corsage-alchemist-66",
+      "name": "Red Tulip Corsage"
+    },
+    {
+      "id": "white-arum-corsage-alchemist-66",
+      "name": "White Arum Corsage"
+    },
+    {
+      "id": "white-campanula-corsage-alchemist-66",
+      "name": "White Campanula Corsage"
+    },
+    {
+      "id": "white-dahlia-corsage-alchemist-66",
+      "name": "White Dahlia Corsage"
+    },
+    {
+      "id": "white-hydrangea-corsage-alchemist-66",
+      "name": "White Hydrangea Corsage"
+    },
+    {
+      "id": "white-lily-of-the-valley-corsage-alchemist-66",
+      "name": "White Lily of the Valley Corsage"
+    },
+    {
+      "id": "white-tulip-corsage-alchemist-66",
+      "name": "White Tulip Corsage"
+    },
+    {
+      "id": "yellow-arum-corsage-alchemist-66",
+      "name": "Yellow Arum Corsage"
+    },
+    {
+      "id": "yellow-campanula-corsage-alchemist-66",
+      "name": "Yellow Campanula Corsage"
+    },
+    {
+      "id": "yellow-dahlia-corsage-alchemist-66",
+      "name": "Yellow Dahlia Corsage"
+    },
+    {
+      "id": "yellow-hydrangea-corsage-alchemist-66",
+      "name": "Yellow Hydrangea Corsage"
+    },
+    {
+      "id": "yellow-lily-of-the-valley-corsage-alchemist-66",
+      "name": "Yellow Lily of the Valley Corsage"
+    },
+    {
+      "id": "yellow-tulip-corsage-alchemist-66",
+      "name": "Yellow Tulip Corsage"
+    },
+    {
+      "id": "decorative-tavern-furnishing-materials-alchemist-67",
+      "name": "Decorative Tavern Furnishing Materials"
+    },
+    {
+      "id": "signature-buuz-cookware-materials-alchemist-67",
+      "name": "Signature Buuz Cookware Materials"
+    },
+    {
+      "id": "hard-place-decorative-furnishings-alchemist-67",
+      "name": "Hard Place Decorative Furnishings"
+    },
+    {
+      "id": "signature-buuz-cookware-alchemist-67",
+      "name": "Signature Buuz Cookware"
+    },
+    {
+      "id": "cunning-craftsmans-tea-alchemist-67",
+      "name": "Cunning Craftsman's Tea"
+    },
+    {
+      "id": "marid-leather-codex-alchemist-67",
+      "name": "Marid Leather Codex"
+    },
+    {
+      "id": "marid-leather-grimoire-alchemist-67",
+      "name": "Marid Leather Grimoire"
+    },
+    {
+      "id": "enchanted-palladium-ink-alchemist-68",
+      "name": "Enchanted Palladium Ink"
+    },
+    {
+      "id": "arkhi-brewing-vat-materials-alchemist-68",
+      "name": "Arkhi Brewing Vat Materials"
+    },
+    {
+      "id": "arkhi-brewing-set-alchemist-68",
+      "name": "Arkhi Brewing Set"
+    },
+    {
+      "id": "luminol-alchemist-68",
+      "name": "Luminol"
+    },
+    {
+      "id": "gazelleskin-codex-alchemist-68",
+      "name": "Gazelleskin Codex"
+    },
+    {
+      "id": "gazelleskin-grimoire-alchemist-68",
+      "name": "Gazelleskin Grimoire"
+    },
+    {
+      "id": "rarefied-growth-formula-alchemist-68",
+      "name": "Rarefied Growth Formula"
+    },
+    {
+      "id": "infusion-of-mind-alchemist-69",
+      "name": "Infusion of Mind"
+    },
+    {
+      "id": "infusion-of-vitality-alchemist-69",
+      "name": "Infusion of Vitality"
+    },
+    {
+      "id": "armament-repair-kit-alchemist-70",
+      "name": "Armament Repair Kit"
+    },
+    {
+      "id": "axle-component-alchemist-70",
+      "name": "Axle Component"
+    },
+    {
+      "id": "core-tank-component-alchemist-70",
+      "name": "Core Tank Component"
+    },
+    {
+      "id": "eye-catching-custom-option-alchemist-70",
+      "name": "Eye-catching Custom Option"
+    },
+    {
+      "id": "filtration-supplies-alchemist-70",
+      "name": "Filtration Supplies"
+    },
+    {
+      "id": "heat-resistant-component-alchemist-70",
+      "name": "Heat-resistant Component"
+    },
+    {
+      "id": "low-profile-custom-option-alchemist-70",
+      "name": "Low-profile Custom Option"
+    },
+    {
+      "id": "steel-plate-component-alchemist-70",
+      "name": "Steel Plate Component"
+    },
+    {
+      "id": "test-fire-target-dummy-alchemist-70",
+      "name": "Test-fire Target Dummy"
+    },
+    {
+      "id": "flyer-printing-set-alchemist-70",
+      "name": "Flyer Printing Set"
+    },
+    {
+      "id": "grade-2-skybuilders-soap-alchemist-70",
+      "name": "Grade 2 Skybuilders' Soap"
+    },
+    {
+      "id": "grade-3-skybuilders-soap-alchemist-70",
+      "name": "Grade 3 Skybuilders' Soap"
+    },
+    {
+      "id": "grade-4-skybuilders-soap-alchemist-70",
+      "name": "Grade 4 Skybuilders' Soap"
+    },
+    {
+      "id": "skybuilders-soap-alchemist-70",
+      "name": "Skybuilders' Soap"
+    },
+    {
+      "id": "kholusian-cuisine-set-alchemist-70",
+      "name": "Kholusian Cuisine Set"
+    },
+    {
+      "id": "workshop-supplies-alchemist-70",
+      "name": "Workshop Supplies"
+    },
+    {
+      "id": "automaton-repair-component-alchemist-70",
+      "name": "Automaton Repair Component"
+    },
+    {
+      "id": "bespoke-barter-item-alchemist-70",
+      "name": "Bespoke Barter Item"
+    },
+    {
+      "id": "engine-component-alchemist-70",
+      "name": "Engine Component"
+    },
+    {
+      "id": "experimental-plating-component-alchemist-70",
+      "name": "Experimental Plating Component"
+    },
+    {
+      "id": "tavern-materials-alchemist-70",
+      "name": "Tavern Materials"
+    },
+    {
+      "id": "unfailing-eye-opener-alchemist-70",
+      "name": "Unfailing Eye Opener"
+    },
+    {
+      "id": "brewery-supplies-alchemist-70",
+      "name": "Brewery Supplies"
+    },
+    {
+      "id": "blueprint-supplies-alchemist-70",
+      "name": "Blueprint Supplies"
+    },
+    {
+      "id": "cask-component-alchemist-70",
+      "name": "Cask Component"
+    },
+    {
+      "id": "cooling-device-component-alchemist-70",
+      "name": "Cooling Device Component"
+    },
+    {
+      "id": "crystal-cannon-supplies-alchemist-70",
+      "name": "Crystal Cannon Supplies"
+    },
+    {
+      "id": "grooming-kit-alchemist-70",
+      "name": "Grooming Kit"
+    },
+    {
+      "id": "workshop-expansion-supplies-alchemist-70",
+      "name": "Workshop Expansion Supplies"
+    },
+    {
+      "id": "automaton-worker-supplies-alchemist-70",
+      "name": "Automaton Worker Supplies"
+    },
+    {
+      "id": "edible-antidote-alchemist-70",
+      "name": "Edible Antidote"
+    },
+    {
+      "id": "potent-dissolvent-alchemist-70",
+      "name": "Potent Dissolvent"
+    },
+    {
+      "id": "infusion-of-dexterity-alchemist-70",
+      "name": "Infusion of Dexterity"
+    },
+    {
+      "id": "infusion-of-intelligence-alchemist-70",
+      "name": "Infusion of Intelligence"
+    },
+    {
+      "id": "infusion-of-strength-alchemist-70",
+      "name": "Infusion of Strength"
+    },
+    {
+      "id": "rarefied-gazelleskin-codex-alchemist-70",
+      "name": "Rarefied Gazelleskin Codex"
+    },
+    {
+      "id": "super-ether-alchemist-70",
+      "name": "Super-Ether"
+    },
+    {
+      "id": "super-potion-alchemist-70",
+      "name": "Super-Potion"
+    },
+    {
+      "id": "beautys-wicked-wiles-orchestrion-roll-alchemist-70",
+      "name": "Beauty's Wicked Wiles Orchestrion Roll"
+    },
+    {
+      "id": "revelation-orchestrion-roll-alchemist-70",
+      "name": "Revelation Orchestrion Roll"
+    },
+    {
+      "id": "the-worms-head-orchestrion-roll-alchemist-70",
+      "name": "The Worm's Head Orchestrion Roll"
+    },
+    {
+      "id": "the-worms-tail-orchestrion-roll-alchemist-70",
+      "name": "The Worm's Tail Orchestrion Roll"
+    },
+    {
+      "id": "ala-mhigan-burdet-alchemist-70",
+      "name": "Ala Mhigan Burdet"
+    },
+    {
+      "id": "snailfish-oil-alchemist-70",
+      "name": "Snailfish Oil"
+    },
+    {
+      "id": "ambient-abyss-orchestrion-roll-alchemist-70",
+      "name": "Ambient Abyss Orchestrion Roll"
+    },
+    {
+      "id": "assorted-candles-alchemist-70",
+      "name": "Assorted Candles"
+    },
+    {
+      "id": "chirurgeons-essentials-alchemist-70",
+      "name": "Chirurgeon's Essentials"
+    },
+    {
+      "id": "flying-chair-alchemist-70",
+      "name": "Flying Chair"
+    },
+    {
+      "id": "jellyfish-lamp-alchemist-70",
+      "name": "Jellyfish Lamp"
+    },
+    {
+      "id": "shinryus-wing-alchemist-70",
+      "name": "Shinryu's Wing"
+    },
+    {
+      "id": "byakkos-enspirited-codex-alchemist-70",
+      "name": "Byakko's Enspirited Codex"
+    },
+    {
+      "id": "byakkos-enspirited-grimoire-alchemist-70",
+      "name": "Byakko's Enspirited Grimoire"
+    },
+    {
+      "id": "codex-of-the-true-griffin-alchemist-70",
+      "name": "Codex of the True Griffin"
+    },
+    {
+      "id": "grade-2-reisui-of-dexterity-alchemist-70",
+      "name": "Grade 2 Reisui of Dexterity"
+    },
+    {
+      "id": "grade-2-reisui-of-intelligence-alchemist-70",
+      "name": "Grade 2 Reisui of Intelligence"
+    },
+    {
+      "id": "grade-2-reisui-of-mind-alchemist-70",
+      "name": "Grade 2 Reisui of Mind"
+    },
+    {
+      "id": "grade-2-reisui-of-strength-alchemist-70",
+      "name": "Grade 2 Reisui of Strength"
+    },
+    {
+      "id": "grade-2-reisui-of-vitality-alchemist-70",
+      "name": "Grade 2 Reisui of Vitality"
+    },
+    {
+      "id": "grimoire-of-the-true-griffin-alchemist-70",
+      "name": "Grimoire of the True Griffin"
+    },
+    {
+      "id": "seiryus-sanctified-codex-alchemist-70",
+      "name": "Seiryu's Sanctified Codex"
+    },
+    {
+      "id": "seiryus-sanctified-grimoire-alchemist-70",
+      "name": "Seiryu's Sanctified Grimoire"
+    },
+    {
+      "id": "shinryus-ephemeral-codex-alchemist-70",
+      "name": "Shinryu's Ephemeral Codex"
+    },
+    {
+      "id": "shinryus-ephemeral-grimoire-alchemist-70",
+      "name": "Shinryu's Ephemeral Grimoire"
+    },
+    {
+      "id": "susanos-rapturous-codex-alchemist-70",
+      "name": "Susano's Rapturous Codex"
+    },
+    {
+      "id": "susanos-rapturous-grimoire-alchemist-70",
+      "name": "Susano's Rapturous Grimoire"
+    },
+    {
+      "id": "suzakus-flame-kissed-codex-alchemist-70",
+      "name": "Suzaku's Flame-kissed Codex"
+    },
+    {
+      "id": "suzakus-flame-kissed-grimoire-alchemist-70",
+      "name": "Suzaku's Flame-kissed Grimoire"
+    },
+    {
+      "id": "tsukuyomis-moonlit-codex-alchemist-70",
+      "name": "Tsukuyomi's Moonlit Codex"
+    },
+    {
+      "id": "tsukuyomis-moonlit-grimoire-alchemist-70",
+      "name": "Tsukuyomi's Moonlit Grimoire"
+    },
+    {
+      "id": "grade-3-reisui-of-dexterity-alchemist-70",
+      "name": "Grade 3 Reisui of Dexterity"
+    },
+    {
+      "id": "grade-3-reisui-of-intelligence-alchemist-70",
+      "name": "Grade 3 Reisui of Intelligence"
+    },
+    {
+      "id": "grade-3-reisui-of-mind-alchemist-70",
+      "name": "Grade 3 Reisui of Mind"
+    },
+    {
+      "id": "grade-3-reisui-of-strength-alchemist-70",
+      "name": "Grade 3 Reisui of Strength"
+    },
+    {
+      "id": "grade-3-reisui-of-vitality-alchemist-70",
+      "name": "Grade 3 Reisui of Vitality"
+    },
+    {
+      "id": "amatsu-kaze-orchestrion-roll-alchemist-70",
+      "name": "Amatsu Kaze Orchestrion Roll"
+    },
+    {
+      "id": "answer-on-high-orchestrion-roll-alchemist-70",
+      "name": "Answer on High Orchestrion Roll"
+    },
+    {
+      "id": "nightbloom-orchestrion-roll-alchemist-70",
+      "name": "Nightbloom Orchestrion Roll"
+    },
+    {
+      "id": "wayward-daughter-orchestrion-roll-alchemist-70",
+      "name": "Wayward Daughter Orchestrion Roll"
+    },
+    {
+      "id": "grade-2-infusion-of-dexterity-alchemist-70",
+      "name": "Grade 2 Infusion of Dexterity"
+    },
+    {
+      "id": "grade-2-infusion-of-intelligence-alchemist-70",
+      "name": "Grade 2 Infusion of Intelligence"
+    },
+    {
+      "id": "grade-2-infusion-of-mind-alchemist-70",
+      "name": "Grade 2 Infusion of Mind"
+    },
+    {
+      "id": "grade-2-infusion-of-strength-alchemist-70",
+      "name": "Grade 2 Infusion of Strength"
+    },
+    {
+      "id": "grade-2-infusion-of-vitality-alchemist-70",
+      "name": "Grade 2 Infusion of Vitality"
+    },
+    {
+      "id": "hawks-eye-sand-alchemist-70",
+      "name": "Hawk's Eye Sand"
+    },
+    {
+      "id": "silvergrace-codex-alchemist-70",
+      "name": "Silvergrace Codex"
+    },
+    {
+      "id": "silvergrace-grimoire-alchemist-70",
+      "name": "Silvergrace Grimoire"
+    },
+    {
+      "id": "veteran-tree-sap-alchemist-70",
+      "name": "Veteran Tree Sap"
+    },
+    {
+      "id": "grade-4-reisui-of-dexterity-alchemist-70",
+      "name": "Grade 4 Reisui of Dexterity"
+    },
+    {
+      "id": "grade-4-reisui-of-intelligence-alchemist-70",
+      "name": "Grade 4 Reisui of Intelligence"
+    },
+    {
+      "id": "grade-4-reisui-of-mind-alchemist-70",
+      "name": "Grade 4 Reisui of Mind"
+    },
+    {
+      "id": "grade-4-reisui-of-strength-alchemist-70",
+      "name": "Grade 4 Reisui of Strength"
+    },
+    {
+      "id": "grade-4-reisui-of-vitality-alchemist-70",
+      "name": "Grade 4 Reisui of Vitality"
+    },
+    {
+      "id": "from-the-dragons-wake-orchestrion-roll-alchemist-70",
+      "name": "From the Dragon's Wake Orchestrion Roll"
+    },
+    {
+      "id": "sunrise-orchestrion-roll-alchemist-70",
+      "name": "Sunrise Orchestrion Roll"
+    },
+    {
+      "id": "grade-3-infusion-of-dexterity-alchemist-70",
+      "name": "Grade 3 Infusion of Dexterity"
+    },
+    {
+      "id": "grade-3-infusion-of-intelligence-alchemist-70",
+      "name": "Grade 3 Infusion of Intelligence"
+    },
+    {
+      "id": "grade-3-infusion-of-mind-alchemist-70",
+      "name": "Grade 3 Infusion of Mind"
+    },
+    {
+      "id": "grade-3-infusion-of-strength-alchemist-70",
+      "name": "Grade 3 Infusion of Strength"
+    },
+    {
+      "id": "grade-3-infusion-of-vitality-alchemist-70",
+      "name": "Grade 3 Infusion of Vitality"
+    },
+    {
+      "id": "rakshasa-codex-alchemist-70",
+      "name": "Rakshasa Codex"
+    },
+    {
+      "id": "rakshasa-grimoire-alchemist-70",
+      "name": "Rakshasa Grimoire"
+    },
+    {
+      "id": "crimson-firesand-alchemist-71",
+      "name": "Crimson Firesand"
+    },
+    {
+      "id": "enchanted-truegold-ink-alchemist-71",
+      "name": "Enchanted Truegold Ink"
+    },
+    {
+      "id": "growth-formula-iota-alchemist-71",
+      "name": "Growth Formula Iota"
+    },
+    {
+      "id": "custom-gathering-tool-components-alchemist-71",
+      "name": "Custom Gathering Tool Components"
+    },
+    {
+      "id": "honeybee-trappings-alchemist-71",
+      "name": "Honeybee Trappings"
+    },
+    {
+      "id": "patient-necessities-alchemist-71",
+      "name": "Patient Necessities"
+    },
+    {
+      "id": "smilodonskin-codex-alchemist-71",
+      "name": "Smilodonskin Codex"
+    },
+    {
+      "id": "smilodonskin-grimoire-alchemist-71",
+      "name": "Smilodonskin Grimoire"
+    },
+    {
+      "id": "airship-fittings-alchemist-72",
+      "name": "Airship Fittings"
+    },
+    {
+      "id": "custom-weaving-components-alchemist-72",
+      "name": "Custom Weaving Components"
+    },
+    {
+      "id": "medical-supplies-alchemist-72",
+      "name": "Medical Supplies"
+    },
+    {
+      "id": "gliderskin-codex-alchemist-72",
+      "name": "Gliderskin Codex"
+    },
+    {
+      "id": "gliderskin-grimoire-alchemist-72",
+      "name": "Gliderskin Grimoire"
+    },
+    {
+      "id": "rarefied-alkahest-alchemist-72",
+      "name": "Rarefied Alkahest"
+    },
+    {
+      "id": "superior-spiritbond-potion-alchemist-72",
+      "name": "Superior Spiritbond Potion"
+    },
+    {
+      "id": "grade-1-dexterity-alkahest-alchemist-73",
+      "name": "Grade 1 Dexterity Alkahest"
+    },
+    {
+      "id": "grade-1-intelligence-alkahest-alchemist-73",
+      "name": "Grade 1 Intelligence Alkahest"
+    },
+    {
+      "id": "grade-1-mind-alkahest-alchemist-73",
+      "name": "Grade 1 Mind Alkahest"
+    },
+    {
+      "id": "grade-1-strength-alkahest-alchemist-73",
+      "name": "Grade 1 Strength Alkahest"
+    },
+    {
+      "id": "grade-1-vitality-alkahest-alchemist-73",
+      "name": "Grade 1 Vitality Alkahest"
+    },
+    {
+      "id": "beehive-souvenir-alchemist-73",
+      "name": "Beehive Souvenir"
+    },
+    {
+      "id": "custom-crafting-tool-components-alchemist-73",
+      "name": "Custom Crafting Tool Components"
+    },
+    {
+      "id": "rehabilitation-aids-alchemist-73",
+      "name": "Rehabilitation Aids"
+    },
+    {
+      "id": "nutrient-rich-porridge-alchemist-73",
+      "name": "Nutrient-Rich Porridge"
+    },
+    {
+      "id": "black-carnation-earring-alchemist-73",
+      "name": "Black Carnation Earring"
+    },
+    {
+      "id": "black-cosmos-corsage-alchemist-73",
+      "name": "Black Cosmos Corsage"
+    },
+    {
+      "id": "black-hyacinth-corsage-alchemist-73",
+      "name": "Black Hyacinth Corsage"
+    },
+    {
+      "id": "black-moth-orchid-earring-alchemist-73",
+      "name": "Black Moth Orchid Earring"
+    },
+    {
+      "id": "blue-carnation-earring-alchemist-73",
+      "name": "Blue Carnation Earring"
+    },
+    {
+      "id": "blue-cosmos-corsage-alchemist-73",
+      "name": "Blue Cosmos Corsage"
+    },
+    {
+      "id": "blue-hyacinth-corsage-alchemist-73",
+      "name": "Blue Hyacinth Corsage"
+    },
+    {
+      "id": "blue-moth-orchid-earring-alchemist-73",
+      "name": "Blue Moth Orchid Earring"
+    },
+    {
+      "id": "green-carnation-earring-alchemist-73",
+      "name": "Green Carnation Earring"
+    },
+    {
+      "id": "green-cosmos-corsage-alchemist-73",
+      "name": "Green Cosmos Corsage"
+    },
+    {
+      "id": "green-hyacinth-corsage-alchemist-73",
+      "name": "Green Hyacinth Corsage"
+    },
+    {
+      "id": "green-moth-orchid-earring-alchemist-73",
+      "name": "Green Moth Orchid Earring"
+    },
+    {
+      "id": "orange-carnation-earring-alchemist-73",
+      "name": "Orange Carnation Earring"
+    },
+    {
+      "id": "orange-cosmos-corsage-alchemist-73",
+      "name": "Orange Cosmos Corsage"
+    },
+    {
+      "id": "orange-hyacinth-corsage-alchemist-73",
+      "name": "Orange Hyacinth Corsage"
+    },
+    {
+      "id": "orange-moth-orchid-earring-alchemist-73",
+      "name": "Orange Moth Orchid Earring"
+    },
+    {
+      "id": "purple-carnation-earring-alchemist-73",
+      "name": "Purple Carnation Earring"
+    },
+    {
+      "id": "purple-cosmos-corsage-alchemist-73",
+      "name": "Purple Cosmos Corsage"
+    },
+    {
+      "id": "purple-hyacinth-corsage-alchemist-73",
+      "name": "Purple Hyacinth Corsage"
+    },
+    {
+      "id": "purple-moth-orchid-earring-alchemist-73",
+      "name": "Purple Moth Orchid Earring"
+    },
+    {
+      "id": "rainbow-carnation-earring-alchemist-73",
+      "name": "Rainbow Carnation Earring"
+    },
+    {
+      "id": "rainbow-cosmos-corsage-alchemist-73",
+      "name": "Rainbow Cosmos Corsage"
+    },
+    {
+      "id": "rainbow-hyacinth-corsage-alchemist-73",
+      "name": "Rainbow Hyacinth Corsage"
+    },
+    {
+      "id": "rainbow-moth-orchid-earring-alchemist-73",
+      "name": "Rainbow Moth Orchid Earring"
+    },
+    {
+      "id": "red-carnation-earring-alchemist-73",
+      "name": "Red Carnation Earring"
+    },
+    {
+      "id": "red-cosmos-corsage-alchemist-73",
+      "name": "Red Cosmos Corsage"
+    },
+    {
+      "id": "red-hyacinth-corsage-alchemist-73",
+      "name": "Red Hyacinth Corsage"
+    },
+    {
+      "id": "red-moth-orchid-earring-alchemist-73",
+      "name": "Red Moth Orchid Earring"
+    },
+    {
+      "id": "white-carnation-earring-alchemist-73",
+      "name": "White Carnation Earring"
+    },
+    {
+      "id": "white-cosmos-corsage-alchemist-73",
+      "name": "White Cosmos Corsage"
+    },
+    {
+      "id": "white-hyacinth-corsage-alchemist-73",
+      "name": "White Hyacinth Corsage"
+    },
+    {
+      "id": "white-moth-orchid-earring-alchemist-73",
+      "name": "White Moth Orchid Earring"
+    },
+    {
+      "id": "yellow-carnation-earring-alchemist-73",
+      "name": "Yellow Carnation Earring"
+    },
+    {
+      "id": "yellow-cosmos-corsage-alchemist-73",
+      "name": "Yellow Cosmos Corsage"
+    },
+    {
+      "id": "yellow-hyacinth-corsage-alchemist-73",
+      "name": "Yellow Hyacinth Corsage"
+    },
+    {
+      "id": "yellow-moth-orchid-earring-alchemist-73",
+      "name": "Yellow Moth Orchid Earring"
+    },
+    {
+      "id": "enchanted-manasilver-ink-alchemist-74",
+      "name": "Enchanted Manasilver Ink"
+    },
+    {
+      "id": "handpicked-culinary-essentials-alchemist-74",
+      "name": "Handpicked Culinary Essentials"
+    },
+    {
+      "id": "black-byregotia-choker-alchemist-74",
+      "name": "Black Byregotia Choker"
+    },
+    {
+      "id": "black-triteleia-earring-alchemist-74",
+      "name": "Black Triteleia Earring"
+    },
+    {
+      "id": "blue-byregotia-choker-alchemist-74",
+      "name": "Blue Byregotia Choker"
+    },
+    {
+      "id": "blue-triteleia-earring-alchemist-74",
+      "name": "Blue Triteleia Earring"
+    },
+    {
+      "id": "bluespirit-codex-alchemist-74",
+      "name": "Bluespirit Codex"
+    },
+    {
+      "id": "bluespirit-grimoire-alchemist-74",
+      "name": "Bluespirit Grimoire"
+    },
+    {
+      "id": "green-byregotia-choker-alchemist-74",
+      "name": "Green Byregotia Choker"
+    },
+    {
+      "id": "green-triteleia-earring-alchemist-74",
+      "name": "Green Triteleia Earring"
+    },
+    {
+      "id": "orange-byregotia-choker-alchemist-74",
+      "name": "Orange Byregotia Choker"
+    },
+    {
+      "id": "orange-triteleia-earring-alchemist-74",
+      "name": "Orange Triteleia Earring"
+    },
+    {
+      "id": "purple-byregotia-choker-alchemist-74",
+      "name": "Purple Byregotia Choker"
+    },
+    {
+      "id": "purple-triteleia-earring-alchemist-74",
+      "name": "Purple Triteleia Earring"
+    },
+    {
+      "id": "rainbow-byregotia-choker-alchemist-74",
+      "name": "Rainbow Byregotia Choker"
+    },
+    {
+      "id": "rainbow-triteleia-earring-alchemist-74",
+      "name": "Rainbow Triteleia Earring"
+    },
+    {
+      "id": "rarefied-gliderskin-grimoire-alchemist-74",
+      "name": "Rarefied Gliderskin Grimoire"
+    },
+    {
+      "id": "red-byregotia-choker-alchemist-74",
+      "name": "Red Byregotia Choker"
+    },
+    {
+      "id": "red-triteleia-earring-alchemist-74",
+      "name": "Red Triteleia Earring"
+    },
+    {
+      "id": "white-byregotia-choker-alchemist-74",
+      "name": "White Byregotia Choker"
+    },
+    {
+      "id": "white-triteleia-earring-alchemist-74",
+      "name": "White Triteleia Earring"
+    },
+    {
+      "id": "yellow-byregotia-choker-alchemist-74",
+      "name": "Yellow Byregotia Choker"
+    },
+    {
+      "id": "yellow-triteleia-earring-alchemist-74",
+      "name": "Yellow Triteleia Earring"
+    },
+    {
+      "id": "starch-glue-alchemist-75",
+      "name": "Starch Glue"
+    },
+    {
+      "id": "high-tea-essentials-alchemist-75",
+      "name": "High Tea Essentials"
+    },
+    {
+      "id": "printing-essentials-alchemist-75",
+      "name": "Printing Essentials"
+    },
+    {
+      "id": "fortifying-soup-alchemist-75",
+      "name": "Fortifying Soup"
+    },
+    {
+      "id": "offering-of-sweets-alchemist-75",
+      "name": "Offering of Sweets"
+    },
+    {
+      "id": "competent-craftsmans-syrup-alchemist-75",
+      "name": "Competent Craftsman's Syrup"
+    },
+    {
+      "id": "growth-formula-kappa-alchemist-76",
+      "name": "Growth Formula Kappa"
+    },
+    {
+      "id": "refined-natron-alchemist-76",
+      "name": "Refined Natron"
+    },
+    {
+      "id": "black-sweet-pea-necklace-alchemist-76",
+      "name": "Black Sweet Pea Necklace"
+    },
+    {
+      "id": "blue-sweet-pea-necklace-alchemist-76",
+      "name": "Blue Sweet Pea Necklace"
+    },
+    {
+      "id": "green-sweet-pea-necklace-alchemist-76",
+      "name": "Green Sweet Pea Necklace"
+    },
+    {
+      "id": "orange-sweet-pea-necklace-alchemist-76",
+      "name": "Orange Sweet Pea Necklace"
+    },
+    {
+      "id": "purple-sweet-pea-necklace-alchemist-76",
+      "name": "Purple Sweet Pea Necklace"
+    },
+    {
+      "id": "rainbow-sweet-pea-necklace-alchemist-76",
+      "name": "Rainbow Sweet Pea Necklace"
+    },
+    {
+      "id": "rarefied-bluespirit-codex-alchemist-76",
+      "name": "Rarefied Bluespirit Codex"
+    },
+    {
+      "id": "red-sweet-pea-necklace-alchemist-76",
+      "name": "Red Sweet Pea Necklace"
+    },
+    {
+      "id": "white-sweet-pea-necklace-alchemist-76",
+      "name": "White Sweet Pea Necklace"
+    },
+    {
+      "id": "yellow-sweet-pea-necklace-alchemist-76",
+      "name": "Yellow Sweet Pea Necklace"
+    },
+    {
+      "id": "art-supplies-alchemist-77",
+      "name": "Art Supplies"
+    },
+    {
+      "id": "black-morning-glory-corsage-alchemist-77",
+      "name": "Black Morning Glory Corsage"
+    },
+    {
+      "id": "blue-morning-glory-corsage-alchemist-77",
+      "name": "Blue Morning Glory Corsage"
+    },
+    {
+      "id": "commanding-craftsmans-syrup-alchemist-77",
+      "name": "Commanding Craftsman's Syrup"
+    },
+    {
+      "id": "cunning-craftsmans-syrup-alchemist-77",
+      "name": "Cunning Craftsman's Syrup"
+    },
+    {
+      "id": "green-morning-glory-corsage-alchemist-77",
+      "name": "Green Morning Glory Corsage"
+    },
+    {
+      "id": "orange-morning-glory-corsage-alchemist-77",
+      "name": "Orange Morning Glory Corsage"
+    },
+    {
+      "id": "purple-morning-glory-corsage-alchemist-77",
+      "name": "Purple Morning Glory Corsage"
+    },
+    {
+      "id": "rainbow-morning-glory-corsage-alchemist-77",
+      "name": "Rainbow Morning Glory Corsage"
+    },
+    {
+      "id": "red-morning-glory-corsage-alchemist-77",
+      "name": "Red Morning Glory Corsage"
+    },
+    {
+      "id": "white-morning-glory-corsage-alchemist-77",
+      "name": "White Morning Glory Corsage"
+    },
+    {
+      "id": "yellow-morning-glory-corsage-alchemist-77",
+      "name": "Yellow Morning Glory Corsage"
+    },
+    {
+      "id": "zonureskin-codex-alchemist-77",
+      "name": "Zonureskin Codex"
+    },
+    {
+      "id": "zonureskin-grimoire-alchemist-77",
+      "name": "Zonureskin Grimoire"
+    },
+    {
+      "id": "enchanted-dimythrite-ink-alchemist-78",
+      "name": "Enchanted Dimythrite Ink"
+    },
+    {
+      "id": "berube-feed-alchemist-78",
+      "name": "Berube Feed"
+    },
+    {
+      "id": "booksellers-stall-alchemist-78",
+      "name": "Bookseller's Stall"
+    },
+    {
+      "id": "enchanters-stall-alchemist-78",
+      "name": "Enchanter's Stall"
+    },
+    {
+      "id": "florists-stall-alchemist-78",
+      "name": "Florist's Stall"
+    },
+    {
+      "id": "vegetable-garden-alchemist-78",
+      "name": "Vegetable Garden"
+    },
+    {
+      "id": "black-chrysanthemum-corsage-alchemist-78",
+      "name": "Black Chrysanthemum Corsage"
+    },
+    {
+      "id": "blue-chrysanthemum-corsage-alchemist-78",
+      "name": "Blue Chrysanthemum Corsage"
+    },
+    {
+      "id": "dwarven-mythril-codex-alchemist-78",
+      "name": "Dwarven Mythril Codex"
+    },
+    {
+      "id": "dwarven-mythril-grimoire-alchemist-78",
+      "name": "Dwarven Mythril Grimoire"
+    },
+    {
+      "id": "green-chrysanthemum-corsage-alchemist-78",
+      "name": "Green Chrysanthemum Corsage"
+    },
+    {
+      "id": "orange-chrysanthemum-corsage-alchemist-78",
+      "name": "Orange Chrysanthemum Corsage"
+    },
+    {
+      "id": "purple-chrysanthemum-corsage-alchemist-78",
+      "name": "Purple Chrysanthemum Corsage"
+    },
+    {
+      "id": "rainbow-chrysanthemum-corsage-alchemist-78",
+      "name": "Rainbow Chrysanthemum Corsage"
+    },
+    {
+      "id": "rarefied-syrup-alchemist-78",
+      "name": "Rarefied Syrup"
+    },
+    {
+      "id": "red-chrysanthemum-corsage-alchemist-78",
+      "name": "Red Chrysanthemum Corsage"
+    },
+    {
+      "id": "white-chrysanthemum-corsage-alchemist-78",
+      "name": "White Chrysanthemum Corsage"
+    },
+    {
+      "id": "yellow-chrysanthemum-corsage-alchemist-78",
+      "name": "Yellow Chrysanthemum Corsage"
+    },
+    {
+      "id": "black-lupin-corsage-alchemist-79",
+      "name": "Black Lupin Corsage"
+    },
+    {
+      "id": "blue-lupin-corsage-alchemist-79",
+      "name": "Blue Lupin Corsage"
+    },
+    {
+      "id": "green-lupin-corsage-alchemist-79",
+      "name": "Green Lupin Corsage"
+    },
+    {
+      "id": "orange-lupin-corsage-alchemist-79",
+      "name": "Orange Lupin Corsage"
+    },
+    {
+      "id": "purple-lupin-corsage-alchemist-79",
+      "name": "Purple Lupin Corsage"
+    },
+    {
+      "id": "rainbow-lupin-corsage-alchemist-79",
+      "name": "Rainbow Lupin Corsage"
+    },
+    {
+      "id": "red-lupin-corsage-alchemist-79",
+      "name": "Red Lupin Corsage"
+    },
+    {
+      "id": "tincture-of-mind-alchemist-79",
+      "name": "Tincture of Mind"
+    },
+    {
+      "id": "tincture-of-vitality-alchemist-79",
+      "name": "Tincture of Vitality"
+    },
+    {
+      "id": "white-lupin-corsage-alchemist-79",
+      "name": "White Lupin Corsage"
+    },
+    {
+      "id": "yellow-lupin-corsage-alchemist-79",
+      "name": "Yellow Lupin Corsage"
+    },
+    {
+      "id": "audio-spare-parts-alchemist-80",
+      "name": "Audio Spare Parts"
+    },
+    {
+      "id": "carrotlight-pieces-alchemist-80",
+      "name": "Carrotlight Pieces"
+    },
+    {
+      "id": "cleaner-upgrade-component-alchemist-80",
+      "name": "Cleaner Upgrade Component"
+    },
+    {
+      "id": "coin-manufacturing-component-alchemist-80",
+      "name": "Coin Manufacturing Component"
+    },
+    {
+      "id": "cookbook-printing-paraphernalia-alchemist-80",
+      "name": "Cookbook Printing Paraphernalia"
+    },
+    {
+      "id": "fungi-fighter-alchemist-80",
+      "name": "Fungi Fighter"
+    },
+    {
+      "id": "musicking-station-component-alchemist-80",
+      "name": "Musicking Station Component"
+    },
+    {
+      "id": "paint-mixers-toolbox-alchemist-80",
+      "name": "Paint-mixer's Toolbox"
+    },
+    {
+      "id": "parasital-infection-protection-suit-component-alchemist-80",
+      "name": "Parasital Infection Protection Suit Component"
+    },
+    {
+      "id": "signed-memorabilia-alchemist-80",
+      "name": "Signed Memorabilia"
+    },
+    {
+      "id": "aetheroconductive-quill-alchemist-80",
+      "name": "Aetheroconductive Quill"
+    },
+    {
+      "id": "grade-2-skybuilders-alchemic-alchemist-80",
+      "name": "Grade 2 Skybuilders' Alchemic"
+    },
+    {
+      "id": "grade-3-skybuilders-growth-formula-alchemist-80",
+      "name": "Grade 3 Skybuilders' Growth Formula"
+    },
+    {
+      "id": "grade-4-skybuilders-growth-formula-alchemist-80",
+      "name": "Grade 4 Skybuilders' Growth Formula"
+    },
+    {
+      "id": "skybuilders-alchemic-alchemist-80",
+      "name": "Skybuilders' Alchemic"
+    },
+    {
+      "id": "aetheroconductive-focus-alchemist-80",
+      "name": "Aetheroconductive Focus"
+    },
+    {
+      "id": "lighting-parts-alchemist-80",
+      "name": "Lighting Parts"
+    },
+    {
+      "id": "loporrits-gathering-tool-component-alchemist-80",
+      "name": "Loporrit's Gathering Tool Component"
+    },
+    {
+      "id": "machining-supplies-alchemist-80",
+      "name": "Machining Supplies"
+    },
+    {
+      "id": "popular-kitchen-goods-alchemist-80",
+      "name": "Popular Kitchen Goods"
+    },
+    {
+      "id": "restaurant-grade-supplies-alchemist-80",
+      "name": "Restaurant-grade Supplies"
+    },
+    {
+      "id": "wind-instrument-component-alchemist-80",
+      "name": "Wind Instrument Component"
+    },
+    {
+      "id": "exercise-equipment-alchemist-80",
+      "name": "\"Exercise Equipment\""
+    },
+    {
+      "id": "audio-recording-component-alchemist-80",
+      "name": "Audio Recording Component"
+    },
+    {
+      "id": "carrot-chiller-component-alchemist-80",
+      "name": "Carrot Chiller Component"
+    },
+    {
+      "id": "fashionable-thingums-alchemist-80",
+      "name": "Fashionable Thingums"
+    },
+    {
+      "id": "occult-paraphernalia-alchemist-80",
+      "name": "Occult Paraphernalia"
+    },
+    {
+      "id": "super-sudsy-soap-bars-alchemist-80",
+      "name": "Super Sudsy Soap Bars"
+    },
+    {
+      "id": "painting-supplies-alchemist-80",
+      "name": "Painting Supplies"
+    },
+    {
+      "id": "radio-equipment-alchemist-80",
+      "name": "Radio Equipment"
+    },
+    {
+      "id": "zun-style-amaro-feed-alchemist-80",
+      "name": "Zun-style Amaro Feed"
+    },
+    {
+      "id": "panaloaf-sweetener-alchemist-80",
+      "name": "Panaloaf Sweetener"
+    },
+    {
+      "id": "art-showcase-alchemist-80",
+      "name": "Art Showcase"
+    },
+    {
+      "id": "artists-show-window-alchemist-80",
+      "name": "Artist's Show Window"
+    },
+    {
+      "id": "brick-garden-wall-alchemist-80",
+      "name": "Brick Garden Wall"
+    },
+    {
+      "id": "brick-paving-alchemist-80",
+      "name": "Brick Paving"
+    },
+    {
+      "id": "cloud-acorn-chandelier-alchemist-80",
+      "name": "Cloud Acorn Chandelier"
+    },
+    {
+      "id": "cosmetics-box-alchemist-80",
+      "name": "Cosmetics Box"
+    },
+    {
+      "id": "crystarium-wardrobe-alchemist-80",
+      "name": "Crystarium Wardrobe"
+    },
+    {
+      "id": "dish-rack-alchemist-80",
+      "name": "Dish Rack"
+    },
+    {
+      "id": "dishware-alchemist-80",
+      "name": "Dishware"
+    },
+    {
+      "id": "florists-counter-alchemist-80",
+      "name": "Florist's Counter"
+    },
+    {
+      "id": "fruitful-fountain-alchemist-80",
+      "name": "Fruitful Fountain"
+    },
+    {
+      "id": "garden-tool-shelf-alchemist-80",
+      "name": "Garden Tool Shelf"
+    },
+    {
+      "id": "glade-gazebo-alchemist-80",
+      "name": "Glade Gazebo"
+    },
+    {
+      "id": "indoor-oriental-garden-alchemist-80",
+      "name": "Indoor Oriental Garden"
+    },
+    {
+      "id": "indoor-pond-alchemist-80",
+      "name": "Indoor Pond"
+    },
+    {
+      "id": "oldrose-wall-planter-alchemist-80",
+      "name": "Oldrose Wall Planter"
+    },
+    {
+      "id": "red-brick-counter-alchemist-80",
+      "name": "Red Brick Counter"
+    },
+    {
+      "id": "red-brick-kitchen-alchemist-80",
+      "name": "Red Brick Kitchen"
+    },
+    {
+      "id": "rose-trellis-alchemist-80",
+      "name": "Rose Trellis"
+    },
+    {
+      "id": "storm-blue-interior-wall-alchemist-80",
+      "name": "Storm Blue Interior Wall"
+    },
+    {
+      "id": "wanderers-campfire-alchemist-80",
+      "name": "Wanderer's Campfire"
+    },
+    {
+      "id": "oddly-specific-synthetic-resin-alchemist-80",
+      "name": "Oddly Specific Synthetic Resin"
+    },
+    {
+      "id": "rarefied-dwarven-mythril-grimoire-alchemist-80",
+      "name": "Rarefied Dwarven Mythril Grimoire"
+    },
+    {
+      "id": "tincture-of-dexterity-alchemist-80",
+      "name": "Tincture of Dexterity"
+    },
+    {
+      "id": "tincture-of-intelligence-alchemist-80",
+      "name": "Tincture of Intelligence"
+    },
+    {
+      "id": "tincture-of-strength-alchemist-80",
+      "name": "Tincture of Strength"
+    },
+    {
+      "id": "crystarium-umbrella-stand-alchemist-80",
+      "name": "Crystarium Umbrella Stand"
+    },
+    {
+      "id": "insanity-orchestrion-roll-alchemist-80",
+      "name": "Insanity Orchestrion Roll"
+    },
+    {
+      "id": "what-angel-wakes-me-orchestrion-roll-alchemist-80",
+      "name": "What Angel Wakes Me Orchestrion Roll"
+    },
+    {
+      "id": "grade-2-dexterity-alkahest-alchemist-80",
+      "name": "Grade 2 Dexterity Alkahest"
+    },
+    {
+      "id": "grade-2-intelligence-alkahest-alchemist-80",
+      "name": "Grade 2 Intelligence Alkahest"
+    },
+    {
+      "id": "grade-2-mind-alkahest-alchemist-80",
+      "name": "Grade 2 Mind Alkahest"
+    },
+    {
+      "id": "grade-2-strength-alkahest-alchemist-80",
+      "name": "Grade 2 Strength Alkahest"
+    },
+    {
+      "id": "grade-2-vitality-alkahest-alchemist-80",
+      "name": "Grade 2 Vitality Alkahest"
+    },
+    {
+      "id": "pliable-glass-fiber-alchemist-80",
+      "name": "Pliable Glass Fiber"
+    },
+    {
+      "id": "oddly-specific-glass-alchemist-80",
+      "name": "Oddly Specific Glass"
+    },
+    {
+      "id": "oddly-specific-glue-alchemist-80",
+      "name": "Oddly Specific Glue"
+    },
+    {
+      "id": "invincible-orchestrion-roll-alchemist-80",
+      "name": "Invincible Orchestrion Roll"
+    },
+    {
+      "id": "ultima-the-primals-orchestrion-roll-alchemist-80",
+      "name": "Ultima (The Primals) Orchestrion Roll"
+    },
+    {
+      "id": "adamant-codex-alchemist-80",
+      "name": "Adamant Codex"
+    },
+    {
+      "id": "adamant-index-alchemist-80",
+      "name": "Adamant Index"
+    },
+    {
+      "id": "augmented-enochlesis-alchemist-80",
+      "name": "Augmented Enochlesis"
+    },
+    {
+      "id": "augmented-epikairekakia-alchemist-80",
+      "name": "Augmented Epikairekakia"
+    },
+    {
+      "id": "galdrabok-alchemist-80",
+      "name": "Galdrabok"
+    },
+    {
+      "id": "grade-2-tincture-of-dexterity-alchemist-80",
+      "name": "Grade 2 Tincture of Dexterity"
+    },
+    {
+      "id": "grade-2-tincture-of-intelligence-alchemist-80",
+      "name": "Grade 2 Tincture of Intelligence"
+    },
+    {
+      "id": "grade-2-tincture-of-mind-alchemist-80",
+      "name": "Grade 2 Tincture of Mind"
+    },
+    {
+      "id": "grade-2-tincture-of-strength-alchemist-80",
+      "name": "Grade 2 Tincture of Strength"
+    },
+    {
+      "id": "grade-2-tincture-of-vitality-alchemist-80",
+      "name": "Grade 2 Tincture of Vitality"
+    },
+    {
+      "id": "pragmatism-alchemist-80",
+      "name": "Pragmatism"
+    },
+    {
+      "id": "rubellux-codex-alchemist-80",
+      "name": "Rubellux Codex"
+    },
+    {
+      "id": "rubellux-index-alchemist-80",
+      "name": "Rubellux Index"
+    },
+    {
+      "id": "smaragdine-codex-alchemist-80",
+      "name": "Smaragdine Codex"
+    },
+    {
+      "id": "smaragdine-index-alchemist-80",
+      "name": "Smaragdine Index"
+    },
+    {
+      "id": "the-faes-crown-codex-alchemist-80",
+      "name": "The Fae's Crown Codex"
+    },
+    {
+      "id": "the-faes-crown-grimoire-alchemist-80",
+      "name": "The Fae's Crown Grimoire"
+    },
+    {
+      "id": "defthands-dissolvent-alchemist-80",
+      "name": "Defthand's Dissolvent"
+    },
+    {
+      "id": "grade-3-dexterity-alkahest-alchemist-80",
+      "name": "Grade 3 Dexterity Alkahest"
+    },
+    {
+      "id": "grade-3-intelligence-alkahest-alchemist-80",
+      "name": "Grade 3 Intelligence Alkahest"
+    },
+    {
+      "id": "grade-3-mind-alkahest-alchemist-80",
+      "name": "Grade 3 Mind Alkahest"
+    },
+    {
+      "id": "grade-3-strength-alkahest-alchemist-80",
+      "name": "Grade 3 Strength Alkahest"
+    },
+    {
+      "id": "grade-3-vitality-alkahest-alchemist-80",
+      "name": "Grade 3 Vitality Alkahest"
+    },
+    {
+      "id": "grade-2-artisanal-skybuilders-remedies-alchemist-80",
+      "name": "Grade 2 Artisanal Skybuilders' Remedies"
+    },
+    {
+      "id": "oddly-specific-rubber-alchemist-80",
+      "name": "Oddly Specific Rubber"
+    },
+    {
+      "id": "eternal-wind-shadowbringers-orchestrion-roll-alchemist-80",
+      "name": "Eternal Wind - Shadowbringers Orchestrion Roll"
+    },
+    {
+      "id": "the-black-wolf-stalks-again-orchestrion-roll-alchemist-80",
+      "name": "The Black Wolf Stalks Again Orchestrion Roll"
+    },
+    {
+      "id": "to-the-edge-orchestrion-roll-alchemist-80",
+      "name": "To the Edge Orchestrion Roll"
+    },
+    {
+      "id": "grade-3-tincture-of-dexterity-alchemist-80",
+      "name": "Grade 3 Tincture of Dexterity"
+    },
+    {
+      "id": "grade-3-tincture-of-intelligence-alchemist-80",
+      "name": "Grade 3 Tincture of Intelligence"
+    },
+    {
+      "id": "grade-3-tincture-of-mind-alchemist-80",
+      "name": "Grade 3 Tincture of Mind"
+    },
+    {
+      "id": "grade-3-tincture-of-strength-alchemist-80",
+      "name": "Grade 3 Tincture of Strength"
+    },
+    {
+      "id": "grade-3-tincture-of-vitality-alchemist-80",
+      "name": "Grade 3 Tincture of Vitality"
+    },
+    {
+      "id": "neo-ishgardian-codex-alchemist-80",
+      "name": "Neo-Ishgardian Codex"
+    },
+    {
+      "id": "neo-ishgardian-grimoire-alchemist-80",
+      "name": "Neo-Ishgardian Grimoire"
+    },
+    {
+      "id": "grade-4-dexterity-alkahest-alchemist-80",
+      "name": "Grade 4 Dexterity Alkahest"
+    },
+    {
+      "id": "grade-4-intelligence-alkahest-alchemist-80",
+      "name": "Grade 4 Intelligence Alkahest"
+    },
+    {
+      "id": "grade-4-mind-alkahest-alchemist-80",
+      "name": "Grade 4 Mind Alkahest"
+    },
+    {
+      "id": "grade-4-strength-alkahest-alchemist-80",
+      "name": "Grade 4 Strength Alkahest"
+    },
+    {
+      "id": "grade-4-vitality-alkahest-alchemist-80",
+      "name": "Grade 4 Vitality Alkahest"
+    },
+    {
+      "id": "grade-3-artisanal-skybuilders-tiled-flooring-alchemist-80",
+      "name": "Grade 3 Artisanal Skybuilders' Tiled Flooring"
+    },
+    {
+      "id": "grade-4-artisanal-skybuilders-tincture-alchemist-80",
+      "name": "Grade 4 Artisanal Skybuilders' Tincture"
+    },
+    {
+      "id": "resplendent-alchemists-component-a-alchemist-80",
+      "name": "Resplendent Alchemist's Component A"
+    },
+    {
+      "id": "resplendent-alchemists-component-b-alchemist-80",
+      "name": "Resplendent Alchemist's Component B"
+    },
+    {
+      "id": "oddly-delicate-holy-water-alchemist-80",
+      "name": "Oddly Delicate Holy Water"
+    },
+    {
+      "id": "exarchic-codex-alchemist-80",
+      "name": "Exarchic Codex"
+    },
+    {
+      "id": "exarchic-grimoire-alchemist-80",
+      "name": "Exarchic Grimoire"
+    },
+    {
+      "id": "grade-4-tincture-of-dexterity-alchemist-80",
+      "name": "Grade 4 Tincture of Dexterity"
+    },
+    {
+      "id": "grade-4-tincture-of-intelligence-alchemist-80",
+      "name": "Grade 4 Tincture of Intelligence"
+    },
+    {
+      "id": "grade-4-tincture-of-mind-alchemist-80",
+      "name": "Grade 4 Tincture of Mind"
+    },
+    {
+      "id": "grade-4-tincture-of-strength-alchemist-80",
+      "name": "Grade 4 Tincture of Strength"
+    },
+    {
+      "id": "grade-4-tincture-of-vitality-alchemist-80",
+      "name": "Grade 4 Tincture of Vitality"
+    },
+    {
+      "id": "in-the-arms-of-war-orchestrion-roll-alchemist-80",
+      "name": "In the Arms of War Orchestrion Roll"
+    },
+    {
+      "id": "resplendent-alchemists-component-c-alchemist-80",
+      "name": "Resplendent Alchemist's Component C"
+    },
+    {
+      "id": "enchanted-high-durium-ink-alchemist-81",
+      "name": "Enchanted High Durium Ink"
+    },
+    {
+      "id": "cushion-care-package-alchemist-81",
+      "name": "Cushion Care Package"
+    },
+    {
+      "id": "luncheon-coffer-alchemist-81",
+      "name": "Luncheon Coffer"
+    },
+    {
+      "id": "sheep-equipment-alchemist-81",
+      "name": "Sheep Equipment"
+    },
+    {
+      "id": "gaja-codex-alchemist-81",
+      "name": "Gaja Codex"
+    },
+    {
+      "id": "gaja-grimoire-alchemist-81",
+      "name": "Gaja Grimoire"
+    },
+    {
+      "id": "rarefied-gajaskin-codex-alchemist-81",
+      "name": "Rarefied Gajaskin Codex"
+    },
+    {
+      "id": "aetheroconductive-mammet-alchemist-82",
+      "name": "Aetheroconductive Mammet"
+    },
+    {
+      "id": "feline-recreational-device-alchemist-82",
+      "name": "Feline Recreational Device"
+    },
+    {
+      "id": "mountain-garb-alchemist-82",
+      "name": "Mountain Garb"
+    },
+    {
+      "id": "luncheon-toadskin-codex-alchemist-82",
+      "name": "Luncheon Toadskin Codex"
+    },
+    {
+      "id": "luncheon-toadskin-grimoire-alchemist-82",
+      "name": "Luncheon Toadskin Grimoire"
+    },
+    {
+      "id": "palm-round-brush-alchemist-82",
+      "name": "Palm Round Brush"
+    },
+    {
+      "id": "grade-5-dexterity-alkahest-alchemist-83",
+      "name": "Grade 5 Dexterity Alkahest"
+    },
+    {
+      "id": "grade-5-intelligence-alkahest-alchemist-83",
+      "name": "Grade 5 Intelligence Alkahest"
+    },
+    {
+      "id": "grade-5-mind-alkahest-alchemist-83",
+      "name": "Grade 5 Mind Alkahest"
+    },
+    {
+      "id": "grade-5-strength-alkahest-alchemist-83",
+      "name": "Grade 5 Strength Alkahest"
+    },
+    {
+      "id": "grade-5-vitality-alkahest-alchemist-83",
+      "name": "Grade 5 Vitality Alkahest"
+    },
+    {
+      "id": "school-supplies-alchemist-83",
+      "name": "School Supplies"
+    },
+    {
+      "id": "classic-voeburtite-cuisine-alchemist-83",
+      "name": "Classic Voeburtite Cuisine"
+    },
+    {
+      "id": "mesmerizing-miniature-alchemist-83",
+      "name": "Mesmerizing Miniature"
+    },
+    {
+      "id": "panaloaf-yeast-alchemist-83",
+      "name": "Panaloaf Yeast"
+    },
+    {
+      "id": "rarefied-luncheon-toadskin-grimoire-alchemist-83",
+      "name": "Rarefied Luncheon Toadskin Grimoire"
+    },
+    {
+      "id": "traditional-voeburtite-handicraft-alchemist-84",
+      "name": "Traditional Voeburtite Handicraft"
+    },
+    {
+      "id": "black-sunflower-corsage-alchemist-84",
+      "name": "Black Sunflower Corsage"
+    },
+    {
+      "id": "blue-sunflower-corsage-alchemist-84",
+      "name": "Blue Sunflower Corsage"
+    },
+    {
+      "id": "green-sunflower-corsage-alchemist-84",
+      "name": "Green Sunflower Corsage"
+    },
+    {
+      "id": "orange-sunflower-corsage-alchemist-84",
+      "name": "Orange Sunflower Corsage"
+    },
+    {
+      "id": "purple-sunflower-corsage-alchemist-84",
+      "name": "Purple Sunflower Corsage"
+    },
+    {
+      "id": "rainbow-sunflower-corsage-alchemist-84",
+      "name": "Rainbow Sunflower Corsage"
+    },
+    {
+      "id": "red-pine-flat-brush-alchemist-84",
+      "name": "Red Pine Flat Brush"
+    },
+    {
+      "id": "red-sunflower-corsage-alchemist-84",
+      "name": "Red Sunflower Corsage"
+    },
+    {
+      "id": "saigaskin-codex-alchemist-84",
+      "name": "Saigaskin Codex"
+    },
+    {
+      "id": "saigaskin-grimoire-alchemist-84",
+      "name": "Saigaskin Grimoire"
+    },
+    {
+      "id": "white-sunflower-corsage-alchemist-84",
+      "name": "White Sunflower Corsage"
+    },
+    {
+      "id": "yellow-sunflower-corsage-alchemist-84",
+      "name": "Yellow Sunflower Corsage"
+    },
+    {
+      "id": "moon-gel-alchemist-85",
+      "name": "Moon Gel"
+    },
+    {
+      "id": "sungold-firesand-alchemist-85",
+      "name": "Sungold Firesand"
+    },
+    {
+      "id": "energizing-eye-lixir-alchemist-85",
+      "name": "Energizing Eye-lixir"
+    },
+    {
+      "id": "lovely-box-of-pretty-things-alchemist-85",
+      "name": "Lovely Box of Pretty Things"
+    },
+    {
+      "id": "golden-spice-alchemist-85",
+      "name": "Golden Spice"
+    },
+    {
+      "id": "panaloaf-oil-alchemist-85",
+      "name": "Panaloaf Oil"
+    },
+    {
+      "id": "black-cattleya-corsage-alchemist-85",
+      "name": "Black Cattleya Corsage"
+    },
+    {
+      "id": "blue-cattleya-corsage-alchemist-85",
+      "name": "Blue Cattleya Corsage"
+    },
+    {
+      "id": "competent-craftsmans-draught-alchemist-85",
+      "name": "Competent Craftsman's Draught"
+    },
+    {
+      "id": "green-cattleya-corsage-alchemist-85",
+      "name": "Green Cattleya Corsage"
+    },
+    {
+      "id": "orange-cattleya-corsage-alchemist-85",
+      "name": "Orange Cattleya Corsage"
+    },
+    {
+      "id": "purple-cattleya-corsage-alchemist-85",
+      "name": "Purple Cattleya Corsage"
+    },
+    {
+      "id": "rainbow-cattleya-corsage-alchemist-85",
+      "name": "Rainbow Cattleya Corsage"
+    },
+    {
+      "id": "rarefied-moon-gel-alchemist-85",
+      "name": "Rarefied Moon Gel"
+    },
+    {
+      "id": "red-cattleya-corsage-alchemist-85",
+      "name": "Red Cattleya Corsage"
+    },
+    {
+      "id": "white-cattleya-corsage-alchemist-85",
+      "name": "White Cattleya Corsage"
+    },
+    {
+      "id": "yellow-cattleya-corsage-alchemist-85",
+      "name": "Yellow Cattleya Corsage"
+    },
+    {
+      "id": "black-paperflower-earring-alchemist-86",
+      "name": "Black Paperflower Earring"
+    },
+    {
+      "id": "blue-paperflower-earring-alchemist-86",
+      "name": "Blue Paperflower Earring"
+    },
+    {
+      "id": "candlelit-sundries-alchemist-86",
+      "name": "Candlelit Sundries"
+    },
+    {
+      "id": "green-paperflower-earring-alchemist-86",
+      "name": "Green Paperflower Earring"
+    },
+    {
+      "id": "heavenly-ornamental-array-alchemist-86",
+      "name": "Heavenly Ornamental Array"
+    },
+    {
+      "id": "ironwood-filbert-brush-alchemist-86",
+      "name": "Ironwood Filbert Brush"
+    },
+    {
+      "id": "kumbhiraskin-codex-alchemist-86",
+      "name": "Kumbhiraskin Codex"
+    },
+    {
+      "id": "kumbhiraskin-grimoire-alchemist-86",
+      "name": "Kumbhiraskin Grimoire"
+    },
+    {
+      "id": "leafy-ceiling-lamp-alchemist-86",
+      "name": "Leafy Ceiling Lamp"
+    },
+    {
+      "id": "orange-paperflower-earring-alchemist-86",
+      "name": "Orange Paperflower Earring"
+    },
+    {
+      "id": "purple-paperflower-earring-alchemist-86",
+      "name": "Purple Paperflower Earring"
+    },
+    {
+      "id": "rainbow-paperflower-earring-alchemist-86",
+      "name": "Rainbow Paperflower Earring"
+    },
+    {
+      "id": "red-paperflower-earring-alchemist-86",
+      "name": "Red Paperflower Earring"
+    },
+    {
+      "id": "restaurant-showcase-alchemist-86",
+      "name": "Restaurant Showcase"
+    },
+    {
+      "id": "walnut-flower-vases-alchemist-86",
+      "name": "Walnut Flower Vases"
+    },
+    {
+      "id": "white-paperflower-earring-alchemist-86",
+      "name": "White Paperflower Earring"
+    },
+    {
+      "id": "yellow-paperflower-earring-alchemist-86",
+      "name": "Yellow Paperflower Earring"
+    },
+    {
+      "id": "enchanted-manganese-ink-alchemist-87",
+      "name": "Enchanted Manganese Ink"
+    },
+    {
+      "id": "researchers-relaxation-kit-alchemist-87",
+      "name": "Researcher's Relaxation Kit"
+    },
+    {
+      "id": "black-champa-corsage-alchemist-87",
+      "name": "Black Champa Corsage"
+    },
+    {
+      "id": "blue-champa-corsage-alchemist-87",
+      "name": "Blue Champa Corsage"
+    },
+    {
+      "id": "commanding-craftsmans-draught-alchemist-87",
+      "name": "Commanding Craftsman's Draught"
+    },
+    {
+      "id": "green-champa-corsage-alchemist-87",
+      "name": "Green Champa Corsage"
+    },
+    {
+      "id": "orange-champa-corsage-alchemist-87",
+      "name": "Orange Champa Corsage"
+    },
+    {
+      "id": "purple-champa-corsage-alchemist-87",
+      "name": "Purple Champa Corsage"
+    },
+    {
+      "id": "rainbow-champa-corsage-alchemist-87",
+      "name": "Rainbow Champa Corsage"
+    },
+    {
+      "id": "rarefied-enchanted-manganese-ink-alchemist-87",
+      "name": "Rarefied Enchanted Manganese Ink"
+    },
+    {
+      "id": "red-champa-corsage-alchemist-87",
+      "name": "Red Champa Corsage"
+    },
+    {
+      "id": "white-champa-corsage-alchemist-87",
+      "name": "White Champa Corsage"
+    },
+    {
+      "id": "yellow-champa-corsage-alchemist-87",
+      "name": "Yellow Champa Corsage"
+    },
+    {
+      "id": "ascorbic-additive-alchemist-88",
+      "name": "Ascorbic Additive"
+    },
+    {
+      "id": "black-tea-flower-corsage-alchemist-88",
+      "name": "Black Tea Flower Corsage"
+    },
+    {
+      "id": "blue-tea-flower-corsage-alchemist-88",
+      "name": "Blue Tea Flower Corsage"
+    },
+    {
+      "id": "chondrite-magitek-paintbrush-alchemist-88",
+      "name": "Chondrite Magitek Paintbrush"
+    },
+    {
+      "id": "green-tea-flower-corsage-alchemist-88",
+      "name": "Green Tea Flower Corsage"
+    },
+    {
+      "id": "ophiotauroskin-magitek-codex-alchemist-88",
+      "name": "Ophiotauroskin Magitek Codex"
+    },
+    {
+      "id": "ophiotauroskin-magitek-index-alchemist-88",
+      "name": "Ophiotauroskin Magitek Index"
+    },
+    {
+      "id": "orange-tea-flower-corsage-alchemist-88",
+      "name": "Orange Tea Flower Corsage"
+    },
+    {
+      "id": "purple-tea-flower-corsage-alchemist-88",
+      "name": "Purple Tea Flower Corsage"
+    },
+    {
+      "id": "rainbow-tea-flower-corsage-alchemist-88",
+      "name": "Rainbow Tea Flower Corsage"
+    },
+    {
+      "id": "red-tea-flower-corsage-alchemist-88",
+      "name": "Red Tea Flower Corsage"
+    },
+    {
+      "id": "white-tea-flower-corsage-alchemist-88",
+      "name": "White Tea Flower Corsage"
+    },
+    {
+      "id": "yellow-tea-flower-corsage-alchemist-88",
+      "name": "Yellow Tea Flower Corsage"
+    },
+    {
+      "id": "black-cornflower-wristlets-alchemist-89",
+      "name": "Black Cornflower Wristlets"
+    },
+    {
+      "id": "blue-cornflower-wristlets-alchemist-89",
+      "name": "Blue Cornflower Wristlets"
+    },
+    {
+      "id": "cunning-craftsmans-draught-alchemist-89",
+      "name": "Cunning Craftsman's Draught"
+    },
+    {
+      "id": "grade-5-tincture-of-mind-alchemist-89",
+      "name": "Grade 5 Tincture of Mind"
+    },
+    {
+      "id": "grade-5-tincture-of-vitality-alchemist-89",
+      "name": "Grade 5 Tincture of Vitality"
+    },
+    {
+      "id": "green-cornflower-wristlets-alchemist-89",
+      "name": "Green Cornflower Wristlets"
+    },
+    {
+      "id": "orange-cornflower-wristlets-alchemist-89",
+      "name": "Orange Cornflower Wristlets"
+    },
+    {
+      "id": "purple-cornflower-wristlets-alchemist-89",
+      "name": "Purple Cornflower Wristlets"
+    },
+    {
+      "id": "rainbow-cornflower-wristlets-alchemist-89",
+      "name": "Rainbow Cornflower Wristlets"
+    },
+    {
+      "id": "rarefied-draught-alchemist-89",
+      "name": "Rarefied Draught"
+    },
+    {
+      "id": "red-cornflower-wristlets-alchemist-89",
+      "name": "Red Cornflower Wristlets"
+    },
+    {
+      "id": "white-cornflower-wristlets-alchemist-89",
+      "name": "White Cornflower Wristlets"
+    },
+    {
+      "id": "yellow-cornflower-wristlets-alchemist-89",
+      "name": "Yellow Cornflower Wristlets"
+    },
+    {
+      "id": "cropland-expansion-supplies-alchemist-90",
+      "name": "Cropland Expansion Supplies"
+    },
+    {
+      "id": "hand-warmer-components-alchemist-90",
+      "name": "Hand Warmer Components"
+    },
+    {
+      "id": "home-exterior-component-alchemist-90",
+      "name": "Home Exterior Component"
+    },
+    {
+      "id": "replacement-golem-component-alchemist-90",
+      "name": "Replacement Golem Component"
+    },
+    {
+      "id": "snow-removal-tool-alchemist-90",
+      "name": "Snow Removal Tool"
+    },
+    {
+      "id": "stonemasonry-tools-alchemist-90",
+      "name": "Stonemasonry Tools"
+    },
+    {
+      "id": "storage-supplies-alchemist-90",
+      "name": "Storage Supplies"
+    },
+    {
+      "id": "tableware-supplies-alchemist-90",
+      "name": "Tableware Supplies"
+    },
+    {
+      "id": "visitors-winterwear-alchemist-90",
+      "name": "Visitor's Winterwear"
+    },
+    {
+      "id": "warmth-necessities-alchemist-90",
+      "name": "Warmth Necessities"
+    },
+    {
+      "id": "warmth-repair-supplies-alchemist-90",
+      "name": "Warmth Repair Supplies"
+    },
+    {
+      "id": "rail-grindstone-alchemist-90",
+      "name": "Rail Grindstone"
+    },
+    {
+      "id": "cart-component-alchemist-90",
+      "name": "Cart Component"
+    },
+    {
+      "id": "master-masons-tools-alchemist-90",
+      "name": "Master Mason's Tools"
+    },
+    {
+      "id": "salvaged-stone-supplies-alchemist-90",
+      "name": "Salvaged Stone Supplies"
+    },
+    {
+      "id": "shelving-components-alchemist-90",
+      "name": "Shelving Components"
+    },
+    {
+      "id": "brewery-maintenance-supplies-alchemist-90",
+      "name": "Brewery Maintenance Supplies"
+    },
+    {
+      "id": "ice-removal-tools-alchemist-90",
+      "name": "Ice Removal Tools"
+    },
+    {
+      "id": "mountaineering-paraphernalia-alchemist-90",
+      "name": "Mountaineering Paraphernalia"
+    },
+    {
+      "id": "tonawawtan-cookware-alchemist-90",
+      "name": "Tonawawtan Cookware"
+    },
+    {
+      "id": "trail-repair-supplies-alchemist-90",
+      "name": "Trail Repair Supplies"
+    },
+    {
+      "id": "yok-huy-handicrafts-alchemist-90",
+      "name": "Yok Huy Handicrafts"
+    },
+    {
+      "id": "conductive-golem-components-alchemist-90",
+      "name": "Conductive Golem Components"
+    },
+    {
+      "id": "living-sepulchre-supplies-alchemist-90",
+      "name": "Living Sepulchre Supplies"
+    },
+    {
+      "id": "cherimoya-juice-alchemist-90",
+      "name": "Cherimoya Juice"
+    },
+    {
+      "id": "sharlayan-fishcake-ingredient-alchemist-90",
+      "name": "Sharlayan Fishcake Ingredient"
+    },
+    {
+      "id": "botanical-candle-display-alchemist-90",
+      "name": "Botanical Candle Display"
+    },
+    {
+      "id": "fern-interior-wall-alchemist-90",
+      "name": "Fern Interior Wall"
+    },
+    {
+      "id": "field-of-hope-rug-alchemist-90",
+      "name": "Field of Hope Rug"
+    },
+    {
+      "id": "flower-boucage-alchemist-90",
+      "name": "Flower Boucage"
+    },
+    {
+      "id": "grade-5-tincture-of-dexterity-alchemist-90",
+      "name": "Grade 5 Tincture of Dexterity"
+    },
+    {
+      "id": "grade-5-tincture-of-intelligence-alchemist-90",
+      "name": "Grade 5 Tincture of Intelligence"
+    },
+    {
+      "id": "grade-5-tincture-of-strength-alchemist-90",
+      "name": "Grade 5 Tincture of Strength"
+    },
+    {
+      "id": "hanging-planter-branch-alchemist-90",
+      "name": "Hanging Planter Branch"
+    },
+    {
+      "id": "hyper-potion-alchemist-90",
+      "name": "Hyper-Potion"
+    },
+    {
+      "id": "ivy-curtain-alchemist-90",
+      "name": "Ivy Curtain"
+    },
+    {
+      "id": "ivy-pendant-wall-light-alchemist-90",
+      "name": "Ivy Pendant Wall Light"
+    },
+    {
+      "id": "korpokkur-moss-ball-alchemist-90",
+      "name": "Korpokkur Moss Ball"
+    },
+    {
+      "id": "labyrinthos-grape-lamppost-alchemist-90",
+      "name": "Labyrinthos Grape Lamppost"
+    },
+    {
+      "id": "planter-set-alchemist-90",
+      "name": "Planter Set"
+    },
+    {
+      "id": "rarefied-ophiotauroskin-magitek-codex-alchemist-90",
+      "name": "Rarefied Ophiotauroskin Magitek Codex"
+    },
+    {
+      "id": "timeworn-thaumaturgic-array-alchemist-90",
+      "name": "Timeworn Thaumaturgic Array"
+    },
+    {
+      "id": "well-pump-alchemist-90",
+      "name": "Well Pump"
+    },
+    {
+      "id": "plush-carriage-seating-alchemist-90",
+      "name": "Plush Carriage Seating"
+    },
+    {
+      "id": "connoisseurs-cosmetics-box-alchemist-90",
+      "name": "Connoisseur's Cosmetics Box"
+    },
+    {
+      "id": "the-final-day-orchestrion-roll-alchemist-90",
+      "name": "The Final Day Orchestrion Roll"
+    },
+    {
+      "id": "with-hearts-aligned-orchestrion-roll-alchemist-90",
+      "name": "With Hearts Aligned Orchestrion Roll"
+    },
+    {
+      "id": "endcaller-orchestrion-roll-alchemist-90",
+      "name": "Endcaller Orchestrion Roll"
+    },
+    {
+      "id": "your-answer-orchestrion-roll-alchemist-90",
+      "name": "Your Answer Orchestrion Roll"
+    },
+    {
+      "id": "grade-6-dexterity-alkahest-alchemist-90",
+      "name": "Grade 6 Dexterity Alkahest"
+    },
+    {
+      "id": "grade-6-intelligence-alkahest-alchemist-90",
+      "name": "Grade 6 Intelligence Alkahest"
+    },
+    {
+      "id": "grade-6-mind-alkahest-alchemist-90",
+      "name": "Grade 6 Mind Alkahest"
+    },
+    {
+      "id": "grade-6-strength-alkahest-alchemist-90",
+      "name": "Grade 6 Strength Alkahest"
+    },
+    {
+      "id": "grade-6-vitality-alkahest-alchemist-90",
+      "name": "Grade 6 Vitality Alkahest"
+    },
+    {
+      "id": "hannish-fiber-alchemist-90",
+      "name": "Hannish Fiber"
+    },
+    {
+      "id": "connoisseurs-elixir-bottle-alchemist-90",
+      "name": "Connoisseur's Elixir Bottle"
+    },
+    {
+      "id": "codex-of-sanctifying-light-alchemist-90",
+      "name": "Codex of Sanctifying Light"
+    },
+    {
+      "id": "grimoire-of-sanctifying-light-alchemist-90",
+      "name": "Grimoire of Sanctifying Light"
+    },
+    {
+      "id": "classical-codex-alchemist-90",
+      "name": "Classical Codex"
+    },
+    {
+      "id": "classical-index-alchemist-90",
+      "name": "Classical Index"
+    },
+    {
+      "id": "grade-6-tincture-of-dexterity-alchemist-90",
+      "name": "Grade 6 Tincture of Dexterity"
+    },
+    {
+      "id": "grade-6-tincture-of-intelligence-alchemist-90",
+      "name": "Grade 6 Tincture of Intelligence"
+    },
+    {
+      "id": "grade-6-tincture-of-mind-alchemist-90",
+      "name": "Grade 6 Tincture of Mind"
+    },
+    {
+      "id": "grade-6-tincture-of-strength-alchemist-90",
+      "name": "Grade 6 Tincture of Strength"
+    },
+    {
+      "id": "grade-6-tincture-of-vitality-alchemist-90",
+      "name": "Grade 6 Tincture of Vitality"
+    },
+    {
+      "id": "battle-with-the-four-fiends-buried-memory-orchestrion-roll-alchemist-90",
+      "name": "Battle with the Four Fiends (Buried Memory) Orchestrion Roll"
+    },
+    {
+      "id": "island-prism-alchemist-90",
+      "name": "Island Prism"
+    },
+    {
+      "id": "grade-7-dexterity-alkahest-alchemist-90",
+      "name": "Grade 7 Dexterity Alkahest"
+    },
+    {
+      "id": "grade-7-intelligence-alkahest-alchemist-90",
+      "name": "Grade 7 Intelligence Alkahest"
+    },
+    {
+      "id": "grade-7-mind-alkahest-alchemist-90",
+      "name": "Grade 7 Mind Alkahest"
+    },
+    {
+      "id": "grade-7-strength-alkahest-alchemist-90",
+      "name": "Grade 7 Strength Alkahest"
+    },
+    {
+      "id": "grade-7-vitality-alkahest-alchemist-90",
+      "name": "Grade 7 Vitality Alkahest"
+    },
+    {
+      "id": "craftsmans-alkahest-alchemist-90",
+      "name": "Craftsman's Alkahest"
+    },
+    {
+      "id": "connoisseurs-topiary-moogle-alchemist-90",
+      "name": "Connoisseur's Topiary Moogle"
+    },
+    {
+      "id": "connoisseurs-planter-partition-alchemist-90",
+      "name": "Connoisseur's Planter Partition"
+    },
+    {
+      "id": "water-otter-fountain-resin-alchemist-90",
+      "name": "Water Otter Fountain Resin"
+    },
+    {
+      "id": "smaller-water-otter-fountain-resin-alchemist-90",
+      "name": "Smaller Water Otter Fountain Resin"
+    },
+    {
+      "id": "forged-in-crimson-orchestrion-roll-alchemist-90",
+      "name": "Forged in Crimson Orchestrion Roll"
+    },
+    {
+      "id": "voidcast-savior-orchestrion-roll-alchemist-90",
+      "name": "Voidcast Savior Orchestrion Roll"
+    },
+    {
+      "id": "final-fantasy-iv-the-final-battle-endwalker-orchestrion-roll-alchemist-90",
+      "name": "FINAL FANTASY IV: The Final Battle (Endwalker) Orchestrion Roll"
+    },
+    {
+      "id": "the-red-wings-endwalker-orchestrion-roll-alchemist-90",
+      "name": "The Red Wings (Endwalker) Orchestrion Roll"
+    },
+    {
+      "id": "grade-7-tincture-of-dexterity-alchemist-90",
+      "name": "Grade 7 Tincture of Dexterity"
+    },
+    {
+      "id": "grade-7-tincture-of-intelligence-alchemist-90",
+      "name": "Grade 7 Tincture of Intelligence"
+    },
+    {
+      "id": "grade-7-tincture-of-mind-alchemist-90",
+      "name": "Grade 7 Tincture of Mind"
+    },
+    {
+      "id": "grade-7-tincture-of-strength-alchemist-90",
+      "name": "Grade 7 Tincture of Strength"
+    },
+    {
+      "id": "grade-7-tincture-of-vitality-alchemist-90",
+      "name": "Grade 7 Tincture of Vitality"
+    },
+    {
+      "id": "rinascita-codex-alchemist-90",
+      "name": "Rinascita Codex"
+    },
+    {
+      "id": "rinascita-index-alchemist-90",
+      "name": "Rinascita Index"
+    },
+    {
+      "id": "grade-8-dexterity-alkahest-alchemist-90",
+      "name": "Grade 8 Dexterity Alkahest"
+    },
+    {
+      "id": "grade-8-intelligence-alkahest-alchemist-90",
+      "name": "Grade 8 Intelligence Alkahest"
+    },
+    {
+      "id": "grade-8-mind-alkahest-alchemist-90",
+      "name": "Grade 8 Mind Alkahest"
+    },
+    {
+      "id": "grade-8-strength-alkahest-alchemist-90",
+      "name": "Grade 8 Strength Alkahest"
+    },
+    {
+      "id": "grade-8-vitality-alkahest-alchemist-90",
+      "name": "Grade 8 Vitality Alkahest"
+    },
+    {
+      "id": "connoisseurs-lunar-curtain-alchemist-90",
+      "name": "Connoisseur's Lunar Curtain"
+    },
+    {
+      "id": "connoisseurs-tincture-of-vitality-alchemist-90",
+      "name": "Connoisseur's Tincture of Vitality"
+    },
+    {
+      "id": "uncharted-course-resin-alchemist-90",
+      "name": "Uncharted Course Resin"
+    },
+    {
+      "id": "diadochos-codex-alchemist-90",
+      "name": "Diadochos Codex"
+    },
+    {
+      "id": "diadochos-index-alchemist-90",
+      "name": "Diadochos Index"
+    },
+    {
+      "id": "grade-8-tincture-of-dexterity-alchemist-90",
+      "name": "Grade 8 Tincture of Dexterity"
+    },
+    {
+      "id": "grade-8-tincture-of-intelligence-alchemist-90",
+      "name": "Grade 8 Tincture of Intelligence"
+    },
+    {
+      "id": "grade-8-tincture-of-mind-alchemist-90",
+      "name": "Grade 8 Tincture of Mind"
+    },
+    {
+      "id": "grade-8-tincture-of-strength-alchemist-90",
+      "name": "Grade 8 Tincture of Strength"
+    },
+    {
+      "id": "grade-8-tincture-of-vitality-alchemist-90",
+      "name": "Grade 8 Tincture of Vitality"
+    },
+    {
+      "id": "aetherial-arbor-resin-alchemist-90",
+      "name": "Aetherial Arbor Resin"
+    },
+    {
+      "id": "growth-formula-lambda-alchemist-91",
+      "name": "Growth Formula Lambda"
+    },
+    {
+      "id": "map-printing-essentials-alchemist-91",
+      "name": "Map Printing Essentials"
+    },
+    {
+      "id": "ginseng-angle-brush-alchemist-91",
+      "name": "Ginseng Angle Brush"
+    },
+    {
+      "id": "loboskin-codex-alchemist-91",
+      "name": "Loboskin Codex"
+    },
+    {
+      "id": "loboskin-grimoire-alchemist-91",
+      "name": "Loboskin Grimoire"
+    },
+    {
+      "id": "rarefied-loboskin-grimoire-alchemist-91",
+      "name": "Rarefied Loboskin Grimoire"
+    },
+    {
+      "id": "engineers-supply-kit-alchemist-92",
+      "name": "Engineer's Supply Kit"
+    },
+    {
+      "id": "ceiba-round-brush-alchemist-92",
+      "name": "Ceiba Round Brush"
+    },
+    {
+      "id": "crocodileskin-codex-alchemist-92",
+      "name": "Crocodileskin Codex"
+    },
+    {
+      "id": "crocodileskin-index-alchemist-92",
+      "name": "Crocodileskin Index"
+    },
+    {
+      "id": "grade-1-gemsap-of-dexterity-alchemist-93",
+      "name": "Grade 1 Gemsap of Dexterity"
+    },
+    {
+      "id": "grade-1-gemsap-of-intelligence-alchemist-93",
+      "name": "Grade 1 Gemsap of Intelligence"
+    },
+    {
+      "id": "grade-1-gemsap-of-mind-alchemist-93",
+      "name": "Grade 1 Gemsap of Mind"
+    },
+    {
+      "id": "grade-1-gemsap-of-strength-alchemist-93",
+      "name": "Grade 1 Gemsap of Strength"
+    },
+    {
+      "id": "grade-1-gemsap-of-vitality-alchemist-93",
+      "name": "Grade 1 Gemsap of Vitality"
+    },
+    {
+      "id": "railroad-repair-kit-alchemist-93",
+      "name": "Railroad Repair Kit"
+    },
+    {
+      "id": "fermented-aloe-juice-alchemist-93",
+      "name": "Fermented Aloe Juice"
+    },
+    {
+      "id": "rarefied-gemsap-of-dexterity-alchemist-93",
+      "name": "Rarefied Gemsap of Dexterity"
+    },
+    {
+      "id": "tungsten-ink-alchemist-94",
+      "name": "Tungsten Ink"
+    },
+    {
+      "id": "braaxskin-grimoire-alchemist-94",
+      "name": "Br'aaxskin Grimoire"
+    },
+    {
+      "id": "dark-mahogany-round-brush-alchemist-94",
+      "name": "Dark Mahogany Round Brush"
+    },
+    {
+      "id": "magnesia-whetstone-alchemist-95",
+      "name": "Magnesia Whetstone"
+    },
+    {
+      "id": "ja-tiika-juice-alchemist-95",
+      "name": "Ja Tiika Juice"
+    },
+    {
+      "id": "kukuru-pulp-juice-alchemist-95",
+      "name": "Kukuru Pulp Juice"
+    },
+    {
+      "id": "braaxskin-codex-alchemist-95",
+      "name": "Br'aaxskin Codex"
+    },
+    {
+      "id": "competent-craftsmans-tisane-alchemist-95",
+      "name": "Competent Craftsman's Tisane"
+    },
+    {
+      "id": "rarefied-braaxskin-codex-alchemist-95",
+      "name": "Rarefied Br'aaxskin Codex"
+    },
+    {
+      "id": "acacia-round-brush-alchemist-96",
+      "name": "Acacia Round Brush"
+    },
+    {
+      "id": "commanding-craftsmans-tisane-alchemist-96",
+      "name": "Commanding Craftsman's Tisane"
+    },
+    {
+      "id": "gomphotherium-codex-alchemist-96",
+      "name": "Gomphotherium Codex"
+    },
+    {
+      "id": "wisteria-ceiling-lamp-alchemist-96",
+      "name": "Wisteria Ceiling Lamp"
+    },
+    {
+      "id": "sanctified-water-alchemist-97",
+      "name": "Sanctified Water"
+    },
+    {
+      "id": "cunning-craftsmans-tisane-alchemist-97",
+      "name": "Cunning Craftsman's Tisane"
+    },
+    {
+      "id": "gomphotherium-grimoire-alchemist-97",
+      "name": "Gomphotherium Grimoire"
+    },
+    {
+      "id": "rarefied-cunning-craftsmans-tisane-alchemist-97",
+      "name": "Rarefied Cunning Craftsman's Tisane"
+    },
+    {
+      "id": "prickly-pear-juice-alchemist-98",
+      "name": "Prickly Pear Juice"
+    },
+    {
+      "id": "book-of-rakaznar-alchemist-98",
+      "name": "Book of Ra'Kaznar"
+    },
+    {
+      "id": "claro-walnut-flat-brush-alchemist-98",
+      "name": "Claro Walnut Flat Brush"
+    },
+    {
+      "id": "grade-1-gemdraught-of-mind-alchemist-99",
+      "name": "Grade 1 Gemdraught of Mind"
+    },
+    {
+      "id": "grade-1-gemdraught-of-vitality-alchemist-99",
+      "name": "Grade 1 Gemdraught of Vitality"
+    },
+    {
+      "id": "rarefied-gemdraught-of-vitality-alchemist-99",
+      "name": "Rarefied Gemdraught of Vitality"
+    },
+    {
+      "id": "word-of-rakaznar-alchemist-99",
+      "name": "Word of Ra'Kaznar"
+    },
+    {
+      "id": "boonewa-soda-alchemist-100",
+      "name": "Boonewa Soda"
+    },
+    {
+      "id": "eulmore-planter-alchemist-100",
+      "name": "Eulmore Planter"
+    },
+    {
+      "id": "grade-1-gemdraught-of-dexterity-alchemist-100",
+      "name": "Grade 1 Gemdraught of Dexterity"
+    },
+    {
+      "id": "grade-1-gemdraught-of-intelligence-alchemist-100",
+      "name": "Grade 1 Gemdraught of Intelligence"
+    },
+    {
+      "id": "grade-1-gemdraught-of-strength-alchemist-100",
+      "name": "Grade 1 Gemdraught of Strength"
+    },
+    {
+      "id": "grassy-rug-alchemist-100",
+      "name": "Grassy Rug"
+    },
+    {
+      "id": "il-mheg-planter-alchemist-100",
+      "name": "Il Mheg Planter"
+    },
+    {
+      "id": "lakeland-planter-alchemist-100",
+      "name": "Lakeland Planter"
+    },
+    {
+      "id": "minishroom-lamp-alchemist-100",
+      "name": "Minishroom Lamp"
+    },
+    {
+      "id": "rarefied-claro-walnut-flat-brush-alchemist-100",
+      "name": "Rarefied Claro Walnut Flat Brush"
+    },
+    {
+      "id": "ultra-potion-alchemist-100",
+      "name": "Ultra-Potion"
+    },
+    {
+      "id": "paved-in-solitude-orchestrion-roll-alchemist-100",
+      "name": "Paved in Solitude Orchestrion Roll"
+    },
+    {
+      "id": "paved-with-resolve-orchestrion-roll-alchemist-100",
+      "name": "Paved with Resolve Orchestrion Roll"
+    },
+    {
+      "id": "roses-of-may-dawntrail-orchestrion-roll-alchemist-100",
+      "name": "Roses of May (Dawntrail) Orchestrion Roll"
+    },
+    {
+      "id": "seeking-purpose-orchestrion-roll-alchemist-100",
+      "name": "Seeking Purpose Orchestrion Roll"
+    },
+    {
+      "id": "the-skyruin-orchestrion-roll-alchemist-100",
+      "name": "The Skyruin Orchestrion Roll"
+    },
+    {
+      "id": "optical-nanofiber-alchemist-100",
+      "name": "Optical Nanofiber"
+    },
+    {
+      "id": "grade-2-gemsap-of-dexterity-alchemist-100",
+      "name": "Grade 2 Gemsap of Dexterity"
+    },
+    {
+      "id": "grade-2-gemsap-of-intelligence-alchemist-100",
+      "name": "Grade 2 Gemsap of Intelligence"
+    },
+    {
+      "id": "grade-2-gemsap-of-mind-alchemist-100",
+      "name": "Grade 2 Gemsap of Mind"
+    },
+    {
+      "id": "grade-2-gemsap-of-strength-alchemist-100",
+      "name": "Grade 2 Gemsap of Strength"
+    },
+    {
+      "id": "grade-2-gemsap-of-vitality-alchemist-100",
+      "name": "Grade 2 Gemsap of Vitality"
+    },
+    {
+      "id": "archeo-kingdom-codex-alchemist-100",
+      "name": "Archeo Kingdom Codex"
+    },
+    {
+      "id": "archeo-kingdom-index-alchemist-100",
+      "name": "Archeo Kingdom Index"
+    },
+    {
+      "id": "archeo-kingdom-round-brush-alchemist-100",
+      "name": "Archeo Kingdom Round Brush"
+    },
+    {
+      "id": "grade-2-gemdraught-of-dexterity-alchemist-100",
+      "name": "Grade 2 Gemdraught of Dexterity"
+    },
+    {
+      "id": "grade-2-gemdraught-of-intelligence-alchemist-100",
+      "name": "Grade 2 Gemdraught of Intelligence"
+    },
+    {
+      "id": "grade-2-gemdraught-of-mind-alchemist-100",
+      "name": "Grade 2 Gemdraught of Mind"
+    },
+    {
+      "id": "grade-2-gemdraught-of-strength-alchemist-100",
+      "name": "Grade 2 Gemdraught of Strength"
+    },
+    {
+      "id": "grade-2-gemdraught-of-vitality-alchemist-100",
+      "name": "Grade 2 Gemdraught of Vitality"
+    },
+    {
+      "id": "grade-3-gemsap-of-dexterity-alchemist-100",
+      "name": "Grade 3 Gemsap of Dexterity"
+    },
+    {
+      "id": "grade-3-gemsap-of-intelligence-alchemist-100",
+      "name": "Grade 3 Gemsap of Intelligence"
+    },
+    {
+      "id": "grade-3-gemsap-of-mind-alchemist-100",
+      "name": "Grade 3 Gemsap of Mind"
+    },
+    {
+      "id": "grade-3-gemsap-of-strength-alchemist-100",
+      "name": "Grade 3 Gemsap of Strength"
+    },
+    {
+      "id": "grade-3-gemsap-of-vitality-alchemist-100",
+      "name": "Grade 3 Gemsap of Vitality"
+    },
+    {
+      "id": "synthetic-dark-matter-gamma-alchemist-100",
+      "name": "Synthetic Dark Matter Gamma"
+    },
+    {
+      "id": "craftsmans-tri-solution-alchemist-100",
+      "name": "Craftsman's Tri-solution"
+    },
+    {
+      "id": "ceremonial-codex-alchemist-100",
+      "name": "Ceremonial Codex"
+    },
+    {
+      "id": "ceremonial-flat-brush-alchemist-100",
+      "name": "Ceremonial Flat Brush"
+    },
+    {
+      "id": "ceremonial-grimoire-alchemist-100",
+      "name": "Ceremonial Grimoire"
+    },
+    {
+      "id": "grade-3-gemdraught-of-dexterity-alchemist-100",
+      "name": "Grade 3 Gemdraught of Dexterity"
+    },
+    {
+      "id": "grade-3-gemdraught-of-intelligence-alchemist-100",
+      "name": "Grade 3 Gemdraught of Intelligence"
+    },
+    {
+      "id": "grade-3-gemdraught-of-mind-alchemist-100",
+      "name": "Grade 3 Gemdraught of Mind"
+    },
+    {
+      "id": "grade-3-gemdraught-of-strength-alchemist-100",
+      "name": "Grade 3 Gemdraught of Strength"
+    },
+    {
+      "id": "grade-3-gemdraught-of-vitality-alchemist-100",
+      "name": "Grade 3 Gemdraught of Vitality"
+    },
+    {
+      "id": "aspected-aetherocatalyst-alchemist-100",
+      "name": "Aspected Aetherocatalyst"
+    },
+    {
+      "id": "grade-4-gemsap-of-dexterity-alchemist-100",
+      "name": "Grade 4 Gemsap of Dexterity"
+    },
+    {
+      "id": "grade-4-gemsap-of-intelligence-alchemist-100",
+      "name": "Grade 4 Gemsap of Intelligence"
+    },
+    {
+      "id": "grade-4-gemsap-of-mind-alchemist-100",
+      "name": "Grade 4 Gemsap of Mind"
+    },
+    {
+      "id": "grade-4-gemsap-of-strength-alchemist-100",
+      "name": "Grade 4 Gemsap of Strength"
+    },
+    {
+      "id": "grade-4-gemsap-of-vitality-alchemist-100",
+      "name": "Grade 4 Gemsap of Vitality"
+    },
+    {
+      "id": "courtly-lovers-codex-alchemist-100",
+      "name": "Courtly Lover's Codex"
+    },
+    {
+      "id": "courtly-lovers-filbert-brush-alchemist-100",
+      "name": "Courtly Lover's Filbert Brush"
+    },
+    {
+      "id": "courtly-lovers-index-alchemist-100",
+      "name": "Courtly Lover's Index"
+    },
+    {
+      "id": "grade-4-gemdraught-of-dexterity-alchemist-100",
+      "name": "Grade 4 Gemdraught of Dexterity"
+    },
+    {
+      "id": "grade-4-gemdraught-of-intelligence-alchemist-100",
+      "name": "Grade 4 Gemdraught of Intelligence"
+    },
+    {
+      "id": "grade-4-gemdraught-of-mind-alchemist-100",
+      "name": "Grade 4 Gemdraught of Mind"
+    },
+    {
+      "id": "grade-4-gemdraught-of-strength-alchemist-100",
+      "name": "Grade 4 Gemdraught of Strength"
+    },
+    {
+      "id": "grade-4-gemdraught-of-vitality-alchemist-100",
+      "name": "Grade 4 Gemdraught of Vitality"
+    }
+  ],
+  "skippedLogicalDuplicate": [
+    {
+      "generatedId": "enchanted-gold-ink-alchemist-50",
+      "existingId": "enchanted-gold-ink-alchemist-50-1star",
+      "name": "Enchanted Gold Ink",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "growth-formula-delta-alchemist-50",
+      "existingId": "growth-formula-delta-alchemist-50-1star",
+      "name": "Growth Formula Delta",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "erudites-picatrix-of-casting-alchemist-50",
+      "existingId": "erudites-picatrix-of-casting-alchemist-50-1star",
+      "name": "Erudite's Picatrix of Casting",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "erudites-picatrix-of-healing-alchemist-50",
+      "existingId": "erudites-picatrix-of-healing-alchemist-50-1star",
+      "name": "Erudite's Picatrix of Healing",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "madmans-whispering-rod-alchemist-50",
+      "existingId": "madmans-whispering-rod-alchemist-50-1star",
+      "name": "Madman's Whispering Rod",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "spiritbond-potion-alchemist-50",
+      "existingId": "spiritbond-potion-alchemist-50-1star",
+      "name": "Spiritbond Potion",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "vampers-knives-alchemist-50",
+      "existingId": "vampers-knives-alchemist-50-1star",
+      "name": "Vamper's Knives",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "watered-cordial-alchemist-50",
+      "existingId": "watered-cordial-alchemist-50-1star",
+      "name": "Watered Cordial",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "crystal-glass-alchemist-50",
+      "existingId": "crystal-glass-alchemist-50-2star",
+      "name": "Crystal Glass",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "diluted-vitriol-alchemist-50",
+      "existingId": "diluted-vitriol-alchemist-50-2star",
+      "name": "Diluted Vitriol",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "enchanted-rose-gold-ink-alchemist-50",
+      "existingId": "enchanted-rose-gold-ink-alchemist-50-2star",
+      "name": "Enchanted Rose Gold Ink",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "growth-formula-delta-concentrate-alchemist-50",
+      "existingId": "growth-formula-delta-concentrate-alchemist-50-2star",
+      "name": "Growth Formula Delta Concentrate",
+      "level": 50,
+      "stars": 2
+    }
+  ],
+  "skippedInvalid": [],
+  "idCollisions": [],
+  "targetCountAfter": 1422
+}

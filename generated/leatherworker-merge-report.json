@@ -1,0 +1,6071 @@
+{
+  "targetFile": "C:\\Users\\sorin\\onedrive\\desktop\\ffxiv_material_tracker_app\\src\\data\\recipes\\leatherworker.json",
+  "generatedFile": "C:\\Users\\sorin\\onedrive\\desktop\\ffxiv_material_tracker_app\\generated\\leatherworker-missing-generated.json",
+  "writeMode": false,
+  "targetCountBefore": 1652,
+  "generatedCount": 1502,
+  "added": [],
+  "skippedExactId": [
+    {
+      "id": "larboard-hull-component-leatherworker-1",
+      "name": "Larboard Hull Component"
+    },
+    {
+      "id": "bladder-component-leatherworker-1",
+      "name": "Bladder Component"
+    },
+    {
+      "id": "hull-interior-component-leatherworker-1",
+      "name": "Hull Interior Component"
+    },
+    {
+      "id": "starboard-hull-component-leatherworker-1",
+      "name": "Starboard Hull Component"
+    },
+    {
+      "id": "bladder-lining-component-leatherworker-1",
+      "name": "Bladder Lining Component"
+    },
+    {
+      "id": "engine-casing-component-leatherworker-3",
+      "name": "Engine Casing Component"
+    },
+    {
+      "id": "gyrodrive-component-leatherworker-3",
+      "name": "Gyrodrive Component"
+    },
+    {
+      "id": "crafting-tool-component-leatherworker-3",
+      "name": "Crafting Tool Component"
+    },
+    {
+      "id": "deck-component-leatherworker-3",
+      "name": "Deck Component"
+    },
+    {
+      "id": "propulsion-engine-component-leatherworker-3",
+      "name": "Propulsion Engine Component"
+    },
+    {
+      "id": "rigging-component-leatherworker-3",
+      "name": "Rigging Component"
+    },
+    {
+      "id": "aerodynamo-component-leatherworker-6",
+      "name": "Aerodynamo Component"
+    },
+    {
+      "id": "ballast-component-leatherworker-6",
+      "name": "Ballast Component"
+    },
+    {
+      "id": "cockpit-exterior-component-leatherworker-6",
+      "name": "Cockpit Exterior Component"
+    },
+    {
+      "id": "cockpit-interior-component-leatherworker-6",
+      "name": "Cockpit Interior Component"
+    },
+    {
+      "id": "engine-jointing-component-leatherworker-6",
+      "name": "Engine Jointing Component"
+    },
+    {
+      "id": "instrument-panel-component-leatherworker-6",
+      "name": "Instrument Panel Component"
+    },
+    {
+      "id": "larboard-wing-component-leatherworker-10",
+      "name": "Larboard Wing Component"
+    },
+    {
+      "id": "starboard-wing-component-leatherworker-10",
+      "name": "Starboard Wing Component"
+    },
+    {
+      "id": "heat-vent-component-leatherworker-10",
+      "name": "Heat Vent Component"
+    },
+    {
+      "id": "transmission-component-leatherworker-10",
+      "name": "Transmission Component"
+    },
+    {
+      "id": "larboard-wing-control-component-leatherworker-10",
+      "name": "Larboard Wing Control Component"
+    },
+    {
+      "id": "starboard-wing-control-component-leatherworker-10",
+      "name": "Starboard Wing Control Component"
+    },
+    {
+      "id": "lamp-component-leatherworker-15",
+      "name": "Lamp Component"
+    },
+    {
+      "id": "glamour-prism-leatherworker-15",
+      "name": "Glamour Prism"
+    },
+    {
+      "id": "glade-bench-leatherworker-15",
+      "name": "Glade Bench"
+    },
+    {
+      "id": "exhaust-outlet-component-leatherworker-15",
+      "name": "Exhaust Outlet Component"
+    },
+    {
+      "id": "helm-component-leatherworker-15",
+      "name": "Helm Component"
+    },
+    {
+      "id": "speaking-tube-component-leatherworker-15",
+      "name": "Speaking Tube Component"
+    },
+    {
+      "id": "steering-mechanism-component-leatherworker-15",
+      "name": "Steering Mechanism Component"
+    },
+    {
+      "id": "ceruleum-tank-component-leatherworker-15",
+      "name": "Ceruleum Tank Component"
+    },
+    {
+      "id": "disposal-unit-component-leatherworker-15",
+      "name": "Disposal Unit Component"
+    },
+    {
+      "id": "refabrication-component-leatherworker-16",
+      "name": "Refabrication Component"
+    },
+    {
+      "id": "auxiliary-aerodynamo-component-leatherworker-16",
+      "name": "Auxiliary Aerodynamo Component"
+    },
+    {
+      "id": "escape-flyer-component-leatherworker-16",
+      "name": "Escape Flyer Component"
+    },
+    {
+      "id": "isolator-component-leatherworker-16",
+      "name": "Isolator Component"
+    },
+    {
+      "id": "decorative-plating-component-leatherworker-16",
+      "name": "Decorative Plating Component"
+    },
+    {
+      "id": "hyperconductor-component-leatherworker-16",
+      "name": "Hyperconductor Component"
+    },
+    {
+      "id": "spare-tank-component-leatherworker-16",
+      "name": "Spare Tank Component"
+    },
+    {
+      "id": "finishing-component-leatherworker-18",
+      "name": "Finishing Component"
+    },
+    {
+      "id": "figurehead-component-leatherworker-18",
+      "name": "Figurehead Component"
+    },
+    {
+      "id": "grade-2-skybuilders-leather-leatherworker-20",
+      "name": "Grade 2 Skybuilders' Leather"
+    },
+    {
+      "id": "grade-3-skybuilders-leather-leatherworker-20",
+      "name": "Grade 3 Skybuilders' Leather"
+    },
+    {
+      "id": "grade-4-skybuilders-leather-leatherworker-20",
+      "name": "Grade 4 Skybuilders' Leather"
+    },
+    {
+      "id": "skybuilders-leather-leatherworker-20",
+      "name": "Skybuilders' Leather"
+    },
+    {
+      "id": "manor-sofa-leatherworker-28",
+      "name": "Manor Sofa"
+    },
+    {
+      "id": "manor-stool-leatherworker-28",
+      "name": "Manor Stool"
+    },
+    {
+      "id": "manor-couch-leatherworker-29",
+      "name": "Manor Couch"
+    },
+    {
+      "id": "arbor-flooring-leatherworker-30",
+      "name": "Arbor Flooring"
+    },
+    {
+      "id": "standard-spectrum-dye-leatherworker-30",
+      "name": "Standard Spectrum Dye"
+    },
+    {
+      "id": "ahriman-chair-leatherworker-35",
+      "name": "Ahriman Chair"
+    },
+    {
+      "id": "oasis-banner-leatherworker-36",
+      "name": "Oasis Banner"
+    },
+    {
+      "id": "boarskin-harness-leatherworker-37",
+      "name": "Boarskin Harness"
+    },
+    {
+      "id": "peiste-leather-leatherworker-38",
+      "name": "Peiste Leather"
+    },
+    {
+      "id": "glade-counter-leatherworker-38",
+      "name": "Glade Counter"
+    },
+    {
+      "id": "boarskin-breeches-leatherworker-38",
+      "name": "Boarskin Breeches"
+    },
+    {
+      "id": "fingerless-peisteskin-gloves-leatherworker-38",
+      "name": "Fingerless Peisteskin Gloves"
+    },
+    {
+      "id": "peisteskin-crakows-leatherworker-38",
+      "name": "Peisteskin Crakows"
+    },
+    {
+      "id": "peisteskin-crakows-of-gathering-leatherworker-38",
+      "name": "Peisteskin Crakows of Gathering"
+    },
+    {
+      "id": "retainer-counter-leatherworker-39",
+      "name": "Retainer Counter"
+    },
+    {
+      "id": "boarskin-ring-leatherworker-39",
+      "name": "Boarskin Ring"
+    },
+    {
+      "id": "boarskin-thighboots-leatherworker-39",
+      "name": "Boarskin Thighboots"
+    },
+    {
+      "id": "fingerless-peisteskin-gloves-of-gathering-leatherworker-39",
+      "name": "Fingerless Peisteskin Gloves of Gathering"
+    },
+    {
+      "id": "peisteskin-harness-leatherworker-39",
+      "name": "Peisteskin Harness"
+    },
+    {
+      "id": "vintage-smithys-gloves-leatherworker-39",
+      "name": "Vintage Smithy's Gloves"
+    },
+    {
+      "id": "grade-2-skybuilders-leather-straps-leatherworker-40",
+      "name": "Grade 2 Skybuilders' Leather Straps"
+    },
+    {
+      "id": "grade-3-skybuilders-leather-straps-leatherworker-40",
+      "name": "Grade 3 Skybuilders' Leather Straps"
+    },
+    {
+      "id": "grade-4-skybuilders-leather-straps-leatherworker-40",
+      "name": "Grade 4 Skybuilders' Leather Straps"
+    },
+    {
+      "id": "skybuilders-leather-straps-leatherworker-40",
+      "name": "Skybuilders' Leather Straps"
+    },
+    {
+      "id": "highland-barding-leatherworker-40",
+      "name": "Highland Barding"
+    },
+    {
+      "id": "glade-banner-leatherworker-40",
+      "name": "Glade Banner"
+    },
+    {
+      "id": "sheep-rug-leatherworker-40",
+      "name": "Sheep Rug"
+    },
+    {
+      "id": "boarskin-duckbills-leatherworker-40",
+      "name": "Boarskin Duckbills"
+    },
+    {
+      "id": "highland-boots-leatherworker-40",
+      "name": "Highland Boots"
+    },
+    {
+      "id": "highland-hood-leatherworker-40",
+      "name": "Highland Hood"
+    },
+    {
+      "id": "highland-mitts-leatherworker-40",
+      "name": "Highland Mitts"
+    },
+    {
+      "id": "highland-smock-leatherworker-40",
+      "name": "Highland Smock"
+    },
+    {
+      "id": "raptor-leather-leatherworker-41",
+      "name": "Raptor Leather"
+    },
+    {
+      "id": "riviera-oval-rug-leatherworker-41",
+      "name": "Riviera Oval Rug"
+    },
+    {
+      "id": "boarskin-culottes-leatherworker-41",
+      "name": "Boarskin Culottes"
+    },
+    {
+      "id": "boarskin-moccasins-leatherworker-41",
+      "name": "Boarskin Moccasins"
+    },
+    {
+      "id": "boarskin-skirt-leatherworker-41",
+      "name": "Boarskin Skirt"
+    },
+    {
+      "id": "peisteskin-subligar-leatherworker-41",
+      "name": "Peisteskin Subligar"
+    },
+    {
+      "id": "vintage-thighboots-leatherworker-41",
+      "name": "Vintage Thighboots"
+    },
+    {
+      "id": "boarskin-workboots-leatherworker-42",
+      "name": "Boarskin Workboots"
+    },
+    {
+      "id": "raptorskin-targe-leatherworker-42",
+      "name": "Raptorskin Targe"
+    },
+    {
+      "id": "uraeus-leather-leatherworker-43",
+      "name": "Uraeus Leather"
+    },
+    {
+      "id": "boarskin-jerkin-leatherworker-43",
+      "name": "Boarskin Jerkin"
+    },
+    {
+      "id": "fingerless-raptorskin-gloves-leatherworker-43",
+      "name": "Fingerless Raptorskin Gloves"
+    },
+    {
+      "id": "raptorskin-choker-leatherworker-43",
+      "name": "Raptorskin Choker"
+    },
+    {
+      "id": "silver-tricorne-leatherworker-43",
+      "name": "Silver Tricorne"
+    },
+    {
+      "id": "boarskin-ringbands-of-flames-leatherworker-43",
+      "name": "Boarskin Ringbands of Flames"
+    },
+    {
+      "id": "boarskin-ringbands-of-frost-leatherworker-43",
+      "name": "Boarskin Ringbands of Frost"
+    },
+    {
+      "id": "boarskin-ringbands-of-gales-leatherworker-43",
+      "name": "Boarskin Ringbands of Gales"
+    },
+    {
+      "id": "boarskin-ringbands-of-storms-leatherworker-43",
+      "name": "Boarskin Ringbands of Storms"
+    },
+    {
+      "id": "boarskin-ringbands-of-tides-leatherworker-43",
+      "name": "Boarskin Ringbands of Tides"
+    },
+    {
+      "id": "boarskin-ringbands-of-tremors-leatherworker-43",
+      "name": "Boarskin Ringbands of Tremors"
+    },
+    {
+      "id": "glade-blossom-rug-leatherworker-44",
+      "name": "Glade Blossom Rug"
+    },
+    {
+      "id": "riviera-banner-leatherworker-44",
+      "name": "Riviera Banner"
+    },
+    {
+      "id": "fingerless-raptorskin-gloves-of-gathering-leatherworker-44",
+      "name": "Fingerless Raptorskin Gloves of Gathering"
+    },
+    {
+      "id": "peisteskin-cesti-leatherworker-44",
+      "name": "Peisteskin Cesti"
+    },
+    {
+      "id": "raptorskin-breeches-leatherworker-44",
+      "name": "Raptorskin Breeches"
+    },
+    {
+      "id": "raptorskin-harness-leatherworker-44",
+      "name": "Raptorskin Harness"
+    },
+    {
+      "id": "raptorskin-smithys-gloves-leatherworker-44",
+      "name": "Raptorskin Smithy's Gloves"
+    },
+    {
+      "id": "raptorskin-subligar-leatherworker-44",
+      "name": "Raptorskin Subligar"
+    },
+    {
+      "id": "raptorskin-armguards-leatherworker-45",
+      "name": "Raptorskin Armguards"
+    },
+    {
+      "id": "raptorskin-culottes-leatherworker-45",
+      "name": "Raptorskin Culottes"
+    },
+    {
+      "id": "raptorskin-gloves-leatherworker-45",
+      "name": "Raptorskin Gloves"
+    },
+    {
+      "id": "raptorskin-moccasins-leatherworker-45",
+      "name": "Raptorskin Moccasins"
+    },
+    {
+      "id": "raptorskin-shoes-leatherworker-45",
+      "name": "Raptorskin Shoes"
+    },
+    {
+      "id": "raptorskin-workboots-leatherworker-45",
+      "name": "Raptorskin Workboots"
+    },
+    {
+      "id": "raptorskin-wristbands-leatherworker-45",
+      "name": "Raptorskin Wristbands"
+    },
+    {
+      "id": "raptorskin-wristbands-of-gathering-leatherworker-45",
+      "name": "Raptorskin Wristbands of Gathering"
+    },
+    {
+      "id": "glade-armchair-leatherworker-46",
+      "name": "Glade Armchair"
+    },
+    {
+      "id": "raptorskin-brais-leatherworker-46",
+      "name": "Raptorskin Brais"
+    },
+    {
+      "id": "raptorskin-crakows-leatherworker-46",
+      "name": "Raptorskin Crakows"
+    },
+    {
+      "id": "raptorskin-skirt-leatherworker-46",
+      "name": "Raptorskin Skirt"
+    },
+    {
+      "id": "raptorskin-thighboots-leatherworker-46",
+      "name": "Raptorskin Thighboots"
+    },
+    {
+      "id": "dodore-leather-leatherworker-47",
+      "name": "Dodore Leather"
+    },
+    {
+      "id": "riviera-fringed-rug-leatherworker-47",
+      "name": "Riviera Fringed Rug"
+    },
+    {
+      "id": "dodore-doublet-leatherworker-47",
+      "name": "Dodore Doublet"
+    },
+    {
+      "id": "hunting-moccasins-leatherworker-47",
+      "name": "Hunting Moccasins"
+    },
+    {
+      "id": "raptorskin-jerkin-leatherworker-47",
+      "name": "Raptorskin Jerkin"
+    },
+    {
+      "id": "glade-couch-leatherworker-48",
+      "name": "Glade Couch"
+    },
+    {
+      "id": "oxblood-targe-leatherworker-48",
+      "name": "Oxblood Targe"
+    },
+    {
+      "id": "raptorskin-ring-leatherworker-48",
+      "name": "Raptorskin Ring"
+    },
+    {
+      "id": "raptorskin-boots-leatherworker-49",
+      "name": "Raptorskin Boots"
+    },
+    {
+      "id": "raptorskin-jacket-leatherworker-49",
+      "name": "Raptorskin Jacket"
+    },
+    {
+      "id": "fake-kupo-nut-leatherworker-50",
+      "name": "Fake Kupo Nut"
+    },
+    {
+      "id": "morbol-bookshelf-leatherworker-50",
+      "name": "Morbol Bookshelf"
+    },
+    {
+      "id": "morbol-chair-leatherworker-50",
+      "name": "Morbol Chair"
+    },
+    {
+      "id": "morbol-chandelier-leatherworker-50",
+      "name": "Morbol Chandelier"
+    },
+    {
+      "id": "morbol-rug-leatherworker-50",
+      "name": "Morbol Rug"
+    },
+    {
+      "id": "morbol-screen-leatherworker-50",
+      "name": "Morbol Screen"
+    },
+    {
+      "id": "rarefied-archaeoskin-belt-leatherworker-50",
+      "name": "Rarefied Archaeoskin Belt"
+    },
+    {
+      "id": "training-supplies-leatherworker-50",
+      "name": "Training Supplies"
+    },
+    {
+      "id": "moogle-mollifier-leatherworker-50",
+      "name": "Moogle Mollifier"
+    },
+    {
+      "id": "statue-supplies-leatherworker-50",
+      "name": "Statue Supplies"
+    },
+    {
+      "id": "stonemasonry-supplies-leatherworker-50",
+      "name": "Stonemasonry Supplies"
+    },
+    {
+      "id": "cloudfish-lure-leatherworker-50",
+      "name": "Cloudfish Lure"
+    },
+    {
+      "id": "horn-component-leatherworker-50",
+      "name": "Horn Component"
+    },
+    {
+      "id": "veneer-component-leatherworker-50",
+      "name": "Veneer Component"
+    },
+    {
+      "id": "water-filter-component-leatherworker-50",
+      "name": "Water Filter Component"
+    },
+    {
+      "id": "basket-component-leatherworker-50",
+      "name": "Basket Component"
+    },
+    {
+      "id": "shearing-machine-component-leatherworker-50",
+      "name": "Shearing Machine Component"
+    },
+    {
+      "id": "gathering-tool-component-leatherworker-50",
+      "name": "Gathering Tool Component"
+    },
+    {
+      "id": "ishgardian-cuisine-miscellany-leatherworker-50",
+      "name": "Ishgardian Cuisine Miscellany"
+    },
+    {
+      "id": "mogstew-miscellany-leatherworker-50",
+      "name": "Mogstew Miscellany"
+    },
+    {
+      "id": "repurposed-construction-component-leatherworker-50",
+      "name": "Repurposed Construction Component"
+    },
+    {
+      "id": "austere-offering-leatherworker-50",
+      "name": "Austere Offering"
+    },
+    {
+      "id": "exploding-kupo-nut-leatherworker-50",
+      "name": "Exploding Kupo Nut"
+    },
+    {
+      "id": "moogle-statuette-leatherworker-50",
+      "name": "Moogle Statuette"
+    },
+    {
+      "id": "moogle-tool-component-leatherworker-50",
+      "name": "Moogle Tool Component"
+    },
+    {
+      "id": "dragonscale-rasp-leatherworker-50",
+      "name": "Dragonscale Rasp"
+    },
+    {
+      "id": "foundation-component-leatherworker-50",
+      "name": "Foundation Component"
+    },
+    {
+      "id": "makeshift-toy-airship-leatherworker-50",
+      "name": "Makeshift Toy Airship"
+    },
+    {
+      "id": "wall-repair-supplies-leatherworker-50",
+      "name": "Wall Repair Supplies"
+    },
+    {
+      "id": "tablet-supplies-leatherworker-50",
+      "name": "Tablet Supplies"
+    },
+    {
+      "id": "aetheric-shielding-leatherworker-50",
+      "name": "Aetheric Shielding"
+    },
+    {
+      "id": "treadwheel-crane-components-leatherworker-50",
+      "name": "Treadwheel Crane Components"
+    },
+    {
+      "id": "behemoth-wall-trophy-leatherworker-50",
+      "name": "Behemoth Wall Trophy"
+    },
+    {
+      "id": "drinking-apkallu-leatherworker-50",
+      "name": "Drinking Apkallu"
+    },
+    {
+      "id": "stuffed-goblin-leatherworker-50",
+      "name": "Stuffed Goblin"
+    },
+    {
+      "id": "tonberry-armchair-leatherworker-50",
+      "name": "Tonberry Armchair"
+    },
+    {
+      "id": "tonberry-couch-leatherworker-50",
+      "name": "Tonberry Couch"
+    },
+    {
+      "id": "alchemists-thighboots-leatherworker-50",
+      "name": "Alchemist's Thighboots"
+    },
+    {
+      "id": "armorers-gloves-leatherworker-50",
+      "name": "Armorer's Gloves"
+    },
+    {
+      "id": "armorers-workboots-leatherworker-50",
+      "name": "Armorer's Workboots"
+    },
+    {
+      "id": "blacksmiths-apron-leatherworker-50",
+      "name": "Blacksmith's Apron"
+    },
+    {
+      "id": "botanists-doublet-leatherworker-50",
+      "name": "Botanist's Doublet"
+    },
+    {
+      "id": "botanists-workboots-leatherworker-50",
+      "name": "Botanist's Workboots"
+    },
+    {
+      "id": "carpenters-gloves-leatherworker-50",
+      "name": "Carpenter's Gloves"
+    },
+    {
+      "id": "carpenters-slops-leatherworker-50",
+      "name": "Carpenter's Slops"
+    },
+    {
+      "id": "carpenters-workboots-leatherworker-50",
+      "name": "Carpenter's Workboots"
+    },
+    {
+      "id": "coeurl-beach-briefs-leatherworker-50",
+      "name": "Coeurl Beach Briefs"
+    },
+    {
+      "id": "coeurl-beach-halter-leatherworker-50",
+      "name": "Coeurl Beach Halter"
+    },
+    {
+      "id": "coeurl-beach-maro-leatherworker-50",
+      "name": "Coeurl Beach Maro"
+    },
+    {
+      "id": "coeurl-beach-pareo-leatherworker-50",
+      "name": "Coeurl Beach Pareo"
+    },
+    {
+      "id": "coeurl-beach-tanga-leatherworker-50",
+      "name": "Coeurl Beach Tanga"
+    },
+    {
+      "id": "coeurl-talisman-leatherworker-50",
+      "name": "Coeurl Talisman"
+    },
+    {
+      "id": "culinarians-gaiters-leatherworker-50",
+      "name": "Culinarian's Gaiters"
+    },
+    {
+      "id": "dodore-boots-leatherworker-50",
+      "name": "Dodore Boots"
+    },
+    {
+      "id": "dodore-choker-leatherworker-50",
+      "name": "Dodore Choker"
+    },
+    {
+      "id": "dodore-ring-leatherworker-50",
+      "name": "Dodore Ring"
+    },
+    {
+      "id": "fishers-gloves-leatherworker-50",
+      "name": "Fisher's Gloves"
+    },
+    {
+      "id": "fishers-shirt-leatherworker-50",
+      "name": "Fisher's Shirt"
+    },
+    {
+      "id": "fishers-wading-boots-leatherworker-50",
+      "name": "Fisher's Wading Boots"
+    },
+    {
+      "id": "glacial-boots-leatherworker-50",
+      "name": "Glacial Boots"
+    },
+    {
+      "id": "glacial-coat-leatherworker-50",
+      "name": "Glacial Coat"
+    },
+    {
+      "id": "goldsmiths-boots-leatherworker-50",
+      "name": "Goldsmith's Boots"
+    },
+    {
+      "id": "goldsmiths-gloves-leatherworker-50",
+      "name": "Goldsmith's Gloves"
+    },
+    {
+      "id": "gryphonskin-breastguard-leatherworker-50",
+      "name": "Gryphonskin Breastguard"
+    },
+    {
+      "id": "gryphonskin-pantalettes-leatherworker-50",
+      "name": "Gryphonskin Pantalettes"
+    },
+    {
+      "id": "hamlet-pullers-hat-leatherworker-50",
+      "name": "Hamlet Puller's Hat"
+    },
+    {
+      "id": "imperial-operative-tricorne-leatherworker-50",
+      "name": "Imperial Operative Tricorne"
+    },
+    {
+      "id": "miners-gloves-leatherworker-50",
+      "name": "Miner's Gloves"
+    },
+    {
+      "id": "miners-shirt-leatherworker-50",
+      "name": "Miner's Shirt"
+    },
+    {
+      "id": "miners-slops-leatherworker-50",
+      "name": "Miner's Slops"
+    },
+    {
+      "id": "miners-workboots-leatherworker-50",
+      "name": "Miner's Workboots"
+    },
+    {
+      "id": "moonfire-caligae-leatherworker-50",
+      "name": "Moonfire Caligae"
+    },
+    {
+      "id": "moonfire-sandals-leatherworker-50",
+      "name": "Moonfire Sandals"
+    },
+    {
+      "id": "punching-gloves-leatherworker-50",
+      "name": "Punching Gloves"
+    },
+    {
+      "id": "sailor-deck-shoes-leatherworker-50",
+      "name": "Sailor Deck Shoes"
+    },
+    {
+      "id": "uraeus-body-armor-leatherworker-50",
+      "name": "Uraeus Body Armor"
+    },
+    {
+      "id": "uraeus-breeches-leatherworker-50",
+      "name": "Uraeus Breeches"
+    },
+    {
+      "id": "uraeus-coat-leatherworker-50",
+      "name": "Uraeus Coat"
+    },
+    {
+      "id": "uraeus-skirt-leatherworker-50",
+      "name": "Uraeus Skirt"
+    },
+    {
+      "id": "weavers-gloves-leatherworker-50",
+      "name": "Weaver's Gloves"
+    },
+    {
+      "id": "weavers-thighboots-leatherworker-50",
+      "name": "Weaver's Thighboots"
+    },
+    {
+      "id": "wildlings-cesti-leatherworker-50",
+      "name": "Wildling's Cesti"
+    },
+    {
+      "id": "best-mans-gaiters-leatherworker-50",
+      "name": "Best Man's Gaiters"
+    },
+    {
+      "id": "bridesmaids-sandals-leatherworker-50",
+      "name": "Bridesmaid's Sandals"
+    },
+    {
+      "id": "gryphonskin-bandana-leatherworker-50",
+      "name": "Gryphonskin Bandana"
+    },
+    {
+      "id": "gryphonskin-bracers-leatherworker-50",
+      "name": "Gryphonskin Bracers"
+    },
+    {
+      "id": "gryphonskin-elbow-pads-leatherworker-50",
+      "name": "Gryphonskin Elbow Pads"
+    },
+    {
+      "id": "gryphonskin-eyepatch-leatherworker-50",
+      "name": "Gryphonskin Eyepatch"
+    },
+    {
+      "id": "gryphonskin-gloves-leatherworker-50",
+      "name": "Gryphonskin Gloves"
+    },
+    {
+      "id": "gryphonskin-hat-leatherworker-50",
+      "name": "Gryphonskin Hat"
+    },
+    {
+      "id": "gryphonskin-jerkin-leatherworker-50",
+      "name": "Gryphonskin Jerkin"
+    },
+    {
+      "id": "gryphonskin-kecks-leatherworker-50",
+      "name": "Gryphonskin Kecks"
+    },
+    {
+      "id": "gryphonskin-knee-pads-leatherworker-50",
+      "name": "Gryphonskin Knee Pads"
+    },
+    {
+      "id": "gryphonskin-moccasins-leatherworker-50",
+      "name": "Gryphonskin Moccasins"
+    },
+    {
+      "id": "gryphonskin-shin-guards-leatherworker-50",
+      "name": "Gryphonskin Shin Guards"
+    },
+    {
+      "id": "gryphonskin-shoulder-guards-leatherworker-50",
+      "name": "Gryphonskin Shoulder Guards"
+    },
+    {
+      "id": "gryphonskin-strap-leatherworker-50",
+      "name": "Gryphonskin Strap"
+    },
+    {
+      "id": "gryphonskin-thighboots-leatherworker-50",
+      "name": "Gryphonskin Thighboots"
+    },
+    {
+      "id": "gryphonskin-trousers-leatherworker-50",
+      "name": "Gryphonskin Trousers"
+    },
+    {
+      "id": "gryphonskin-tunic-leatherworker-50",
+      "name": "Gryphonskin Tunic"
+    },
+    {
+      "id": "gryphonskin-wristbands-leatherworker-50",
+      "name": "Gryphonskin Wristbands"
+    },
+    {
+      "id": "magitek-repair-materials-leatherworker-50",
+      "name": "Magitek Repair Materials"
+    },
+    {
+      "id": "patent-leather-leatherworker-50",
+      "name": "Patent Leather"
+    },
+    {
+      "id": "levin-barding-leatherworker-50",
+      "name": "Levin Barding"
+    },
+    {
+      "id": "carbuncle-armchair-leatherworker-50",
+      "name": "Carbuncle Armchair"
+    },
+    {
+      "id": "carbuncle-rug-leatherworker-50",
+      "name": "Carbuncle Rug"
+    },
+    {
+      "id": "augmented-saurian-shirt-of-striking-leatherworker-50",
+      "name": "Augmented Saurian Shirt of Striking"
+    },
+    {
+      "id": "augmented-saurian-tabard-of-aiming-leatherworker-50",
+      "name": "Augmented Saurian Tabard of Aiming"
+    },
+    {
+      "id": "murderous-moggle-mogfists-leatherworker-50",
+      "name": "Murderous Moggle Mogfists"
+    },
+    {
+      "id": "new-world-armlets-leatherworker-50",
+      "name": "New World Armlets"
+    },
+    {
+      "id": "new-world-moccasins-leatherworker-50",
+      "name": "New World Moccasins"
+    },
+    {
+      "id": "perfect-vellum-leatherworker-50",
+      "name": "Perfect Vellum"
+    },
+    {
+      "id": "saurian-bandana-of-striking-leatherworker-50",
+      "name": "Saurian Bandana of Striking"
+    },
+    {
+      "id": "saurian-boots-of-aiming-leatherworker-50",
+      "name": "Saurian Boots of Aiming"
+    },
+    {
+      "id": "saurian-boots-of-healing-leatherworker-50",
+      "name": "Saurian Boots of Healing"
+    },
+    {
+      "id": "saurian-boots-of-striking-leatherworker-50",
+      "name": "Saurian Boots of Striking"
+    },
+    {
+      "id": "saurian-crakows-of-casting-leatherworker-50",
+      "name": "Saurian Crakows of Casting"
+    },
+    {
+      "id": "saurian-gloves-of-aiming-leatherworker-50",
+      "name": "Saurian Gloves of Aiming"
+    },
+    {
+      "id": "saurian-gloves-of-casting-leatherworker-50",
+      "name": "Saurian Gloves of Casting"
+    },
+    {
+      "id": "saurian-gloves-of-healing-leatherworker-50",
+      "name": "Saurian Gloves of Healing"
+    },
+    {
+      "id": "saurian-gloves-of-striking-leatherworker-50",
+      "name": "Saurian Gloves of Striking"
+    },
+    {
+      "id": "saurian-leather-leatherworker-50",
+      "name": "Saurian Leather"
+    },
+    {
+      "id": "saurian-shirt-of-striking-leatherworker-50",
+      "name": "Saurian Shirt of Striking"
+    },
+    {
+      "id": "saurian-tabard-of-aiming-leatherworker-50",
+      "name": "Saurian Tabard of Aiming"
+    },
+    {
+      "id": "saurian-trousers-leatherworker-50",
+      "name": "Saurian Trousers"
+    },
+    {
+      "id": "water-hardened-hippogryph-strap-leatherworker-50",
+      "name": "Water-hardened Hippogryph Strap"
+    },
+    {
+      "id": "ice-barding-leatherworker-50",
+      "name": "Ice Barding"
+    },
+    {
+      "id": "artisans-mitts-leatherworker-50",
+      "name": "Artisan's Mitts"
+    },
+    {
+      "id": "foragers-shoes-leatherworker-50",
+      "name": "Forager's Shoes"
+    },
+    {
+      "id": "foragers-wristguards-leatherworker-50",
+      "name": "Forager's Wristguards"
+    },
+    {
+      "id": "kirimu-boots-of-aiming-leatherworker-50",
+      "name": "Kirimu Boots of Aiming"
+    },
+    {
+      "id": "kirimu-boots-of-casting-leatherworker-50",
+      "name": "Kirimu Boots of Casting"
+    },
+    {
+      "id": "kirimu-boots-of-healing-leatherworker-50",
+      "name": "Kirimu Boots of Healing"
+    },
+    {
+      "id": "kirimu-bracers-leatherworker-50",
+      "name": "Kirimu Bracers"
+    },
+    {
+      "id": "kirimu-brais-leatherworker-50",
+      "name": "Kirimu Brais"
+    },
+    {
+      "id": "kirimu-breeches-of-fending-leatherworker-50",
+      "name": "Kirimu Breeches of Fending"
+    },
+    {
+      "id": "kirimu-breeches-of-maiming-leatherworker-50",
+      "name": "Kirimu Breeches of Maiming"
+    },
+    {
+      "id": "kirimu-coat-leatherworker-50",
+      "name": "Kirimu Coat"
+    },
+    {
+      "id": "kirimu-gloves-of-casting-leatherworker-50",
+      "name": "Kirimu Gloves of Casting"
+    },
+    {
+      "id": "kirimu-gloves-of-healing-leatherworker-50",
+      "name": "Kirimu Gloves of Healing"
+    },
+    {
+      "id": "kirimu-leather-leatherworker-50",
+      "name": "Kirimu Leather"
+    },
+    {
+      "id": "kirimu-sandals-of-scouting-leatherworker-50",
+      "name": "Kirimu Sandals of Scouting"
+    },
+    {
+      "id": "kirimu-sandals-of-striking-leatherworker-50",
+      "name": "Kirimu Sandals of Striking"
+    },
+    {
+      "id": "kirimu-tricorne-leatherworker-50",
+      "name": "Kirimu Tricorne"
+    },
+    {
+      "id": "archaeornis-leather-leatherworker-51",
+      "name": "Archaeornis Leather"
+    },
+    {
+      "id": "archaeoskin-boots-leatherworker-51",
+      "name": "Archaeoskin Boots"
+    },
+    {
+      "id": "archaeoskin-boots-of-scouting-leatherworker-51",
+      "name": "Archaeoskin Boots of Scouting"
+    },
+    {
+      "id": "archaeoskin-boots-of-striking-leatherworker-51",
+      "name": "Archaeoskin Boots of Striking"
+    },
+    {
+      "id": "archaeoskin-breeches-of-fending-leatherworker-51",
+      "name": "Archaeoskin Breeches of Fending"
+    },
+    {
+      "id": "archaeoskin-breeches-of-maiming-leatherworker-51",
+      "name": "Archaeoskin Breeches of Maiming"
+    },
+    {
+      "id": "archaeoskin-cloche-leatherworker-51",
+      "name": "Archaeoskin Cloche"
+    },
+    {
+      "id": "archaeoskin-gloves-of-aiming-leatherworker-51",
+      "name": "Archaeoskin Gloves of Aiming"
+    },
+    {
+      "id": "archaeoskin-gloves-of-casting-leatherworker-51",
+      "name": "Archaeoskin Gloves of Casting"
+    },
+    {
+      "id": "archaeoskin-gloves-of-crafting-leatherworker-51",
+      "name": "Archaeoskin Gloves of Crafting"
+    },
+    {
+      "id": "archaeoskin-gloves-of-gathering-leatherworker-51",
+      "name": "Archaeoskin Gloves of Gathering"
+    },
+    {
+      "id": "archaeoskin-gloves-of-healing-leatherworker-51",
+      "name": "Archaeoskin Gloves of Healing"
+    },
+    {
+      "id": "archaeoskin-gloves-of-striking-leatherworker-51",
+      "name": "Archaeoskin Gloves of Striking"
+    },
+    {
+      "id": "archaeoskin-halfboots-leatherworker-51",
+      "name": "Archaeoskin Halfboots"
+    },
+    {
+      "id": "archaeoskin-shoes-of-aiming-leatherworker-51",
+      "name": "Archaeoskin Shoes of Aiming"
+    },
+    {
+      "id": "archaeoskin-shoes-of-casting-leatherworker-51",
+      "name": "Archaeoskin Shoes of Casting"
+    },
+    {
+      "id": "archaeoskin-shoes-of-healing-leatherworker-51",
+      "name": "Archaeoskin Shoes of Healing"
+    },
+    {
+      "id": "wyvern-leather-leatherworker-52",
+      "name": "Wyvern Leather"
+    },
+    {
+      "id": "archaeoskin-breeches-of-crafting-leatherworker-52",
+      "name": "Archaeoskin Breeches of Crafting"
+    },
+    {
+      "id": "archaeoskin-breeches-of-gathering-leatherworker-52",
+      "name": "Archaeoskin Breeches of Gathering"
+    },
+    {
+      "id": "archaeoskin-jackboots-of-crafting-leatherworker-52",
+      "name": "Archaeoskin Jackboots of Crafting"
+    },
+    {
+      "id": "archaeoskin-jackboots-of-gathering-leatherworker-52",
+      "name": "Archaeoskin Jackboots of Gathering"
+    },
+    {
+      "id": "archaeoskin-jackcoat-of-crafting-leatherworker-52",
+      "name": "Archaeoskin Jackcoat of Crafting"
+    },
+    {
+      "id": "archaeoskin-jackcoat-of-gathering-leatherworker-52",
+      "name": "Archaeoskin Jackcoat of Gathering"
+    },
+    {
+      "id": "rarefied-archaeoskin-cloche-leatherworker-52",
+      "name": "Rarefied Archaeoskin Cloche"
+    },
+    {
+      "id": "wyvernskin-cuffs-of-aiming-leatherworker-52",
+      "name": "Wyvernskin Cuffs of Aiming"
+    },
+    {
+      "id": "wyvernskin-cuffs-of-scouting-leatherworker-52",
+      "name": "Wyvernskin Cuffs of Scouting"
+    },
+    {
+      "id": "wyvernskin-gloves-of-casting-leatherworker-52",
+      "name": "Wyvernskin Gloves of Casting"
+    },
+    {
+      "id": "wyvernskin-gloves-of-fending-leatherworker-52",
+      "name": "Wyvernskin Gloves of Fending"
+    },
+    {
+      "id": "wyvernskin-gloves-of-healing-leatherworker-52",
+      "name": "Wyvernskin Gloves of Healing"
+    },
+    {
+      "id": "wyvernskin-gloves-of-maiming-leatherworker-52",
+      "name": "Wyvernskin Gloves of Maiming"
+    },
+    {
+      "id": "wyvernskin-gloves-of-striking-leatherworker-52",
+      "name": "Wyvernskin Gloves of Striking"
+    },
+    {
+      "id": "wyvernskin-boots-of-aiming-leatherworker-53",
+      "name": "Wyvernskin Boots of Aiming"
+    },
+    {
+      "id": "wyvernskin-boots-of-casting-leatherworker-53",
+      "name": "Wyvernskin Boots of Casting"
+    },
+    {
+      "id": "wyvernskin-boots-of-fending-leatherworker-53",
+      "name": "Wyvernskin Boots of Fending"
+    },
+    {
+      "id": "wyvernskin-boots-of-healing-leatherworker-53",
+      "name": "Wyvernskin Boots of Healing"
+    },
+    {
+      "id": "wyvernskin-boots-of-maiming-leatherworker-53",
+      "name": "Wyvernskin Boots of Maiming"
+    },
+    {
+      "id": "wyvernskin-boots-of-scouting-leatherworker-53",
+      "name": "Wyvernskin Boots of Scouting"
+    },
+    {
+      "id": "wyvernskin-boots-of-striking-leatherworker-53",
+      "name": "Wyvernskin Boots of Striking"
+    },
+    {
+      "id": "wyvernskin-eyepatch-of-striking-leatherworker-53",
+      "name": "Wyvernskin Eyepatch of Striking"
+    },
+    {
+      "id": "wyvernskin-mane-of-fending-leatherworker-53",
+      "name": "Wyvernskin Mane of Fending"
+    },
+    {
+      "id": "wyvernskin-mask-of-casting-leatherworker-53",
+      "name": "Wyvernskin Mask of Casting"
+    },
+    {
+      "id": "wyvernskin-pot-helm-of-maiming-leatherworker-53",
+      "name": "Wyvernskin Pot Helm of Maiming"
+    },
+    {
+      "id": "wyvernskin-ring-leatherworker-53",
+      "name": "Wyvernskin Ring"
+    },
+    {
+      "id": "wyvernskin-workboots-leatherworker-53",
+      "name": "Wyvernskin Workboots"
+    },
+    {
+      "id": "wyvernskin-wristbands-leatherworker-53",
+      "name": "Wyvernskin Wristbands"
+    },
+    {
+      "id": "dhalmel-leather-leatherworker-54",
+      "name": "Dhalmel Leather"
+    },
+    {
+      "id": "dhalmelskin-armguards-of-aiming-leatherworker-54",
+      "name": "Dhalmelskin Armguards of Aiming"
+    },
+    {
+      "id": "dhalmelskin-armguards-of-scouting-leatherworker-54",
+      "name": "Dhalmelskin Armguards of Scouting"
+    },
+    {
+      "id": "dhalmelskin-armguards-of-striking-leatherworker-54",
+      "name": "Dhalmelskin Armguards of Striking"
+    },
+    {
+      "id": "rarefied-wyvernskin-mask-leatherworker-54",
+      "name": "Rarefied Wyvernskin Mask"
+    },
+    {
+      "id": "wyvernskin-choker-leatherworker-54",
+      "name": "Wyvernskin Choker"
+    },
+    {
+      "id": "wyvernskin-culottes-leatherworker-54",
+      "name": "Wyvernskin Culottes"
+    },
+    {
+      "id": "wyvernskin-jerkin-leatherworker-54",
+      "name": "Wyvernskin Jerkin"
+    },
+    {
+      "id": "company-hat-leatherworker-55",
+      "name": "Company Hat"
+    },
+    {
+      "id": "dark-dhalmelskin-gloves-leatherworker-55",
+      "name": "Dark Dhalmelskin Gloves"
+    },
+    {
+      "id": "dhalmelskin-breeches-of-fending-leatherworker-55",
+      "name": "Dhalmelskin Breeches of Fending"
+    },
+    {
+      "id": "dhalmelskin-breeches-of-maiming-leatherworker-55",
+      "name": "Dhalmelskin Breeches of Maiming"
+    },
+    {
+      "id": "dhalmelskin-bush-hat-leatherworker-55",
+      "name": "Dhalmelskin Bush Hat"
+    },
+    {
+      "id": "dhalmelskin-coat-leatherworker-55",
+      "name": "Dhalmelskin Coat"
+    },
+    {
+      "id": "dhalmelskin-crakows-of-casting-leatherworker-55",
+      "name": "Dhalmelskin Crakows of Casting"
+    },
+    {
+      "id": "dhalmelskin-crakows-of-healing-leatherworker-55",
+      "name": "Dhalmelskin Crakows of Healing"
+    },
+    {
+      "id": "dhalmelskin-gloves-leatherworker-55",
+      "name": "Dhalmelskin Gloves"
+    },
+    {
+      "id": "dhalmelskin-halfgloves-of-crafting-leatherworker-55",
+      "name": "Dhalmelskin Halfgloves of Crafting"
+    },
+    {
+      "id": "dhalmelskin-jacket-of-aiming-leatherworker-55",
+      "name": "Dhalmelskin Jacket of Aiming"
+    },
+    {
+      "id": "dhalmelskin-jacket-of-scouting-leatherworker-55",
+      "name": "Dhalmelskin Jacket of Scouting"
+    },
+    {
+      "id": "dhalmelskin-jacket-of-striking-leatherworker-55",
+      "name": "Dhalmelskin Jacket of Striking"
+    },
+    {
+      "id": "dhalmelskin-leggings-of-aiming-leatherworker-55",
+      "name": "Dhalmelskin Leggings of Aiming"
+    },
+    {
+      "id": "dhalmelskin-leggings-of-scouting-leatherworker-55",
+      "name": "Dhalmelskin Leggings of Scouting"
+    },
+    {
+      "id": "dhalmelskin-leggings-of-striking-leatherworker-55",
+      "name": "Dhalmelskin Leggings of Striking"
+    },
+    {
+      "id": "dhalmelskin-moccasins-leatherworker-55",
+      "name": "Dhalmelskin Moccasins"
+    },
+    {
+      "id": "dhalmelskin-thighboots-leatherworker-55",
+      "name": "Dhalmelskin Thighboots"
+    },
+    {
+      "id": "fur-lined-dhalmelskin-boots-leatherworker-55",
+      "name": "Fur-lined Dhalmelskin Boots"
+    },
+    {
+      "id": "high-allagan-chimera-leather-leatherworker-55",
+      "name": "High Allagan Chimera Leather"
+    },
+    {
+      "id": "dragon-leather-leatherworker-56",
+      "name": "Dragon Leather"
+    },
+    {
+      "id": "dhalmelskin-fringe-boots-leatherworker-56",
+      "name": "Dhalmelskin Fringe Boots"
+    },
+    {
+      "id": "dhalmelskin-shoes-leatherworker-56",
+      "name": "Dhalmelskin Shoes"
+    },
+    {
+      "id": "dhalmelskin-vest-leatherworker-56",
+      "name": "Dhalmelskin Vest"
+    },
+    {
+      "id": "dragonskin-boots-leatherworker-56",
+      "name": "Dragonskin Boots"
+    },
+    {
+      "id": "dragonskin-bottoms-leatherworker-56",
+      "name": "Dragonskin Bottoms"
+    },
+    {
+      "id": "dragonskin-gloves-of-aiming-leatherworker-56",
+      "name": "Dragonskin Gloves of Aiming"
+    },
+    {
+      "id": "dragonskin-gloves-of-casting-leatherworker-56",
+      "name": "Dragonskin Gloves of Casting"
+    },
+    {
+      "id": "dragonskin-gloves-of-healing-leatherworker-56",
+      "name": "Dragonskin Gloves of Healing"
+    },
+    {
+      "id": "rarefied-dhalmelskin-coat-leatherworker-56",
+      "name": "Rarefied Dhalmelskin Coat"
+    },
+    {
+      "id": "near-eastern-antique-component-leatherworker-57",
+      "name": "Near Eastern Antique Component"
+    },
+    {
+      "id": "near-eastern-antique-leatherworker-57",
+      "name": "Near Eastern Antique"
+    },
+    {
+      "id": "dragonskin-boots-of-aiming-leatherworker-57",
+      "name": "Dragonskin Boots of Aiming"
+    },
+    {
+      "id": "dragonskin-boots-of-casting-leatherworker-57",
+      "name": "Dragonskin Boots of Casting"
+    },
+    {
+      "id": "dragonskin-boots-of-healing-leatherworker-57",
+      "name": "Dragonskin Boots of Healing"
+    },
+    {
+      "id": "dragonskin-breeches-of-fending-leatherworker-57",
+      "name": "Dragonskin Breeches of Fending"
+    },
+    {
+      "id": "dragonskin-breeches-of-maiming-leatherworker-57",
+      "name": "Dragonskin Breeches of Maiming"
+    },
+    {
+      "id": "dragonskin-breeches-of-scouting-leatherworker-57",
+      "name": "Dragonskin Breeches of Scouting"
+    },
+    {
+      "id": "dragonskin-breeches-of-striking-leatherworker-57",
+      "name": "Dragonskin Breeches of Striking"
+    },
+    {
+      "id": "dragonskin-ring-leatherworker-57",
+      "name": "Dragonskin Ring"
+    },
+    {
+      "id": "amphiptere-leather-leatherworker-58",
+      "name": "Amphiptere Leather"
+    },
+    {
+      "id": "uchiwa-components-leatherworker-58",
+      "name": "Uchiwa Components"
+    },
+    {
+      "id": "coerthan-souvenir-component-leatherworker-58",
+      "name": "Coerthan Souvenir Component"
+    },
+    {
+      "id": "coerthan-souvenir-leatherworker-58",
+      "name": "Coerthan Souvenir"
+    },
+    {
+      "id": "brazier-components-leatherworker-58",
+      "name": "Brazier Components"
+    },
+    {
+      "id": "dragonskin-choker-leatherworker-58",
+      "name": "Dragonskin Choker"
+    },
+    {
+      "id": "dragonskin-wristbands-leatherworker-58",
+      "name": "Dragonskin Wristbands"
+    },
+    {
+      "id": "finery-components-leatherworker-58",
+      "name": "Finery Components"
+    },
+    {
+      "id": "happi-components-leatherworker-58",
+      "name": "Happi Components"
+    },
+    {
+      "id": "rarefied-dragonskin-ring-leatherworker-58",
+      "name": "Rarefied Dragonskin Ring"
+    },
+    {
+      "id": "serpentskin-armguards-of-aiming-leatherworker-58",
+      "name": "Serpentskin Armguards of Aiming"
+    },
+    {
+      "id": "serpentskin-armguards-of-scouting-leatherworker-58",
+      "name": "Serpentskin Armguards of Scouting"
+    },
+    {
+      "id": "serpentskin-armguards-of-striking-leatherworker-58",
+      "name": "Serpentskin Armguards of Striking"
+    },
+    {
+      "id": "serpentskin-dress-gloves-of-casting-leatherworker-58",
+      "name": "Serpentskin Dress Gloves of Casting"
+    },
+    {
+      "id": "serpentskin-hat-of-casting-leatherworker-58",
+      "name": "Serpentskin Hat of Casting"
+    },
+    {
+      "id": "ritual-implement-components-leatherworker-58",
+      "name": "Ritual Implement Components"
+    },
+    {
+      "id": "trinket-components-leatherworker-58",
+      "name": "Trinket Components"
+    },
+    {
+      "id": "mol-tea-ceremony-paraphernalia-leatherworker-59",
+      "name": "Mol Tea Ceremony Paraphernalia"
+    },
+    {
+      "id": "maelstrom-materiel-component-leatherworker-59",
+      "name": "Maelstrom Materiel Component"
+    },
+    {
+      "id": "maelstrom-materiel-leatherworker-59",
+      "name": "Maelstrom Materiel"
+    },
+    {
+      "id": "altar-components-leatherworker-59",
+      "name": "Altar Components"
+    },
+    {
+      "id": "azim-steppe-souvenir-components-leatherworker-59",
+      "name": "Azim Steppe Souvenir Components"
+    },
+    {
+      "id": "buuz-cooking-paraphernalia-leatherworker-59",
+      "name": "Buuz Cooking Paraphernalia"
+    },
+    {
+      "id": "catfish-lure-components-leatherworker-59",
+      "name": "Catfish Lure Components"
+    },
+    {
+      "id": "hingan-ritual-paraphernalia-leatherworker-59",
+      "name": "Hingan Ritual Paraphernalia"
+    },
+    {
+      "id": "serpentskin-armguards-of-maiming-leatherworker-59",
+      "name": "Serpentskin Armguards of Maiming"
+    },
+    {
+      "id": "serpentskin-boots-of-aiming-leatherworker-59",
+      "name": "Serpentskin Boots of Aiming"
+    },
+    {
+      "id": "serpentskin-boots-of-scouting-leatherworker-59",
+      "name": "Serpentskin Boots of Scouting"
+    },
+    {
+      "id": "serpentskin-boots-of-striking-leatherworker-59",
+      "name": "Serpentskin Boots of Striking"
+    },
+    {
+      "id": "serpentskin-bracers-of-aiming-leatherworker-59",
+      "name": "Serpentskin Bracers of Aiming"
+    },
+    {
+      "id": "serpentskin-bracers-of-scouting-leatherworker-59",
+      "name": "Serpentskin Bracers of Scouting"
+    },
+    {
+      "id": "serpentskin-bracers-of-striking-leatherworker-59",
+      "name": "Serpentskin Bracers of Striking"
+    },
+    {
+      "id": "serpentskin-gloves-leatherworker-59",
+      "name": "Serpentskin Gloves"
+    },
+    {
+      "id": "serpentskin-gloves-of-casting-leatherworker-59",
+      "name": "Serpentskin Gloves of Casting"
+    },
+    {
+      "id": "serpentskin-gloves-of-healing-leatherworker-59",
+      "name": "Serpentskin Gloves of Healing"
+    },
+    {
+      "id": "serpentskin-halfgloves-of-crafting-leatherworker-59",
+      "name": "Serpentskin Halfgloves of Crafting"
+    },
+    {
+      "id": "serpentskin-thighboots-of-casting-leatherworker-59",
+      "name": "Serpentskin Thighboots of Casting"
+    },
+    {
+      "id": "serpentskin-thighboots-of-healing-leatherworker-59",
+      "name": "Serpentskin Thighboots of Healing"
+    },
+    {
+      "id": "substitute-offering-leatherworker-59",
+      "name": "Substitute Offering"
+    },
+    {
+      "id": "confetti-making-tools-leatherworker-60",
+      "name": "Confetti-making Tools"
+    },
+    {
+      "id": "gyr-abanian-souvenir-component-leatherworker-60",
+      "name": "Gyr Abanian Souvenir Component"
+    },
+    {
+      "id": "heartfelt-gift-component-leatherworker-60",
+      "name": "Heartfelt Gift Component"
+    },
+    {
+      "id": "gyr-abanian-souvenir-leatherworker-60",
+      "name": "Gyr Abanian Souvenir"
+    },
+    {
+      "id": "heartfelt-gift-leatherworker-60",
+      "name": "Heartfelt Gift"
+    },
+    {
+      "id": "grade-2-skybuilders-rug-leatherworker-60",
+      "name": "Grade 2 Skybuilders' Rug"
+    },
+    {
+      "id": "grade-3-skybuilders-leather-sack-leatherworker-60",
+      "name": "Grade 3 Skybuilders' Leather Sack"
+    },
+    {
+      "id": "grade-4-skybuilders-leather-sack-leatherworker-60",
+      "name": "Grade 4 Skybuilders' Leather Sack"
+    },
+    {
+      "id": "skybuilders-rug-leatherworker-60",
+      "name": "Skybuilders' Rug"
+    },
+    {
+      "id": "elixir-mixing-paraphernalia-leatherworker-60",
+      "name": "Elixir Mixing Paraphernalia"
+    },
+    {
+      "id": "land-diving-gear-leatherworker-60",
+      "name": "Land Diving Gear"
+    },
+    {
+      "id": "rarefied-serpentskin-hat-leatherworker-60",
+      "name": "Rarefied Serpentskin Hat"
+    },
+    {
+      "id": "serpentskin-bootlets-of-casting-leatherworker-60",
+      "name": "Serpentskin Bootlets of Casting"
+    },
+    {
+      "id": "serpentskin-brais-of-aiming-leatherworker-60",
+      "name": "Serpentskin Brais of Aiming"
+    },
+    {
+      "id": "serpentskin-brais-of-scouting-leatherworker-60",
+      "name": "Serpentskin Brais of Scouting"
+    },
+    {
+      "id": "serpentskin-brais-of-striking-leatherworker-60",
+      "name": "Serpentskin Brais of Striking"
+    },
+    {
+      "id": "serpentskin-bush-hat-leatherworker-60",
+      "name": "Serpentskin Bush Hat"
+    },
+    {
+      "id": "serpentskin-fringe-boots-leatherworker-60",
+      "name": "Serpentskin Fringe Boots"
+    },
+    {
+      "id": "serpentskin-helm-of-maiming-leatherworker-60",
+      "name": "Serpentskin Helm of Maiming"
+    },
+    {
+      "id": "serpentskin-hose-of-maiming-leatherworker-60",
+      "name": "Serpentskin Hose of Maiming"
+    },
+    {
+      "id": "serpentskin-shoes-leatherworker-60",
+      "name": "Serpentskin Shoes"
+    },
+    {
+      "id": "serpentskin-thighboots-of-aiming-leatherworker-60",
+      "name": "Serpentskin Thighboots of Aiming"
+    },
+    {
+      "id": "serpentskin-thighboots-of-scouting-leatherworker-60",
+      "name": "Serpentskin Thighboots of Scouting"
+    },
+    {
+      "id": "serpentskin-thighboots-of-striking-leatherworker-60",
+      "name": "Serpentskin Thighboots of Striking"
+    },
+    {
+      "id": "serpentskin-tights-of-casting-leatherworker-60",
+      "name": "Serpentskin Tights of Casting"
+    },
+    {
+      "id": "serpentskin-vest-leatherworker-60",
+      "name": "Serpentskin Vest"
+    },
+    {
+      "id": "stable-supplies-leatherworker-60",
+      "name": "Stable Supplies"
+    },
+    {
+      "id": "steeping-accessory-leatherworker-60",
+      "name": "Steeping Accessory"
+    },
+    {
+      "id": "survival-boots-leatherworker-60",
+      "name": "Survival Boots"
+    },
+    {
+      "id": "survival-hat-leatherworker-60",
+      "name": "Survival Hat"
+    },
+    {
+      "id": "effigy-components-leatherworker-60",
+      "name": "Effigy Components"
+    },
+    {
+      "id": "ceremonial-bow-components-leatherworker-60",
+      "name": "Ceremonial Bow Components"
+    },
+    {
+      "id": "culinary-knife-component-leatherworker-60",
+      "name": "Culinary Knife Component"
+    },
+    {
+      "id": "dzo-shear-components-leatherworker-60",
+      "name": "Dzo Shear Components"
+    },
+    {
+      "id": "korrigan-doll-leatherworker-60",
+      "name": "Korrigan Doll"
+    },
+    {
+      "id": "pristine-fruit-figurine-leatherworker-60",
+      "name": "Pristine Fruit Figurine"
+    },
+    {
+      "id": "generous-gift-leatherworker-60",
+      "name": "Generous Gift"
+    },
+    {
+      "id": "drum-parts-leatherworker-60",
+      "name": "Drum Parts"
+    },
+    {
+      "id": "mikoshi-frippery-leatherworker-60",
+      "name": "Mikoshi Frippery"
+    },
+    {
+      "id": "pterodactyl-leather-leatherworker-60",
+      "name": "Pterodactyl Leather"
+    },
+    {
+      "id": "far-eastern-antique-component-leatherworker-60",
+      "name": "Far Eastern Antique Component"
+    },
+    {
+      "id": "orphanage-donation-component-leatherworker-60",
+      "name": "Orphanage Donation Component"
+    },
+    {
+      "id": "far-eastern-antique-leatherworker-60",
+      "name": "Far Eastern Antique"
+    },
+    {
+      "id": "orphanage-donation-leatherworker-60",
+      "name": "Orphanage Donation"
+    },
+    {
+      "id": "bearskin-rug-leatherworker-60",
+      "name": "Bearskin Rug"
+    },
+    {
+      "id": "cozy-leather-shoes-leatherworker-60",
+      "name": "Cozy Leather Shoes"
+    },
+    {
+      "id": "leather-bags-leatherworker-60",
+      "name": "Leather Bags"
+    },
+    {
+      "id": "chivalric-coat-of-scouting-leatherworker-60",
+      "name": "Chivalric Coat of Scouting"
+    },
+    {
+      "id": "chivalric-coat-of-striking-leatherworker-60",
+      "name": "Chivalric Coat of Striking"
+    },
+    {
+      "id": "chivalric-longcoat-of-aiming-leatherworker-60",
+      "name": "Chivalric Longcoat of Aiming"
+    },
+    {
+      "id": "dinosaur-leather-gloves-leatherworker-60",
+      "name": "Dinosaur Leather Gloves"
+    },
+    {
+      "id": "dinosaur-leather-shoes-leatherworker-60",
+      "name": "Dinosaur Leather Shoes"
+    },
+    {
+      "id": "falconers-boots-leatherworker-60",
+      "name": "Falconer's Boots"
+    },
+    {
+      "id": "falconers-bottoms-leatherworker-60",
+      "name": "Falconer's Bottoms"
+    },
+    {
+      "id": "fur-lined-saurian-boots-leatherworker-60",
+      "name": "Fur-lined Saurian Boots"
+    },
+    {
+      "id": "high-house-boots-leatherworker-60",
+      "name": "High House Boots"
+    },
+    {
+      "id": "high-house-cloche-leatherworker-60",
+      "name": "High House Cloche"
+    },
+    {
+      "id": "high-house-halfboots-leatherworker-60",
+      "name": "High House Halfboots"
+    },
+    {
+      "id": "pterodactyl-strap-leatherworker-60",
+      "name": "Pterodactyl Strap"
+    },
+    {
+      "id": "pteroskin-shoes-leatherworker-60",
+      "name": "Pteroskin Shoes"
+    },
+    {
+      "id": "thavnairian-babouches-leatherworker-60",
+      "name": "Thavnairian Babouches"
+    },
+    {
+      "id": "thavnairian-bolero-leatherworker-60",
+      "name": "Thavnairian Bolero"
+    },
+    {
+      "id": "thavnairian-gloves-leatherworker-60",
+      "name": "Thavnairian Gloves"
+    },
+    {
+      "id": "thavnairian-sandals-leatherworker-60",
+      "name": "Thavnairian Sandals"
+    },
+    {
+      "id": "thavnairian-tights-leatherworker-60",
+      "name": "Thavnairian Tights"
+    },
+    {
+      "id": "sephirotic-barding-leatherworker-60",
+      "name": "Sephirotic Barding"
+    },
+    {
+      "id": "pudding-settee-leatherworker-60",
+      "name": "Pudding Settee"
+    },
+    {
+      "id": "boltmasters-gloves-leatherworker-60",
+      "name": "Boltmaster's Gloves"
+    },
+    {
+      "id": "boltmasters-top-boots-leatherworker-60",
+      "name": "Boltmaster's Top Boots"
+    },
+    {
+      "id": "carbonweave-boots-of-crafting-leatherworker-60",
+      "name": "Carbonweave Boots of Crafting"
+    },
+    {
+      "id": "carbonweave-boots-of-gathering-leatherworker-60",
+      "name": "Carbonweave Boots of Gathering"
+    },
+    {
+      "id": "carbonweave-cap-of-gathering-leatherworker-60",
+      "name": "Carbonweave Cap of Gathering"
+    },
+    {
+      "id": "carbonweave-gloves-of-gathering-leatherworker-60",
+      "name": "Carbonweave Gloves of Gathering"
+    },
+    {
+      "id": "carbonweave-vest-of-gathering-leatherworker-60",
+      "name": "Carbonweave Vest of Gathering"
+    },
+    {
+      "id": "cauldronmasters-jackboots-leatherworker-60",
+      "name": "Cauldronmaster's Jackboots"
+    },
+    {
+      "id": "forgemasters-gloves-leatherworker-60",
+      "name": "Forgemaster's Gloves"
+    },
+    {
+      "id": "forgemasters-sandals-leatherworker-60",
+      "name": "Forgemaster's Sandals"
+    },
+    {
+      "id": "galleymasters-gloves-leatherworker-60",
+      "name": "Galleymaster's Gloves"
+    },
+    {
+      "id": "galleymasters-top-boots-leatherworker-60",
+      "name": "Galleymaster's Top Boots"
+    },
+    {
+      "id": "gemmasters-sandals-leatherworker-60",
+      "name": "Gemmaster's Sandals"
+    },
+    {
+      "id": "griffin-leather-leatherworker-60",
+      "name": "Griffin Leather"
+    },
+    {
+      "id": "griffin-leather-blinder-of-aiming-leatherworker-60",
+      "name": "Griffin Leather Blinder of Aiming"
+    },
+    {
+      "id": "griffin-leather-boots-of-casting-leatherworker-60",
+      "name": "Griffin Leather Boots of Casting"
+    },
+    {
+      "id": "griffin-leather-boots-of-healing-leatherworker-60",
+      "name": "Griffin Leather Boots of Healing"
+    },
+    {
+      "id": "griffin-leather-boots-of-scouting-leatherworker-60",
+      "name": "Griffin Leather Boots of Scouting"
+    },
+    {
+      "id": "griffin-leather-boots-of-striking-leatherworker-60",
+      "name": "Griffin Leather Boots of Striking"
+    },
+    {
+      "id": "griffin-leather-bracers-of-scouting-leatherworker-60",
+      "name": "Griffin Leather Bracers of Scouting"
+    },
+    {
+      "id": "griffin-leather-bracers-of-striking-leatherworker-60",
+      "name": "Griffin Leather Bracers of Striking"
+    },
+    {
+      "id": "griffin-leather-brais-of-scouting-leatherworker-60",
+      "name": "Griffin Leather Brais of Scouting"
+    },
+    {
+      "id": "griffin-leather-brais-of-striking-leatherworker-60",
+      "name": "Griffin Leather Brais of Striking"
+    },
+    {
+      "id": "griffin-leather-choker-leatherworker-60",
+      "name": "Griffin Leather Choker"
+    },
+    {
+      "id": "griffin-leather-coat-of-scouting-leatherworker-60",
+      "name": "Griffin Leather Coat of Scouting"
+    },
+    {
+      "id": "griffin-leather-coat-of-striking-leatherworker-60",
+      "name": "Griffin Leather Coat of Striking"
+    },
+    {
+      "id": "griffin-leather-cuffs-leatherworker-60",
+      "name": "Griffin Leather Cuffs"
+    },
+    {
+      "id": "griffin-leather-gloves-of-aiming-leatherworker-60",
+      "name": "Griffin Leather Gloves of Aiming"
+    },
+    {
+      "id": "griffin-leather-longcoat-of-aiming-leatherworker-60",
+      "name": "Griffin Leather Longcoat of Aiming"
+    },
+    {
+      "id": "griffin-leather-ring-leatherworker-60",
+      "name": "Griffin Leather Ring"
+    },
+    {
+      "id": "griffin-leather-skirt-of-fending-leatherworker-60",
+      "name": "Griffin Leather Skirt of Fending"
+    },
+    {
+      "id": "griffin-leather-skirt-of-maiming-leatherworker-60",
+      "name": "Griffin Leather Skirt of Maiming"
+    },
+    {
+      "id": "griffin-leather-strap-leatherworker-60",
+      "name": "Griffin Leather Strap"
+    },
+    {
+      "id": "griffin-leather-thighboots-of-aiming-leatherworker-60",
+      "name": "Griffin Leather Thighboots of Aiming"
+    },
+    {
+      "id": "griffin-leather-tricorne-of-scouting-leatherworker-60",
+      "name": "Griffin Leather Tricorne of Scouting"
+    },
+    {
+      "id": "griffin-leather-tricorne-of-striking-leatherworker-60",
+      "name": "Griffin Leather Tricorne of Striking"
+    },
+    {
+      "id": "griffin-leather-wristbands-leatherworker-60",
+      "name": "Griffin Leather Wristbands"
+    },
+    {
+      "id": "hammermasters-waist-apron-leatherworker-60",
+      "name": "Hammermaster's Waist Apron"
+    },
+    {
+      "id": "hammermasters-work-gloves-leatherworker-60",
+      "name": "Hammermaster's Work Gloves"
+    },
+    {
+      "id": "hammermasters-workboots-leatherworker-60",
+      "name": "Hammermaster's Workboots"
+    },
+    {
+      "id": "hidemasters-apron-leatherworker-60",
+      "name": "Hidemaster's Apron"
+    },
+    {
+      "id": "hidemasters-cap-leatherworker-60",
+      "name": "Hidemaster's Cap"
+    },
+    {
+      "id": "hidemasters-gloves-leatherworker-60",
+      "name": "Hidemaster's Gloves"
+    },
+    {
+      "id": "hidemasters-workboots-leatherworker-60",
+      "name": "Hidemaster's Workboots"
+    },
+    {
+      "id": "millmasters-gloves-leatherworker-60",
+      "name": "Millmaster's Gloves"
+    },
+    {
+      "id": "millmasters-workboots-leatherworker-60",
+      "name": "Millmaster's Workboots"
+    },
+    {
+      "id": "replica-allagan-boots-of-casting-leatherworker-60",
+      "name": "Replica Allagan Boots of Casting"
+    },
+    {
+      "id": "replica-allagan-boots-of-healing-leatherworker-60",
+      "name": "Replica Allagan Boots of Healing"
+    },
+    {
+      "id": "replica-allagan-gloves-of-casting-leatherworker-60",
+      "name": "Replica Allagan Gloves of Casting"
+    },
+    {
+      "id": "replica-allagan-gloves-of-healing-leatherworker-60",
+      "name": "Replica Allagan Gloves of Healing"
+    },
+    {
+      "id": "replica-dreadwyrm-boots-of-scouting-leatherworker-60",
+      "name": "Replica Dreadwyrm Boots of Scouting"
+    },
+    {
+      "id": "replica-dreadwyrm-boots-of-striking-leatherworker-60",
+      "name": "Replica Dreadwyrm Boots of Striking"
+    },
+    {
+      "id": "replica-dreadwyrm-bracers-of-aiming-leatherworker-60",
+      "name": "Replica Dreadwyrm Bracers of Aiming"
+    },
+    {
+      "id": "replica-dreadwyrm-bracers-of-scouting-leatherworker-60",
+      "name": "Replica Dreadwyrm Bracers of Scouting"
+    },
+    {
+      "id": "replica-dreadwyrm-bracers-of-striking-leatherworker-60",
+      "name": "Replica Dreadwyrm Bracers of Striking"
+    },
+    {
+      "id": "replica-dreadwyrm-breeches-of-aiming-leatherworker-60",
+      "name": "Replica Dreadwyrm Breeches of Aiming"
+    },
+    {
+      "id": "replica-dreadwyrm-breeches-of-maiming-leatherworker-60",
+      "name": "Replica Dreadwyrm Breeches of Maiming"
+    },
+    {
+      "id": "replica-dreadwyrm-chapeau-of-aiming-leatherworker-60",
+      "name": "Replica Dreadwyrm Chapeau of Aiming"
+    },
+    {
+      "id": "replica-dreadwyrm-cyclas-of-scouting-leatherworker-60",
+      "name": "Replica Dreadwyrm Cyclas of Scouting"
+    },
+    {
+      "id": "replica-dreadwyrm-cyclas-of-striking-leatherworker-60",
+      "name": "Replica Dreadwyrm Cyclas of Striking"
+    },
+    {
+      "id": "replica-dreadwyrm-gloves-of-casting-leatherworker-60",
+      "name": "Replica Dreadwyrm Gloves of Casting"
+    },
+    {
+      "id": "replica-dreadwyrm-gloves-of-healing-leatherworker-60",
+      "name": "Replica Dreadwyrm Gloves of Healing"
+    },
+    {
+      "id": "replica-dreadwyrm-petasos-of-casting-leatherworker-60",
+      "name": "Replica Dreadwyrm Petasos of Casting"
+    },
+    {
+      "id": "replica-dreadwyrm-robe-of-casting-leatherworker-60",
+      "name": "Replica Dreadwyrm Robe of Casting"
+    },
+    {
+      "id": "replica-dreadwyrm-shoes-of-casting-leatherworker-60",
+      "name": "Replica Dreadwyrm Shoes of Casting"
+    },
+    {
+      "id": "replica-dreadwyrm-shoes-of-healing-leatherworker-60",
+      "name": "Replica Dreadwyrm Shoes of Healing"
+    },
+    {
+      "id": "replica-dreadwyrm-tabard-of-aiming-leatherworker-60",
+      "name": "Replica Dreadwyrm Tabard of Aiming"
+    },
+    {
+      "id": "replica-high-allagan-boots-of-aiming-leatherworker-60",
+      "name": "Replica High Allagan Boots of Aiming"
+    },
+    {
+      "id": "replica-high-allagan-boots-of-casting-leatherworker-60",
+      "name": "Replica High Allagan Boots of Casting"
+    },
+    {
+      "id": "replica-high-allagan-breeches-of-aiming-leatherworker-60",
+      "name": "Replica High Allagan Breeches of Aiming"
+    },
+    {
+      "id": "replica-high-allagan-breeches-of-casting-leatherworker-60",
+      "name": "Replica High Allagan Breeches of Casting"
+    },
+    {
+      "id": "replica-high-allagan-gloves-of-aiming-leatherworker-60",
+      "name": "Replica High Allagan Gloves of Aiming"
+    },
+    {
+      "id": "replica-high-allagan-gloves-of-casting-leatherworker-60",
+      "name": "Replica High Allagan Gloves of Casting"
+    },
+    {
+      "id": "replica-high-allagan-gloves-of-healing-leatherworker-60",
+      "name": "Replica High Allagan Gloves of Healing"
+    },
+    {
+      "id": "replica-high-allagan-mask-of-aiming-leatherworker-60",
+      "name": "Replica High Allagan Mask of Aiming"
+    },
+    {
+      "id": "replica-high-allagan-mask-of-casting-leatherworker-60",
+      "name": "Replica High Allagan Mask of Casting"
+    },
+    {
+      "id": "replica-high-allagan-thighboots-of-healing-leatherworker-60",
+      "name": "Replica High Allagan Thighboots of Healing"
+    },
+    {
+      "id": "replica-high-allagan-trousers-of-fending-leatherworker-60",
+      "name": "Replica High Allagan Trousers of Fending"
+    },
+    {
+      "id": "replica-high-allagan-trousers-of-maiming-leatherworker-60",
+      "name": "Replica High Allagan Trousers of Maiming"
+    },
+    {
+      "id": "replica-high-allagan-trousers-of-striking-leatherworker-60",
+      "name": "Replica High Allagan Trousers of Striking"
+    },
+    {
+      "id": "sky-pirates-beret-of-aiming-leatherworker-60",
+      "name": "Sky Pirate's Beret of Aiming"
+    },
+    {
+      "id": "sky-pirates-boots-of-aiming-leatherworker-60",
+      "name": "Sky Pirate's Boots of Aiming"
+    },
+    {
+      "id": "sky-pirates-boots-of-fending-leatherworker-60",
+      "name": "Sky Pirate's Boots of Fending"
+    },
+    {
+      "id": "sky-pirates-boots-of-maiming-leatherworker-60",
+      "name": "Sky Pirate's Boots of Maiming"
+    },
+    {
+      "id": "sky-pirates-boots-of-scouting-leatherworker-60",
+      "name": "Sky Pirate's Boots of Scouting"
+    },
+    {
+      "id": "sky-pirates-boots-of-striking-leatherworker-60",
+      "name": "Sky Pirate's Boots of Striking"
+    },
+    {
+      "id": "sky-pirates-gloves-of-aiming-leatherworker-60",
+      "name": "Sky Pirate's Gloves of Aiming"
+    },
+    {
+      "id": "sky-pirates-gloves-of-casting-leatherworker-60",
+      "name": "Sky Pirate's Gloves of Casting"
+    },
+    {
+      "id": "sky-pirates-gloves-of-healing-leatherworker-60",
+      "name": "Sky Pirate's Gloves of Healing"
+    },
+    {
+      "id": "sky-pirates-gloves-of-scouting-leatherworker-60",
+      "name": "Sky Pirate's Gloves of Scouting"
+    },
+    {
+      "id": "sky-pirates-gloves-of-striking-leatherworker-60",
+      "name": "Sky Pirate's Gloves of Striking"
+    },
+    {
+      "id": "sky-pirates-jacket-of-scouting-leatherworker-60",
+      "name": "Sky Pirate's Jacket of Scouting"
+    },
+    {
+      "id": "sky-pirates-jacket-of-striking-leatherworker-60",
+      "name": "Sky Pirate's Jacket of Striking"
+    },
+    {
+      "id": "sky-pirates-shoes-of-casting-leatherworker-60",
+      "name": "Sky Pirate's Shoes of Casting"
+    },
+    {
+      "id": "sky-pirates-shoes-of-healing-leatherworker-60",
+      "name": "Sky Pirate's Shoes of Healing"
+    },
+    {
+      "id": "gagana-leather-leatherworker-61",
+      "name": "Gagana Leather"
+    },
+    {
+      "id": "gold-saucer-consolation-prize-component-leatherworker-61",
+      "name": "Gold Saucer Consolation Prize Component"
+    },
+    {
+      "id": "gold-saucer-consolation-prize-leatherworker-61",
+      "name": "Gold Saucer Consolation Prize"
+    },
+    {
+      "id": "gaganaskin-boots-of-aiming-leatherworker-61",
+      "name": "Gaganaskin Boots of Aiming"
+    },
+    {
+      "id": "gaganaskin-bush-hat-leatherworker-61",
+      "name": "Gaganaskin Bush Hat"
+    },
+    {
+      "id": "gaganaskin-chaps-of-aiming-leatherworker-61",
+      "name": "Gaganaskin Chaps of Aiming"
+    },
+    {
+      "id": "gaganaskin-fringe-boots-leatherworker-61",
+      "name": "Gaganaskin Fringe Boots"
+    },
+    {
+      "id": "gaganaskin-gloves-leatherworker-61",
+      "name": "Gaganaskin Gloves"
+    },
+    {
+      "id": "gaganaskin-gloves-of-aiming-leatherworker-61",
+      "name": "Gaganaskin Gloves of Aiming"
+    },
+    {
+      "id": "gaganaskin-halfgloves-leatherworker-61",
+      "name": "Gaganaskin Halfgloves"
+    },
+    {
+      "id": "gaganaskin-hat-of-aiming-leatherworker-61",
+      "name": "Gaganaskin Hat of Aiming"
+    },
+    {
+      "id": "gaganaskin-hose-of-fending-leatherworker-61",
+      "name": "Gaganaskin Hose of Fending"
+    },
+    {
+      "id": "gaganaskin-hose-of-maiming-leatherworker-61",
+      "name": "Gaganaskin Hose of Maiming"
+    },
+    {
+      "id": "gaganaskin-jacket-of-aiming-leatherworker-61",
+      "name": "Gaganaskin Jacket of Aiming"
+    },
+    {
+      "id": "gaganaskin-leg-guards-of-fending-leatherworker-61",
+      "name": "Gaganaskin Leg Guards of Fending"
+    },
+    {
+      "id": "gaganaskin-leg-guards-of-maiming-leatherworker-61",
+      "name": "Gaganaskin Leg Guards of Maiming"
+    },
+    {
+      "id": "gaganaskin-sandals-of-casting-leatherworker-61",
+      "name": "Gaganaskin Sandals of Casting"
+    },
+    {
+      "id": "gaganaskin-sandals-of-healing-leatherworker-61",
+      "name": "Gaganaskin Sandals of Healing"
+    },
+    {
+      "id": "gaganaskin-sandals-of-scouting-leatherworker-61",
+      "name": "Gaganaskin Sandals of Scouting"
+    },
+    {
+      "id": "gaganaskin-sandals-of-striking-leatherworker-61",
+      "name": "Gaganaskin Sandals of Striking"
+    },
+    {
+      "id": "gaganaskin-shoes-leatherworker-61",
+      "name": "Gaganaskin Shoes"
+    },
+    {
+      "id": "gaganaskin-vest-leatherworker-61",
+      "name": "Gaganaskin Vest"
+    },
+    {
+      "id": "replica-sky-pirates-beret-of-aiming-leatherworker-61",
+      "name": "Replica Sky Pirate's Beret of Aiming"
+    },
+    {
+      "id": "replica-sky-pirates-boots-of-aiming-leatherworker-61",
+      "name": "Replica Sky Pirate's Boots of Aiming"
+    },
+    {
+      "id": "replica-sky-pirates-boots-of-fending-leatherworker-61",
+      "name": "Replica Sky Pirate's Boots of Fending"
+    },
+    {
+      "id": "replica-sky-pirates-boots-of-maiming-leatherworker-61",
+      "name": "Replica Sky Pirate's Boots of Maiming"
+    },
+    {
+      "id": "replica-sky-pirates-boots-of-scouting-leatherworker-61",
+      "name": "Replica Sky Pirate's Boots of Scouting"
+    },
+    {
+      "id": "replica-sky-pirates-boots-of-striking-leatherworker-61",
+      "name": "Replica Sky Pirate's Boots of Striking"
+    },
+    {
+      "id": "replica-sky-pirates-gloves-of-aiming-leatherworker-61",
+      "name": "Replica Sky Pirate's Gloves of Aiming"
+    },
+    {
+      "id": "replica-sky-pirates-gloves-of-casting-leatherworker-61",
+      "name": "Replica Sky Pirate's Gloves of Casting"
+    },
+    {
+      "id": "replica-sky-pirates-gloves-of-healing-leatherworker-61",
+      "name": "Replica Sky Pirate's Gloves of Healing"
+    },
+    {
+      "id": "replica-sky-pirates-gloves-of-scouting-leatherworker-61",
+      "name": "Replica Sky Pirate's Gloves of Scouting"
+    },
+    {
+      "id": "replica-sky-pirates-gloves-of-striking-leatherworker-61",
+      "name": "Replica Sky Pirate's Gloves of Striking"
+    },
+    {
+      "id": "replica-sky-pirates-jacket-of-scouting-leatherworker-61",
+      "name": "Replica Sky Pirate's Jacket of Scouting"
+    },
+    {
+      "id": "replica-sky-pirates-jacket-of-striking-leatherworker-61",
+      "name": "Replica Sky Pirate's Jacket of Striking"
+    },
+    {
+      "id": "replica-sky-pirates-shoes-of-casting-leatherworker-61",
+      "name": "Replica Sky Pirate's Shoes of Casting"
+    },
+    {
+      "id": "replica-sky-pirates-shoes-of-healing-leatherworker-61",
+      "name": "Replica Sky Pirate's Shoes of Healing"
+    },
+    {
+      "id": "replica-sky-rat-fingerless-gloves-of-aiming-leatherworker-61",
+      "name": "Replica Sky Rat Fingerless Gloves of Aiming"
+    },
+    {
+      "id": "replica-sky-rat-fingerless-gloves-of-casting-leatherworker-61",
+      "name": "Replica Sky Rat Fingerless Gloves of Casting"
+    },
+    {
+      "id": "replica-sky-rat-fingerless-gloves-of-striking-leatherworker-61",
+      "name": "Replica Sky Rat Fingerless Gloves of Striking"
+    },
+    {
+      "id": "replica-sky-rat-harness-of-aiming-leatherworker-61",
+      "name": "Replica Sky Rat Harness of Aiming"
+    },
+    {
+      "id": "replica-sky-rat-harness-of-casting-leatherworker-61",
+      "name": "Replica Sky Rat Harness of Casting"
+    },
+    {
+      "id": "replica-sky-rat-harness-of-fending-leatherworker-61",
+      "name": "Replica Sky Rat Harness of Fending"
+    },
+    {
+      "id": "replica-sky-rat-harness-of-healing-leatherworker-61",
+      "name": "Replica Sky Rat Harness of Healing"
+    },
+    {
+      "id": "replica-sky-rat-harness-of-maiming-leatherworker-61",
+      "name": "Replica Sky Rat Harness of Maiming"
+    },
+    {
+      "id": "replica-sky-rat-harness-of-scouting-leatherworker-61",
+      "name": "Replica Sky Rat Harness of Scouting"
+    },
+    {
+      "id": "replica-sky-rat-harness-of-striking-leatherworker-61",
+      "name": "Replica Sky Rat Harness of Striking"
+    },
+    {
+      "id": "replica-sky-rat-hookboots-of-fending-leatherworker-61",
+      "name": "Replica Sky Rat Hookboots of Fending"
+    },
+    {
+      "id": "replica-sky-rat-hookboots-of-healing-leatherworker-61",
+      "name": "Replica Sky Rat Hookboots of Healing"
+    },
+    {
+      "id": "replica-sky-rat-hookboots-of-maiming-leatherworker-61",
+      "name": "Replica Sky Rat Hookboots of Maiming"
+    },
+    {
+      "id": "replica-sky-rat-hookboots-of-scouting-leatherworker-61",
+      "name": "Replica Sky Rat Hookboots of Scouting"
+    },
+    {
+      "id": "gyuki-leather-leatherworker-62",
+      "name": "Gyuki Leather"
+    },
+    {
+      "id": "gyr-abanian-remedy-components-leatherworker-62",
+      "name": "Gyr Abanian Remedy Components"
+    },
+    {
+      "id": "harpoon-components-leatherworker-62",
+      "name": "Harpoon Components"
+    },
+    {
+      "id": "m-tribe-sundry-component-leatherworker-62",
+      "name": "M Tribe Sundry Component"
+    },
+    {
+      "id": "anti-shark-harpoon-leatherworker-62",
+      "name": "Anti-shark Harpoon"
+    },
+    {
+      "id": "gyr-abanian-remedies-leatherworker-62",
+      "name": "Gyr Abanian Remedies"
+    },
+    {
+      "id": "m-tribe-sundries-leatherworker-62",
+      "name": "M Tribe Sundries"
+    },
+    {
+      "id": "gyuki-leather-dress-gloves-leatherworker-62",
+      "name": "Gyuki Leather Dress Gloves"
+    },
+    {
+      "id": "gyuki-leather-gloves-of-aiming-leatherworker-62",
+      "name": "Gyuki Leather Gloves of Aiming"
+    },
+    {
+      "id": "gyuki-leather-halfgloves-of-striking-leatherworker-62",
+      "name": "Gyuki Leather Halfgloves of Striking"
+    },
+    {
+      "id": "gyuki-leather-pot-helm-leatherworker-62",
+      "name": "Gyuki Leather Pot Helm"
+    },
+    {
+      "id": "gyuki-leather-trousers-of-fending-leatherworker-62",
+      "name": "Gyuki Leather Trousers of Fending"
+    },
+    {
+      "id": "gyuki-leather-trousers-of-maiming-leatherworker-62",
+      "name": "Gyuki Leather Trousers of Maiming"
+    },
+    {
+      "id": "rarefied-gaganaskin-shoes-leatherworker-62",
+      "name": "Rarefied Gaganaskin Shoes"
+    },
+    {
+      "id": "cold-weather-gear-components-leatherworker-63",
+      "name": "Cold-weather Gear Components"
+    },
+    {
+      "id": "resistance-materiel-component-leatherworker-63",
+      "name": "Resistance Materiel Component"
+    },
+    {
+      "id": "sui-no-sato-special-components-leatherworker-63",
+      "name": "Sui-no-Sato Special Components"
+    },
+    {
+      "id": "coerthan-cold-weather-gear-leatherworker-63",
+      "name": "Coerthan Cold-weather Gear"
+    },
+    {
+      "id": "resistance-materiel-leatherworker-63",
+      "name": "Resistance Materiel"
+    },
+    {
+      "id": "sui-no-sato-special-leatherworker-63",
+      "name": "Sui-no-Sato Special"
+    },
+    {
+      "id": "large-dhalmel-cape-leatherworker-63",
+      "name": "Large Dhalmel Cape"
+    },
+    {
+      "id": "gyuki-leather-halfgloves-of-scouting-leatherworker-63",
+      "name": "Gyuki Leather Halfgloves of Scouting"
+    },
+    {
+      "id": "stuffed-dhalmel-leatherworker-63",
+      "name": "Stuffed Dhalmel"
+    },
+    {
+      "id": "gyuki-leather-boots-of-aiming-leatherworker-63",
+      "name": "Gyuki Leather Boots of Aiming"
+    },
+    {
+      "id": "gyuki-leather-boots-of-gathering-leatherworker-63",
+      "name": "Gyuki Leather Boots of Gathering"
+    },
+    {
+      "id": "gyuki-leather-boots-of-healing-leatherworker-63",
+      "name": "Gyuki Leather Boots of Healing"
+    },
+    {
+      "id": "gyuki-leather-chaps-leatherworker-63",
+      "name": "Gyuki Leather Chaps"
+    },
+    {
+      "id": "gyuki-leather-choker-leatherworker-63",
+      "name": "Gyuki Leather Choker"
+    },
+    {
+      "id": "gyuki-leather-earrings-leatherworker-63",
+      "name": "Gyuki Leather Earrings"
+    },
+    {
+      "id": "gyuki-leather-gloves-of-crafting-leatherworker-63",
+      "name": "Gyuki Leather Gloves of Crafting"
+    },
+    {
+      "id": "gyuki-leather-gloves-of-gathering-leatherworker-63",
+      "name": "Gyuki Leather Gloves of Gathering"
+    },
+    {
+      "id": "gyuki-leather-hat-leatherworker-63",
+      "name": "Gyuki Leather Hat"
+    },
+    {
+      "id": "gyuki-leather-highboots-of-scouting-leatherworker-63",
+      "name": "Gyuki Leather Highboots of Scouting"
+    },
+    {
+      "id": "gyuki-leather-highboots-of-striking-leatherworker-63",
+      "name": "Gyuki Leather Highboots of Striking"
+    },
+    {
+      "id": "gyuki-leather-jacket-leatherworker-63",
+      "name": "Gyuki Leather Jacket"
+    },
+    {
+      "id": "gyuki-leather-pattens-leatherworker-63",
+      "name": "Gyuki Leather Pattens"
+    },
+    {
+      "id": "gyuki-leather-ring-leatherworker-63",
+      "name": "Gyuki Leather Ring"
+    },
+    {
+      "id": "gyuki-leather-shoes-leatherworker-63",
+      "name": "Gyuki Leather Shoes"
+    },
+    {
+      "id": "gyuki-leather-wristband-leatherworker-63",
+      "name": "Gyuki Leather Wristband"
+    },
+    {
+      "id": "tiger-leather-leatherworker-64",
+      "name": "Tiger Leather"
+    },
+    {
+      "id": "cloud-pearl-components-leatherworker-64",
+      "name": "Cloud Pearl Components"
+    },
+    {
+      "id": "cloud-pearl-leatherworker-64",
+      "name": "Cloud Pearl"
+    },
+    {
+      "id": "rarefied-gyuki-leather-jacket-leatherworker-64",
+      "name": "Rarefied Gyuki Leather Jacket"
+    },
+    {
+      "id": "tigerskin-armguards-of-casting-leatherworker-64",
+      "name": "Tigerskin Armguards of Casting"
+    },
+    {
+      "id": "tigerskin-armguards-of-healing-leatherworker-64",
+      "name": "Tigerskin Armguards of Healing"
+    },
+    {
+      "id": "tigerskin-gloves-of-aiming-leatherworker-64",
+      "name": "Tigerskin Gloves of Aiming"
+    },
+    {
+      "id": "tigerskin-gloves-of-scouting-leatherworker-64",
+      "name": "Tigerskin Gloves of Scouting"
+    },
+    {
+      "id": "tigerskin-wristgloves-of-striking-leatherworker-64",
+      "name": "Tigerskin Wristgloves of Striking"
+    },
+    {
+      "id": "grizzly-bear-gloves-leatherworker-65",
+      "name": "Grizzly Bear Gloves"
+    },
+    {
+      "id": "tigerskin-boots-of-crafting-leatherworker-65",
+      "name": "Tigerskin Boots of Crafting"
+    },
+    {
+      "id": "tigerskin-boots-of-gathering-leatherworker-65",
+      "name": "Tigerskin Boots of Gathering"
+    },
+    {
+      "id": "tigerskin-cap-of-gathering-leatherworker-65",
+      "name": "Tigerskin Cap of Gathering"
+    },
+    {
+      "id": "tigerskin-fingerless-gloves-of-gathering-leatherworker-65",
+      "name": "Tigerskin Fingerless Gloves of Gathering"
+    },
+    {
+      "id": "tigerskin-jackboots-of-casting-leatherworker-65",
+      "name": "Tigerskin Jackboots of Casting"
+    },
+    {
+      "id": "tigerskin-jackboots-of-healing-leatherworker-65",
+      "name": "Tigerskin Jackboots of Healing"
+    },
+    {
+      "id": "tigerskin-thighboots-of-aiming-leatherworker-65",
+      "name": "Tigerskin Thighboots of Aiming"
+    },
+    {
+      "id": "tigerskin-thighboots-of-scouting-leatherworker-65",
+      "name": "Tigerskin Thighboots of Scouting"
+    },
+    {
+      "id": "tigerskin-thighboots-of-striking-leatherworker-65",
+      "name": "Tigerskin Thighboots of Striking"
+    },
+    {
+      "id": "tigerskin-tricorne-of-aiming-leatherworker-65",
+      "name": "Tigerskin Tricorne of Aiming"
+    },
+    {
+      "id": "tigerskin-tricorne-of-scouting-leatherworker-65",
+      "name": "Tigerskin Tricorne of Scouting"
+    },
+    {
+      "id": "tigerskin-tricorne-of-striking-leatherworker-65",
+      "name": "Tigerskin Tricorne of Striking"
+    },
+    {
+      "id": "marid-leather-leatherworker-66",
+      "name": "Marid Leather"
+    },
+    {
+      "id": "ishgardian-culinary-materials-leatherworker-66",
+      "name": "Ishgardian Culinary Materials"
+    },
+    {
+      "id": "juice-fermenting-supplies-leatherworker-66",
+      "name": "Juice Fermenting Supplies"
+    },
+    {
+      "id": "fermented-juice-leatherworker-66",
+      "name": "Fermented Juice"
+    },
+    {
+      "id": "ishgardian-culinary-essentials-leatherworker-66",
+      "name": "Ishgardian Culinary Essentials"
+    },
+    {
+      "id": "marid-leather-boots-of-aiming-leatherworker-66",
+      "name": "Marid Leather Boots of Aiming"
+    },
+    {
+      "id": "marid-leather-boots-of-casting-leatherworker-66",
+      "name": "Marid Leather Boots of Casting"
+    },
+    {
+      "id": "marid-leather-boots-of-healing-leatherworker-66",
+      "name": "Marid Leather Boots of Healing"
+    },
+    {
+      "id": "marid-leather-gloves-of-aiming-leatherworker-66",
+      "name": "Marid Leather Gloves of Aiming"
+    },
+    {
+      "id": "marid-leather-gloves-of-casting-leatherworker-66",
+      "name": "Marid Leather Gloves of Casting"
+    },
+    {
+      "id": "marid-leather-gloves-of-healing-leatherworker-66",
+      "name": "Marid Leather Gloves of Healing"
+    },
+    {
+      "id": "marid-leather-hood-of-scouting-leatherworker-66",
+      "name": "Marid Leather Hood of Scouting"
+    },
+    {
+      "id": "marid-leather-hood-of-striking-leatherworker-66",
+      "name": "Marid Leather Hood of Striking"
+    },
+    {
+      "id": "rarefied-tigerskin-tricorne-leatherworker-66",
+      "name": "Rarefied Tigerskin Tricorne"
+    },
+    {
+      "id": "decorative-tavern-furnishing-materials-leatherworker-67",
+      "name": "Decorative Tavern Furnishing Materials"
+    },
+    {
+      "id": "signature-buuz-cookware-materials-leatherworker-67",
+      "name": "Signature Buuz Cookware Materials"
+    },
+    {
+      "id": "hard-place-decorative-furnishings-leatherworker-67",
+      "name": "Hard Place Decorative Furnishings"
+    },
+    {
+      "id": "signature-buuz-cookware-leatherworker-67",
+      "name": "Signature Buuz Cookware"
+    },
+    {
+      "id": "marid-leather-babouches-of-crafting-leatherworker-67",
+      "name": "Marid Leather Babouches of Crafting"
+    },
+    {
+      "id": "marid-leather-babouches-of-gathering-leatherworker-67",
+      "name": "Marid Leather Babouches of Gathering"
+    },
+    {
+      "id": "marid-leather-bolero-of-crafting-leatherworker-67",
+      "name": "Marid Leather Bolero of Crafting"
+    },
+    {
+      "id": "marid-leather-bolero-of-gathering-leatherworker-67",
+      "name": "Marid Leather Bolero of Gathering"
+    },
+    {
+      "id": "marid-leather-breeches-of-fending-leatherworker-67",
+      "name": "Marid Leather Breeches of Fending"
+    },
+    {
+      "id": "marid-leather-breeches-of-maiming-leatherworker-67",
+      "name": "Marid Leather Breeches of Maiming"
+    },
+    {
+      "id": "marid-leather-breeches-of-scouting-leatherworker-67",
+      "name": "Marid Leather Breeches of Scouting"
+    },
+    {
+      "id": "marid-leather-breeches-of-striking-leatherworker-67",
+      "name": "Marid Leather Breeches of Striking"
+    },
+    {
+      "id": "marid-leather-choker-leatherworker-67",
+      "name": "Marid Leather Choker"
+    },
+    {
+      "id": "marid-leather-coat-of-scouting-leatherworker-67",
+      "name": "Marid Leather Coat of Scouting"
+    },
+    {
+      "id": "marid-leather-coat-of-striking-leatherworker-67",
+      "name": "Marid Leather Coat of Striking"
+    },
+    {
+      "id": "marid-leather-earrings-leatherworker-67",
+      "name": "Marid Leather Earrings"
+    },
+    {
+      "id": "marid-leather-gloves-of-crafting-leatherworker-67",
+      "name": "Marid Leather Gloves of Crafting"
+    },
+    {
+      "id": "marid-leather-gloves-of-gathering-leatherworker-67",
+      "name": "Marid Leather Gloves of Gathering"
+    },
+    {
+      "id": "marid-leather-ring-leatherworker-67",
+      "name": "Marid Leather Ring"
+    },
+    {
+      "id": "marid-leather-wristband-leatherworker-67",
+      "name": "Marid Leather Wristband"
+    },
+    {
+      "id": "gazelle-leather-leatherworker-68",
+      "name": "Gazelle Leather"
+    },
+    {
+      "id": "arkhi-brewing-vat-materials-leatherworker-68",
+      "name": "Arkhi Brewing Vat Materials"
+    },
+    {
+      "id": "arkhi-brewing-set-leatherworker-68",
+      "name": "Arkhi Brewing Set"
+    },
+    {
+      "id": "dashing-dhalmelskin-jacket-leatherworker-68",
+      "name": "Dashing Dhalmelskin Jacket"
+    },
+    {
+      "id": "gazelleskin-boots-of-aiming-leatherworker-68",
+      "name": "Gazelleskin Boots of Aiming"
+    },
+    {
+      "id": "gazelleskin-boots-of-casting-leatherworker-68",
+      "name": "Gazelleskin Boots of Casting"
+    },
+    {
+      "id": "gazelleskin-boots-of-healing-leatherworker-68",
+      "name": "Gazelleskin Boots of Healing"
+    },
+    {
+      "id": "gazelleskin-bracers-of-fending-leatherworker-68",
+      "name": "Gazelleskin Bracers of Fending"
+    },
+    {
+      "id": "gazelleskin-bracers-of-healing-leatherworker-68",
+      "name": "Gazelleskin Bracers of Healing"
+    },
+    {
+      "id": "gazelleskin-open-toed-boots-of-maiming-leatherworker-68",
+      "name": "Gazelleskin Open-toed Boots of Maiming"
+    },
+    {
+      "id": "gazelleskin-open-toed-boots-of-scouting-leatherworker-68",
+      "name": "Gazelleskin Open-toed Boots of Scouting"
+    },
+    {
+      "id": "gazelleskin-open-toed-boots-of-striking-leatherworker-68",
+      "name": "Gazelleskin Open-toed Boots of Striking"
+    },
+    {
+      "id": "rarefied-marid-leather-corset-leatherworker-68",
+      "name": "Rarefied Marid Leather Corset"
+    },
+    {
+      "id": "gazelleskin-armguards-of-aiming-leatherworker-69",
+      "name": "Gazelleskin Armguards of Aiming"
+    },
+    {
+      "id": "gazelleskin-armguards-of-casting-leatherworker-69",
+      "name": "Gazelleskin Armguards of Casting"
+    },
+    {
+      "id": "gazelleskin-brais-of-maiming-leatherworker-69",
+      "name": "Gazelleskin Brais of Maiming"
+    },
+    {
+      "id": "gazelleskin-brais-of-scouting-leatherworker-69",
+      "name": "Gazelleskin Brais of Scouting"
+    },
+    {
+      "id": "gazelleskin-brais-of-striking-leatherworker-69",
+      "name": "Gazelleskin Brais of Striking"
+    },
+    {
+      "id": "gazelleskin-coat-of-fending-leatherworker-69",
+      "name": "Gazelleskin Coat of Fending"
+    },
+    {
+      "id": "gazelleskin-coat-of-healing-leatherworker-69",
+      "name": "Gazelleskin Coat of Healing"
+    },
+    {
+      "id": "gazelleskin-corselet-of-maiming-leatherworker-69",
+      "name": "Gazelleskin Corselet of Maiming"
+    },
+    {
+      "id": "gazelleskin-corselet-of-scouting-leatherworker-69",
+      "name": "Gazelleskin Corselet of Scouting"
+    },
+    {
+      "id": "gazelleskin-corselet-of-striking-leatherworker-69",
+      "name": "Gazelleskin Corselet of Striking"
+    },
+    {
+      "id": "armament-repair-kit-leatherworker-70",
+      "name": "Armament Repair Kit"
+    },
+    {
+      "id": "axle-component-leatherworker-70",
+      "name": "Axle Component"
+    },
+    {
+      "id": "core-tank-component-leatherworker-70",
+      "name": "Core Tank Component"
+    },
+    {
+      "id": "eye-catching-custom-option-leatherworker-70",
+      "name": "Eye-catching Custom Option"
+    },
+    {
+      "id": "filtration-supplies-leatherworker-70",
+      "name": "Filtration Supplies"
+    },
+    {
+      "id": "heat-resistant-component-leatherworker-70",
+      "name": "Heat-resistant Component"
+    },
+    {
+      "id": "low-profile-custom-option-leatherworker-70",
+      "name": "Low-profile Custom Option"
+    },
+    {
+      "id": "steel-plate-component-leatherworker-70",
+      "name": "Steel Plate Component"
+    },
+    {
+      "id": "test-fire-target-dummy-leatherworker-70",
+      "name": "Test-fire Target Dummy"
+    },
+    {
+      "id": "flyer-printing-set-leatherworker-70",
+      "name": "Flyer Printing Set"
+    },
+    {
+      "id": "grade-2-skybuilders-longboots-leatherworker-70",
+      "name": "Grade 2 Skybuilders' Longboots"
+    },
+    {
+      "id": "grade-3-skybuilders-longboots-leatherworker-70",
+      "name": "Grade 3 Skybuilders' Longboots"
+    },
+    {
+      "id": "grade-4-skybuilders-longboots-leatherworker-70",
+      "name": "Grade 4 Skybuilders' Longboots"
+    },
+    {
+      "id": "skybuilders-longboots-leatherworker-70",
+      "name": "Skybuilders' Longboots"
+    },
+    {
+      "id": "kholusian-cuisine-set-leatherworker-70",
+      "name": "Kholusian Cuisine Set"
+    },
+    {
+      "id": "workshop-supplies-leatherworker-70",
+      "name": "Workshop Supplies"
+    },
+    {
+      "id": "automaton-repair-component-leatherworker-70",
+      "name": "Automaton Repair Component"
+    },
+    {
+      "id": "bespoke-barter-item-leatherworker-70",
+      "name": "Bespoke Barter Item"
+    },
+    {
+      "id": "engine-component-leatherworker-70",
+      "name": "Engine Component"
+    },
+    {
+      "id": "experimental-plating-component-leatherworker-70",
+      "name": "Experimental Plating Component"
+    },
+    {
+      "id": "tavern-materials-leatherworker-70",
+      "name": "Tavern Materials"
+    },
+    {
+      "id": "unfailing-eye-opener-leatherworker-70",
+      "name": "Unfailing Eye Opener"
+    },
+    {
+      "id": "brewery-supplies-leatherworker-70",
+      "name": "Brewery Supplies"
+    },
+    {
+      "id": "blueprint-supplies-leatherworker-70",
+      "name": "Blueprint Supplies"
+    },
+    {
+      "id": "cask-component-leatherworker-70",
+      "name": "Cask Component"
+    },
+    {
+      "id": "cooling-device-component-leatherworker-70",
+      "name": "Cooling Device Component"
+    },
+    {
+      "id": "crystal-cannon-supplies-leatherworker-70",
+      "name": "Crystal Cannon Supplies"
+    },
+    {
+      "id": "grooming-kit-leatherworker-70",
+      "name": "Grooming Kit"
+    },
+    {
+      "id": "workshop-expansion-supplies-leatherworker-70",
+      "name": "Workshop Expansion Supplies"
+    },
+    {
+      "id": "automaton-worker-supplies-leatherworker-70",
+      "name": "Automaton Worker Supplies"
+    },
+    {
+      "id": "canvas-repair-materials-leatherworker-70",
+      "name": "Canvas Repair Materials"
+    },
+    {
+      "id": "large-gagana-cape-leatherworker-70",
+      "name": "Large Gagana Cape"
+    },
+    {
+      "id": "stuffed-gagana-leatherworker-70",
+      "name": "Stuffed Gagana"
+    },
+    {
+      "id": "fur-lined-gazelleskin-boots-leatherworker-70",
+      "name": "Fur-lined Gazelleskin Boots"
+    },
+    {
+      "id": "gazelleskin-choker-leatherworker-70",
+      "name": "Gazelleskin Choker"
+    },
+    {
+      "id": "gazelleskin-earrings-leatherworker-70",
+      "name": "Gazelleskin Earrings"
+    },
+    {
+      "id": "gazelleskin-gloves-of-crafting-leatherworker-70",
+      "name": "Gazelleskin Gloves of Crafting"
+    },
+    {
+      "id": "gazelleskin-ring-leatherworker-70",
+      "name": "Gazelleskin Ring"
+    },
+    {
+      "id": "gazelleskin-shoes-leatherworker-70",
+      "name": "Gazelleskin Shoes"
+    },
+    {
+      "id": "gazelleskin-wristband-leatherworker-70",
+      "name": "Gazelleskin Wristband"
+    },
+    {
+      "id": "rarefied-gazelleskin-armguards-leatherworker-70",
+      "name": "Rarefied Gazelleskin Armguards"
+    },
+    {
+      "id": "guoc-leatherworker-70",
+      "name": "Guoc"
+    },
+    {
+      "id": "taoists-gloves-leatherworker-70",
+      "name": "Taoist's Gloves"
+    },
+    {
+      "id": "taoists-shoes-leatherworker-70",
+      "name": "Taoist's Shoes"
+    },
+    {
+      "id": "grand-chair-leatherworker-70",
+      "name": "Grand Chair"
+    },
+    {
+      "id": "ala-mhigan-gloves-of-crafting-leatherworker-70",
+      "name": "Ala Mhigan Gloves of Crafting"
+    },
+    {
+      "id": "ala-mhigan-gloves-of-gathering-leatherworker-70",
+      "name": "Ala Mhigan Gloves of Gathering"
+    },
+    {
+      "id": "ala-mhigan-shoes-of-crafting-leatherworker-70",
+      "name": "Ala Mhigan Shoes of Crafting"
+    },
+    {
+      "id": "ala-mhigan-shoes-of-gathering-leatherworker-70",
+      "name": "Ala Mhigan Shoes of Gathering"
+    },
+    {
+      "id": "boulevardiers-dress-shoes-leatherworker-70",
+      "name": "Boulevardier's Dress Shoes"
+    },
+    {
+      "id": "quaintrelles-dress-shoes-leatherworker-70",
+      "name": "Quaintrelle's Dress Shoes"
+    },
+    {
+      "id": "true-griffin-boots-of-aiming-leatherworker-70",
+      "name": "True Griffin Boots of Aiming"
+    },
+    {
+      "id": "true-griffin-bracers-of-aiming-leatherworker-70",
+      "name": "True Griffin Bracers of Aiming"
+    },
+    {
+      "id": "true-griffin-bracers-of-scouting-leatherworker-70",
+      "name": "True Griffin Bracers of Scouting"
+    },
+    {
+      "id": "true-griffin-bracers-of-striking-leatherworker-70",
+      "name": "True Griffin Bracers of Striking"
+    },
+    {
+      "id": "true-griffin-breeches-of-aiming-leatherworker-70",
+      "name": "True Griffin Breeches of Aiming"
+    },
+    {
+      "id": "true-griffin-breeches-of-fending-leatherworker-70",
+      "name": "True Griffin Breeches of Fending"
+    },
+    {
+      "id": "true-griffin-breeches-of-maiming-leatherworker-70",
+      "name": "True Griffin Breeches of Maiming"
+    },
+    {
+      "id": "true-griffin-caligae-of-scouting-leatherworker-70",
+      "name": "True Griffin Caligae of Scouting"
+    },
+    {
+      "id": "true-griffin-caligae-of-striking-leatherworker-70",
+      "name": "True Griffin Caligae of Striking"
+    },
+    {
+      "id": "true-griffin-chestpiece-of-scouting-leatherworker-70",
+      "name": "True Griffin Chestpiece of Scouting"
+    },
+    {
+      "id": "true-griffin-chestpiece-of-striking-leatherworker-70",
+      "name": "True Griffin Chestpiece of Striking"
+    },
+    {
+      "id": "true-griffin-gloves-of-casting-leatherworker-70",
+      "name": "True Griffin Gloves of Casting"
+    },
+    {
+      "id": "true-griffin-gloves-of-healing-leatherworker-70",
+      "name": "True Griffin Gloves of Healing"
+    },
+    {
+      "id": "true-griffin-hat-of-aiming-leatherworker-70",
+      "name": "True Griffin Hat of Aiming"
+    },
+    {
+      "id": "true-griffin-hat-of-casting-leatherworker-70",
+      "name": "True Griffin Hat of Casting"
+    },
+    {
+      "id": "true-griffin-hat-of-healing-leatherworker-70",
+      "name": "True Griffin Hat of Healing"
+    },
+    {
+      "id": "true-griffin-leather-leatherworker-70",
+      "name": "True Griffin Leather"
+    },
+    {
+      "id": "true-griffin-sandals-of-casting-leatherworker-70",
+      "name": "True Griffin Sandals of Casting"
+    },
+    {
+      "id": "true-griffin-sandals-of-healing-leatherworker-70",
+      "name": "True Griffin Sandals of Healing"
+    },
+    {
+      "id": "ground-sloth-leather-leatherworker-70",
+      "name": "Ground Sloth Leather"
+    },
+    {
+      "id": "byakko-throne-leatherworker-70",
+      "name": "Byakko Throne"
+    },
+    {
+      "id": "onishi-tekko-leatherworker-70",
+      "name": "Onishi Tekko"
+    },
+    {
+      "id": "onishi-zori-leatherworker-70",
+      "name": "Onishi Zori"
+    },
+    {
+      "id": "rain-boots-leatherworker-70",
+      "name": "Rain Boots"
+    },
+    {
+      "id": "slothskin-armillae-of-gathering-leatherworker-70",
+      "name": "Slothskin Armillae of Gathering"
+    },
+    {
+      "id": "slothskin-boots-of-aiming-leatherworker-70",
+      "name": "Slothskin Boots of Aiming"
+    },
+    {
+      "id": "slothskin-boots-of-casting-leatherworker-70",
+      "name": "Slothskin Boots of Casting"
+    },
+    {
+      "id": "slothskin-boots-of-healing-leatherworker-70",
+      "name": "Slothskin Boots of Healing"
+    },
+    {
+      "id": "slothskin-boots-of-striking-leatherworker-70",
+      "name": "Slothskin Boots of Striking"
+    },
+    {
+      "id": "slothskin-gloves-of-aiming-leatherworker-70",
+      "name": "Slothskin Gloves of Aiming"
+    },
+    {
+      "id": "slothskin-gloves-of-scouting-leatherworker-70",
+      "name": "Slothskin Gloves of Scouting"
+    },
+    {
+      "id": "slothskin-necklace-of-gathering-leatherworker-70",
+      "name": "Slothskin Necklace of Gathering"
+    },
+    {
+      "id": "slothskin-ring-of-gathering-leatherworker-70",
+      "name": "Slothskin Ring of Gathering"
+    },
+    {
+      "id": "slothskin-thighboots-of-scouting-leatherworker-70",
+      "name": "Slothskin Thighboots of Scouting"
+    },
+    {
+      "id": "yamashi-tekko-leatherworker-70",
+      "name": "Yamashi Tekko"
+    },
+    {
+      "id": "yamashi-zori-leatherworker-70",
+      "name": "Yamashi Zori"
+    },
+    {
+      "id": "procoptodon-leather-leatherworker-70",
+      "name": "Procoptodon Leather"
+    },
+    {
+      "id": "rakshasa-tekko-of-aiming-leatherworker-70",
+      "name": "Rakshasa Tekko of Aiming"
+    },
+    {
+      "id": "rakshasa-tekko-of-casting-leatherworker-70",
+      "name": "Rakshasa Tekko of Casting"
+    },
+    {
+      "id": "rakshasa-tekko-of-healing-leatherworker-70",
+      "name": "Rakshasa Tekko of Healing"
+    },
+    {
+      "id": "rakshasa-tekko-of-scouting-leatherworker-70",
+      "name": "Rakshasa Tekko of Scouting"
+    },
+    {
+      "id": "rakshasa-tekko-of-striking-leatherworker-70",
+      "name": "Rakshasa Tekko of Striking"
+    },
+    {
+      "id": "rakshasa-zori-of-aiming-leatherworker-70",
+      "name": "Rakshasa Zori of Aiming"
+    },
+    {
+      "id": "rakshasa-zori-of-casting-leatherworker-70",
+      "name": "Rakshasa Zori of Casting"
+    },
+    {
+      "id": "rakshasa-zori-of-healing-leatherworker-70",
+      "name": "Rakshasa Zori of Healing"
+    },
+    {
+      "id": "rakshasa-zori-of-scouting-leatherworker-70",
+      "name": "Rakshasa Zori of Scouting"
+    },
+    {
+      "id": "rakshasa-zori-of-striking-leatherworker-70",
+      "name": "Rakshasa Zori of Striking"
+    },
+    {
+      "id": "smilodon-leather-leatherworker-71",
+      "name": "Smilodon Leather"
+    },
+    {
+      "id": "custom-gathering-tool-components-leatherworker-71",
+      "name": "Custom Gathering Tool Components"
+    },
+    {
+      "id": "honeybee-trappings-leatherworker-71",
+      "name": "Honeybee Trappings"
+    },
+    {
+      "id": "patient-necessities-leatherworker-71",
+      "name": "Patient Necessities"
+    },
+    {
+      "id": "smilodonskin-armguards-of-casting-leatherworker-71",
+      "name": "Smilodonskin Armguards of Casting"
+    },
+    {
+      "id": "smilodonskin-armguards-of-healing-leatherworker-71",
+      "name": "Smilodonskin Armguards of Healing"
+    },
+    {
+      "id": "smilodonskin-boots-of-casting-leatherworker-71",
+      "name": "Smilodonskin Boots of Casting"
+    },
+    {
+      "id": "smilodonskin-boots-of-healing-leatherworker-71",
+      "name": "Smilodonskin Boots of Healing"
+    },
+    {
+      "id": "smilodonskin-boots-of-scouting-leatherworker-71",
+      "name": "Smilodonskin Boots of Scouting"
+    },
+    {
+      "id": "smilodonskin-choker-leatherworker-71",
+      "name": "Smilodonskin Choker"
+    },
+    {
+      "id": "smilodonskin-earrings-leatherworker-71",
+      "name": "Smilodonskin Earrings"
+    },
+    {
+      "id": "smilodonskin-gloves-of-crafting-leatherworker-71",
+      "name": "Smilodonskin Gloves of Crafting"
+    },
+    {
+      "id": "smilodonskin-gloves-of-gathering-leatherworker-71",
+      "name": "Smilodonskin Gloves of Gathering"
+    },
+    {
+      "id": "smilodonskin-gloves-of-maiming-leatherworker-71",
+      "name": "Smilodonskin Gloves of Maiming"
+    },
+    {
+      "id": "smilodonskin-gloves-of-scouting-leatherworker-71",
+      "name": "Smilodonskin Gloves of Scouting"
+    },
+    {
+      "id": "smilodonskin-leggings-of-maiming-leatherworker-71",
+      "name": "Smilodonskin Leggings of Maiming"
+    },
+    {
+      "id": "smilodonskin-open-toed-boots-of-aiming-leatherworker-71",
+      "name": "Smilodonskin Open-toed Boots of Aiming"
+    },
+    {
+      "id": "smilodonskin-open-toed-boots-of-striking-leatherworker-71",
+      "name": "Smilodonskin Open-toed Boots of Striking"
+    },
+    {
+      "id": "smilodonskin-ring-leatherworker-71",
+      "name": "Smilodonskin Ring"
+    },
+    {
+      "id": "smilodonskin-shoes-of-crafting-leatherworker-71",
+      "name": "Smilodonskin Shoes of Crafting"
+    },
+    {
+      "id": "smilodonskin-shoes-of-gathering-leatherworker-71",
+      "name": "Smilodonskin Shoes of Gathering"
+    },
+    {
+      "id": "smilodonskin-trousers-of-fending-leatherworker-71",
+      "name": "Smilodonskin Trousers of Fending"
+    },
+    {
+      "id": "smilodonskin-trousers-of-maiming-leatherworker-71",
+      "name": "Smilodonskin Trousers of Maiming"
+    },
+    {
+      "id": "smilodonskin-wristband-leatherworker-71",
+      "name": "Smilodonskin Wristband"
+    },
+    {
+      "id": "green-glider-leather-leatherworker-72",
+      "name": "Green Glider Leather"
+    },
+    {
+      "id": "airship-fittings-leatherworker-72",
+      "name": "Airship Fittings"
+    },
+    {
+      "id": "custom-weaving-components-leatherworker-72",
+      "name": "Custom Weaving Components"
+    },
+    {
+      "id": "medical-supplies-leatherworker-72",
+      "name": "Medical Supplies"
+    },
+    {
+      "id": "gliderskin-boots-of-aiming-leatherworker-72",
+      "name": "Gliderskin Boots of Aiming"
+    },
+    {
+      "id": "gliderskin-gloves-of-aiming-leatherworker-72",
+      "name": "Gliderskin Gloves of Aiming"
+    },
+    {
+      "id": "gliderskin-gloves-of-scouting-leatherworker-72",
+      "name": "Gliderskin Gloves of Scouting"
+    },
+    {
+      "id": "gliderskin-gloves-of-striking-leatherworker-72",
+      "name": "Gliderskin Gloves of Striking"
+    },
+    {
+      "id": "gliderskin-thighboots-of-scouting-leatherworker-72",
+      "name": "Gliderskin Thighboots of Scouting"
+    },
+    {
+      "id": "gliderskin-thighboots-of-striking-leatherworker-72",
+      "name": "Gliderskin Thighboots of Striking"
+    },
+    {
+      "id": "rarefied-smilodonskin-trousers-leatherworker-72",
+      "name": "Rarefied Smilodonskin Trousers"
+    },
+    {
+      "id": "beehive-souvenir-leatherworker-73",
+      "name": "Beehive Souvenir"
+    },
+    {
+      "id": "custom-crafting-tool-components-leatherworker-73",
+      "name": "Custom Crafting Tool Components"
+    },
+    {
+      "id": "rehabilitation-aids-leatherworker-73",
+      "name": "Rehabilitation Aids"
+    },
+    {
+      "id": "upholstery-repair-materials-leatherworker-73",
+      "name": "Upholstery Repair Materials"
+    },
+    {
+      "id": "gliderskin-boots-of-casting-leatherworker-73",
+      "name": "Gliderskin Boots of Casting"
+    },
+    {
+      "id": "gliderskin-boots-of-healing-leatherworker-73",
+      "name": "Gliderskin Boots of Healing"
+    },
+    {
+      "id": "gliderskin-breeches-of-fending-leatherworker-73",
+      "name": "Gliderskin Breeches of Fending"
+    },
+    {
+      "id": "gliderskin-breeches-of-maiming-leatherworker-73",
+      "name": "Gliderskin Breeches of Maiming"
+    },
+    {
+      "id": "gliderskin-gloves-of-casting-leatherworker-73",
+      "name": "Gliderskin Gloves of Casting"
+    },
+    {
+      "id": "gliderskin-gloves-of-healing-leatherworker-73",
+      "name": "Gliderskin Gloves of Healing"
+    },
+    {
+      "id": "gliderskin-thighboots-of-fending-leatherworker-73",
+      "name": "Gliderskin Thighboots of Fending"
+    },
+    {
+      "id": "atrociraptor-leather-leatherworker-74",
+      "name": "Atrociraptor Leather"
+    },
+    {
+      "id": "handpicked-culinary-essentials-leatherworker-74",
+      "name": "Handpicked Culinary Essentials"
+    },
+    {
+      "id": "atrociraptorskin-amulet-of-aiming-leatherworker-74",
+      "name": "Atrociraptorskin Amulet of Aiming"
+    },
+    {
+      "id": "atrociraptorskin-amulet-of-casting-leatherworker-74",
+      "name": "Atrociraptorskin Amulet of Casting"
+    },
+    {
+      "id": "atrociraptorskin-amulet-of-fending-leatherworker-74",
+      "name": "Atrociraptorskin Amulet of Fending"
+    },
+    {
+      "id": "atrociraptorskin-amulet-of-healing-leatherworker-74",
+      "name": "Atrociraptorskin Amulet of Healing"
+    },
+    {
+      "id": "atrociraptorskin-amulet-of-slaying-leatherworker-74",
+      "name": "Atrociraptorskin Amulet of Slaying"
+    },
+    {
+      "id": "atrociraptorskin-armguard-of-aiming-leatherworker-74",
+      "name": "Atrociraptorskin Armguard of Aiming"
+    },
+    {
+      "id": "atrociraptorskin-armguard-of-scouting-leatherworker-74",
+      "name": "Atrociraptorskin Armguard of Scouting"
+    },
+    {
+      "id": "atrociraptorskin-armguards-of-healing-leatherworker-74",
+      "name": "Atrociraptorskin Armguards of Healing"
+    },
+    {
+      "id": "atrociraptorskin-boots-of-crafting-leatherworker-74",
+      "name": "Atrociraptorskin Boots of Crafting"
+    },
+    {
+      "id": "atrociraptorskin-boots-of-gathering-leatherworker-74",
+      "name": "Atrociraptorskin Boots of Gathering"
+    },
+    {
+      "id": "atrociraptorskin-boots-of-healing-leatherworker-74",
+      "name": "Atrociraptorskin Boots of Healing"
+    },
+    {
+      "id": "atrociraptorskin-bracers-of-casting-leatherworker-74",
+      "name": "Atrociraptorskin Bracers of Casting"
+    },
+    {
+      "id": "atrociraptorskin-cap-of-gathering-leatherworker-74",
+      "name": "Atrociraptorskin Cap of Gathering"
+    },
+    {
+      "id": "atrociraptorskin-gloves-of-gathering-leatherworker-74",
+      "name": "Atrociraptorskin Gloves of Gathering"
+    },
+    {
+      "id": "atrociraptorskin-headgear-of-aiming-leatherworker-74",
+      "name": "Atrociraptorskin Headgear of Aiming"
+    },
+    {
+      "id": "atrociraptorskin-headgear-of-scouting-leatherworker-74",
+      "name": "Atrociraptorskin Headgear of Scouting"
+    },
+    {
+      "id": "atrociraptorskin-leg-guards-of-aiming-leatherworker-74",
+      "name": "Atrociraptorskin Leg Guards of Aiming"
+    },
+    {
+      "id": "atrociraptorskin-leg-guards-of-scouting-leatherworker-74",
+      "name": "Atrociraptorskin Leg Guards of Scouting"
+    },
+    {
+      "id": "atrociraptorskin-thighboots-of-striking-leatherworker-74",
+      "name": "Atrociraptorskin Thighboots of Striking"
+    },
+    {
+      "id": "atrociraptorskin-vest-of-gathering-leatherworker-74",
+      "name": "Atrociraptorskin Vest of Gathering"
+    },
+    {
+      "id": "rarefied-gliderskin-thighboots-leatherworker-74",
+      "name": "Rarefied Gliderskin Thighboots"
+    },
+    {
+      "id": "high-tea-essentials-leatherworker-75",
+      "name": "High Tea Essentials"
+    },
+    {
+      "id": "printing-essentials-leatherworker-75",
+      "name": "Printing Essentials"
+    },
+    {
+      "id": "amaro-barding-repair-materials-leatherworker-75",
+      "name": "Amaro Barding Repair Materials"
+    },
+    {
+      "id": "workshop-sign-leatherworker-75",
+      "name": "Workshop Sign"
+    },
+    {
+      "id": "atrociraptorskin-breeches-of-fending-leatherworker-75",
+      "name": "Atrociraptorskin Breeches of Fending"
+    },
+    {
+      "id": "atrociraptorskin-breeches-of-maiming-leatherworker-75",
+      "name": "Atrociraptorskin Breeches of Maiming"
+    },
+    {
+      "id": "atrociraptorskin-coat-of-casting-leatherworker-75",
+      "name": "Atrociraptorskin Coat of Casting"
+    },
+    {
+      "id": "atrociraptorskin-corselet-of-aiming-leatherworker-75",
+      "name": "Atrociraptorskin Corselet of Aiming"
+    },
+    {
+      "id": "atrociraptorskin-corselet-of-scouting-leatherworker-75",
+      "name": "Atrociraptorskin Corselet of Scouting"
+    },
+    {
+      "id": "atrociraptorskin-necklace-of-aiming-leatherworker-75",
+      "name": "Atrociraptorskin Necklace of Aiming"
+    },
+    {
+      "id": "atrociraptorskin-necklace-of-casting-leatherworker-75",
+      "name": "Atrociraptorskin Necklace of Casting"
+    },
+    {
+      "id": "atrociraptorskin-necklace-of-fending-leatherworker-75",
+      "name": "Atrociraptorskin Necklace of Fending"
+    },
+    {
+      "id": "atrociraptorskin-necklace-of-healing-leatherworker-75",
+      "name": "Atrociraptorskin Necklace of Healing"
+    },
+    {
+      "id": "atrociraptorskin-necklace-of-slaying-leatherworker-75",
+      "name": "Atrociraptorskin Necklace of Slaying"
+    },
+    {
+      "id": "zonure-leather-leatherworker-76",
+      "name": "Zonure Leather"
+    },
+    {
+      "id": "rarefied-atrociraptorskin-cap-leatherworker-76",
+      "name": "Rarefied Atrociraptorskin Cap"
+    },
+    {
+      "id": "zonureskin-caligae-of-healing-leatherworker-76",
+      "name": "Zonureskin Caligae of Healing"
+    },
+    {
+      "id": "zonureskin-caligae-of-scouting-leatherworker-76",
+      "name": "Zonureskin Caligae of Scouting"
+    },
+    {
+      "id": "zonureskin-caligae-of-striking-leatherworker-76",
+      "name": "Zonureskin Caligae of Striking"
+    },
+    {
+      "id": "zonureskin-fingerless-gloves-of-aiming-leatherworker-76",
+      "name": "Zonureskin Fingerless Gloves of Aiming"
+    },
+    {
+      "id": "zonureskin-fingerless-gloves-of-casting-leatherworker-76",
+      "name": "Zonureskin Fingerless Gloves of Casting"
+    },
+    {
+      "id": "zonureskin-fingerless-gloves-of-healing-leatherworker-76",
+      "name": "Zonureskin Fingerless Gloves of Healing"
+    },
+    {
+      "id": "zonureskin-fingerless-gloves-of-scouting-leatherworker-76",
+      "name": "Zonureskin Fingerless Gloves of Scouting"
+    },
+    {
+      "id": "zonureskin-fingerless-gloves-of-striking-leatherworker-76",
+      "name": "Zonureskin Fingerless Gloves of Striking"
+    },
+    {
+      "id": "zonureskin-sandals-of-aiming-leatherworker-76",
+      "name": "Zonureskin Sandals of Aiming"
+    },
+    {
+      "id": "zonureskin-sandals-of-casting-leatherworker-76",
+      "name": "Zonureskin Sandals of Casting"
+    },
+    {
+      "id": "art-supplies-leatherworker-77",
+      "name": "Art Supplies"
+    },
+    {
+      "id": "zonureskin-caligae-of-fending-leatherworker-77",
+      "name": "Zonureskin Caligae of Fending"
+    },
+    {
+      "id": "zonureskin-caligae-of-maiming-leatherworker-77",
+      "name": "Zonureskin Caligae of Maiming"
+    },
+    {
+      "id": "zonureskin-coat-of-fending-leatherworker-77",
+      "name": "Zonureskin Coat of Fending"
+    },
+    {
+      "id": "zonureskin-coat-of-maiming-leatherworker-77",
+      "name": "Zonureskin Coat of Maiming"
+    },
+    {
+      "id": "zonureskin-fingerless-gloves-of-fending-leatherworker-77",
+      "name": "Zonureskin Fingerless Gloves of Fending"
+    },
+    {
+      "id": "zonureskin-fingerless-gloves-of-maiming-leatherworker-77",
+      "name": "Zonureskin Fingerless Gloves of Maiming"
+    },
+    {
+      "id": "zonureskin-gloves-of-crafting-leatherworker-77",
+      "name": "Zonureskin Gloves of Crafting"
+    },
+    {
+      "id": "zonureskin-gloves-of-gathering-leatherworker-77",
+      "name": "Zonureskin Gloves of Gathering"
+    },
+    {
+      "id": "zonureskin-jacket-of-crafting-leatherworker-77",
+      "name": "Zonureskin Jacket of Crafting"
+    },
+    {
+      "id": "zonureskin-robe-of-gathering-leatherworker-77",
+      "name": "Zonureskin Robe of Gathering"
+    },
+    {
+      "id": "zonureskin-shoes-of-crafting-leatherworker-77",
+      "name": "Zonureskin Shoes of Crafting"
+    },
+    {
+      "id": "zonureskin-shoes-of-gathering-leatherworker-77",
+      "name": "Zonureskin Shoes of Gathering"
+    },
+    {
+      "id": "sea-swallow-leather-leatherworker-78",
+      "name": "Sea Swallow Leather"
+    },
+    {
+      "id": "lute-repair-materials-leatherworker-78",
+      "name": "Lute Repair Materials"
+    },
+    {
+      "id": "leather-sofa-leatherworker-78",
+      "name": "Leather Sofa"
+    },
+    {
+      "id": "rarefied-zonureskin-fingerless-gloves-leatherworker-78",
+      "name": "Rarefied Zonureskin Fingerless Gloves"
+    },
+    {
+      "id": "swallowskin-gloves-of-aiming-leatherworker-78",
+      "name": "Swallowskin Gloves of Aiming"
+    },
+    {
+      "id": "swallowskin-gloves-of-fending-leatherworker-78",
+      "name": "Swallowskin Gloves of Fending"
+    },
+    {
+      "id": "swallowskin-gloves-of-maiming-leatherworker-78",
+      "name": "Swallowskin Gloves of Maiming"
+    },
+    {
+      "id": "swallowskin-gloves-of-scouting-leatherworker-78",
+      "name": "Swallowskin Gloves of Scouting"
+    },
+    {
+      "id": "swallowskin-gloves-of-striking-leatherworker-78",
+      "name": "Swallowskin Gloves of Striking"
+    },
+    {
+      "id": "swallowskin-jacket-of-scouting-leatherworker-78",
+      "name": "Swallowskin Jacket of Scouting"
+    },
+    {
+      "id": "swallowskin-robe-of-aiming-leatherworker-78",
+      "name": "Swallowskin Robe of Aiming"
+    },
+    {
+      "id": "swallowskin-shoes-of-striking-leatherworker-78",
+      "name": "Swallowskin Shoes of Striking"
+    },
+    {
+      "id": "swallowskin-gloves-of-casting-leatherworker-79",
+      "name": "Swallowskin Gloves of Casting"
+    },
+    {
+      "id": "swallowskin-gloves-of-healing-leatherworker-79",
+      "name": "Swallowskin Gloves of Healing"
+    },
+    {
+      "id": "swallowskin-robe-of-casting-leatherworker-79",
+      "name": "Swallowskin Robe of Casting"
+    },
+    {
+      "id": "swallowskin-robe-of-healing-leatherworker-79",
+      "name": "Swallowskin Robe of Healing"
+    },
+    {
+      "id": "swallowskin-shoes-of-casting-leatherworker-79",
+      "name": "Swallowskin Shoes of Casting"
+    },
+    {
+      "id": "swallowskin-shoes-of-healing-leatherworker-79",
+      "name": "Swallowskin Shoes of Healing"
+    },
+    {
+      "id": "audio-spare-parts-leatherworker-80",
+      "name": "Audio Spare Parts"
+    },
+    {
+      "id": "carrotlight-pieces-leatherworker-80",
+      "name": "Carrotlight Pieces"
+    },
+    {
+      "id": "cleaner-upgrade-component-leatherworker-80",
+      "name": "Cleaner Upgrade Component"
+    },
+    {
+      "id": "coin-manufacturing-component-leatherworker-80",
+      "name": "Coin Manufacturing Component"
+    },
+    {
+      "id": "cookbook-printing-paraphernalia-leatherworker-80",
+      "name": "Cookbook Printing Paraphernalia"
+    },
+    {
+      "id": "fungi-fighter-leatherworker-80",
+      "name": "Fungi Fighter"
+    },
+    {
+      "id": "musicking-station-component-leatherworker-80",
+      "name": "Musicking Station Component"
+    },
+    {
+      "id": "paint-mixers-toolbox-leatherworker-80",
+      "name": "Paint-mixer's Toolbox"
+    },
+    {
+      "id": "parasital-infection-protection-suit-component-leatherworker-80",
+      "name": "Parasital Infection Protection Suit Component"
+    },
+    {
+      "id": "signed-memorabilia-leatherworker-80",
+      "name": "Signed Memorabilia"
+    },
+    {
+      "id": "aetheroconductive-quill-leatherworker-80",
+      "name": "Aetheroconductive Quill"
+    },
+    {
+      "id": "grade-2-skybuilders-overalls-leatherworker-80",
+      "name": "Grade 2 Skybuilders' Overalls"
+    },
+    {
+      "id": "grade-3-skybuilders-overalls-leatherworker-80",
+      "name": "Grade 3 Skybuilders' Overalls"
+    },
+    {
+      "id": "grade-4-skybuilders-overalls-leatherworker-80",
+      "name": "Grade 4 Skybuilders' Overalls"
+    },
+    {
+      "id": "skybuilders-overalls-leatherworker-80",
+      "name": "Skybuilders' Overalls"
+    },
+    {
+      "id": "aetheroconductive-focus-leatherworker-80",
+      "name": "Aetheroconductive Focus"
+    },
+    {
+      "id": "lighting-parts-leatherworker-80",
+      "name": "Lighting Parts"
+    },
+    {
+      "id": "loporrits-gathering-tool-component-leatherworker-80",
+      "name": "Loporrit's Gathering Tool Component"
+    },
+    {
+      "id": "machining-supplies-leatherworker-80",
+      "name": "Machining Supplies"
+    },
+    {
+      "id": "popular-kitchen-goods-leatherworker-80",
+      "name": "Popular Kitchen Goods"
+    },
+    {
+      "id": "restaurant-grade-supplies-leatherworker-80",
+      "name": "Restaurant-grade Supplies"
+    },
+    {
+      "id": "wind-instrument-component-leatherworker-80",
+      "name": "Wind Instrument Component"
+    },
+    {
+      "id": "exercise-equipment-leatherworker-80",
+      "name": "\"Exercise Equipment\""
+    },
+    {
+      "id": "audio-recording-component-leatherworker-80",
+      "name": "Audio Recording Component"
+    },
+    {
+      "id": "carrot-chiller-component-leatherworker-80",
+      "name": "Carrot Chiller Component"
+    },
+    {
+      "id": "fashionable-thingums-leatherworker-80",
+      "name": "Fashionable Thingums"
+    },
+    {
+      "id": "occult-paraphernalia-leatherworker-80",
+      "name": "Occult Paraphernalia"
+    },
+    {
+      "id": "super-sudsy-soap-bars-leatherworker-80",
+      "name": "Super Sudsy Soap Bars"
+    },
+    {
+      "id": "painting-supplies-leatherworker-80",
+      "name": "Painting Supplies"
+    },
+    {
+      "id": "radio-equipment-leatherworker-80",
+      "name": "Radio Equipment"
+    },
+    {
+      "id": "lute-modification-component-leatherworker-80",
+      "name": "Lute Modification Component"
+    },
+    {
+      "id": "starlens-brace-leatherworker-80",
+      "name": "Starlens Brace"
+    },
+    {
+      "id": "steppe-bed-leatherworker-80",
+      "name": "Steppe Bed"
+    },
+    {
+      "id": "oddly-specific-leather-leatherworker-80",
+      "name": "Oddly Specific Leather"
+    },
+    {
+      "id": "rarefied-swallowskin-coat-leatherworker-80",
+      "name": "Rarefied Swallowskin Coat"
+    },
+    {
+      "id": "swallowskin-boots-leatherworker-80",
+      "name": "Swallowskin Boots"
+    },
+    {
+      "id": "swallowskin-coat-leatherworker-80",
+      "name": "Swallowskin Coat"
+    },
+    {
+      "id": "swallowskin-fingerless-gloves-leatherworker-80",
+      "name": "Swallowskin Fingerless Gloves"
+    },
+    {
+      "id": "swallowskin-gloves-leatherworker-80",
+      "name": "Swallowskin Gloves"
+    },
+    {
+      "id": "swallowskin-shoes-leatherworker-80",
+      "name": "Swallowskin Shoes"
+    },
+    {
+      "id": "adventurers-hooded-vest-leatherworker-80",
+      "name": "Adventurer's Hooded Vest"
+    },
+    {
+      "id": "cropped-fireglass-leather-slops-leatherworker-80",
+      "name": "Cropped Fireglass Leather Slops"
+    },
+    {
+      "id": "hooded-fireglass-leather-vest-leatherworker-80",
+      "name": "Hooded Fireglass Leather Vest"
+    },
+    {
+      "id": "steerhide-shoes-leatherworker-80",
+      "name": "Steerhide Shoes"
+    },
+    {
+      "id": "chalicotherium-leather-leatherworker-80",
+      "name": "Chalicotherium Leather"
+    },
+    {
+      "id": "oddly-specific-vellum-leatherworker-80",
+      "name": "Oddly Specific Vellum"
+    },
+    {
+      "id": "oddly-specific-gaganaskin-strap-leatherworker-80",
+      "name": "Oddly Specific Gaganaskin Strap"
+    },
+    {
+      "id": "dalmascan-leather-shoes-leatherworker-80",
+      "name": "Dalmascan Leather Shoes"
+    },
+    {
+      "id": "facet-boots-of-aiming-leatherworker-80",
+      "name": "Facet Boots of Aiming"
+    },
+    {
+      "id": "facet-boots-of-casting-leatherworker-80",
+      "name": "Facet Boots of Casting"
+    },
+    {
+      "id": "facet-boots-of-crafting-leatherworker-80",
+      "name": "Facet Boots of Crafting"
+    },
+    {
+      "id": "facet-boots-of-gathering-leatherworker-80",
+      "name": "Facet Boots of Gathering"
+    },
+    {
+      "id": "facet-boots-of-healing-leatherworker-80",
+      "name": "Facet Boots of Healing"
+    },
+    {
+      "id": "facet-bottoms-of-maiming-leatherworker-80",
+      "name": "Facet Bottoms of Maiming"
+    },
+    {
+      "id": "facet-bottoms-of-scouting-leatherworker-80",
+      "name": "Facet Bottoms of Scouting"
+    },
+    {
+      "id": "facet-cap-of-gathering-leatherworker-80",
+      "name": "Facet Cap of Gathering"
+    },
+    {
+      "id": "facet-chain-hose-of-fending-leatherworker-80",
+      "name": "Facet Chain Hose of Fending"
+    },
+    {
+      "id": "facet-cyclas-of-striking-leatherworker-80",
+      "name": "Facet Cyclas of Striking"
+    },
+    {
+      "id": "facet-gloves-of-crafting-leatherworker-80",
+      "name": "Facet Gloves of Crafting"
+    },
+    {
+      "id": "facet-gloves-of-scouting-leatherworker-80",
+      "name": "Facet Gloves of Scouting"
+    },
+    {
+      "id": "facet-gloves-of-striking-leatherworker-80",
+      "name": "Facet Gloves of Striking"
+    },
+    {
+      "id": "facet-halfgloves-of-casting-leatherworker-80",
+      "name": "Facet Halfgloves of Casting"
+    },
+    {
+      "id": "facet-sandals-of-striking-leatherworker-80",
+      "name": "Facet Sandals of Striking"
+    },
+    {
+      "id": "facet-thighboots-of-scouting-leatherworker-80",
+      "name": "Facet Thighboots of Scouting"
+    },
+    {
+      "id": "rebel-boots-leatherworker-80",
+      "name": "Rebel Boots"
+    },
+    {
+      "id": "urban-boots-leatherworker-80",
+      "name": "Urban Boots"
+    },
+    {
+      "id": "megalania-leather-leatherworker-80",
+      "name": "Megalania Leather"
+    },
+    {
+      "id": "grade-2-artisanal-skybuilders-overcoat-leatherworker-80",
+      "name": "Grade 2 Artisanal Skybuilders' Overcoat"
+    },
+    {
+      "id": "oddly-specific-gagana-leather-leatherworker-80",
+      "name": "Oddly Specific Gagana Leather"
+    },
+    {
+      "id": "aesthetes-boots-of-crafting-leatherworker-80",
+      "name": "Aesthete's Boots of Crafting"
+    },
+    {
+      "id": "aesthetes-boots-of-gathering-leatherworker-80",
+      "name": "Aesthete's Boots of Gathering"
+    },
+    {
+      "id": "aesthetes-doublet-of-gathering-leatherworker-80",
+      "name": "Aesthete's Doublet of Gathering"
+    },
+    {
+      "id": "aesthetes-fingerless-gloves-of-crafting-leatherworker-80",
+      "name": "Aesthete's Fingerless Gloves of Crafting"
+    },
+    {
+      "id": "aesthetes-halfgloves-of-gathering-leatherworker-80",
+      "name": "Aesthete's Halfgloves of Gathering"
+    },
+    {
+      "id": "neo-ishgardian-boots-of-aiming-leatherworker-80",
+      "name": "Neo-Ishgardian Boots of Aiming"
+    },
+    {
+      "id": "neo-ishgardian-boots-of-casting-leatherworker-80",
+      "name": "Neo-Ishgardian Boots of Casting"
+    },
+    {
+      "id": "neo-ishgardian-boots-of-healing-leatherworker-80",
+      "name": "Neo-Ishgardian Boots of Healing"
+    },
+    {
+      "id": "neo-ishgardian-boots-of-maiming-leatherworker-80",
+      "name": "Neo-Ishgardian Boots of Maiming"
+    },
+    {
+      "id": "neo-ishgardian-boots-of-striking-leatherworker-80",
+      "name": "Neo-Ishgardian Boots of Striking"
+    },
+    {
+      "id": "neo-ishgardian-top-of-aiming-leatherworker-80",
+      "name": "Neo-Ishgardian Top of Aiming"
+    },
+    {
+      "id": "neo-ishgardian-top-of-casting-leatherworker-80",
+      "name": "Neo-Ishgardian Top of Casting"
+    },
+    {
+      "id": "neo-ishgardian-top-of-healing-leatherworker-80",
+      "name": "Neo-Ishgardian Top of Healing"
+    },
+    {
+      "id": "neo-ishgardian-top-of-scouting-leatherworker-80",
+      "name": "Neo-Ishgardian Top of Scouting"
+    },
+    {
+      "id": "southern-seas-shoes-leatherworker-80",
+      "name": "Southern Seas Shoes"
+    },
+    {
+      "id": "thylacoleo-leather-leatherworker-80",
+      "name": "Thylacoleo Leather"
+    },
+    {
+      "id": "grade-3-artisanal-skybuilders-leather-chair-leatherworker-80",
+      "name": "Grade 3 Artisanal Skybuilders' Leather Chair"
+    },
+    {
+      "id": "grade-4-artisanal-skybuilders-tool-belt-leatherworker-80",
+      "name": "Grade 4 Artisanal Skybuilders' Tool Belt"
+    },
+    {
+      "id": "resplendent-leatherworkers-component-a-leatherworker-80",
+      "name": "Resplendent Leatherworker's Component A"
+    },
+    {
+      "id": "resplendent-leatherworkers-component-b-leatherworker-80",
+      "name": "Resplendent Leatherworker's Component B"
+    },
+    {
+      "id": "oddly-delicate-gazelle-leather-leatherworker-80",
+      "name": "Oddly Delicate Gazelle Leather"
+    },
+    {
+      "id": "calfskin-riders-bottoms-leatherworker-80",
+      "name": "Calfskin Rider's Bottoms"
+    },
+    {
+      "id": "calfskin-riders-cap-leatherworker-80",
+      "name": "Calfskin Rider's Cap"
+    },
+    {
+      "id": "calfskin-riders-gloves-leatherworker-80",
+      "name": "Calfskin Rider's Gloves"
+    },
+    {
+      "id": "calfskin-riders-jacket-leatherworker-80",
+      "name": "Calfskin Rider's Jacket"
+    },
+    {
+      "id": "calfskin-riders-shoes-leatherworker-80",
+      "name": "Calfskin Rider's Shoes"
+    },
+    {
+      "id": "exarchic-armguards-of-aiming-leatherworker-80",
+      "name": "Exarchic Armguards of Aiming"
+    },
+    {
+      "id": "exarchic-armguards-of-scouting-leatherworker-80",
+      "name": "Exarchic Armguards of Scouting"
+    },
+    {
+      "id": "exarchic-armguards-of-striking-leatherworker-80",
+      "name": "Exarchic Armguards of Striking"
+    },
+    {
+      "id": "exarchic-boots-of-aiming-leatherworker-80",
+      "name": "Exarchic Boots of Aiming"
+    },
+    {
+      "id": "exarchic-boots-of-scouting-leatherworker-80",
+      "name": "Exarchic Boots of Scouting"
+    },
+    {
+      "id": "exarchic-boots-of-striking-leatherworker-80",
+      "name": "Exarchic Boots of Striking"
+    },
+    {
+      "id": "exarchic-coat-of-casting-leatherworker-80",
+      "name": "Exarchic Coat of Casting"
+    },
+    {
+      "id": "exarchic-gloves-of-casting-leatherworker-80",
+      "name": "Exarchic Gloves of Casting"
+    },
+    {
+      "id": "exarchic-hat-of-casting-leatherworker-80",
+      "name": "Exarchic Hat of Casting"
+    },
+    {
+      "id": "exarchic-hose-of-casting-leatherworker-80",
+      "name": "Exarchic Hose of Casting"
+    },
+    {
+      "id": "exarchic-hose-of-fending-leatherworker-80",
+      "name": "Exarchic Hose of Fending"
+    },
+    {
+      "id": "exarchic-hose-of-healing-leatherworker-80",
+      "name": "Exarchic Hose of Healing"
+    },
+    {
+      "id": "exarchic-hose-of-maiming-leatherworker-80",
+      "name": "Exarchic Hose of Maiming"
+    },
+    {
+      "id": "exarchic-shoes-of-casting-leatherworker-80",
+      "name": "Exarchic Shoes of Casting"
+    },
+    {
+      "id": "frontier-jacket-leatherworker-80",
+      "name": "Frontier Jacket"
+    },
+    {
+      "id": "frontier-pumps-leatherworker-80",
+      "name": "Frontier Pumps"
+    },
+    {
+      "id": "frontier-shoes-leatherworker-80",
+      "name": "Frontier Shoes"
+    },
+    {
+      "id": "resplendent-leatherworkers-component-c-leatherworker-80",
+      "name": "Resplendent Leatherworker's Component C"
+    },
+    {
+      "id": "gaja-leather-leatherworker-81",
+      "name": "Gaja Leather"
+    },
+    {
+      "id": "cushion-care-package-leatherworker-81",
+      "name": "Cushion Care Package"
+    },
+    {
+      "id": "luncheon-coffer-leatherworker-81",
+      "name": "Luncheon Coffer"
+    },
+    {
+      "id": "sheep-equipment-leatherworker-81",
+      "name": "Sheep Equipment"
+    },
+    {
+      "id": "fingerless-gajaskin-gloves-of-scouting-leatherworker-81",
+      "name": "Fingerless Gajaskin Gloves of Scouting"
+    },
+    {
+      "id": "fingerless-gajaskin-gloves-of-striking-leatherworker-81",
+      "name": "Fingerless Gajaskin Gloves of Striking"
+    },
+    {
+      "id": "gajaskin-boots-of-casting-leatherworker-81",
+      "name": "Gajaskin Boots of Casting"
+    },
+    {
+      "id": "gajaskin-boots-of-fending-leatherworker-81",
+      "name": "Gajaskin Boots of Fending"
+    },
+    {
+      "id": "gajaskin-boots-of-healing-leatherworker-81",
+      "name": "Gajaskin Boots of Healing"
+    },
+    {
+      "id": "gajaskin-boots-of-maiming-leatherworker-81",
+      "name": "Gajaskin Boots of Maiming"
+    },
+    {
+      "id": "gajaskin-circlet-of-casting-leatherworker-81",
+      "name": "Gajaskin Circlet of Casting"
+    },
+    {
+      "id": "gajaskin-circlet-of-healing-leatherworker-81",
+      "name": "Gajaskin Circlet of Healing"
+    },
+    {
+      "id": "gajaskin-coat-of-fending-leatherworker-81",
+      "name": "Gajaskin Coat of Fending"
+    },
+    {
+      "id": "gajaskin-handekko-leatherworker-81",
+      "name": "Gajaskin Handekko"
+    },
+    {
+      "id": "gajaskin-jacket-of-aiming-leatherworker-81",
+      "name": "Gajaskin Jacket of Aiming"
+    },
+    {
+      "id": "gajaskin-shoes-of-aiming-leatherworker-81",
+      "name": "Gajaskin Shoes of Aiming"
+    },
+    {
+      "id": "gajaskin-shoes-of-scouting-leatherworker-81",
+      "name": "Gajaskin Shoes of Scouting"
+    },
+    {
+      "id": "gajaskin-shoes-of-striking-leatherworker-81",
+      "name": "Gajaskin Shoes of Striking"
+    },
+    {
+      "id": "gajaskin-tabi-leatherworker-81",
+      "name": "Gajaskin Tabi"
+    },
+    {
+      "id": "gajaskin-tekko-leatherworker-81",
+      "name": "Gajaskin Tekko"
+    },
+    {
+      "id": "gajaskin-vest-of-maiming-leatherworker-81",
+      "name": "Gajaskin Vest of Maiming"
+    },
+    {
+      "id": "gajaskin-vest-of-scouting-leatherworker-81",
+      "name": "Gajaskin Vest of Scouting"
+    },
+    {
+      "id": "gajaskin-vest-of-striking-leatherworker-81",
+      "name": "Gajaskin Vest of Striking"
+    },
+    {
+      "id": "gajaskin-zori-leatherworker-81",
+      "name": "Gajaskin Zori"
+    },
+    {
+      "id": "rarefied-gajaskin-shoes-leatherworker-81",
+      "name": "Rarefied Gajaskin Shoes"
+    },
+    {
+      "id": "luncheon-toad-leather-leatherworker-82",
+      "name": "Luncheon Toad Leather"
+    },
+    {
+      "id": "aetheroconductive-mammet-leatherworker-82",
+      "name": "Aetheroconductive Mammet"
+    },
+    {
+      "id": "feline-recreational-device-leatherworker-82",
+      "name": "Feline Recreational Device"
+    },
+    {
+      "id": "mountain-garb-leatherworker-82",
+      "name": "Mountain Garb"
+    },
+    {
+      "id": "luncheon-toadskin-boots-of-striking-leatherworker-82",
+      "name": "Luncheon Toadskin Boots of Striking"
+    },
+    {
+      "id": "luncheon-toadskin-gloves-of-scouting-leatherworker-82",
+      "name": "Luncheon Toadskin Gloves of Scouting"
+    },
+    {
+      "id": "luncheon-toadskin-gloves-of-striking-leatherworker-82",
+      "name": "Luncheon Toadskin Gloves of Striking"
+    },
+    {
+      "id": "luncheon-toadskin-thighboots-of-aiming-leatherworker-82",
+      "name": "Luncheon Toadskin Thighboots of Aiming"
+    },
+    {
+      "id": "luncheon-toadskin-thighboots-of-casting-leatherworker-82",
+      "name": "Luncheon Toadskin Thighboots of Casting"
+    },
+    {
+      "id": "luncheon-toadskin-thighboots-of-healing-leatherworker-82",
+      "name": "Luncheon Toadskin Thighboots of Healing"
+    },
+    {
+      "id": "luncheon-toadskin-thighboots-of-scouting-leatherworker-82",
+      "name": "Luncheon Toadskin Thighboots of Scouting"
+    },
+    {
+      "id": "school-supplies-leatherworker-83",
+      "name": "School Supplies"
+    },
+    {
+      "id": "classic-voeburtite-cuisine-leatherworker-83",
+      "name": "Classic Voeburtite Cuisine"
+    },
+    {
+      "id": "mesmerizing-miniature-leatherworker-83",
+      "name": "Mesmerizing Miniature"
+    },
+    {
+      "id": "aetherial-lens-leatherworker-83",
+      "name": "Aetherial Lens"
+    },
+    {
+      "id": "luncheon-toadskin-hose-of-aiming-leatherworker-83",
+      "name": "Luncheon Toadskin Hose of Aiming"
+    },
+    {
+      "id": "luncheon-toadskin-hose-of-casting-leatherworker-83",
+      "name": "Luncheon Toadskin Hose of Casting"
+    },
+    {
+      "id": "luncheon-toadskin-hose-of-fending-leatherworker-83",
+      "name": "Luncheon Toadskin Hose of Fending"
+    },
+    {
+      "id": "luncheon-toadskin-hose-of-healing-leatherworker-83",
+      "name": "Luncheon Toadskin Hose of Healing"
+    },
+    {
+      "id": "luncheon-toadskin-hose-of-maiming-leatherworker-83",
+      "name": "Luncheon Toadskin Hose of Maiming"
+    },
+    {
+      "id": "luncheon-toadskin-hose-of-scouting-leatherworker-83",
+      "name": "Luncheon Toadskin Hose of Scouting"
+    },
+    {
+      "id": "luncheon-toadskin-hose-of-striking-leatherworker-83",
+      "name": "Luncheon Toadskin Hose of Striking"
+    },
+    {
+      "id": "luncheon-toadskin-jacket-of-scouting-leatherworker-83",
+      "name": "Luncheon Toadskin Jacket of Scouting"
+    },
+    {
+      "id": "luncheon-toadskin-jacket-of-striking-leatherworker-83",
+      "name": "Luncheon Toadskin Jacket of Striking"
+    },
+    {
+      "id": "rarefied-luncheon-toadskin-hose-leatherworker-83",
+      "name": "Rarefied Luncheon Toadskin Hose"
+    },
+    {
+      "id": "saiga-leather-leatherworker-84",
+      "name": "Saiga Leather"
+    },
+    {
+      "id": "traditional-voeburtite-handicraft-leatherworker-84",
+      "name": "Traditional Voeburtite Handicraft"
+    },
+    {
+      "id": "saigaskin-armguards-of-casting-leatherworker-84",
+      "name": "Saigaskin Armguards of Casting"
+    },
+    {
+      "id": "saigaskin-armguards-of-fending-leatherworker-84",
+      "name": "Saigaskin Armguards of Fending"
+    },
+    {
+      "id": "saigaskin-armguards-of-maiming-leatherworker-84",
+      "name": "Saigaskin Armguards of Maiming"
+    },
+    {
+      "id": "saigaskin-armguards-of-scouting-leatherworker-84",
+      "name": "Saigaskin Armguards of Scouting"
+    },
+    {
+      "id": "saigaskin-boots-of-fending-leatherworker-84",
+      "name": "Saigaskin Boots of Fending"
+    },
+    {
+      "id": "saigaskin-boots-of-maiming-leatherworker-84",
+      "name": "Saigaskin Boots of Maiming"
+    },
+    {
+      "id": "saigaskin-cap-of-aiming-leatherworker-84",
+      "name": "Saigaskin Cap of Aiming"
+    },
+    {
+      "id": "saigaskin-cap-of-casting-leatherworker-84",
+      "name": "Saigaskin Cap of Casting"
+    },
+    {
+      "id": "saigaskin-gloves-of-aiming-leatherworker-84",
+      "name": "Saigaskin Gloves of Aiming"
+    },
+    {
+      "id": "saigaskin-gloves-of-healing-leatherworker-84",
+      "name": "Saigaskin Gloves of Healing"
+    },
+    {
+      "id": "saigaskin-gloves-of-striking-leatherworker-84",
+      "name": "Saigaskin Gloves of Striking"
+    },
+    {
+      "id": "saigaskin-shoes-of-aiming-leatherworker-84",
+      "name": "Saigaskin Shoes of Aiming"
+    },
+    {
+      "id": "saigaskin-shoes-of-casting-leatherworker-84",
+      "name": "Saigaskin Shoes of Casting"
+    },
+    {
+      "id": "saigaskin-shoes-of-healing-leatherworker-84",
+      "name": "Saigaskin Shoes of Healing"
+    },
+    {
+      "id": "saigaskin-shoes-of-scouting-leatherworker-84",
+      "name": "Saigaskin Shoes of Scouting"
+    },
+    {
+      "id": "saigaskin-shoes-of-striking-leatherworker-84",
+      "name": "Saigaskin Shoes of Striking"
+    },
+    {
+      "id": "saigaskin-trousers-of-fending-leatherworker-84",
+      "name": "Saigaskin Trousers of Fending"
+    },
+    {
+      "id": "saigaskin-trousers-of-maiming-leatherworker-84",
+      "name": "Saigaskin Trousers of Maiming"
+    },
+    {
+      "id": "energizing-eye-lixir-leatherworker-85",
+      "name": "Energizing Eye-lixir"
+    },
+    {
+      "id": "lovely-box-of-pretty-things-leatherworker-85",
+      "name": "Lovely Box of Pretty Things"
+    },
+    {
+      "id": "aetherial-amplifier-leatherworker-85",
+      "name": "Aetherial Amplifier"
+    },
+    {
+      "id": "writing-utensils-leatherworker-85",
+      "name": "Writing Utensils"
+    },
+    {
+      "id": "rarefied-saigaskin-gloves-leatherworker-85",
+      "name": "Rarefied Saigaskin Gloves"
+    },
+    {
+      "id": "saigaskin-coat-of-fending-leatherworker-85",
+      "name": "Saigaskin Coat of Fending"
+    },
+    {
+      "id": "saigaskin-coat-of-maiming-leatherworker-85",
+      "name": "Saigaskin Coat of Maiming"
+    },
+    {
+      "id": "saigaskin-gloves-of-crafting-leatherworker-85",
+      "name": "Saigaskin Gloves of Crafting"
+    },
+    {
+      "id": "saigaskin-halfgloves-of-gathering-leatherworker-85",
+      "name": "Saigaskin Halfgloves of Gathering"
+    },
+    {
+      "id": "saigaskin-jacket-of-aiming-leatherworker-85",
+      "name": "Saigaskin Jacket of Aiming"
+    },
+    {
+      "id": "saigaskin-jacket-of-scouting-leatherworker-85",
+      "name": "Saigaskin Jacket of Scouting"
+    },
+    {
+      "id": "saigaskin-jacket-of-striking-leatherworker-85",
+      "name": "Saigaskin Jacket of Striking"
+    },
+    {
+      "id": "saigaskin-sandals-of-gathering-leatherworker-85",
+      "name": "Saigaskin Sandals of Gathering"
+    },
+    {
+      "id": "saigaskin-shoes-of-crafting-leatherworker-85",
+      "name": "Saigaskin Shoes of Crafting"
+    },
+    {
+      "id": "kumbhira-leather-leatherworker-86",
+      "name": "Kumbhira Leather"
+    },
+    {
+      "id": "kumbhiraskin-armguards-of-the-last-unicorn-leatherworker-86",
+      "name": "Kumbhiraskin Armguards of the Last Unicorn"
+    },
+    {
+      "id": "kumbhiraskin-armilla-of-gathering-leatherworker-86",
+      "name": "Kumbhiraskin Armilla of Gathering"
+    },
+    {
+      "id": "kumbhiraskin-cuisses-of-the-behemoth-king-leatherworker-86",
+      "name": "Kumbhiraskin Cuisses of the Behemoth King"
+    },
+    {
+      "id": "kumbhiraskin-cuisses-of-the-behemoth-queen-leatherworker-86",
+      "name": "Kumbhiraskin Cuisses of the Behemoth Queen"
+    },
+    {
+      "id": "kumbhiraskin-earrings-of-gathering-leatherworker-86",
+      "name": "Kumbhiraskin Earrings of Gathering"
+    },
+    {
+      "id": "kumbhiraskin-gloves-of-the-black-griffin-leatherworker-86",
+      "name": "Kumbhiraskin Gloves of the Black Griffin"
+    },
+    {
+      "id": "kumbhiraskin-gloves-of-the-white-griffin-leatherworker-86",
+      "name": "Kumbhiraskin Gloves of the White Griffin"
+    },
+    {
+      "id": "kumbhiraskin-jacket-of-the-falling-dragon-leatherworker-86",
+      "name": "Kumbhiraskin Jacket of the Falling Dragon"
+    },
+    {
+      "id": "kumbhiraskin-jacket-of-the-rising-dragon-leatherworker-86",
+      "name": "Kumbhiraskin Jacket of the Rising Dragon"
+    },
+    {
+      "id": "kumbhiraskin-leg-guards-of-the-last-unicorn-leatherworker-86",
+      "name": "Kumbhiraskin Leg Guards of the Last Unicorn"
+    },
+    {
+      "id": "kumbhiraskin-necklace-of-gathering-leatherworker-86",
+      "name": "Kumbhiraskin Necklace of Gathering"
+    },
+    {
+      "id": "kumbhiraskin-ring-of-gathering-leatherworker-86",
+      "name": "Kumbhiraskin Ring of Gathering"
+    },
+    {
+      "id": "shoe-rack-leatherworker-86",
+      "name": "Shoe Rack"
+    },
+    {
+      "id": "researchers-relaxation-kit-leatherworker-87",
+      "name": "Researcher's Relaxation Kit"
+    },
+    {
+      "id": "kumbhiraskin-boots-of-gathering-leatherworker-87",
+      "name": "Kumbhiraskin Boots of Gathering"
+    },
+    {
+      "id": "kumbhiraskin-gloves-of-crafting-leatherworker-87",
+      "name": "Kumbhiraskin Gloves of Crafting"
+    },
+    {
+      "id": "kumbhiraskin-gloves-of-gathering-leatherworker-87",
+      "name": "Kumbhiraskin Gloves of Gathering"
+    },
+    {
+      "id": "kumbhiraskin-shoes-of-crafting-leatherworker-87",
+      "name": "Kumbhiraskin Shoes of Crafting"
+    },
+    {
+      "id": "rarefied-kumbhiraskin-shoes-leatherworker-87",
+      "name": "Rarefied Kumbhiraskin Shoes"
+    },
+    {
+      "id": "ophiotauros-leather-leatherworker-88",
+      "name": "Ophiotauros Leather"
+    },
+    {
+      "id": "aetherial-conductor-leatherworker-88",
+      "name": "Aetherial Conductor"
+    },
+    {
+      "id": "ophiotauroskin-boots-of-aiming-leatherworker-88",
+      "name": "Ophiotauroskin Boots of Aiming"
+    },
+    {
+      "id": "ophiotauroskin-boots-of-casting-leatherworker-88",
+      "name": "Ophiotauroskin Boots of Casting"
+    },
+    {
+      "id": "ophiotauroskin-boots-of-healing-leatherworker-88",
+      "name": "Ophiotauroskin Boots of Healing"
+    },
+    {
+      "id": "ophiotauroskin-boots-of-maiming-leatherworker-88",
+      "name": "Ophiotauroskin Boots of Maiming"
+    },
+    {
+      "id": "ophiotauroskin-boots-of-striking-leatherworker-88",
+      "name": "Ophiotauroskin Boots of Striking"
+    },
+    {
+      "id": "ophiotauroskin-earrings-of-gathering-leatherworker-89",
+      "name": "Ophiotauroskin Earrings of Gathering"
+    },
+    {
+      "id": "ophiotauroskin-necklace-of-gathering-leatherworker-89",
+      "name": "Ophiotauroskin Necklace of Gathering"
+    },
+    {
+      "id": "ophiotauroskin-ring-of-gathering-leatherworker-89",
+      "name": "Ophiotauroskin Ring of Gathering"
+    },
+    {
+      "id": "ophiotauroskin-top-of-aiming-leatherworker-89",
+      "name": "Ophiotauroskin Top of Aiming"
+    },
+    {
+      "id": "ophiotauroskin-top-of-casting-leatherworker-89",
+      "name": "Ophiotauroskin Top of Casting"
+    },
+    {
+      "id": "ophiotauroskin-top-of-healing-leatherworker-89",
+      "name": "Ophiotauroskin Top of Healing"
+    },
+    {
+      "id": "ophiotauroskin-top-of-scouting-leatherworker-89",
+      "name": "Ophiotauroskin Top of Scouting"
+    },
+    {
+      "id": "ophiotauroskin-wristband-of-gathering-leatherworker-89",
+      "name": "Ophiotauroskin Wristband of Gathering"
+    },
+    {
+      "id": "rarefied-ophiotauroskin-top-leatherworker-89",
+      "name": "Rarefied Ophiotauroskin Top"
+    },
+    {
+      "id": "cropland-expansion-supplies-leatherworker-90",
+      "name": "Cropland Expansion Supplies"
+    },
+    {
+      "id": "hand-warmer-components-leatherworker-90",
+      "name": "Hand Warmer Components"
+    },
+    {
+      "id": "home-exterior-component-leatherworker-90",
+      "name": "Home Exterior Component"
+    },
+    {
+      "id": "replacement-golem-component-leatherworker-90",
+      "name": "Replacement Golem Component"
+    },
+    {
+      "id": "snow-removal-tool-leatherworker-90",
+      "name": "Snow Removal Tool"
+    },
+    {
+      "id": "stonemasonry-tools-leatherworker-90",
+      "name": "Stonemasonry Tools"
+    },
+    {
+      "id": "storage-supplies-leatherworker-90",
+      "name": "Storage Supplies"
+    },
+    {
+      "id": "tableware-supplies-leatherworker-90",
+      "name": "Tableware Supplies"
+    },
+    {
+      "id": "visitors-winterwear-leatherworker-90",
+      "name": "Visitor's Winterwear"
+    },
+    {
+      "id": "warmth-necessities-leatherworker-90",
+      "name": "Warmth Necessities"
+    },
+    {
+      "id": "warmth-repair-supplies-leatherworker-90",
+      "name": "Warmth Repair Supplies"
+    },
+    {
+      "id": "rail-grindstone-leatherworker-90",
+      "name": "Rail Grindstone"
+    },
+    {
+      "id": "cart-component-leatherworker-90",
+      "name": "Cart Component"
+    },
+    {
+      "id": "master-masons-tools-leatherworker-90",
+      "name": "Master Mason's Tools"
+    },
+    {
+      "id": "salvaged-stone-supplies-leatherworker-90",
+      "name": "Salvaged Stone Supplies"
+    },
+    {
+      "id": "shelving-components-leatherworker-90",
+      "name": "Shelving Components"
+    },
+    {
+      "id": "brewery-maintenance-supplies-leatherworker-90",
+      "name": "Brewery Maintenance Supplies"
+    },
+    {
+      "id": "ice-removal-tools-leatherworker-90",
+      "name": "Ice Removal Tools"
+    },
+    {
+      "id": "mountaineering-paraphernalia-leatherworker-90",
+      "name": "Mountaineering Paraphernalia"
+    },
+    {
+      "id": "tonawawtan-cookware-leatherworker-90",
+      "name": "Tonawawtan Cookware"
+    },
+    {
+      "id": "trail-repair-supplies-leatherworker-90",
+      "name": "Trail Repair Supplies"
+    },
+    {
+      "id": "yok-huy-handicrafts-leatherworker-90",
+      "name": "Yok Huy Handicrafts"
+    },
+    {
+      "id": "conductive-golem-components-leatherworker-90",
+      "name": "Conductive Golem Components"
+    },
+    {
+      "id": "living-sepulchre-supplies-leatherworker-90",
+      "name": "Living Sepulchre Supplies"
+    },
+    {
+      "id": "handcrafted-cover-components-leatherworker-90",
+      "name": "Handcrafted Cover Components"
+    },
+    {
+      "id": "starlens-wand-leatherworker-90",
+      "name": "Starlens Wand"
+    },
+    {
+      "id": "ophiotauroskin-boots-of-gathering-leatherworker-90",
+      "name": "Ophiotauroskin Boots of Gathering"
+    },
+    {
+      "id": "ophiotauroskin-halfgloves-of-crafting-leatherworker-90",
+      "name": "Ophiotauroskin Halfgloves of Crafting"
+    },
+    {
+      "id": "ophiotauroskin-halfgloves-of-gathering-leatherworker-90",
+      "name": "Ophiotauroskin Halfgloves of Gathering"
+    },
+    {
+      "id": "ophiotauroskin-workboots-of-crafting-leatherworker-90",
+      "name": "Ophiotauroskin Workboots of Crafting"
+    },
+    {
+      "id": "rarefied-ophiotauroskin-halfgloves-leatherworker-90",
+      "name": "Rarefied Ophiotauroskin Halfgloves"
+    },
+    {
+      "id": "plush-carriage-seating-leatherworker-90",
+      "name": "Plush Carriage Seating"
+    },
+    {
+      "id": "connoisseurs-rug-leatherworker-90",
+      "name": "Connoisseur's Rug"
+    },
+    {
+      "id": "boots-of-happiness-leatherworker-90",
+      "name": "Boots of Happiness"
+    },
+    {
+      "id": "hose-of-happiness-leatherworker-90",
+      "name": "Hose of Happiness"
+    },
+    {
+      "id": "varsity-shoes-leatherworker-90",
+      "name": "Varsity Shoes"
+    },
+    {
+      "id": "wristlet-of-happiness-leatherworker-90",
+      "name": "Wristlet of Happiness"
+    },
+    {
+      "id": "amynodon-leather-leatherworker-90",
+      "name": "Amynodon Leather"
+    },
+    {
+      "id": "connoisseurs-leather-sofa-leatherworker-90",
+      "name": "Connoisseur's Leather Sofa"
+    },
+    {
+      "id": "classical-choker-of-aiming-leatherworker-90",
+      "name": "Classical Choker of Aiming"
+    },
+    {
+      "id": "classical-choker-of-casting-leatherworker-90",
+      "name": "Classical Choker of Casting"
+    },
+    {
+      "id": "classical-choker-of-fending-leatherworker-90",
+      "name": "Classical Choker of Fending"
+    },
+    {
+      "id": "classical-choker-of-healing-leatherworker-90",
+      "name": "Classical Choker of Healing"
+    },
+    {
+      "id": "classical-choker-of-slaying-leatherworker-90",
+      "name": "Classical Choker of Slaying"
+    },
+    {
+      "id": "classical-equess-caligae-leatherworker-90",
+      "name": "Classical Eques's Caligae"
+    },
+    {
+      "id": "classical-medicuss-caligae-leatherworker-90",
+      "name": "Classical Medicus's Caligae"
+    },
+    {
+      "id": "classical-sagittariuss-caligae-leatherworker-90",
+      "name": "Classical Sagittarius's Caligae"
+    },
+    {
+      "id": "classical-sagittariuss-chiton-leatherworker-90",
+      "name": "Classical Sagittarius's Chiton"
+    },
+    {
+      "id": "classical-secutors-caligae-leatherworker-90",
+      "name": "Classical Secutor's Caligae"
+    },
+    {
+      "id": "classical-signifers-caligae-leatherworker-90",
+      "name": "Classical Signifer's Caligae"
+    },
+    {
+      "id": "classical-signifers-fingerless-gloves-leatherworker-90",
+      "name": "Classical Signifer's Fingerless Gloves"
+    },
+    {
+      "id": "island-prism-leatherworker-90",
+      "name": "Island Prism"
+    },
+    {
+      "id": "lawless-enforcers-gloves-leatherworker-90",
+      "name": "Lawless Enforcer's Gloves"
+    },
+    {
+      "id": "lawless-enforcers-shoes-leatherworker-90",
+      "name": "Lawless Enforcer's Shoes"
+    },
+    {
+      "id": "windswept-barding-leatherworker-90",
+      "name": "Windswept Barding"
+    },
+    {
+      "id": "pactmakers-boots-of-gathering-leatherworker-90",
+      "name": "Pactmaker's Boots of Gathering"
+    },
+    {
+      "id": "pactmakers-breeches-of-gathering-leatherworker-90",
+      "name": "Pactmaker's Breeches of Gathering"
+    },
+    {
+      "id": "pactmakers-gloves-of-gathering-leatherworker-90",
+      "name": "Pactmaker's Gloves of Gathering"
+    },
+    {
+      "id": "pactmakers-halfgloves-of-crafting-leatherworker-90",
+      "name": "Pactmaker's Halfgloves of Crafting"
+    },
+    {
+      "id": "pactmakers-pumps-of-crafting-leatherworker-90",
+      "name": "Pactmaker's Pumps of Crafting"
+    },
+    {
+      "id": "titanoboa-leather-leatherworker-90",
+      "name": "Titanoboa Leather"
+    },
+    {
+      "id": "connoisseurs-varsity-shoes-leatherworker-90",
+      "name": "Connoisseur's Varsity Shoes"
+    },
+    {
+      "id": "connoisseurs-drinking-apkallu-leatherworker-90",
+      "name": "Connoisseur's Drinking Apkallu"
+    },
+    {
+      "id": "water-otter-fountain-lumber-leatherworker-90",
+      "name": "Water Otter Fountain Lumber"
+    },
+    {
+      "id": "smaller-water-otter-fountain-lumber-leatherworker-90",
+      "name": "Smaller Water Otter Fountain Lumber"
+    },
+    {
+      "id": "cactuar-pajama-slippers-leatherworker-90",
+      "name": "Cactuar Pajama Slippers"
+    },
+    {
+      "id": "chocobo-pajama-slippers-leatherworker-90",
+      "name": "Chocobo Pajama Slippers"
+    },
+    {
+      "id": "plain-pajama-slippers-leatherworker-90",
+      "name": "Plain Pajama Slippers"
+    },
+    {
+      "id": "salon-servers-gloves-leatherworker-90",
+      "name": "Salon Server's Gloves"
+    },
+    {
+      "id": "salon-servers-shoes-leatherworker-90",
+      "name": "Salon Server's Shoes"
+    },
+    {
+      "id": "rinascita-armguards-of-casting-leatherworker-90",
+      "name": "Rinascita Armguards of Casting"
+    },
+    {
+      "id": "rinascita-armguards-of-scouting-leatherworker-90",
+      "name": "Rinascita Armguards of Scouting"
+    },
+    {
+      "id": "rinascita-armguards-of-striking-leatherworker-90",
+      "name": "Rinascita Armguards of Striking"
+    },
+    {
+      "id": "rinascita-earring-of-aiming-leatherworker-90",
+      "name": "Rinascita Earring of Aiming"
+    },
+    {
+      "id": "rinascita-earring-of-casting-leatherworker-90",
+      "name": "Rinascita Earring of Casting"
+    },
+    {
+      "id": "rinascita-earring-of-fending-leatherworker-90",
+      "name": "Rinascita Earring of Fending"
+    },
+    {
+      "id": "rinascita-earring-of-healing-leatherworker-90",
+      "name": "Rinascita Earring of Healing"
+    },
+    {
+      "id": "rinascita-earring-of-slaying-leatherworker-90",
+      "name": "Rinascita Earring of Slaying"
+    },
+    {
+      "id": "rinascita-gloves-of-aiming-leatherworker-90",
+      "name": "Rinascita Gloves of Aiming"
+    },
+    {
+      "id": "rinascita-gloves-of-healing-leatherworker-90",
+      "name": "Rinascita Gloves of Healing"
+    },
+    {
+      "id": "rinascita-shoes-of-casting-leatherworker-90",
+      "name": "Rinascita Shoes of Casting"
+    },
+    {
+      "id": "rinascita-shoes-of-healing-leatherworker-90",
+      "name": "Rinascita Shoes of Healing"
+    },
+    {
+      "id": "rinascita-shoes-of-striking-leatherworker-90",
+      "name": "Rinascita Shoes of Striking"
+    },
+    {
+      "id": "indagators-boots-of-crafting-leatherworker-90",
+      "name": "Indagator's Boots of Crafting"
+    },
+    {
+      "id": "indagators-earrings-of-gathering-leatherworker-90",
+      "name": "Indagator's Earrings of Gathering"
+    },
+    {
+      "id": "indagators-gloves-of-crafting-leatherworker-90",
+      "name": "Indagator's Gloves of Crafting"
+    },
+    {
+      "id": "indagators-necklace-of-gathering-leatherworker-90",
+      "name": "Indagator's Necklace of Gathering"
+    },
+    {
+      "id": "indagators-ring-of-gathering-leatherworker-90",
+      "name": "Indagator's Ring of Gathering"
+    },
+    {
+      "id": "indagators-shoes-of-gathering-leatherworker-90",
+      "name": "Indagator's Shoes of Gathering"
+    },
+    {
+      "id": "deinosuchus-leather-leatherworker-90",
+      "name": "Deinosuchus Leather"
+    },
+    {
+      "id": "connoisseurs-targe-leatherworker-90",
+      "name": "Connoisseur's Targe"
+    },
+    {
+      "id": "connoisseurs-leather-jacket-leatherworker-90",
+      "name": "Connoisseur's Leather Jacket"
+    },
+    {
+      "id": "uncharted-course-lumber-leatherworker-90",
+      "name": "Uncharted Course Lumber"
+    },
+    {
+      "id": "martial-artists-pumps-leatherworker-90",
+      "name": "Martial Artist's Pumps"
+    },
+    {
+      "id": "diadochos-boots-of-aiming-leatherworker-90",
+      "name": "Diadochos Boots of Aiming"
+    },
+    {
+      "id": "diadochos-boots-of-casting-leatherworker-90",
+      "name": "Diadochos Boots of Casting"
+    },
+    {
+      "id": "diadochos-boots-of-fending-leatherworker-90",
+      "name": "Diadochos Boots of Fending"
+    },
+    {
+      "id": "diadochos-boots-of-healing-leatherworker-90",
+      "name": "Diadochos Boots of Healing"
+    },
+    {
+      "id": "diadochos-boots-of-maiming-leatherworker-90",
+      "name": "Diadochos Boots of Maiming"
+    },
+    {
+      "id": "diadochos-gloves-of-scouting-leatherworker-90",
+      "name": "Diadochos Gloves of Scouting"
+    },
+    {
+      "id": "diadochos-gloves-of-striking-leatherworker-90",
+      "name": "Diadochos Gloves of Striking"
+    },
+    {
+      "id": "diadochos-headband-of-scouting-leatherworker-90",
+      "name": "Diadochos Headband of Scouting"
+    },
+    {
+      "id": "diadochos-headband-of-striking-leatherworker-90",
+      "name": "Diadochos Headband of Striking"
+    },
+    {
+      "id": "diadochos-jacket-of-aiming-leatherworker-90",
+      "name": "Diadochos Jacket of Aiming"
+    },
+    {
+      "id": "diadochos-jacket-of-fending-leatherworker-90",
+      "name": "Diadochos Jacket of Fending"
+    },
+    {
+      "id": "diadochos-jacket-of-maiming-leatherworker-90",
+      "name": "Diadochos Jacket of Maiming"
+    },
+    {
+      "id": "diadochos-shoes-of-scouting-leatherworker-90",
+      "name": "Diadochos Shoes of Scouting"
+    },
+    {
+      "id": "diadochos-shoes-of-striking-leatherworker-90",
+      "name": "Diadochos Shoes of Striking"
+    },
+    {
+      "id": "aetherial-arbor-lumber-leatherworker-90",
+      "name": "Aetherial Arbor Lumber"
+    },
+    {
+      "id": "silver-lobo-leather-leatherworker-91",
+      "name": "Silver Lobo Leather"
+    },
+    {
+      "id": "map-printing-essentials-leatherworker-91",
+      "name": "Map Printing Essentials"
+    },
+    {
+      "id": "loboskin-amulet-of-aiming-leatherworker-91",
+      "name": "Loboskin Amulet of Aiming"
+    },
+    {
+      "id": "loboskin-amulet-of-casting-leatherworker-91",
+      "name": "Loboskin Amulet of Casting"
+    },
+    {
+      "id": "loboskin-amulet-of-fending-leatherworker-91",
+      "name": "Loboskin Amulet of Fending"
+    },
+    {
+      "id": "loboskin-amulet-of-healing-leatherworker-91",
+      "name": "Loboskin Amulet of Healing"
+    },
+    {
+      "id": "loboskin-amulet-of-slaying-leatherworker-91",
+      "name": "Loboskin Amulet of Slaying"
+    },
+    {
+      "id": "loboskin-boots-leatherworker-91",
+      "name": "Loboskin Boots"
+    },
+    {
+      "id": "loboskin-caligae-of-aiming-leatherworker-91",
+      "name": "Loboskin Caligae of Aiming"
+    },
+    {
+      "id": "loboskin-caligae-of-casting-leatherworker-91",
+      "name": "Loboskin Caligae of Casting"
+    },
+    {
+      "id": "loboskin-caligae-of-fending-leatherworker-91",
+      "name": "Loboskin Caligae of Fending"
+    },
+    {
+      "id": "loboskin-caligae-of-maiming-leatherworker-91",
+      "name": "Loboskin Caligae of Maiming"
+    },
+    {
+      "id": "loboskin-caligae-of-striking-leatherworker-91",
+      "name": "Loboskin Caligae of Striking"
+    },
+    {
+      "id": "loboskin-coat-leatherworker-91",
+      "name": "Loboskin Coat"
+    },
+    {
+      "id": "loboskin-coat-of-fending-leatherworker-91",
+      "name": "Loboskin Coat of Fending"
+    },
+    {
+      "id": "loboskin-coat-of-maiming-leatherworker-91",
+      "name": "Loboskin Coat of Maiming"
+    },
+    {
+      "id": "loboskin-fingerless-gloves-leatherworker-91",
+      "name": "Loboskin Fingerless Gloves"
+    },
+    {
+      "id": "loboskin-fingerless-gloves-of-aiming-leatherworker-91",
+      "name": "Loboskin Fingerless Gloves of Aiming"
+    },
+    {
+      "id": "loboskin-fingerless-gloves-of-casting-leatherworker-91",
+      "name": "Loboskin Fingerless Gloves of Casting"
+    },
+    {
+      "id": "loboskin-fingerless-gloves-of-fending-leatherworker-91",
+      "name": "Loboskin Fingerless Gloves of Fending"
+    },
+    {
+      "id": "loboskin-fingerless-gloves-of-healing-leatherworker-91",
+      "name": "Loboskin Fingerless Gloves of Healing"
+    },
+    {
+      "id": "loboskin-fingerless-gloves-of-maiming-leatherworker-91",
+      "name": "Loboskin Fingerless Gloves of Maiming"
+    },
+    {
+      "id": "loboskin-fingerless-gloves-of-scouting-leatherworker-91",
+      "name": "Loboskin Fingerless Gloves of Scouting"
+    },
+    {
+      "id": "loboskin-fingerless-gloves-of-striking-leatherworker-91",
+      "name": "Loboskin Fingerless Gloves of Striking"
+    },
+    {
+      "id": "loboskin-gloves-leatherworker-91",
+      "name": "Loboskin Gloves"
+    },
+    {
+      "id": "loboskin-necklace-of-aiming-leatherworker-91",
+      "name": "Loboskin Necklace of Aiming"
+    },
+    {
+      "id": "loboskin-necklace-of-casting-leatherworker-91",
+      "name": "Loboskin Necklace of Casting"
+    },
+    {
+      "id": "loboskin-necklace-of-fending-leatherworker-91",
+      "name": "Loboskin Necklace of Fending"
+    },
+    {
+      "id": "loboskin-necklace-of-healing-leatherworker-91",
+      "name": "Loboskin Necklace of Healing"
+    },
+    {
+      "id": "loboskin-necklace-of-slaying-leatherworker-91",
+      "name": "Loboskin Necklace of Slaying"
+    },
+    {
+      "id": "loboskin-sandals-of-healing-leatherworker-91",
+      "name": "Loboskin Sandals of Healing"
+    },
+    {
+      "id": "loboskin-sandals-of-scouting-leatherworker-91",
+      "name": "Loboskin Sandals of Scouting"
+    },
+    {
+      "id": "loboskin-shoes-leatherworker-91",
+      "name": "Loboskin Shoes"
+    },
+    {
+      "id": "rarefied-loboskin-fingerless-gloves-leatherworker-91",
+      "name": "Rarefied Loboskin Fingerless Gloves"
+    },
+    {
+      "id": "hammerhead-crocodile-leather-leatherworker-92",
+      "name": "Hammerhead Crocodile Leather"
+    },
+    {
+      "id": "engineers-supply-kit-leatherworker-92",
+      "name": "Engineer's Supply Kit"
+    },
+    {
+      "id": "crocodileskin-armguards-of-aiming-leatherworker-92",
+      "name": "Crocodileskin Armguards of Aiming"
+    },
+    {
+      "id": "crocodileskin-armguards-of-casting-leatherworker-92",
+      "name": "Crocodileskin Armguards of Casting"
+    },
+    {
+      "id": "crocodileskin-armguards-of-healing-leatherworker-92",
+      "name": "Crocodileskin Armguards of Healing"
+    },
+    {
+      "id": "crocodileskin-fingerless-gloves-of-scouting-leatherworker-92",
+      "name": "Crocodileskin Fingerless Gloves of Scouting"
+    },
+    {
+      "id": "crocodileskin-fingerless-gloves-of-striking-leatherworker-92",
+      "name": "Crocodileskin Fingerless Gloves of Striking"
+    },
+    {
+      "id": "railroad-repair-kit-leatherworker-93",
+      "name": "Railroad Repair Kit"
+    },
+    {
+      "id": "pelupelu-cover-components-leatherworker-93",
+      "name": "Pelupelu Cover Components"
+    },
+    {
+      "id": "crocodileskin-breeches-of-scouting-leatherworker-93",
+      "name": "Crocodileskin Breeches of Scouting"
+    },
+    {
+      "id": "crocodileskin-breeches-of-striking-leatherworker-93",
+      "name": "Crocodileskin Breeches of Striking"
+    },
+    {
+      "id": "crocodileskin-leg-wraps-of-scouting-leatherworker-93",
+      "name": "Crocodileskin Leg Wraps of Scouting"
+    },
+    {
+      "id": "crocodileskin-leg-wraps-of-striking-leatherworker-93",
+      "name": "Crocodileskin Leg Wraps of Striking"
+    },
+    {
+      "id": "crocodileskin-thighboots-of-aiming-leatherworker-93",
+      "name": "Crocodileskin Thighboots of Aiming"
+    },
+    {
+      "id": "crocodileskin-thighboots-of-casting-leatherworker-93",
+      "name": "Crocodileskin Thighboots of Casting"
+    },
+    {
+      "id": "crocodileskin-thighboots-of-healing-leatherworker-93",
+      "name": "Crocodileskin Thighboots of Healing"
+    },
+    {
+      "id": "rarefied-crocodileskin-leggings-leatherworker-93",
+      "name": "Rarefied Crocodileskin Leggings"
+    },
+    {
+      "id": "braax-leather-leatherworker-94",
+      "name": "Br'aax Leather"
+    },
+    {
+      "id": "braaxskin-armlets-of-aiming-leatherworker-94",
+      "name": "Br'aaxskin Armlets of Aiming"
+    },
+    {
+      "id": "braaxskin-armlets-of-fending-leatherworker-94",
+      "name": "Br'aaxskin Armlets of Fending"
+    },
+    {
+      "id": "braaxskin-armlets-of-maiming-leatherworker-94",
+      "name": "Br'aaxskin Armlets of Maiming"
+    },
+    {
+      "id": "braaxskin-armlets-of-scouting-leatherworker-94",
+      "name": "Br'aaxskin Armlets of Scouting"
+    },
+    {
+      "id": "braaxskin-armlets-of-striking-leatherworker-94",
+      "name": "Br'aaxskin Armlets of Striking"
+    },
+    {
+      "id": "braaxskin-headband-of-aiming-leatherworker-94",
+      "name": "Br'aaxskin Headband of Aiming"
+    },
+    {
+      "id": "braaxskin-headband-of-casting-leatherworker-94",
+      "name": "Br'aaxskin Headband of Casting"
+    },
+    {
+      "id": "braaxskin-headband-of-fending-leatherworker-94",
+      "name": "Br'aaxskin Headband of Fending"
+    },
+    {
+      "id": "braaxskin-headband-of-healing-leatherworker-94",
+      "name": "Br'aaxskin Headband of Healing"
+    },
+    {
+      "id": "braaxskin-headband-of-maiming-leatherworker-94",
+      "name": "Br'aaxskin Headband of Maiming"
+    },
+    {
+      "id": "braaxskin-headband-of-striking-leatherworker-94",
+      "name": "Br'aaxskin Headband of Striking"
+    },
+    {
+      "id": "braaxskin-sandals-of-aiming-leatherworker-94",
+      "name": "Br'aaxskin Sandals of Aiming"
+    },
+    {
+      "id": "braaxskin-sandals-of-casting-leatherworker-94",
+      "name": "Br'aaxskin Sandals of Casting"
+    },
+    {
+      "id": "braaxskin-sandals-of-healing-leatherworker-94",
+      "name": "Br'aaxskin Sandals of Healing"
+    },
+    {
+      "id": "braaxskin-sandals-of-scouting-leatherworker-94",
+      "name": "Br'aaxskin Sandals of Scouting"
+    },
+    {
+      "id": "braaxskin-sandals-of-striking-leatherworker-94",
+      "name": "Br'aaxskin Sandals of Striking"
+    },
+    {
+      "id": "moblin-cover-components-leatherworker-95",
+      "name": "Moblin Cover Components"
+    },
+    {
+      "id": "yok-huy-cover-leatherworker-95",
+      "name": "Yok Huy Cover"
+    },
+    {
+      "id": "braaxskin-boots-of-gathering-leatherworker-95",
+      "name": "Br'aaxskin Boots of Gathering"
+    },
+    {
+      "id": "braaxskin-halfgloves-of-crafting-leatherworker-95",
+      "name": "Br'aaxskin Halfgloves of Crafting"
+    },
+    {
+      "id": "braaxskin-halfgloves-of-gathering-leatherworker-95",
+      "name": "Br'aaxskin Halfgloves of Gathering"
+    },
+    {
+      "id": "braaxskin-thighboots-of-fending-leatherworker-95",
+      "name": "Br'aaxskin Thighboots of Fending"
+    },
+    {
+      "id": "braaxskin-thighboots-of-maiming-leatherworker-95",
+      "name": "Br'aaxskin Thighboots of Maiming"
+    },
+    {
+      "id": "braaxskin-workboots-of-crafting-leatherworker-95",
+      "name": "Br'aaxskin Workboots of Crafting"
+    },
+    {
+      "id": "rarefied-braaxskin-armlets-leatherworker-95",
+      "name": "Rarefied Br'aaxskin Armlets"
+    },
+    {
+      "id": "gomphotherium-leather-leatherworker-96",
+      "name": "Gomphotherium Leather"
+    },
+    {
+      "id": "gomphotherium-boots-of-aiming-leatherworker-96",
+      "name": "Gomphotherium Boots of Aiming"
+    },
+    {
+      "id": "gomphotherium-boots-of-casting-leatherworker-96",
+      "name": "Gomphotherium Boots of Casting"
+    },
+    {
+      "id": "gomphotherium-boots-of-healing-leatherworker-96",
+      "name": "Gomphotherium Boots of Healing"
+    },
+    {
+      "id": "gomphotherium-boots-of-striking-leatherworker-96",
+      "name": "Gomphotherium Boots of Striking"
+    },
+    {
+      "id": "gomphotherium-earrings-leatherworker-96",
+      "name": "Gomphotherium Earrings"
+    },
+    {
+      "id": "gomphotherium-necklace-leatherworker-96",
+      "name": "Gomphotherium Necklace"
+    },
+    {
+      "id": "gomphotherium-ring-leatherworker-96",
+      "name": "Gomphotherium Ring"
+    },
+    {
+      "id": "gomphotherium-wristband-leatherworker-96",
+      "name": "Gomphotherium Wristband"
+    },
+    {
+      "id": "royal-leather-sofa-leatherworker-96",
+      "name": "Royal Leather Sofa"
+    },
+    {
+      "id": "gomphotherium-boots-leatherworker-97",
+      "name": "Gomphotherium Boots"
+    },
+    {
+      "id": "gomphotherium-boots-of-gathering-leatherworker-97",
+      "name": "Gomphotherium Boots of Gathering"
+    },
+    {
+      "id": "gomphotherium-brais-of-aiming-leatherworker-97",
+      "name": "Gomphotherium Brais of Aiming"
+    },
+    {
+      "id": "gomphotherium-brais-of-casting-leatherworker-97",
+      "name": "Gomphotherium Brais of Casting"
+    },
+    {
+      "id": "gomphotherium-brais-of-healing-leatherworker-97",
+      "name": "Gomphotherium Brais of Healing"
+    },
+    {
+      "id": "gomphotherium-brais-of-striking-leatherworker-97",
+      "name": "Gomphotherium Brais of Striking"
+    },
+    {
+      "id": "gomphotherium-doublet-of-gathering-leatherworker-97",
+      "name": "Gomphotherium Doublet of Gathering"
+    },
+    {
+      "id": "gomphotherium-fingerless-gloves-of-crafting-leatherworker-97",
+      "name": "Gomphotherium Fingerless Gloves of Crafting"
+    },
+    {
+      "id": "gomphotherium-halfgloves-of-gathering-leatherworker-97",
+      "name": "Gomphotherium Halfgloves of Gathering"
+    },
+    {
+      "id": "gomphotherium-thorned-harness-of-striking-leatherworker-97",
+      "name": "Gomphotherium Thorned Harness of Striking"
+    },
+    {
+      "id": "gomphotherium-thornvest-of-aiming-leatherworker-97",
+      "name": "Gomphotherium Thornvest of Aiming"
+    },
+    {
+      "id": "gomphotherium-thornvest-of-casting-leatherworker-97",
+      "name": "Gomphotherium Thornvest of Casting"
+    },
+    {
+      "id": "gomphotherium-thornvest-of-healing-leatherworker-97",
+      "name": "Gomphotherium Thornvest of Healing"
+    },
+    {
+      "id": "gomphotherium-trousers-of-fending-leatherworker-97",
+      "name": "Gomphotherium Trousers of Fending"
+    },
+    {
+      "id": "gomphotherium-trousers-of-maiming-leatherworker-97",
+      "name": "Gomphotherium Trousers of Maiming"
+    },
+    {
+      "id": "gomphotherium-trousers-of-scouting-leatherworker-97",
+      "name": "Gomphotherium Trousers of Scouting"
+    },
+    {
+      "id": "rarefied-gomphotherium-brais-leatherworker-97",
+      "name": "Rarefied Gomphotherium Brais"
+    },
+    {
+      "id": "gargantua-leather-leatherworker-98",
+      "name": "Gargantua Leather"
+    },
+    {
+      "id": "mamool-ja-cover-components-leatherworker-98",
+      "name": "Mamool Ja Cover Components"
+    },
+    {
+      "id": "gargantuaskin-shoes-of-casting-leatherworker-98",
+      "name": "Gargantuaskin Shoes of Casting"
+    },
+    {
+      "id": "gargantuaskin-shoes-of-healing-leatherworker-98",
+      "name": "Gargantuaskin Shoes of Healing"
+    },
+    {
+      "id": "gargantuaskin-jacket-of-striking-leatherworker-99",
+      "name": "Gargantuaskin Jacket of Striking"
+    },
+    {
+      "id": "gargantuaskin-trousers-of-fending-leatherworker-99",
+      "name": "Gargantuaskin Trousers of Fending"
+    },
+    {
+      "id": "gargantuaskin-trousers-of-maiming-leatherworker-99",
+      "name": "Gargantuaskin Trousers of Maiming"
+    },
+    {
+      "id": "gargantuaskin-trousers-of-striking-leatherworker-99",
+      "name": "Gargantuaskin Trousers of Striking"
+    },
+    {
+      "id": "rarefied-gargantuaskin-trousers-leatherworker-99",
+      "name": "Rarefied Gargantuaskin Trousers"
+    },
+    {
+      "id": "tonawawtan-cover-components-leatherworker-100",
+      "name": "Tonawawtan Cover Components"
+    },
+    {
+      "id": "gargantuaskin-fingerless-gloves-of-gathering-leatherworker-100",
+      "name": "Gargantuaskin Fingerless Gloves of Gathering"
+    },
+    {
+      "id": "gargantuaskin-halfgloves-of-crafting-leatherworker-100",
+      "name": "Gargantuaskin Halfgloves of Crafting"
+    },
+    {
+      "id": "gargantuaskin-hat-of-gathering-leatherworker-100",
+      "name": "Gargantuaskin Hat of Gathering"
+    },
+    {
+      "id": "patchwork-sofa-leatherworker-100",
+      "name": "Patchwork Sofa"
+    },
+    {
+      "id": "rarefied-gargantuaskin-hat-leatherworker-100",
+      "name": "Rarefied Gargantuaskin Hat"
+    },
+    {
+      "id": "scientists-boots-leatherworker-100",
+      "name": "Scientist's Boots"
+    },
+    {
+      "id": "scientists-gloves-leatherworker-100",
+      "name": "Scientist's Gloves"
+    },
+    {
+      "id": "turali-traders-shoes-leatherworker-100",
+      "name": "Turali Trader's Shoes"
+    },
+    {
+      "id": "turali-travelers-shoes-leatherworker-100",
+      "name": "Turali Traveler's Shoes"
+    },
+    {
+      "id": "wintertide-shoes-leatherworker-100",
+      "name": "Wintertide Shoes"
+    },
+    {
+      "id": "purussaurus-leather-leatherworker-100",
+      "name": "Purussaurus Leather"
+    },
+    {
+      "id": "archeo-kingdom-armguards-of-casting-leatherworker-100",
+      "name": "Archeo Kingdom Armguards of Casting"
+    },
+    {
+      "id": "archeo-kingdom-armguards-of-scouting-leatherworker-100",
+      "name": "Archeo Kingdom Armguards of Scouting"
+    },
+    {
+      "id": "archeo-kingdom-armguards-of-striking-leatherworker-100",
+      "name": "Archeo Kingdom Armguards of Striking"
+    },
+    {
+      "id": "archeo-kingdom-choker-of-aiming-leatherworker-100",
+      "name": "Archeo Kingdom Choker of Aiming"
+    },
+    {
+      "id": "archeo-kingdom-choker-of-casting-leatherworker-100",
+      "name": "Archeo Kingdom Choker of Casting"
+    },
+    {
+      "id": "archeo-kingdom-choker-of-fending-leatherworker-100",
+      "name": "Archeo Kingdom Choker of Fending"
+    },
+    {
+      "id": "archeo-kingdom-choker-of-healing-leatherworker-100",
+      "name": "Archeo Kingdom Choker of Healing"
+    },
+    {
+      "id": "archeo-kingdom-choker-of-slaying-leatherworker-100",
+      "name": "Archeo Kingdom Choker of Slaying"
+    },
+    {
+      "id": "archeo-kingdom-gloves-of-aiming-leatherworker-100",
+      "name": "Archeo Kingdom Gloves of Aiming"
+    },
+    {
+      "id": "archeo-kingdom-gloves-of-healing-leatherworker-100",
+      "name": "Archeo Kingdom Gloves of Healing"
+    },
+    {
+      "id": "archeo-kingdom-shoes-of-casting-leatherworker-100",
+      "name": "Archeo Kingdom Shoes of Casting"
+    },
+    {
+      "id": "archeo-kingdom-shoes-of-healing-leatherworker-100",
+      "name": "Archeo Kingdom Shoes of Healing"
+    },
+    {
+      "id": "archeo-kingdom-shoes-of-striking-leatherworker-100",
+      "name": "Archeo Kingdom Shoes of Striking"
+    },
+    {
+      "id": "bouncers-dress-shoes-leatherworker-100",
+      "name": "Bouncer's Dress Shoes"
+    },
+    {
+      "id": "bouncers-halfgloves-leatherworker-100",
+      "name": "Bouncer's Halfgloves"
+    },
+    {
+      "id": "everseekers-shoes-of-gathering-leatherworker-100",
+      "name": "Everseeker's Shoes of Gathering"
+    },
+    {
+      "id": "everseekers-work-gloves-of-gathering-leatherworker-100",
+      "name": "Everseeker's Work Gloves of Gathering"
+    },
+    {
+      "id": "everseekers-workboots-of-crafting-leatherworker-100",
+      "name": "Everseeker's Workboots of Crafting"
+    },
+    {
+      "id": "neon-street-blouson-leatherworker-100",
+      "name": "Neon Street Blouson"
+    },
+    {
+      "id": "neon-street-shoes-leatherworker-100",
+      "name": "Neon Street Shoes"
+    },
+    {
+      "id": "cronopio-leather-leatherworker-100",
+      "name": "Cronopio Leather"
+    },
+    {
+      "id": "synthetic-dark-matter-beta-leatherworker-100",
+      "name": "Synthetic Dark Matter Beta"
+    },
+    {
+      "id": "caligae-of-legend-leatherworker-100",
+      "name": "Caligae of Legend"
+    },
+    {
+      "id": "ceremonial-bangle-of-aiming-leatherworker-100",
+      "name": "Ceremonial Bangle of Aiming"
+    },
+    {
+      "id": "ceremonial-bangle-of-casting-leatherworker-100",
+      "name": "Ceremonial Bangle of Casting"
+    },
+    {
+      "id": "ceremonial-bangle-of-fending-leatherworker-100",
+      "name": "Ceremonial Bangle of Fending"
+    },
+    {
+      "id": "ceremonial-bangle-of-healing-leatherworker-100",
+      "name": "Ceremonial Bangle of Healing"
+    },
+    {
+      "id": "ceremonial-bangle-of-slaying-leatherworker-100",
+      "name": "Ceremonial Bangle of Slaying"
+    },
+    {
+      "id": "ceremonial-crakows-of-aiming-leatherworker-100",
+      "name": "Ceremonial Crakows of Aiming"
+    },
+    {
+      "id": "ceremonial-crakows-of-scouting-leatherworker-100",
+      "name": "Ceremonial Crakows of Scouting"
+    },
+    {
+      "id": "ceremonial-crakows-of-striking-leatherworker-100",
+      "name": "Ceremonial Crakows of Striking"
+    },
+    {
+      "id": "ceremonial-gloves-of-casting-leatherworker-100",
+      "name": "Ceremonial Gloves of Casting"
+    },
+    {
+      "id": "ceremonial-gloves-of-healing-leatherworker-100",
+      "name": "Ceremonial Gloves of Healing"
+    },
+    {
+      "id": "ceremonial-greaves-of-fending-leatherworker-100",
+      "name": "Ceremonial Greaves of Fending"
+    },
+    {
+      "id": "ceremonial-greaves-of-maiming-leatherworker-100",
+      "name": "Ceremonial Greaves of Maiming"
+    },
+    {
+      "id": "ceremonial-thighboots-of-casting-leatherworker-100",
+      "name": "Ceremonial Thighboots of Casting"
+    },
+    {
+      "id": "ceremonial-thighboots-of-healing-leatherworker-100",
+      "name": "Ceremonial Thighboots of Healing"
+    },
+    {
+      "id": "summertide-formal-dress-shoes-leatherworker-100",
+      "name": "Summertide Formal Dress Shoes"
+    },
+    {
+      "id": "summertide-formal-shoes-leatherworker-100",
+      "name": "Summertide Formal Shoes"
+    },
+    {
+      "id": "wristwraps-of-legend-leatherworker-100",
+      "name": "Wristwraps of Legend"
+    },
+    {
+      "id": "crested-boots-of-crafting-leatherworker-100",
+      "name": "Crested Boots of Crafting"
+    },
+    {
+      "id": "crested-boots-of-gathering-leatherworker-100",
+      "name": "Crested Boots of Gathering"
+    },
+    {
+      "id": "crested-gloves-of-gathering-leatherworker-100",
+      "name": "Crested Gloves of Gathering"
+    },
+    {
+      "id": "aspected-aether-agglomerate-leatherworker-100",
+      "name": "Aspected Aether Agglomerate"
+    },
+    {
+      "id": "mastodon-leather-leatherworker-100",
+      "name": "Mastodon Leather"
+    },
+    {
+      "id": "courtly-lovers-armguards-of-striking-leatherworker-100",
+      "name": "Courtly Lover's Armguards of Striking"
+    },
+    {
+      "id": "courtly-lovers-boots-of-fending-leatherworker-100",
+      "name": "Courtly Lover's Boots of Fending"
+    },
+    {
+      "id": "courtly-lovers-boots-of-maiming-leatherworker-100",
+      "name": "Courtly Lover's Boots of Maiming"
+    },
+    {
+      "id": "courtly-lovers-boots-of-striking-leatherworker-100",
+      "name": "Courtly Lover's Boots of Striking"
+    },
+    {
+      "id": "courtly-lovers-breeches-of-fending-leatherworker-100",
+      "name": "Courtly Lover's Breeches of Fending"
+    },
+    {
+      "id": "courtly-lovers-breeches-of-maiming-leatherworker-100",
+      "name": "Courtly Lover's Breeches of Maiming"
+    },
+    {
+      "id": "courtly-lovers-gloves-of-casting-leatherworker-100",
+      "name": "Courtly Lover's Gloves of Casting"
+    },
+    {
+      "id": "courtly-lovers-gloves-of-healing-leatherworker-100",
+      "name": "Courtly Lover's Gloves of Healing"
+    },
+    {
+      "id": "courtly-lovers-shoes-of-aiming-leatherworker-100",
+      "name": "Courtly Lover's Shoes of Aiming"
+    },
+    {
+      "id": "courtly-lovers-shoes-of-casting-leatherworker-100",
+      "name": "Courtly Lover's Shoes of Casting"
+    },
+    {
+      "id": "courtly-lovers-shoes-of-healing-leatherworker-100",
+      "name": "Courtly Lover's Shoes of Healing"
+    },
+    {
+      "id": "courtly-lovers-shoes-of-scouting-leatherworker-100",
+      "name": "Courtly Lover's Shoes of Scouting"
+    },
+    {
+      "id": "courtly-lovers-trousers-of-aiming-leatherworker-100",
+      "name": "Courtly Lover's Trousers of Aiming"
+    },
+    {
+      "id": "courtly-lovers-trousers-of-scouting-leatherworker-100",
+      "name": "Courtly Lover's Trousers of Scouting"
+    }
+  ],
+  "skippedLogicalDuplicate": [
+    {
+      "generatedId": "coeurl-fur-leatherworker-50",
+      "existingId": "coeurl-fur-leatherworker-50-1star",
+      "name": "Coeurl Fur",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "hippogryph-leather-leatherworker-50",
+      "existingId": "hippogryph-leather-leatherworker-50-1star",
+      "name": "Hippogryph Leather",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "blacksmiths-gloves-leatherworker-50",
+      "existingId": "blacksmiths-gloves-leatherworker-50-1star",
+      "name": "Blacksmith's Gloves",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "leatherworkers-gloves-leatherworker-50",
+      "existingId": "leatherworkers-gloves-leatherworker-50-1star",
+      "name": "Leatherworker's Gloves",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "leatherworkers-hat-leatherworker-50",
+      "existingId": "leatherworkers-hat-leatherworker-50-1star",
+      "name": "Leatherworker's Hat",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "leatherworkers-shirt-leatherworker-50",
+      "existingId": "leatherworkers-shirt-leatherworker-50-1star",
+      "name": "Leatherworker's Shirt",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "leatherworkers-workboots-leatherworker-50",
+      "existingId": "leatherworkers-workboots-leatherworker-50-1star",
+      "name": "Leatherworker's Workboots",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "militia-caligae-leatherworker-50",
+      "existingId": "militia-caligae-leatherworker-50-1star",
+      "name": "Militia Caligae",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "militia-choker-leatherworker-50",
+      "existingId": "militia-choker-leatherworker-50-1star",
+      "name": "Militia Choker",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "militia-duckbills-leatherworker-50",
+      "existingId": "militia-duckbills-leatherworker-50-1star",
+      "name": "Militia Duckbills",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "militia-harness-leatherworker-50",
+      "existingId": "militia-harness-leatherworker-50-1star",
+      "name": "Militia Harness",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "militia-ringbands-leatherworker-50",
+      "existingId": "militia-ringbands-leatherworker-50-1star",
+      "name": "Militia Ringbands",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "militia-subligar-leatherworker-50",
+      "existingId": "militia-subligar-leatherworker-50-1star",
+      "name": "Militia Subligar",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "hard-hippogryph-leather-leatherworker-50",
+      "existingId": "hard-hippogryph-leather-leatherworker-50-2star",
+      "name": "Hard Hippogryph Leather",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "gryphonskin-choker-leatherworker-50",
+      "existingId": "gryphonskin-choker-leatherworker-50-2star",
+      "name": "Gryphonskin Choker",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "gryphonskin-ring-leatherworker-50",
+      "existingId": "gryphonskin-ring-leatherworker-50-2star",
+      "name": "Gryphonskin Ring",
+      "level": 50,
+      "stars": 2
+    }
+  ],
+  "skippedInvalid": [],
+  "idCollisions": [],
+  "targetCountAfter": 1652
+}

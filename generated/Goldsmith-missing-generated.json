@@ -1,0 +1,423 @@
+{
+  "astral-eye-goldsmith-50": {
+    "name": "Astral Eye",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 1,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Astral Rock",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Wind Crystal",
+        "quantity": 3,
+        "type": "material"
+      }
+    ]
+  },
+  "rose-gold-nugget-goldsmith-50": {
+    "name": "Rose Gold Nugget",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 1,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ore",
+        "quantity": 3,
+        "type": "material"
+      },
+      {
+        "name": "Copper Ore",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Wind Crystal",
+        "quantity": 3,
+        "type": "material"
+      }
+    ]
+  },
+  "aetheryte-ring-goldsmith-50": {
+    "name": "Aetheryte Ring",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 1,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Water Cluster",
+        "quantity": 1,
+        "type": "material"
+      }
+    ]
+  },
+  "alchemists-monocle-goldsmith-50": {
+    "name": "Alchemist's Monocle",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 1,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Darksteel Nugget",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Clear Glass Lens",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Boar Leather",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Crystal",
+        "quantity": 3,
+        "type": "material"
+      },
+      {
+        "name": "Fire Crystal",
+        "quantity": 2,
+        "type": "material"
+      }
+    ]
+  },
+  "blacksmiths-goggles-goldsmith-50": {
+    "name": "Blacksmith's Goggles",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 1,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Hippogryph Leather",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Darksteel Nugget",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Undyed Woolen Cloth",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Clear Glass Lens",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Crystal",
+        "quantity": 3,
+        "type": "material"
+      },
+      {
+        "name": "Fire Crystal",
+        "quantity": 2,
+        "type": "material"
+      }
+    ]
+  },
+  "goldsmiths-turban-goldsmith-50": {
+    "name": "Goldsmith's Turban",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 1,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 2,
+        "type": "recipe"
+      },
+      {
+        "name": "Undyed Linen",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Turquoise",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Rubellite",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Crystal",
+        "quantity": 3,
+        "type": "material"
+      },
+      {
+        "name": "Fire Crystal",
+        "quantity": 2,
+        "type": "material"
+      }
+    ]
+  },
+  "imperial-operative-choker-goldsmith-50": {
+    "name": "Imperial Operative Choker",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 1,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 2,
+        "type": "recipe"
+      },
+      {
+        "name": "Hippogryph Leather",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Crystal",
+        "quantity": 3,
+        "type": "material"
+      },
+      {
+        "name": "Fire Crystal",
+        "quantity": 2,
+        "type": "material"
+      }
+    ]
+  },
+  "rose-gold-ingot-goldsmith-50": {
+    "name": "Rose Gold Ingot",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 2,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 2,
+        "type": "recipe"
+      },
+      {
+        "name": "Peacock Ore",
+        "quantity": 9,
+        "type": "material"
+      },
+      {
+        "name": "Wind Cluster",
+        "quantity": 1,
+        "type": "material"
+      }
+    ]
+  },
+  "rose-gold-bracelets-goldsmith-50": {
+    "name": "Rose Gold Bracelets",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 2,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Ingot",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Cluster",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Fire Cluster",
+        "quantity": 1,
+        "type": "material"
+      }
+    ]
+  },
+  "rose-gold-circlet-goldsmith-50": {
+    "name": "Rose Gold Circlet",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 2,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Legionary Visor",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Rose Gold Ingot",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Cluster",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Fire Cluster",
+        "quantity": 1,
+        "type": "material"
+      }
+    ]
+  },
+  "rose-gold-clasps-goldsmith-50": {
+    "name": "Rose Gold Clasps",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 2,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Ingot",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Darksteel Nugget",
+        "quantity": 2,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Cluster",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Fire Cluster",
+        "quantity": 1,
+        "type": "material"
+      }
+    ]
+  },
+  "rose-gold-ear-cuffs-goldsmith-50": {
+    "name": "Rose Gold Ear Cuffs",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 2,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Ingot",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Basilisk Whetstone",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Cluster",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Fire Cluster",
+        "quantity": 1,
+        "type": "material"
+      }
+    ]
+  },
+  "rose-gold-gorget-goldsmith-50": {
+    "name": "Rose Gold Gorget",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 2,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Ingot",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Hippogryph Leather",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Cluster",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Fire Cluster",
+        "quantity": 1,
+        "type": "material"
+      }
+    ]
+  },
+  "rose-gold-ring-goldsmith-50": {
+    "name": "Rose Gold Ring",
+    "job": "Goldsmith",
+    "level": 50,
+    "stars": 2,
+    "amountCreated": 1,
+    "ingredients": [
+      {
+        "name": "Rose Gold Ingot",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Basilisk Whetstone",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Rose Gold Nugget",
+        "quantity": 1,
+        "type": "recipe"
+      },
+      {
+        "name": "Wind Cluster",
+        "quantity": 1,
+        "type": "material"
+      },
+      {
+        "name": "Fire Cluster",
+        "quantity": 1,
+        "type": "material"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "targetFile": "C:\\Users\\sorin\\onedrive\\desktop\\ffxiv_material_tracker_app\\src\\data\\recipes\\goldsmith.json",
+  "generatedFile": "C:\\Users\\sorin\\onedrive\\desktop\\ffxiv_material_tracker_app\\generated\\goldsmith-missing-generated.json",
+  "writeMode": false,
+  "targetCountBefore": 2057,
+  "generatedCount": 14,
+  "added": [],
+  "skippedExactId": [],
+  "skippedLogicalDuplicate": [
+    {
+      "generatedId": "astral-eye-goldsmith-50",
+      "existingId": "astral-eye-goldsmith-50-1star",
+      "name": "Astral Eye",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "rose-gold-nugget-goldsmith-50",
+      "existingId": "rose-gold-nugget-goldsmith-50-1star",
+      "name": "Rose Gold Nugget",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "aetheryte-ring-goldsmith-50",
+      "existingId": "aetheryte-ring-goldsmith-50-1star",
+      "name": "Aetheryte Ring",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "alchemists-monocle-goldsmith-50",
+      "existingId": "alchemists-monocle-goldsmith-50-1star",
+      "name": "Alchemist's Monocle",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "blacksmiths-goggles-goldsmith-50",
+      "existingId": "blacksmiths-goggles-goldsmith-50-1star",
+      "name": "Blacksmith's Goggles",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "goldsmiths-turban-goldsmith-50",
+      "existingId": "goldsmiths-turban-goldsmith-50-1star",
+      "name": "Goldsmith's Turban",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "imperial-operative-choker-goldsmith-50",
+      "existingId": "imperial-operative-choker-goldsmith-50-1star",
+      "name": "Imperial Operative Choker",
+      "level": 50,
+      "stars": 1
+    },
+    {
+      "generatedId": "rose-gold-ingot-goldsmith-50",
+      "existingId": "rose-gold-ingot-goldsmith-50-2star",
+      "name": "Rose Gold Ingot",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "rose-gold-bracelets-goldsmith-50",
+      "existingId": "rose-gold-bracelets-goldsmith-50-2star",
+      "name": "Rose Gold Bracelets",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "rose-gold-circlet-goldsmith-50",
+      "existingId": "rose-gold-circlet-goldsmith-50-2star",
+      "name": "Rose Gold Circlet",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "rose-gold-clasps-goldsmith-50",
+      "existingId": "rose-gold-clasps-goldsmith-50-2star",
+      "name": "Rose Gold Clasps",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "rose-gold-ear-cuffs-goldsmith-50",
+      "existingId": "rose-gold-ear-cuffs-goldsmith-50-2star",
+      "name": "Rose Gold Ear Cuffs",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "rose-gold-gorget-goldsmith-50",
+      "existingId": "rose-gold-gorget-goldsmith-50-2star",
+      "name": "Rose Gold Gorget",
+      "level": 50,
+      "stars": 2
+    },
+    {
+      "generatedId": "rose-gold-ring-goldsmith-50",
+      "existingId": "rose-gold-ring-goldsmith-50-2star",
+      "name": "Rose Gold Ring",
+      "level": 50,
+      "stars": 2
+    }
+  ],
+  "skippedInvalid": [],
+  "idCollisions": [],
+  "targetCountAfter": 2057
+}

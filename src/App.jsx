@@ -9,6 +9,7 @@ import {
 import "./App.css";
 import recipes from "./data/recipes/index.js";
 import icons from "./data/icons.json";
+import materialSources from "./data/materialSources.json";
 import {
   calculateCraftingListRawMaterials,
   calculateRawMaterials,
@@ -262,6 +263,164 @@ function sortShoppingMaterials(entries) {
   });
 }
 
+function getMaterialSourceEntry(materialName) {
+  return materialSources[slugifyItemName(materialName)] || null;
+}
+
+function getSourceTitle(source) {
+  const parts = [
+    source.gatheringClass,
+    source.gatheringType,
+    source.level ? `Lv. ${source.level}` : null,
+  ].filter(Boolean);
+
+  return parts.length > 0 ? parts.join(" · ") : "Source";
+}
+
+function getSourceLocation(source) {
+  const locationParts = [source.zone, source.area].filter(Boolean);
+
+  if (locationParts.length > 0) {
+    return locationParts.join(" — ");
+  }
+
+  if (source.zoneId || source.mapId) {
+    return `Map ID ${source.mapId ?? "?"}, Zone ID ${source.zoneId ?? "?"}`;
+  }
+
+  return "Location unknown";
+}
+
+function getSourceTimeText(source) {
+  if (!source.timed) {
+    return "Always available";
+  }
+
+  const times =
+    source.spawnTimes && source.spawnTimes.length > 0
+      ? source.spawnTimes.join(", ")
+      : "Timed";
+
+  return source.duration ? `${times} for ${source.duration}` : times;
+}
+
+function MaterialSourceDetails({ materialName }) {
+  if (!materialName) {
+    return (
+      <div className="material-source-box empty small-empty">
+        Select a material to see where it comes from.
+      </div>
+    );
+  }
+
+  const entry = getMaterialSourceEntry(materialName);
+
+  if (!entry) {
+    return (
+      <div className="material-source-box empty small-empty">
+        No source data found for {materialName}.
+      </div>
+    );
+  }
+
+  if (!entry.sources || entry.sources.length === 0) {
+    return (
+      <div className="material-source-box empty small-empty">
+        {materialName} does not have a direct gathering source yet.
+        <br />
+        Status: {entry.status}
+      </div>
+    );
+  }
+
+  return (
+    <div className="material-source-box">
+      <div className="material-source-header">
+        <span className="item-title-row">
+          <ItemIcon name={materialName} small />
+          <strong>{materialName}</strong>
+        </span>
+
+        <span className="badge">{entry.sources.length} source(s)</span>
+      </div>
+
+      <div className="material-source-list">
+        {entry.sources.slice(0, 5).map((source, index) => (
+          <div key={`${materialName}-source-${index}`} className="source-card">
+            <strong>{getSourceTitle(source)}</strong>
+
+            <span>{getSourceLocation(source)}</span>
+
+            {source.coordinates && (
+              <span>
+                X: {source.coordinates.x} · Y: {source.coordinates.y}
+              </span>
+            )}
+
+            <span>
+              {source.nodeType ? `${source.nodeType} · ` : ""}
+              {getSourceTimeText(source)}
+            </span>
+
+            {source.hidden && <span>Hidden item/node</span>}
+          </div>
+        ))}
+
+        {entry.sources.length > 5 && (
+          <p className="source-overflow-note">
+            Showing first 5 of {entry.sources.length} sources.
+          </p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function ExpandableMaterialRow({
+  materialName,
+  quantity,
+  sourceKey,
+  selectedSourceKey,
+  onToggle,
+  largeIcon = false,
+  showMaterialBadge = false,
+}) {
+  const isExpanded = selectedSourceKey === sourceKey;
+
+  return (
+    <div className={isExpanded ? "card material-card expanded" : "card material-card"}>
+      <button
+        className="material-card-button"
+        onClick={() => onToggle(sourceKey)}
+        type="button"
+      >
+        <span className="item-title-row">
+          <ItemIcon name={materialName} small={!largeIcon} />
+          <strong>{materialName}</strong>
+        </span>
+
+        <span className="material-row-actions">
+          {showMaterialBadge && <span className="badge">material</span>}
+
+          {quantity !== undefined && quantity !== null && (
+            <strong>{quantity}</strong>
+          )}
+
+          <span className="material-expand-indicator">
+            {isExpanded ? "−" : "+"}
+          </span>
+        </span>
+      </button>
+
+      {isExpanded && (
+        <div className="material-source-panel">
+          <MaterialSourceDetails materialName={materialName} />
+        </div>
+      )}
+    </div>
+  );
+}
+
 function App() {
   const [search, setSearch] = useState("");
   const [selectedJob, setSelectedJob] = useState("Carpenter");
@@ -269,6 +428,7 @@ function App() {
   const [selectedRecipeType, setSelectedRecipeType] = useState("standard");
   const [selectedRecipeId, setSelectedRecipeId] = useState(null);
   const [selectedIngredient, setSelectedIngredient] = useState(null);
+  const [selectedSourceKey, setSelectedSourceKey] = useState(null);
   const [craftingList, setCraftingList] = useState(() => loadCraftingList());
   const [copyStatus, setCopyStatus] = useState("");
 
@@ -302,11 +462,18 @@ function App() {
       ? findBestRecipeForItem(RECIPES, selectedIngredient.name, mainRecipe?.job)
       : null;
 
+  function toggleSourceMaterial(sourceKey) {
+    setSelectedSourceKey((currentKey) =>
+      currentKey === sourceKey ? null : sourceKey
+    );
+  }
+
   function selectJob(job) {
     setSelectedJob(job);
     setSelectedRecipeType("standard");
     setSelectedRecipeId(null);
     setSelectedIngredient(null);
+    setSelectedSourceKey(null);
     setSearch("");
   }
 
@@ -315,22 +482,26 @@ function App() {
     setSelectedRecipeType("standard");
     setSelectedRecipeId(null);
     setSelectedIngredient(null);
+    setSelectedSourceKey(null);
   }
 
   function selectRecipeType(recipeType) {
     setSelectedRecipeType(recipeType);
     setSelectedRecipeId(null);
     setSelectedIngredient(null);
+    setSelectedSourceKey(null);
   }
 
   function selectRecipe(recipeId) {
     setSelectedRecipeId(recipeId);
     setSelectedIngredient(null);
+    setSelectedSourceKey(null);
   }
 
   function selectIngredient(ingredient) {
     const normalizedIngredient = normalizeIngredientType(RECIPES, ingredient);
     setSelectedIngredient(normalizedIngredient);
+    setSelectedSourceKey(null);
   }
 
   function isRecipeInCraftingList(recipeId) {
@@ -418,6 +589,7 @@ function App() {
 
   function clearCraftingList() {
     setCraftingList([]);
+    setSelectedSourceKey(null);
   }
 
   function buildShoppingListText() {
@@ -426,39 +598,45 @@ function App() {
     );
 
     if (materialRows.length === 0) {
-      return "FFXIV Crafting Shopping List\n\nNo materials needed.";
+      return "";
     }
 
-    const lines = materialRows.map(
-      ([materialName, quantity]) => `${materialName} x${quantity}`
-    );
-
-    return ["FFXIV Crafting Shopping List", "", ...lines].join("\n");
+    return materialRows
+      .map(([materialName, quantity]) => `${materialName}: ${quantity}`)
+      .join("\n");
   }
 
   async function copyShoppingList() {
     const text = buildShoppingListText();
 
+    if (!text) {
+      return;
+    }
+
     try {
       await navigator.clipboard.writeText(text);
-      setCopyStatus("Copied shopping list to clipboard.");
+      setCopyStatus("Copied shopping list.");
     } catch {
-      setCopyStatus("Could not copy automatically. Use the text box below.");
+      setCopyStatus("Could not copy automatically. You can copy from the box.");
     }
+
+    window.setTimeout(() => {
+      setCopyStatus("");
+    }, 2200);
   }
 
   return (
     <main className="app">
       <header className="app-heading">
-        <h1>FFXIV Crafting Shopping List</h1>
+        <h1>FFXIV Shopping List</h1>
         <p>
-          Browse recipes by crafting class and level range, then build a
-          personal crafting list.
+          Pick recipes, build a crafting queue, and generate one clean material
+          list.
         </p>
       </header>
 
-      <div className="crafting-filters">
-        <nav className="job-tabs" aria-label="Crafting classes">
+      <section className="crafting-filters">
+        <div className="job-tabs">
           {CRAFTING_JOBS.map((job) => (
             <button
               key={job}
@@ -468,8 +646,7 @@ function App() {
               {job}
             </button>
           ))}
-        </nav>
-
+        </div>
         <div className="filter-section">
           <div className="button-grid level-grid">
             {LEVEL_RANGES.map((levelRange) => (
@@ -487,7 +664,7 @@ function App() {
             ))}
           </div>
         </div>
-      </div>
+      </section>
 
       <section className="columns five-columns">
         <div className="panel">
@@ -496,48 +673,42 @@ function App() {
             1) Crafting Log
           </h2>
 
+          <p className="panel-subtitle">
+            {selectedJob} recipes from {selectedLevelRange.label}.
+          </p>
+
           <input
             className="search panel-search"
             value={search}
             onChange={(event) => setSearch(event.target.value)}
-            placeholder="Search visible recipes..."
+            placeholder="Search recipes..."
           />
-
-          <div className="quick-filter-group" aria-label="Recipe type filters">
-            {RECIPE_TYPE_FILTERS.map((filter) => (
-              <button
-                key={filter.value}
-                className={
-                  selectedRecipeType === filter.value
-                    ? "quick-filter-button active"
-                    : "quick-filter-button"
-                }
-                onClick={() => selectRecipeType(filter.value)}
-              >
-                {filter.label}
-              </button>
-            ))}
-          </div>
-
-          <p className="filtered-summary">
-            Showing {recipeIds.length} {selectedJob} recipes in levels{" "}
-            {selectedLevelRange.label}.
-          </p>
-
-          {recipeIds.length > 0 && (
+        <div className="quick-filter-group">
+          {RECIPE_TYPE_FILTERS.map((filter) => (
             <button
-              className="secondary-wide-button"
-              onClick={addVisibleRecipesToList}
+              key={filter.value}
+              className={
+                selectedRecipeType === filter.value
+                  ? "quick-filter-button active"
+                  : "quick-filter-button"
+              }
+              onClick={() => selectRecipeType(filter.value)}
             >
-              Add All Visible Recipes
+              {filter.label}
             </button>
-          )}
+          ))}
+        </div>
+          <button className="secondary-wide-button" onClick={addVisibleRecipesToList}>
+            Add Visible Recipes to Crafting List
+          </button>
+
+          <div className="filtered-summary">
+            Showing {recipeIds.length} recipe(s).
+          </div>
 
           <div className="list">
             {recipeIds.length === 0 && (
-              <div className="empty small-empty">
-                No recipes match this class, range, and filter.
-              </div>
+              <div className="empty">No recipes match the current filters.</div>
             )}
 
             {recipeIds.map((recipeId) => {
@@ -550,7 +721,7 @@ function App() {
                   key={recipeId}
                   className={
                     active
-                      ? "card active recipe-list-card"
+                      ? "card recipe-list-card active"
                       : "card recipe-list-card"
                   }
                 >
@@ -565,10 +736,11 @@ function App() {
                         {recipe.name}
                         {getStarLabel(recipe.stars)}
                       </strong>
+
                       <span>
                         Lv. {recipe.level}
-                        {getStarLabel(recipe.stars)} | {recipe.job}
-                        {recipe.category ? ` | ${recipe.category}` : ""}
+                        {getStarLabel(recipe.stars)} | Makes{" "}
+                        {recipe.amountCreated}
                       </span>
                     </span>
                   </button>
@@ -626,6 +798,23 @@ function App() {
               const type = craftable ? "recipe" : "material";
               const active = selectedIngredient?.name === ingredient.name;
 
+              if (type === "material") {
+                return (
+                  <ExpandableMaterialRow
+                    key={`${ingredient.name}-${ingredient.quantity}`}
+                    materialName={ingredient.name}
+                    quantity={ingredient.quantity}
+                    sourceKey={`ingredient-${selectedRecipeId}-${slugifyItemName(
+                      ingredient.name
+                    )}`}
+                    selectedSourceKey={selectedSourceKey}
+                    onToggle={toggleSourceMaterial}
+                    largeIcon
+                    showMaterialBadge
+                  />
+                );
+              }
+
               return (
                 <button
                   key={`${ingredient.name}-${ingredient.quantity}`}
@@ -638,35 +827,15 @@ function App() {
                       <strong>{ingredient.name}</strong>
                     </span>
 
-                    <span
-                      className={type === "recipe" ? "badge recipe" : "badge"}
-                    >
-                      {type}
-                    </span>
+                    <span className="badge recipe">{type}</span>
                   </div>
+
                   <span>Quantity needed: {ingredient.quantity}</span>
                 </button>
               );
             })}
           </div>
 
-          {mainRecipe && (
-            <div className="raw-breakdown">
-              <h3>Raw Material Total</h3>
-
-              {sortShoppingMaterials(Object.entries(rawMaterialTotals)).map(
-                ([materialName, quantity]) => (
-                  <div key={materialName} className="raw-row">
-                    <span className="item-title-row">
-                      <ItemIcon name={materialName} small />
-                      <span>{materialName}</span>
-                    </span>
-                    <strong>{quantity}</strong>
-                  </div>
-                )
-              )}
-            </div>
-          )}
         </div>
 
         <div className="panel">
@@ -704,6 +873,7 @@ function App() {
                 </span>
 
                 <span>Needed by main recipe: {selectedIngredient.quantity}</span>
+
                 <span>
                   Lv. {expandedRecipe.level}
                   {getStarLabel(expandedRecipe.stars)} | {expandedRecipe.job}
@@ -714,6 +884,23 @@ function App() {
                 {expandedRecipe.ingredients.map((ingredient) => {
                   const craftable = isCraftable(RECIPES, ingredient.name);
                   const type = craftable ? "recipe" : "material";
+
+                  if (type === "material") {
+                    return (
+                      <ExpandableMaterialRow
+                        key={`${ingredient.name}-${ingredient.quantity}`}
+                        materialName={ingredient.name}
+                        quantity={ingredient.quantity}
+                        sourceKey={`expanded-${expandedRecipe.name}-${slugifyItemName(
+                          ingredient.name
+                        )}`}
+                        selectedSourceKey={selectedSourceKey}
+                        onToggle={toggleSourceMaterial}
+                        largeIcon
+                        showMaterialBadge
+                      />
+                    );
+                  }
 
                   return (
                     <div
@@ -726,14 +913,9 @@ function App() {
                           <strong>{ingredient.name}</strong>
                         </span>
 
-                        <span
-                          className={
-                            type === "recipe" ? "badge recipe" : "badge"
-                          }
-                        >
-                          {type}
-                        </span>
+                        <span className="badge recipe">{type}</span>
                       </div>
+
                       <span>Quantity needed: {ingredient.quantity}</span>
                     </div>
                   );
@@ -858,18 +1040,20 @@ function App() {
               {copyStatus && <p className="copy-status">{copyStatus}</p>}
 
               <div className="raw-breakdown no-top-border">
-                {sortShoppingMaterials(
-                  Object.entries(craftingListRawTotals)
-                ).map(([materialName, quantity]) => (
-                  <div key={materialName} className="raw-row">
-                    <span className="item-title-row">
-                      <ItemIcon name={materialName} small />
-                      <span>{materialName}</span>
-                    </span>
-
-                    <strong>{quantity}</strong>
-                  </div>
-                ))}
+                <div className="material-list">
+                  {sortShoppingMaterials(
+                    Object.entries(craftingListRawTotals)
+                  ).map(([materialName, quantity]) => (
+                    <ExpandableMaterialRow
+                      key={materialName}
+                      materialName={materialName}
+                      quantity={quantity}
+                      sourceKey={`grand-${slugifyItemName(materialName)}`}
+                      selectedSourceKey={selectedSourceKey}
+                      onToggle={toggleSourceMaterial}
+                    />
+                  ))}
+                </div>
               </div>
 
               <textarea
@@ -883,21 +1067,21 @@ function App() {
         </div>
       </section>
 
-        <footer className="support-footer">
-          <a
-            className="support-card"
-            href="https://ko-fi.com/faytestudios"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <strong>Support on Ko-fi</strong>
-            <span>Help keep updates and new features coming.</span>
-          </a>
+      <footer className="support-footer">
+        <a
+          className="support-card"
+          href="https://ko-fi.com/faytestudios"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Support on Ko-fi</strong>
+          <span>Help keep updates and new features coming.</span>
+        </a>
 
-          <span className="support-disclaimer">
-            Fan-made FFXIV crafting utility. Not affiliated with Square Enix.
-          </span>
-        </footer>
+        <span className="support-disclaimer">
+          Fan-made FFXIV crafting utility. Not affiliated with Square Enix.
+        </span>
+      </footer>
     </main>
   );
 }

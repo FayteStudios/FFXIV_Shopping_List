@@ -13,6 +13,7 @@ import materialSources from "./data/materialSources.json";
 import {
   calculateCraftingListRawMaterials,
   calculateRawMaterials,
+  createRecipeOutputIndex,
   findBestRecipeForItem,
   isCraftable,
   normalizeIngredientType,
@@ -178,6 +179,18 @@ function getStarLabel(stars = 0) {
 
   return " " + "★".repeat(stars);
 }
+
+  const craftingListRawTotals = useMemo(() => {
+    return calculateCraftingListRawMaterials(RECIPES, craftingList);
+  }, [craftingList]);
+
+  const shoppingMaterialRows = useMemo(() => {
+    return sortShoppingMaterials(Object.entries(craftingListRawTotals));
+  }, [craftingListRawTotals]);
+
+  const craftingRecipeIdSet = useMemo(() => {
+    return new Set(craftingList.map((entry) => entry.recipeId));
+  }, [craftingList]);
 
 function getFilteredRecipeIds(
   recipes,
@@ -432,6 +445,10 @@ function App() {
   const [craftingList, setCraftingList] = useState(() => loadCraftingList());
   const [copyStatus, setCopyStatus] = useState("");
 
+  const recipeOutputIndex = useMemo(() => {
+    return createRecipeOutputIndex(RECIPES);
+  }, []);
+
   useEffect(() => {
     saveCraftingList(craftingList);
   }, [craftingList]);
@@ -448,24 +465,26 @@ function App() {
 
   const mainRecipe = selectedRecipeId ? RECIPES[selectedRecipeId] : null;
 
-  const rawMaterialTotals = selectedRecipeId
-    ? calculateRawMaterials(RECIPES, selectedRecipeId)
-    : {};
+  const rawMaterialTotals = useMemo(() => {
+    if (!selectedRecipeId) {
+      return {};
+    }
 
-  const craftingListRawTotals = calculateCraftingListRawMaterials(
+    return calculateRawMaterials(RECIPES, selectedRecipeId);
+  }, [selectedRecipeId]);
+
+const expandedRecipe = useMemo(() => {
+  if (selectedIngredient?.type !== "recipe") {
+    return null;
+  }
+
+  return findBestRecipeForItem(
     RECIPES,
-    craftingList
+    selectedIngredient.name,
+    mainRecipe?.job,
+    recipeOutputIndex
   );
-
-  const expandedRecipe =
-    selectedIngredient?.type === "recipe"
-      ? findBestRecipeForItem(RECIPES, selectedIngredient.name, mainRecipe?.job)
-      : null;
-
-  function toggleSourceMaterial(sourceKey) {
-    setSelectedSourceKey((currentKey) =>
-      currentKey === sourceKey ? null : sourceKey
-    );
+}, [selectedIngredient, mainRecipe?.job, recipeOutputIndex]);
   }
 
   function selectJob(job) {
@@ -499,14 +518,18 @@ function App() {
   }
 
   function selectIngredient(ingredient) {
-    const normalizedIngredient = normalizeIngredientType(RECIPES, ingredient);
+    const normalizedIngredient = normalizeIngredientType(
+      RECIPES,
+      ingredient,
+      recipeOutputIndex
+    );
     setSelectedIngredient(normalizedIngredient);
     setSelectedSourceKey(null);
   }
 
-  function isRecipeInCraftingList(recipeId) {
-    return craftingList.some((entry) => entry.recipeId === recipeId);
-  }
+function isRecipeInCraftingList(recipeId) {
+  return craftingRecipeIdSet.has(recipeId);
+}
 
   function toggleRecipeInCraftingList(recipeId) {
     setCraftingList((currentList) => {
@@ -593,9 +616,7 @@ function App() {
   }
 
   function buildShoppingListText() {
-    const materialRows = sortShoppingMaterials(
-      Object.entries(craftingListRawTotals)
-    );
+    const materialRows = shoppingMaterialRows;
 
     if (materialRows.length === 0) {
       return "";
@@ -667,12 +688,8 @@ function App() {
       </section>
 
       <section className="columns five-columns">
-        <div className="panel">
-          <h2>
-            <BookOpen className="panel-icon" />
-            1) Crafting Log
-          </h2>
-
+        <section className="panel">
+          <h2>1) Crafting Log</h2>
           <p className="panel-subtitle">
             {selectedJob} recipes from {selectedLevelRange.label}.
           </p>
@@ -683,88 +700,42 @@ function App() {
             onChange={(event) => setSearch(event.target.value)}
             placeholder="Search recipes..."
           />
-        <div className="quick-filter-group">
-          {RECIPE_TYPE_FILTERS.map((filter) => (
-            <button
-              key={filter.value}
-              className={
-                selectedRecipeType === filter.value
-                  ? "quick-filter-button active"
-                  : "quick-filter-button"
-              }
-              onClick={() => selectRecipeType(filter.value)}
-            >
-              {filter.label}
-            </button>
-          ))}
-        </div>
-          <button className="secondary-wide-button" onClick={addVisibleRecipesToList}>
+
+          <div className="quick-filter-group">
+            {RECIPE_TYPE_FILTERS.map((filter) => (
+              <button
+                key={filter.value}
+                className={
+                  selectedRecipeType === filter.value
+                    ? "quick-filter-button active"
+                    : "quick-filter-button"
+                }
+                onClick={() => selectRecipeType(filter.value)}
+                type="button"
+              >
+                {filter.label}
+              </button>
+            ))}
+          </div>
+
+          <button
+            className="secondary-wide-button"
+            type="button"
+            onClick={addVisibleRecipesToList}
+          >
             Add Visible Recipes to Crafting List
           </button>
 
-          <div className="filtered-summary">
+          <p className="filtered-summary">
             Showing {recipeIds.length} recipe(s).
+          </p>
+
+          <div className="panel-scroll">
+            <div className="list">
+              {/* recipe cards here */}
+            </div>
           </div>
-
-          <div className="list">
-            {recipeIds.length === 0 && (
-              <div className="empty">No recipes match the current filters.</div>
-            )}
-
-            {recipeIds.map((recipeId) => {
-              const recipe = RECIPES[recipeId];
-              const active = selectedRecipeId === recipeId;
-              const inCraftingList = isRecipeInCraftingList(recipeId);
-
-              return (
-                <div
-                  key={recipeId}
-                  className={
-                    active
-                      ? "card recipe-list-card active"
-                      : "card recipe-list-card"
-                  }
-                >
-                  <button
-                    className="recipe-select-button"
-                    onClick={() => selectRecipe(recipeId)}
-                  >
-                    <ItemIcon recipe={recipe} />
-
-                    <span className="recipe-card-text">
-                      <strong>
-                        {recipe.name}
-                        {getStarLabel(recipe.stars)}
-                      </strong>
-
-                      <span>
-                        Lv. {recipe.level}
-                        {getStarLabel(recipe.stars)} | Makes{" "}
-                        {recipe.amountCreated}
-                      </span>
-                    </span>
-                  </button>
-
-                  <button
-                    className={
-                      inCraftingList
-                        ? "recipe-toggle-button checked"
-                        : "recipe-toggle-button"
-                    }
-                    onClick={() => toggleRecipeInCraftingList(recipeId)}
-                    title={
-                      inCraftingList
-                        ? "Remove from Crafting List"
-                        : "Add to Crafting List"
-                    }
-                  >
-                    {inCraftingList ? "✓" : "+"}
-                  </button>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+        </section>
 
         <div className="panel">
           <h2>
@@ -794,7 +765,7 @@ function App() {
             )}
 
             {mainRecipe?.ingredients.map((ingredient) => {
-              const craftable = isCraftable(RECIPES, ingredient.name);
+              const craftable = isCraftable(RECIPES, ingredient.name, recipeOutputIndex);
               const type = craftable ? "recipe" : "material";
               const active = selectedIngredient?.name === ingredient.name;
 
@@ -882,7 +853,7 @@ function App() {
 
               <div className="list">
                 {expandedRecipe.ingredients.map((ingredient) => {
-                  const craftable = isCraftable(RECIPES, ingredient.name);
+                  const craftable = isCraftable(RECIPES, ingredient.name, recipeOutputIndex);
                   const type = craftable ? "recipe" : "material";
 
                   if (type === "material") {
@@ -926,21 +897,16 @@ function App() {
         </div>
 
         <div className="panel">
-          <h2>
-            <ClipboardList className="panel-icon" />
-            4) Crafting List
-          </h2>
+          <section className="panel">
+            <h2>4) Crafting List</h2>
+            <p className="panel-subtitle">
+              Recipes you plan to complete. Saved locally in this browser.
+            </p>
 
-          <p className="panel-subtitle">
-            Recipes you plan to complete. Saved locally in this browser.
-          </p>
-
-          {craftingList.length === 0 && (
-            <div className="empty">
-              Your crafting list is empty. Select a recipe and click “Add to
-              Crafting List.”
+            <div className="panel-scroll">
+              {/* crafting list contents here */}
             </div>
-          )}
+          </section>
 
           {craftingList.length > 0 && (
             <>
@@ -1012,20 +978,16 @@ function App() {
         </div>
 
         <div className="panel">
-          <h2>
-            <ShoppingBasket className="panel-icon" />
-            5) Grand Shopping List
-          </h2>
+          <section className="panel">
+            <h2>5) Grand Shopping List</h2>
+            <p className="panel-subtitle">
+              Combined raw materials for every recipe in your Crafting List.
+            </p>
 
-          <p className="panel-subtitle">
-            Combined raw materials for every recipe in your Crafting List.
-          </p>
-
-          {craftingList.length === 0 && (
-            <div className="empty">
-              Add recipes to your Crafting List to generate a shopping list.
+            <div className="panel-scroll">
+              {/* shopping list contents here */}
             </div>
-          )}
+          </section>
 
           {craftingList.length > 0 && (
             <>

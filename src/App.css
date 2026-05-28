@@ -1118,3 +1118,36 @@ button:active {
   font-size: 13px;
 
 }
+
+.panel {
+  max-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 520px;
+  overflow: hidden;
+}
+
+.panel-scroll {
+  min-height: 0;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.panel-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.panel-scroll::-webkit-scrollbar-track {
+  background: rgba(124, 85, 32, 0.08);
+  border-radius: 999px;
+}
+
+.panel-scroll::-webkit-scrollbar-thumb {
+  background: rgba(124, 85, 32, 0.32);
+  border-radius: 999px;
+}
+
+.panel-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 85, 32, 0.48);
+}

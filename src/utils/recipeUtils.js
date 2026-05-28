@@ -5,12 +5,41 @@ export function getRecipeEntries(recipes) {
   }));
 }
 
-export function findRecipesByOutputName(recipes, itemName) {
-  return getRecipeEntries(recipes).filter((recipe) => recipe.name === itemName);
+export function createRecipeOutputIndex(recipes) {
+  const outputIndex = new Map();
+
+  for (const [recipeId, recipe] of Object.entries(recipes)) {
+    const existing = outputIndex.get(recipe.name) || [];
+    existing.push({
+      recipeId,
+      ...recipe,
+    });
+    outputIndex.set(recipe.name, existing);
+  }
+
+  return outputIndex;
 }
 
-export function findBestRecipeForItem(recipes, itemName, preferredJob = null) {
-  const matchingRecipes = findRecipesByOutputName(recipes, itemName);
+function getOutputIndex(recipes, outputIndex) {
+  return outputIndex || createRecipeOutputIndex(recipes);
+}
+
+export function findRecipesByOutputName(recipes, itemName, outputIndex = null) {
+  const index = getOutputIndex(recipes, outputIndex);
+  return index.get(itemName) || [];
+}
+
+export function findBestRecipeForItem(
+  recipes,
+  itemName,
+  preferredJob = null,
+  outputIndex = null
+) {
+  const matchingRecipes = findRecipesByOutputName(
+    recipes,
+    itemName,
+    outputIndex
+  );
 
   if (matchingRecipes.length === 0) {
     return null;
@@ -29,14 +58,16 @@ export function findBestRecipeForItem(recipes, itemName, preferredJob = null) {
   return matchingRecipes[0];
 }
 
-export function isCraftable(recipes, itemName) {
-  return findRecipesByOutputName(recipes, itemName).length > 0;
+export function isCraftable(recipes, itemName, outputIndex = null) {
+  return findRecipesByOutputName(recipes, itemName, outputIndex).length > 0;
 }
 
-export function normalizeIngredientType(recipes, ingredient) {
+export function normalizeIngredientType(recipes, ingredient, outputIndex = null) {
   return {
     ...ingredient,
-    type: isCraftable(recipes, ingredient.name) ? "recipe" : "material",
+    type: isCraftable(recipes, ingredient.name, outputIndex)
+      ? "recipe"
+      : "material",
   };
 }
 
@@ -44,7 +75,9 @@ export function calculateRawMaterials(
   recipes,
   recipeId,
   multiplier = 1,
-  preferredJob = null
+  preferredJob = null,
+  outputIndex = null,
+  rawMaterialCache = new Map()
 ) {
   const recipe = recipes[recipeId];
 
@@ -52,15 +85,24 @@ export function calculateRawMaterials(
     return {};
   }
 
-  const totals = {};
   const activePreferredJob = preferredJob || recipe.job;
+  const cacheKey = `${recipeId}|${multiplier}|${activePreferredJob}`;
+
+  if (rawMaterialCache.has(cacheKey)) {
+    return { ...rawMaterialCache.get(cacheKey) };
+  }
+
+  const index = getOutputIndex(recipes, outputIndex);
+  const totals = {};
 
   for (const ingredient of recipe.ingredients) {
     const totalQuantity = ingredient.quantity * multiplier;
+
     const nestedRecipe = findBestRecipeForItem(
       recipes,
       ingredient.name,
-      activePreferredJob
+      activePreferredJob,
+      index
     );
 
     if (nestedRecipe) {
@@ -68,7 +110,9 @@ export function calculateRawMaterials(
         recipes,
         nestedRecipe.recipeId,
         totalQuantity,
-        activePreferredJob
+        activePreferredJob,
+        index,
+        rawMaterialCache
       );
 
       for (const [materialName, materialQuantity] of Object.entries(
@@ -81,17 +125,23 @@ export function calculateRawMaterials(
     }
   }
 
+  rawMaterialCache.set(cacheKey, { ...totals });
   return totals;
 }
 
 export function calculateCraftingListRawMaterials(recipes, craftingList) {
   const totals = {};
+  const outputIndex = createRecipeOutputIndex(recipes);
+  const rawMaterialCache = new Map();
 
   for (const entry of craftingList) {
     const recipeTotals = calculateRawMaterials(
       recipes,
       entry.recipeId,
-      entry.quantity
+      entry.quantity,
+      null,
+      outputIndex,
+      rawMaterialCache
     );
 
     for (const [materialName, materialQuantity] of Object.entries(recipeTotals)) {

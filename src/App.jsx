@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
 import {
-  BookOpen,
   ClipboardList,
   PackageSearch,
   ScrollText,
@@ -62,9 +61,6 @@ const RECIPE_TYPE_FILTERS = [
   { label: "Furniture", value: "furniture" },
   { label: "Special", value: "special" },
 ];
-
-const ELEMENT_ORDER = ["Fire", "Ice", "Wind", "Earth", "Lightning", "Water"];
-const CATALYST_TYPE_ORDER = ["Shard", "Crystal", "Cluster"];
 
 const ICON_BASE_PATH = `${import.meta.env.BASE_URL}icons/items/`;
 
@@ -130,14 +126,28 @@ function recipeMatchesLevelRange(recipe, selectedLevelRange) {
   );
 }
 
-function recipeMatchesSearch(recipeName, search) {
+function recipeMatchesSearch(recipe, search) {
   const query = search.trim().toLowerCase();
 
   if (!query) {
     return true;
   }
 
-  return recipeName.toLowerCase().includes(query);
+  const terms = query.split(/\s+/).filter(Boolean);
+
+  const searchableText = [
+    recipe.name,
+    recipe.job,
+    recipe.category,
+    recipe.level,
+    recipe.stars ? "star starred expert" : "",
+    ...(recipe.ingredients || []).map((ingredient) => ingredient.name),
+  ]
+    .filter((value) => value !== undefined && value !== null)
+    .join(" ")
+    .toLowerCase();
+
+  return terms.every((term) => searchableText.includes(term));
 }
 
 function isSpecialRecipe(recipe) {
@@ -180,18 +190,6 @@ function getStarLabel(stars = 0) {
   return " " + "★".repeat(stars);
 }
 
-  const craftingListRawTotals = useMemo(() => {
-    return calculateCraftingListRawMaterials(RECIPES, craftingList);
-  }, [craftingList]);
-
-  const shoppingMaterialRows = useMemo(() => {
-    return sortShoppingMaterials(Object.entries(craftingListRawTotals));
-  }, [craftingListRawTotals]);
-
-  const craftingRecipeIdSet = useMemo(() => {
-    return new Set(craftingList.map((entry) => entry.recipeId));
-  }, [craftingList]);
-
 function getFilteredRecipeIds(
   recipes,
   selectedJob,
@@ -199,20 +197,29 @@ function getFilteredRecipeIds(
   search,
   selectedRecipeType
 ) {
+  const hasSearch = search.trim().length > 0;
+
   return Object.keys(recipes)
     .filter((recipeId) => {
       const recipe = recipes[recipeId];
 
+      if (hasSearch) {
+        return recipeMatchesSearch(recipe, search);
+      }
+
       return (
         recipeMatchesJob(recipe, selectedJob) &&
         recipeMatchesLevelRange(recipe, selectedLevelRange) &&
-        recipeMatchesSearch(recipe.name, search) &&
         recipeMatchesTypeFilter(recipe, selectedRecipeType)
       );
     })
     .sort((a, b) => {
       const recipeA = recipes[a];
       const recipeB = recipes[b];
+
+      if (hasSearch && recipeA.job !== recipeB.job) {
+        return recipeA.job.localeCompare(recipeB.job);
+      }
 
       if (recipeA.level !== recipeB.level) {
         return recipeA.level - recipeB.level;
@@ -229,53 +236,11 @@ function getFilteredRecipeIds(
     });
 }
 
-function getCatalystSortInfo(materialName) {
-  const parts = materialName.split(" ");
-
-  if (parts.length !== 2) {
-    return null;
-  }
-
-  const [element, catalystType] = parts;
-
-  const elementIndex = ELEMENT_ORDER.indexOf(element);
-  const catalystTypeIndex = CATALYST_TYPE_ORDER.indexOf(catalystType);
-
-  if (elementIndex === -1 || catalystTypeIndex === -1) {
-    return null;
-  }
-
-  return {
-    elementIndex,
-    catalystTypeIndex,
-  };
-}
-
 function sortShoppingMaterials(entries) {
-  return [...entries].sort(([materialA], [materialB]) => {
-    const catalystA = getCatalystSortInfo(materialA);
-    const catalystB = getCatalystSortInfo(materialB);
-
-    if (catalystA && catalystB) {
-      if (catalystA.catalystTypeIndex !== catalystB.catalystTypeIndex) {
-        return catalystA.catalystTypeIndex - catalystB.catalystTypeIndex;
-      }
-
-      return catalystA.elementIndex - catalystB.elementIndex;
-    }
-
-    if (catalystA) {
-      return -1;
-    }
-
-    if (catalystB) {
-      return 1;
-    }
-
-    return materialA.localeCompare(materialB);
-  });
+  return [...entries].sort(([nameA], [nameB]) =>
+    nameA.localeCompare(nameB)
+  );
 }
-
 function getMaterialSourceEntry(materialName) {
   return materialSources[slugifyItemName(materialName)] || null;
 }
@@ -401,7 +366,11 @@ function ExpandableMaterialRow({
   const isExpanded = selectedSourceKey === sourceKey;
 
   return (
-    <div className={isExpanded ? "card material-card expanded" : "card material-card"}>
+    <div
+      className={
+        isExpanded ? "card material-card expanded" : "card material-card"
+      }
+    >
       <button
         className="material-card-button"
         onClick={() => onToggle(sourceKey)}
@@ -432,8 +401,10 @@ function ExpandableMaterialRow({
       )}
     </div>
   );
-}
 
+  
+  
+}
 function App() {
   const [search, setSearch] = useState("");
   const [selectedJob, setSelectedJob] = useState("Carpenter");
@@ -470,21 +441,46 @@ function App() {
       return {};
     }
 
-    return calculateRawMaterials(RECIPES, selectedRecipeId);
-  }, [selectedRecipeId]);
+    return calculateRawMaterials(
+      RECIPES,
+      selectedRecipeId,
+      1,
+      null,
+      recipeOutputIndex
+    );
+  }, [selectedRecipeId, recipeOutputIndex]);
 
-const expandedRecipe = useMemo(() => {
-  if (selectedIngredient?.type !== "recipe") {
-    return null;
-  }
+  const expandedRecipe = useMemo(() => {
+    if (selectedIngredient?.type !== "recipe") {
+      return null;
+    }
 
-  return findBestRecipeForItem(
-    RECIPES,
-    selectedIngredient.name,
-    mainRecipe?.job,
-    recipeOutputIndex
-  );
-}, [selectedIngredient, mainRecipe?.job, recipeOutputIndex]);
+    return findBestRecipeForItem(
+      RECIPES,
+      selectedIngredient.name,
+      mainRecipe?.job,
+      recipeOutputIndex
+    );
+  }, [selectedIngredient, mainRecipe?.job, recipeOutputIndex]);
+
+  const craftingListRawTotals = useMemo(() => {
+    return calculateCraftingListRawMaterials(RECIPES, craftingList);
+  }, [craftingList]);
+
+  const shoppingMaterialRows = useMemo(() => {
+    return sortShoppingMaterials(Object.entries(craftingListRawTotals));
+  }, [craftingListRawTotals]);
+
+  const craftingRecipeIdSet = useMemo(() => {
+    return new Set(craftingList.map((entry) => entry.recipeId));
+  }, [craftingList]);
+
+  const isGlobalSearchMode = search.trim().length > 0;
+
+  function toggleSourceMaterial(sourceKey) {
+    setSelectedSourceKey((currentKey) =>
+      currentKey === sourceKey ? null : sourceKey
+    );
   }
 
   function selectJob(job) {
@@ -523,13 +519,14 @@ const expandedRecipe = useMemo(() => {
       ingredient,
       recipeOutputIndex
     );
+
     setSelectedIngredient(normalizedIngredient);
     setSelectedSourceKey(null);
   }
 
-function isRecipeInCraftingList(recipeId) {
-  return craftingRecipeIdSet.has(recipeId);
-}
+  function isRecipeInCraftingList(recipeId) {
+    return craftingRecipeIdSet.has(recipeId);
+  }
 
   function toggleRecipeInCraftingList(recipeId) {
     setCraftingList((currentList) => {
@@ -616,13 +613,11 @@ function isRecipeInCraftingList(recipeId) {
   }
 
   function buildShoppingListText() {
-    const materialRows = shoppingMaterialRows;
-
-    if (materialRows.length === 0) {
+    if (shoppingMaterialRows.length === 0) {
       return "";
     }
 
-    return materialRows
+    return shoppingMaterialRows
       .map(([materialName, quantity]) => `${materialName}: ${quantity}`)
       .join("\n");
   }
@@ -663,11 +658,13 @@ function isRecipeInCraftingList(recipeId) {
               key={job}
               className={selectedJob === job ? "job-tab active" : "job-tab"}
               onClick={() => selectJob(job)}
+              type="button"
             >
               {job}
             </button>
           ))}
         </div>
+
         <div className="filter-section">
           <div className="button-grid level-grid">
             {LEVEL_RANGES.map((levelRange) => (
@@ -679,6 +676,7 @@ function isRecipeInCraftingList(recipeId) {
                     : "filter-button"
                 }
                 onClick={() => selectLevelRange(levelRange)}
+                type="button"
               >
                 {levelRange.label}
               </button>
@@ -690,15 +688,18 @@ function isRecipeInCraftingList(recipeId) {
       <section className="columns five-columns">
         <section className="panel">
           <h2>1) Crafting Log</h2>
+
           <p className="panel-subtitle">
-            {selectedJob} recipes from {selectedLevelRange.label}.
+            {isGlobalSearchMode
+              ? "Searching all jobs, levels, categories, and ingredients."
+              : `${selectedJob} recipes from ${selectedLevelRange.label}.`}
           </p>
 
           <input
             className="search panel-search"
             value={search}
             onChange={(event) => setSearch(event.target.value)}
-            placeholder="Search recipes..."
+            placeholder="Search all recipes, jobs, levels, or ingredients..."
           />
 
           <div className="quick-filter-group">
@@ -706,12 +707,18 @@ function isRecipeInCraftingList(recipeId) {
               <button
                 key={filter.value}
                 className={
-                  selectedRecipeType === filter.value
+                  selectedRecipeType === filter.value && !isGlobalSearchMode
                     ? "quick-filter-button active"
                     : "quick-filter-button"
                 }
                 onClick={() => selectRecipeType(filter.value)}
                 type="button"
+                disabled={isGlobalSearchMode}
+                title={
+                  isGlobalSearchMode
+                    ? "Recipe type filters are ignored while searching globally."
+                    : ""
+                }
               >
                 {filter.label}
               </button>
@@ -727,17 +734,76 @@ function isRecipeInCraftingList(recipeId) {
           </button>
 
           <p className="filtered-summary">
-            Showing {recipeIds.length} recipe(s).
+            {isGlobalSearchMode
+              ? `Showing ${recipeIds.length} search result(s) across all jobs.`
+              : `Showing ${recipeIds.length} recipe(s).`}
           </p>
 
           <div className="panel-scroll">
             <div className="list">
-              {/* recipe cards here */}
+              {recipeIds.length === 0 && (
+                <div className="empty">No recipes match the current filters.</div>
+              )}
+
+              {recipeIds.map((recipeId) => {
+                const recipe = RECIPES[recipeId];
+                const active = selectedRecipeId === recipeId;
+                const inCraftingList = isRecipeInCraftingList(recipeId);
+
+                return (
+                  <div
+                    key={recipeId}
+                    className={
+                      active
+                        ? "card recipe-list-card active"
+                        : "card recipe-list-card"
+                    }
+                  >
+                    <button
+                      className="recipe-select-button"
+                      onClick={() => selectRecipe(recipeId)}
+                      type="button"
+                    >
+                      <ItemIcon recipe={recipe} />
+
+                      <span className="recipe-card-text">
+                        <strong>
+                          {recipe.name}
+                          {getStarLabel(recipe.stars)}
+                        </strong>
+
+                        <span>
+                          Lv. {recipe.level}
+                          {getStarLabel(recipe.stars)} | {recipe.job} | Makes{" "}
+                          {recipe.amountCreated}
+                        </span>
+                      </span>
+                    </button>
+
+                    <button
+                      className={
+                        inCraftingList
+                          ? "recipe-toggle-button checked"
+                          : "recipe-toggle-button"
+                      }
+                      onClick={() => toggleRecipeInCraftingList(recipeId)}
+                      title={
+                        inCraftingList
+                          ? "Remove from Crafting List"
+                          : "Add to Crafting List"
+                      }
+                      type="button"
+                    >
+                      {inCraftingList ? "✓" : "+"}
+                    </button>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>
 
-        <div className="panel">
+        <section className="panel">
           <h2>
             <ScrollText className="panel-icon" />
             2) Ingredients
@@ -752,64 +818,74 @@ function isRecipeInCraftingList(recipeId) {
           </p>
 
           {mainRecipe && (
-            <button className="primary-button" onClick={addSelectedRecipeToList}>
+            <button
+              className="primary-button"
+              onClick={addSelectedRecipeToList}
+              type="button"
+            >
               Add Selected Recipe to Crafting List
             </button>
           )}
 
-          <div className="list">
-            {!mainRecipe && (
-              <div className="empty">
-                Select a recipe from the Crafting Log to view its ingredients.
-              </div>
-            )}
+          <div className="panel-scroll">
+            <div className="list">
+              {!mainRecipe && (
+                <div className="empty">
+                  Select a recipe from the Crafting Log to view its ingredients.
+                </div>
+              )}
 
-            {mainRecipe?.ingredients.map((ingredient) => {
-              const craftable = isCraftable(RECIPES, ingredient.name, recipeOutputIndex);
-              const type = craftable ? "recipe" : "material";
-              const active = selectedIngredient?.name === ingredient.name;
-
-              if (type === "material") {
-                return (
-                  <ExpandableMaterialRow
-                    key={`${ingredient.name}-${ingredient.quantity}`}
-                    materialName={ingredient.name}
-                    quantity={ingredient.quantity}
-                    sourceKey={`ingredient-${selectedRecipeId}-${slugifyItemName(
-                      ingredient.name
-                    )}`}
-                    selectedSourceKey={selectedSourceKey}
-                    onToggle={toggleSourceMaterial}
-                    largeIcon
-                    showMaterialBadge
-                  />
+              {mainRecipe?.ingredients.map((ingredient) => {
+                const craftable = isCraftable(
+                  RECIPES,
+                  ingredient.name,
+                  recipeOutputIndex
                 );
-              }
+                const type = craftable ? "recipe" : "material";
+                const active = selectedIngredient?.name === ingredient.name;
 
-              return (
-                <button
-                  key={`${ingredient.name}-${ingredient.quantity}`}
-                  className={active ? "card active" : "card"}
-                  onClick={() => selectIngredient({ ...ingredient, type })}
-                >
-                  <div className="card-row">
-                    <span className="item-title-row">
-                      <ItemIcon name={ingredient.name} />
-                      <strong>{ingredient.name}</strong>
-                    </span>
+                if (type === "material") {
+                  return (
+                    <ExpandableMaterialRow
+                      key={`${ingredient.name}-${ingredient.quantity}`}
+                      materialName={ingredient.name}
+                      quantity={ingredient.quantity}
+                      sourceKey={`ingredient-${selectedRecipeId}-${slugifyItemName(
+                        ingredient.name
+                      )}`}
+                      selectedSourceKey={selectedSourceKey}
+                      onToggle={toggleSourceMaterial}
+                      largeIcon
+                      showMaterialBadge
+                    />
+                  );
+                }
 
-                    <span className="badge recipe">{type}</span>
-                  </div>
+                return (
+                  <button
+                    key={`${ingredient.name}-${ingredient.quantity}`}
+                    className={active ? "card active" : "card"}
+                    onClick={() => selectIngredient({ ...ingredient, type })}
+                    type="button"
+                  >
+                    <div className="card-row">
+                      <span className="item-title-row">
+                        <ItemIcon name={ingredient.name} />
+                        <strong>{ingredient.name}</strong>
+                      </span>
 
-                  <span>Quantity needed: {ingredient.quantity}</span>
-                </button>
-              );
-            })}
+                      <span className="badge recipe">{type}</span>
+                    </div>
+
+                    <span>Quantity needed: {ingredient.quantity}</span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
+        </section>
 
-        </div>
-
-        <div className="panel">
+        <section className="panel">
           <h2>
             <PackageSearch className="panel-icon" />
             3) Recipe-as-Material
@@ -819,214 +895,244 @@ function isRecipeInCraftingList(recipeId) {
             Select a craftable ingredient from column two.
           </p>
 
-          {!selectedIngredient && (
-            <div className="empty">
-              Select a craftable ingredient to expand it here.
-            </div>
-          )}
-
-          {selectedIngredient && !expandedRecipe && (
-            <div className="empty">
-              {selectedIngredient.name} is a raw material, so it has no recipe
-              expansion.
-            </div>
-          )}
-
-          {expandedRecipe && (
-            <>
-              <div className="expanded-header">
-                <span className="item-title-row">
-                  <ItemIcon recipe={expandedRecipe} />
-                  <strong>
-                    {selectedIngredient.name}
-                    {getStarLabel(expandedRecipe.stars)}
-                  </strong>
-                </span>
-
-                <span>Needed by main recipe: {selectedIngredient.quantity}</span>
-
-                <span>
-                  Lv. {expandedRecipe.level}
-                  {getStarLabel(expandedRecipe.stars)} | {expandedRecipe.job}
-                </span>
+          <div className="panel-scroll">
+            {!selectedIngredient && (
+              <div className="empty">
+                Select a craftable ingredient to expand it here.
               </div>
+            )}
 
-              <div className="list">
-                {expandedRecipe.ingredients.map((ingredient) => {
-                  const craftable = isCraftable(RECIPES, ingredient.name, recipeOutputIndex);
-                  const type = craftable ? "recipe" : "material";
+            {selectedIngredient && !expandedRecipe && (
+              <div className="empty">
+                {selectedIngredient.name} is a raw material, so it has no recipe
+                expansion.
+              </div>
+            )}
 
-                  if (type === "material") {
+            {expandedRecipe && (
+              <>
+                <div className="expanded-header">
+                  <span className="item-title-row">
+                    <ItemIcon recipe={expandedRecipe} />
+                    <strong>
+                      {selectedIngredient.name}
+                      {getStarLabel(expandedRecipe.stars)}
+                    </strong>
+                  </span>
+
+                  <span>
+                    Needed by main recipe: {selectedIngredient.quantity}
+                  </span>
+
+                  <span>
+                    Lv. {expandedRecipe.level}
+                    {getStarLabel(expandedRecipe.stars)} | {expandedRecipe.job}
+                  </span>
+                </div>
+
+                <div className="list">
+                  {expandedRecipe.ingredients.map((ingredient) => {
+                    const craftable = isCraftable(
+                      RECIPES,
+                      ingredient.name,
+                      recipeOutputIndex
+                    );
+                    const type = craftable ? "recipe" : "material";
+
+                    if (type === "material") {
+                      return (
+                        <ExpandableMaterialRow
+                          key={`${ingredient.name}-${ingredient.quantity}`}
+                          materialName={ingredient.name}
+                          quantity={ingredient.quantity}
+                          sourceKey={`expanded-${
+                            expandedRecipe.recipeId || expandedRecipe.name
+                          }-${slugifyItemName(ingredient.name)}`}
+                          selectedSourceKey={selectedSourceKey}
+                          onToggle={toggleSourceMaterial}
+                          largeIcon
+                          showMaterialBadge
+                        />
+                      );
+                    }
+
                     return (
-                      <ExpandableMaterialRow
+                      <div
                         key={`${ingredient.name}-${ingredient.quantity}`}
-                        materialName={ingredient.name}
-                        quantity={ingredient.quantity}
-                        sourceKey={`expanded-${expandedRecipe.name}-${slugifyItemName(
-                          ingredient.name
-                        )}`}
+                        className="card readonly"
+                      >
+                        <div className="card-row">
+                          <span className="item-title-row">
+                            <ItemIcon name={ingredient.name} />
+                            <strong>{ingredient.name}</strong>
+                          </span>
+
+                          <span className="badge recipe">{type}</span>
+                        </div>
+
+                        <span>Quantity needed: {ingredient.quantity}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            )}
+          </div>
+        </section>
+
+        <section className="panel">
+          <h2>
+            <ClipboardList className="panel-icon" />
+            4) Crafting List
+          </h2>
+
+          <p className="panel-subtitle">
+            Recipes you plan to complete. Saved locally in this browser.
+          </p>
+
+          <div className="panel-scroll">
+            {craftingList.length === 0 && (
+              <div className="empty">
+                Your crafting list is empty. Select a recipe and click “Add to
+                Crafting List.”
+              </div>
+            )}
+
+            {craftingList.length > 0 && (
+              <>
+                <div className="list">
+                  {craftingList.map((entry) => {
+                    const recipe = RECIPES[entry.recipeId];
+
+                    if (!recipe) {
+                      return null;
+                    }
+
+                    return (
+                      <div key={entry.recipeId} className="card readonly">
+                        <div className="card-row">
+                          <span className="item-title-row">
+                            <ItemIcon recipe={recipe} />
+                            <strong>
+                              {recipe.name}
+                              {getStarLabel(recipe.stars)}
+                            </strong>
+                          </span>
+
+                          <span className="badge recipe">x{entry.quantity}</span>
+                        </div>
+
+                        <span>
+                          Lv. {recipe.level}
+                          {getStarLabel(recipe.stars)} | {recipe.job}
+                        </span>
+
+                        <div className="crafting-actions">
+                          <button
+                            className="small-button"
+                            onClick={() =>
+                              decreaseCraftingListQuantity(entry.recipeId)
+                            }
+                            type="button"
+                          >
+                            -
+                          </button>
+
+                          <button
+                            className="small-button"
+                            onClick={() =>
+                              increaseCraftingListQuantity(entry.recipeId)
+                            }
+                            type="button"
+                          >
+                            +
+                          </button>
+
+                          <button
+                            className="complete-button"
+                            onClick={() =>
+                              completeCraftingListItem(entry.recipeId)
+                            }
+                            type="button"
+                          >
+                            Complete
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+
+                <button
+                  className="danger-button"
+                  onClick={clearCraftingList}
+                  type="button"
+                >
+                  Clear Crafting List
+                </button>
+              </>
+            )}
+          </div>
+        </section>
+
+        <section className="panel">
+          <h2>
+            <ShoppingBasket className="panel-icon" />
+            5) Grand Shopping List
+          </h2>
+
+          <p className="panel-subtitle">
+            Combined raw materials for every recipe in your Crafting List.
+          </p>
+
+          <div className="panel-scroll">
+            {craftingList.length === 0 && (
+              <div className="empty">
+                Add recipes to your Crafting List to generate a shopping list.
+              </div>
+            )}
+
+            {craftingList.length > 0 && (
+              <>
+                <div className="section-heading-row">
+                  <h3>Materials Needed</h3>
+
+                  <button
+                    className="secondary-button"
+                    onClick={copyShoppingList}
+                    type="button"
+                  >
+                    Copy List
+                  </button>
+                </div>
+
+                {copyStatus && <p className="copy-status">{copyStatus}</p>}
+
+                <div className="raw-breakdown no-top-border">
+                  <div className="material-list">
+                    {shoppingMaterialRows.map(([materialName, quantity]) => (
+                      <ExpandableMaterialRow
+                        key={materialName}
+                        materialName={materialName}
+                        quantity={quantity}
+                        sourceKey={`grand-${slugifyItemName(materialName)}`}
                         selectedSourceKey={selectedSourceKey}
                         onToggle={toggleSourceMaterial}
-                        largeIcon
-                        showMaterialBadge
                       />
-                    );
-                  }
-
-                  return (
-                    <div
-                      key={`${ingredient.name}-${ingredient.quantity}`}
-                      className="card readonly"
-                    >
-                      <div className="card-row">
-                        <span className="item-title-row">
-                          <ItemIcon name={ingredient.name} />
-                          <strong>{ingredient.name}</strong>
-                        </span>
-
-                        <span className="badge recipe">{type}</span>
-                      </div>
-
-                      <span>Quantity needed: {ingredient.quantity}</span>
-                    </div>
-                  );
-                })}
-              </div>
-            </>
-          )}
-        </div>
-
-        <div className="panel">
-          <section className="panel">
-            <h2>4) Crafting List</h2>
-            <p className="panel-subtitle">
-              Recipes you plan to complete. Saved locally in this browser.
-            </p>
-
-            <div className="panel-scroll">
-              {/* crafting list contents here */}
-            </div>
-          </section>
-
-          {craftingList.length > 0 && (
-            <>
-              <div className="list">
-                {craftingList.map((entry) => {
-                  const recipe = RECIPES[entry.recipeId];
-
-                  if (!recipe) {
-                    return null;
-                  }
-
-                  return (
-                    <div key={entry.recipeId} className="card readonly">
-                      <div className="card-row">
-                        <span className="item-title-row">
-                          <ItemIcon recipe={recipe} />
-                          <strong>
-                            {recipe.name}
-                            {getStarLabel(recipe.stars)}
-                          </strong>
-                        </span>
-
-                        <span className="badge recipe">x{entry.quantity}</span>
-                      </div>
-
-                      <span>
-                        Lv. {recipe.level}
-                        {getStarLabel(recipe.stars)} | {recipe.job}
-                      </span>
-
-                      <div className="crafting-actions">
-                        <button
-                          className="small-button"
-                          onClick={() =>
-                            decreaseCraftingListQuantity(entry.recipeId)
-                          }
-                        >
-                          -
-                        </button>
-
-                        <button
-                          className="small-button"
-                          onClick={() =>
-                            increaseCraftingListQuantity(entry.recipeId)
-                          }
-                        >
-                          +
-                        </button>
-
-                        <button
-                          className="complete-button"
-                          onClick={() =>
-                            completeCraftingListItem(entry.recipeId)
-                          }
-                        >
-                          Complete
-                        </button>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-
-              <button className="danger-button" onClick={clearCraftingList}>
-                Clear Crafting List
-              </button>
-            </>
-          )}
-        </div>
-
-        <div className="panel">
-          <section className="panel">
-            <h2>5) Grand Shopping List</h2>
-            <p className="panel-subtitle">
-              Combined raw materials for every recipe in your Crafting List.
-            </p>
-
-            <div className="panel-scroll">
-              {/* shopping list contents here */}
-            </div>
-          </section>
-
-          {craftingList.length > 0 && (
-            <>
-              <div className="section-heading-row">
-                <h3>Materials Needed</h3>
-
-                <button className="secondary-button" onClick={copyShoppingList}>
-                  Copy List
-                </button>
-              </div>
-
-              {copyStatus && <p className="copy-status">{copyStatus}</p>}
-
-              <div className="raw-breakdown no-top-border">
-                <div className="material-list">
-                  {sortShoppingMaterials(
-                    Object.entries(craftingListRawTotals)
-                  ).map(([materialName, quantity]) => (
-                    <ExpandableMaterialRow
-                      key={materialName}
-                      materialName={materialName}
-                      quantity={quantity}
-                      sourceKey={`grand-${slugifyItemName(materialName)}`}
-                      selectedSourceKey={selectedSourceKey}
-                      onToggle={toggleSourceMaterial}
-                    />
-                  ))}
+                    ))}
+                  </div>
                 </div>
-              </div>
 
-              <textarea
-                className="shopping-list-box"
-                readOnly
-                value={buildShoppingListText()}
-                aria-label="Copyable shopping list"
-              />
-            </>
-          )}
-        </div>
+                <textarea
+                  className="shopping-list-box"
+                  readOnly
+                  value={buildShoppingListText()}
+                  aria-label="Copyable shopping list"
+                />
+              </>
+            )}
+          </div>
+        </section>
       </section>
 
       <footer className="support-footer">
@@ -1047,5 +1153,4 @@ function isRecipeInCraftingList(recipeId) {
     </main>
   );
 }
-
 export default App;

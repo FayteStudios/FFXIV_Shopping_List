@@ -522,11 +522,12 @@ button:active {
   border-radius: 8px;
 }
 
-.item-title-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  min-width: 0;
+.item-title-row strong,
+.recipe-card-text strong {
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+  line-height: 1.12;
 }
 
 .card-row .item-title-row {
@@ -996,9 +997,9 @@ button:active {
 
 .material-card-button {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
   gap: 12px;
   padding: 14px;
   border: 0;
@@ -1013,19 +1014,51 @@ button:active {
 }
 
 .material-card-button .item-title-row {
-  flex: 1;
+  min-width: 0;
+  align-items: flex-start;
+}
+
+.material-card-button .item-title-row strong {
+  display: block;
+  max-width: 100%;
 }
 
 .material-row-actions {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  justify-content: flex-end;
+  gap: 8px;
+  flex: 0 0 auto;
+  align-self: start;
+  flex-wrap: wrap;
+  max-width: 112px;
+}
+
+.material-row-actions .badge {
+  white-space: nowrap;
+}
+
+.material-row-actions strong {
   flex: 0 0 auto;
 }
 
 .material-row-actions strong {
+  flex: 0 0 auto;
   color: var(--ink);
   font-size: 16px;
+}
+
+.card-row {
+  align-items: flex-start;
+}
+
+.card-row .item-title-row {
+  min-width: 0;
+}
+
+.card-row .badge {
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .material-expand-indicator {

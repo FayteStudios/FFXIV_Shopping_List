@@ -340,6 +340,12 @@ function MaterialSourceDetails({ materialName }) {
               {getSourceTimeText(source)}
             </span>
 
+            {source.cost && (
+              <span>
+                Cost: {source.cost}
+              </span>
+            )}
+
             {source.hidden && <span>Hidden item/node</span>}
           </div>
         ))}

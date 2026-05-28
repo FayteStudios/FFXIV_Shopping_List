@@ -1,0 +1,4664 @@
+{
+  "baitsSample": [
+    {
+      "id": 2585,
+      "categories": [
+        1
+      ]
+    },
+    {
+      "id": 2586,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2587,
+      "categories": [
+        1
+      ]
+    },
+    {
+      "id": 2588,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2589,
+      "categories": [
+        1
+      ]
+    },
+    {
+      "id": 2590,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2591,
+      "categories": [
+        1
+      ]
+    },
+    {
+      "id": 2592,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2593,
+      "categories": [
+        1
+      ]
+    },
+    {
+      "id": 2594,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2595,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2596,
+      "categories": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 2597,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2598,
+      "categories": [
+        1
+      ]
+    },
+    {
+      "id": 2599,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2600,
+      "categories": [
+        3
+      ]
+    },
+    {
+      "id": 2601,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2602,
+      "categories": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 2603,
+      "categories": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 2604,
+      "categories": [
+        3
+      ]
+    },
+    {
+      "id": 2605,
+      "categories": [
+        4
+      ]
+    },
+    {
+      "id": 2606,
+      "categories": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 2607,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2608,
+      "categories": [
+        3
+      ]
+    },
+    {
+      "id": 2609,
+      "categories": [
+        4
+      ]
+    },
+    {
+      "id": 2610,
+      "categories": [
+        2
+      ]
+    },
+    {
+      "id": 2611,
+      "categories": []
+    },
+    {
+      "id": 2612,
+      "categories": []
+    },
+    {
+      "id": 2613,
+      "categories": [
+        1
+      ]
+    },
+    {
+      "id": 2614,
+      "categories": [
+        2
+      ]
+    }
+  ],
+  "fishesSample": [
+    4776,
+    4925,
+    4926,
+    4869,
+    4870,
+    4927,
+    4928,
+    4871,
+    4929,
+    5460,
+    4930,
+    4872,
+    4931,
+    4873,
+    4874,
+    4932,
+    4933,
+    4875,
+    4934,
+    4876,
+    4935,
+    4877,
+    4936,
+    4937,
+    4938,
+    4878,
+    4939,
+    4940,
+    4941,
+    4879
+  ],
+  "fishParameterSample": [
+    {
+      "id": 1,
+      "itemId": 4776,
+      "level": 4,
+      "icon": "/i/029000/029063.png",
+      "mapId": 11,
+      "zoneId": 28,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 4,
+      "itemId": 4869,
+      "level": 3,
+      "icon": "/i/029000/029003.png",
+      "mapId": 11,
+      "zoneId": 28,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 5,
+      "itemId": 4870,
+      "level": 3,
+      "icon": "/i/029000/029034.png",
+      "mapId": 11,
+      "zoneId": 28,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 8,
+      "itemId": 4871,
+      "level": 4,
+      "icon": "/i/029000/029008.png",
+      "mapId": 11,
+      "zoneId": 28,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 12,
+      "itemId": 4872,
+      "level": 6,
+      "icon": "/i/029000/029005.png",
+      "mapId": 15,
+      "zoneId": 30,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 14,
+      "itemId": 4873,
+      "level": 7,
+      "icon": "/i/029000/029028.png",
+      "mapId": 15,
+      "zoneId": 30,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 15,
+      "itemId": 4874,
+      "level": 7,
+      "icon": "/i/029000/029044.png",
+      "mapId": 12,
+      "zoneId": 29,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 18,
+      "itemId": 4875,
+      "level": 8,
+      "icon": "/i/029000/029031.png",
+      "mapId": 16,
+      "zoneId": 31,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 20,
+      "itemId": 4876,
+      "level": 9,
+      "icon": "/i/029000/029016.png",
+      "mapId": 15,
+      "zoneId": 30,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 22,
+      "itemId": 4877,
+      "level": 10,
+      "icon": "/i/029000/029052.png",
+      "mapId": 16,
+      "zoneId": 31,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 26,
+      "itemId": 4878,
+      "level": 12,
+      "icon": "/i/029000/029056.png",
+      "mapId": 16,
+      "zoneId": 31,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 30,
+      "itemId": 4879,
+      "level": 15,
+      "icon": "/i/029000/029012.png",
+      "mapId": 16,
+      "zoneId": 31,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 32,
+      "itemId": 4880,
+      "level": 16,
+      "icon": "/i/029000/029032.png",
+      "mapId": 18,
+      "zoneId": 33,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 35,
+      "itemId": 4881,
+      "level": 17,
+      "icon": "/i/029000/029015.png",
+      "mapId": 18,
+      "zoneId": 33,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 38,
+      "itemId": 4882,
+      "level": 18,
+      "icon": "/i/029000/029042.png",
+      "mapId": 18,
+      "zoneId": 33,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 40,
+      "itemId": 4883,
+      "level": 19,
+      "icon": "/i/029000/029033.png",
+      "mapId": 15,
+      "zoneId": 30,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 43,
+      "itemId": 4884,
+      "level": 20,
+      "icon": "/i/029000/029030.png",
+      "mapId": 18,
+      "zoneId": 33,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 45,
+      "itemId": 4885,
+      "level": 21,
+      "icon": "/i/029000/029051.png",
+      "mapId": 16,
+      "zoneId": 31,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 49,
+      "itemId": 4886,
+      "level": 22,
+      "icon": "/i/029000/029007.png",
+      "mapId": 17,
+      "zoneId": 32,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 54,
+      "itemId": 4887,
+      "level": 24,
+      "icon": "/i/029000/029004.png",
+      "mapId": 18,
+      "zoneId": 33,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 58,
+      "itemId": 4888,
+      "level": 25,
+      "icon": "/i/029000/029035.png",
+      "mapId": 15,
+      "zoneId": 30,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 61,
+      "itemId": 4889,
+      "level": 26,
+      "icon": "/i/029000/029049.png",
+      "mapId": 20,
+      "zoneId": 42,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 62,
+      "itemId": 4890,
+      "level": 26,
+      "icon": "/i/029000/029040.png",
+      "mapId": 17,
+      "zoneId": 32,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 65,
+      "itemId": 4891,
+      "level": 27,
+      "icon": "/i/029000/029009.png",
+      "mapId": 17,
+      "zoneId": 32,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 67,
+      "itemId": 4892,
+      "level": 28,
+      "icon": "/i/029000/029014.png",
+      "mapId": 17,
+      "zoneId": 32,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 70,
+      "itemId": 4893,
+      "level": 29,
+      "icon": "/i/029000/029026.png",
+      "mapId": 18,
+      "zoneId": 33,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 72,
+      "itemId": 4894,
+      "level": 30,
+      "icon": "/i/029000/029029.png",
+      "mapId": 17,
+      "zoneId": 32,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 75,
+      "itemId": 4895,
+      "level": 31,
+      "icon": "/i/029000/029010.png",
+      "mapId": 17,
+      "zoneId": 32,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    },
+    {
+      "id": 77,
+      "itemId": 4896,
+      "level": 32,
+      "icon": "/i/029000/029018.png",
+      "mapId": 17,
+      "zoneId": 32,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0,
+      "recordType": 1
+    },
+    {
+      "id": 81,
+      "itemId": 4897,
+      "level": 33,
+      "icon": "/i/029000/029053.png",
+      "mapId": 16,
+      "zoneId": 31,
+      "timed": 0,
+      "weathered": 0,
+      "stars": 0
+    }
+  ],
+  "fishingLogSample": [
+    {
+      "itemId": 4925,
+      "level": 5,
+      "icon": "/i/029000/029208_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "category": 2,
+      "spot": {
+        "id": 2,
+        "coords": {
+          "x": 22.91,
+          "y": 22.19
+        }
+      }
+    },
+    {
+      "itemId": 4927,
+      "level": 5,
+      "icon": "/i/029000/029230_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "category": 2,
+      "spot": {
+        "id": 2,
+        "coords": {
+          "x": 22.91,
+          "y": 22.19
+        }
+      }
+    },
+    {
+      "itemId": 4932,
+      "level": 5,
+      "icon": "/i/029000/029212_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "category": 2,
+      "spot": {
+        "id": 2,
+        "coords": {
+          "x": 22.91,
+          "y": 22.19
+        }
+      }
+    },
+    {
+      "itemId": 4934,
+      "level": 5,
+      "icon": "/i/029000/029251_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "category": 2,
+      "spot": {
+        "id": 2,
+        "coords": {
+          "x": 22.91,
+          "y": 22.19
+        }
+      }
+    },
+    {
+      "itemId": 4935,
+      "level": 5,
+      "icon": "/i/029000/029215_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "category": 2,
+      "spot": {
+        "id": 2,
+        "coords": {
+          "x": 22.91,
+          "y": 22.19
+        }
+      }
+    },
+    {
+      "itemId": 4936,
+      "level": 5,
+      "icon": "/i/029000/029210_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "category": 2,
+      "spot": {
+        "id": 2,
+        "coords": {
+          "x": 22.91,
+          "y": 22.19
+        }
+      }
+    },
+    {
+      "itemId": 4952,
+      "level": 5,
+      "icon": "/i/029000/029292_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "category": 2,
+      "spot": {
+        "id": 2,
+        "coords": {
+          "x": 22.91,
+          "y": 22.19
+        }
+      }
+    },
+    {
+      "itemId": 7705,
+      "level": 5,
+      "icon": "/i/029000/029336_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "category": 2,
+      "spot": {
+        "id": 2,
+        "coords": {
+          "x": 22.91,
+          "y": 22.19
+        }
+      }
+    },
+    {
+      "itemId": 4929,
+      "level": 15,
+      "icon": "/i/029000/029209_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "category": 2,
+      "spot": {
+        "id": 3,
+        "coords": {
+          "x": 26.55,
+          "y": 28.99
+        }
+      }
+    },
+    {
+      "itemId": 4932,
+      "level": 15,
+      "icon": "/i/029000/029212_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "category": 2,
+      "spot": {
+        "id": 3,
+        "coords": {
+          "x": 26.55,
+          "y": 28.99
+        }
+      }
+    },
+    {
+      "itemId": 4934,
+      "level": 15,
+      "icon": "/i/029000/029251_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "category": 2,
+      "spot": {
+        "id": 3,
+        "coords": {
+          "x": 26.55,
+          "y": 28.99
+        }
+      }
+    },
+    {
+      "itemId": 4935,
+      "level": 15,
+      "icon": "/i/029000/029215_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "category": 2,
+      "spot": {
+        "id": 3,
+        "coords": {
+          "x": 26.55,
+          "y": 28.99
+        }
+      }
+    },
+    {
+      "itemId": 4936,
+      "level": 15,
+      "icon": "/i/029000/029210_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "category": 2,
+      "spot": {
+        "id": 3,
+        "coords": {
+          "x": 26.55,
+          "y": 28.99
+        }
+      }
+    },
+    {
+      "itemId": 4947,
+      "level": 15,
+      "icon": "/i/029000/029286_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "category": 2,
+      "spot": {
+        "id": 3,
+        "coords": {
+          "x": 26.55,
+          "y": 28.99
+        }
+      }
+    },
+    {
+      "itemId": 4951,
+      "level": 15,
+      "icon": "/i/029000/029283_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "category": 2,
+      "spot": {
+        "id": 3,
+        "coords": {
+          "x": 26.55,
+          "y": 28.99
+        }
+      }
+    },
+    {
+      "itemId": 7700,
+      "level": 15,
+      "icon": "/i/029000/029332_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "category": 2,
+      "spot": {
+        "id": 3,
+        "coords": {
+          "x": 26.55,
+          "y": 28.99
+        }
+      }
+    },
+    {
+      "itemId": 4958,
+      "level": 30,
+      "icon": "/i/029000/029205_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 101,
+      "category": 2,
+      "spot": {
+        "id": 4,
+        "coords": {
+          "x": 15.62,
+          "y": 24.15
+        }
+      }
+    },
+    {
+      "itemId": 4942,
+      "level": 30,
+      "icon": "/i/029000/029216_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 101,
+      "category": 2,
+      "spot": {
+        "id": 4,
+        "coords": {
+          "x": 15.62,
+          "y": 24.15
+        }
+      }
+    },
+    {
+      "itemId": 4975,
+      "level": 30,
+      "icon": "/i/029000/029218_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 101,
+      "category": 2,
+      "spot": {
+        "id": 4,
+        "coords": {
+          "x": 15.62,
+          "y": 24.15
+        }
+      }
+    },
+    {
+      "itemId": 4974,
+      "level": 30,
+      "icon": "/i/029000/029296_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 101,
+      "category": 2,
+      "spot": {
+        "id": 4,
+        "coords": {
+          "x": 15.62,
+          "y": 24.15
+        }
+      }
+    },
+    {
+      "itemId": 4968,
+      "level": 30,
+      "icon": "/i/029000/029254_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 101,
+      "category": 2,
+      "spot": {
+        "id": 4,
+        "coords": {
+          "x": 15.62,
+          "y": 24.15
+        }
+      }
+    },
+    {
+      "itemId": 4973,
+      "level": 30,
+      "icon": "/i/029000/029243_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 101,
+      "category": 2,
+      "spot": {
+        "id": 4,
+        "coords": {
+          "x": 15.62,
+          "y": 24.15
+        }
+      }
+    },
+    {
+      "itemId": 7920,
+      "level": 30,
+      "icon": "/i/029000/029353_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 101,
+      "category": 2,
+      "spot": {
+        "id": 4,
+        "coords": {
+          "x": 15.62,
+          "y": 24.15
+        }
+      }
+    },
+    {
+      "itemId": 4950,
+      "level": 35,
+      "icon": "/i/029000/029294_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 104,
+      "category": 2,
+      "spot": {
+        "id": 5,
+        "coords": {
+          "x": 14.82,
+          "y": 21.24
+        }
+      }
+    },
+    {
+      "itemId": 4958,
+      "level": 35,
+      "icon": "/i/029000/029205_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 104,
+      "category": 2,
+      "spot": {
+        "id": 5,
+        "coords": {
+          "x": 14.82,
+          "y": 21.24
+        }
+      }
+    },
+    {
+      "itemId": 4964,
+      "level": 35,
+      "icon": "/i/029000/029213_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 104,
+      "category": 2,
+      "spot": {
+        "id": 5,
+        "coords": {
+          "x": 14.82,
+          "y": 21.24
+        }
+      }
+    },
+    {
+      "itemId": 4942,
+      "level": 35,
+      "icon": "/i/029000/029216_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 104,
+      "category": 2,
+      "spot": {
+        "id": 5,
+        "coords": {
+          "x": 14.82,
+          "y": 21.24
+        }
+      }
+    },
+    {
+      "itemId": 4939,
+      "level": 35,
+      "icon": "/i/029000/029291_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 104,
+      "category": 2,
+      "spot": {
+        "id": 5,
+        "coords": {
+          "x": 14.82,
+          "y": 21.24
+        }
+      }
+    },
+    {
+      "itemId": 4979,
+      "level": 35,
+      "icon": "/i/029000/029255_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 104,
+      "category": 2,
+      "spot": {
+        "id": 5,
+        "coords": {
+          "x": 14.82,
+          "y": 21.24
+        }
+      }
+    },
+    {
+      "itemId": 4976,
+      "level": 35,
+      "icon": "/i/029000/029300_hr1.png",
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 104,
+      "category": 2,
+      "spot": {
+        "id": 5,
+        "coords": {
+          "x": 14.82,
+          "y": 21.24
+        }
+      }
+    }
+  ],
+  "fishingSourcesSample": [
+    {
+      "0": {
+        "spot": 36,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 35,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 44,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4776"
+    },
+    {
+      "0": {
+        "spot": 36,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 35,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 37,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 38,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 44,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 45,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 46,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 51,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "8": {
+        "spot": 52,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "9": {
+        "spot": 108,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "10": {
+        "spot": 156,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "11": {
+        "spot": 59,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "12": {
+        "spot": 60,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "13": {
+        "spot": 62,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "14": {
+        "spot": 65,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "15": {
+        "spot": 102,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "16": {
+        "spot": 104,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "17": {
+        "spot": 70,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "18": {
+        "spot": 74,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4869"
+    },
+    {
+      "0": {
+        "spot": 36,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 35,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 37,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 49,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 59,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 102,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 70,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 71,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "8": {
+        "spot": 69,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4870"
+    },
+    {
+      "0": {
+        "spot": 36,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 35,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 37,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 38,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 107,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2585,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4871"
+    },
+    {
+      "0": {
+        "spot": 36,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 35,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 37,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 38,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 44,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 45,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 46,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 62,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4872"
+    },
+    {
+      "0": {
+        "spot": 44,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 48,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 37,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2589,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 47,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4873"
+    },
+    {
+      "0": {
+        "spot": 36,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 35,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 37,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 38,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 45,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 46,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 53,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 107,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "8": {
+        "spot": 59,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "9": {
+        "spot": 64,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "10": {
+        "spot": 104,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "11": {
+        "spot": 70,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4874"
+    },
+    {
+      "0": {
+        "spot": 38,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 44,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2589,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 47,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2589,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 49,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2589,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4875"
+    },
+    {
+      "0": {
+        "spot": 36,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 35,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 37,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 51,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2587,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4876"
+    },
+    {
+      "0": {
+        "spot": 44,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 45,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 47,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 49,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 46,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 59,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4877"
+    },
+    {
+      "0": {
+        "spot": 45,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2616,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 48,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2589,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 59,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2589,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 70,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2589,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 69,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2589,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 47,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2621,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 49,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2603,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 44,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2613,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "8": {
+        "spot": 46,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4878"
+    },
+    {
+      "0": {
+        "spot": 45,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 47,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 49,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 46,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 59,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 60,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 70,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 69,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4879"
+    },
+    {
+      "0": {
+        "spot": 48,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 64,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4880"
+    },
+    {
+      "0": {
+        "spot": 47,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 49,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 46,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 59,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 60,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 64,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 70,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 69,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4881"
+    },
+    {
+      "0": {
+        "spot": 46,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 64,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4882"
+    },
+    {
+      "0": {
+        "spot": 37,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2616,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 52,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4883"
+    },
+    {
+      "0": {
+        "spot": 48,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 60,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 71,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2591,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4884"
+    },
+    {
+      "0": {
+        "spot": 36,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 35,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4872,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 37,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 38,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4872,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 44,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 45,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 46,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 51,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "8": {
+        "spot": 60,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "9": {
+        "spot": 104,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "10": {
+        "spot": 70,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "11": {
+        "spot": 59,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4874,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4885"
+    },
+    {
+      "0": {
+        "spot": 108,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 52,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 48,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 107,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 156,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 104,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 71,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2611,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4886"
+    },
+    {
+      "0": {
+        "spot": 61,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 71,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4887"
+    },
+    {
+      "0": {
+        "spot": 38,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4874,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 53,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4874,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 107,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4874,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 64,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4874,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4888"
+    },
+    {
+      "0": {
+        "spot": 71,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4889"
+    },
+    {
+      "0": {
+        "spot": 48,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2613,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 51,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2613,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4890"
+    },
+    {
+      "0": {
+        "spot": 52,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2613,
+        "snagging": false,
+        "minGathering": 0,
+        "aLure": 0,
+        "mLure": 0
+      },
+      "1": {
+        "spot": 51,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2616,
+        "snagging": false,
+        "minGathering": 0,
+        "aLure": 0,
+        "mLure": 0
+      },
+      "2": {
+        "spot": 104,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2613,
+        "snagging": false,
+        "minGathering": 0,
+        "aLure": 0,
+        "mLure": 0
+      },
+      "id": "4891"
+    },
+    {
+      "0": {
+        "spot": 48,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2617,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 53,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2613,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4892"
+    },
+    {
+      "0": {
+        "spot": 61,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2616,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 69,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2616,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4893"
+    },
+    {
+      "0": {
+        "spot": 61,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2598,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 53,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2596,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4894"
+    },
+    {
+      "0": {
+        "spot": 52,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2596,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 104,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2596,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 69,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2596,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4895"
+    },
+    {
+      "0": {
+        "spot": 53,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2616,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 104,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 107,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2616,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 52,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4896"
+    },
+    {
+      "0": {
+        "spot": 45,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 108,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 156,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4897"
+    },
+    {
+      "0": {
+        "spot": 51,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2596,
+        "spawn": 18,
+        "duration": 12,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 52,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2596,
+        "spawn": 18,
+        "duration": 12,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 62,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2596,
+        "spawn": 18,
+        "duration": 12,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 101,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2616,
+        "spawn": 18,
+        "duration": 12,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 63,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2596,
+        "spawn": 18,
+        "duration": 12,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 104,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2596,
+        "spawn": 18,
+        "duration": 12,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4898"
+    },
+    {
+      "0": {
+        "spot": 69,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 74,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4899"
+    },
+    {
+      "0": {
+        "spot": 53,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2598,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 61,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2598,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 101,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2598,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 74,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2598,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4900"
+    },
+    {
+      "0": {
+        "spot": 52,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 61,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 62,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4901"
+    },
+    {
+      "0": {
+        "spot": 53,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 107,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 61,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2619,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4902"
+    },
+    {
+      "0": {
+        "spot": 38,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 51,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 52,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4898,
+        "snagging": false,
+        "minGathering": 0,
+        "aLure": 0,
+        "mLure": 0
+      },
+      "3": {
+        "spot": 62,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 74,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4903"
+    },
+    {
+      "0": {
+        "spot": 108,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 156,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 60,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 62,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 65,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 102,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 74,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4869,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4904"
+    },
+    {
+      "0": {
+        "spot": 90,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2601,
+        "weathers": [
+          7,
+          15
+        ],
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 81,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2601,
+        "weathers": [
+          7,
+          15
+        ],
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4905"
+    },
+    {
+      "0": {
+        "spot": 101,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4898,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 63,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4898,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 104,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4898,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4906"
+    },
+    {
+      "0": {
+        "spot": 62,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 65,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4907"
+    },
+    {
+      "0": {
+        "spot": 65,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 63,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4908"
+    },
+    {
+      "0": {
+        "spot": 65,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 63,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 74,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4909"
+    },
+    {
+      "0": {
+        "spot": 101,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 63,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 74,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2628,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4910"
+    },
+    {
+      "0": {
+        "spot": 108,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "spawn": 17,
+        "duration": 5,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 102,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "spawn": 17,
+        "duration": 5,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 71,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "spawn": 17,
+        "duration": 5,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 69,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "spawn": 17,
+        "duration": 5,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4911"
+    },
+    {
+      "0": {
+        "spot": 60,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4904,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4912"
+    },
+    {
+      "0": {
+        "spot": 52,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "weathers": [
+          7,
+          8
+        ],
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 108,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "weathers": [
+          7,
+          8
+        ],
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 156,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "weathers": [
+          7,
+          8
+        ],
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4913"
+    },
+    {
+      "0": {
+        "spot": 49,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 108,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 156,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4914"
+    },
+    {
+      "0": {
+        "spot": 47,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 2628,
+        "spawn": 10,
+        "duration": 8,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4915"
+    },
+    {
+      "0": {
+        "spot": 59,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 2606,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4916"
+    },
+    {
+      "0": {
+        "spot": 53,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4888,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 107,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4888,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4917"
+    },
+    {
+      "0": {
+        "spot": 63,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4898,
+        "spawn": 18,
+        "duration": 12,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4918"
+    },
+    {
+      "0": {
+        "spot": 108,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4904,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 156,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4904,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 65,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4904,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4919"
+    },
+    {
+      "0": {
+        "spot": 107,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4888,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 64,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4888,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4920"
+    },
+    {
+      "0": {
+        "spot": 62,
+        "hookset": 1,
+        "tug": 0,
+        "bait": 4872,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4921"
+    },
+    {
+      "0": {
+        "spot": 102,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4904,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4922"
+    },
+    {
+      "0": {
+        "spot": 108,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4904,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 156,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4904,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 65,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4904,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4923"
+    },
+    {
+      "0": {
+        "spot": 74,
+        "hookset": 1,
+        "tug": 1,
+        "bait": 4904,
+        "spawn": 9,
+        "duration": 6,
+        "weathers": [
+          1,
+          2
+        ],
+        "snagging": false,
+        "minGathering": 0,
+        "video": "https://youtu.be/5KKdB9TGjPk"
+      },
+      "id": "4924"
+    },
+    {
+      "0": {
+        "spot": 39,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 40,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 43,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 90,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 91,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 81,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 100,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "7": {
+        "spot": 2,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "8": {
+        "spot": 73,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4925"
+    },
+    {
+      "0": {
+        "spot": 39,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 40,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 41,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 43,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4926"
+    },
+    {
+      "0": {
+        "spot": 2,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "1": {
+        "spot": 6,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "2": {
+        "spot": 19,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "3": {
+        "spot": 26,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "4": {
+        "spot": 31,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "5": {
+        "spot": 28,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "6": {
+        "spot": 30,
+        "hookset": 2,
+        "tug": 2,
+        "bait": 2586,
+        "snagging": false,
+        "minGathering": 0
+      },
+      "id": "4927"
+    }
+  ],
+  "fishingSpotsSample": [
+    {
+      "id": 2,
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 951,
+      "level": 5,
+      "category": 2,
+      "coords": {
+        "x": 22.91,
+        "y": 22.19
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4925,
+        4927,
+        4932,
+        4934,
+        4935,
+        4936,
+        4952,
+        7705
+      ]
+    },
+    {
+      "id": 3,
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 952,
+      "level": 15,
+      "category": 2,
+      "coords": {
+        "x": 26.55,
+        "y": 28.99
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4929,
+        4932,
+        4934,
+        4935,
+        4936,
+        4947,
+        4951,
+        7700
+      ]
+    },
+    {
+      "id": 4,
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 101,
+      "level": 30,
+      "category": 2,
+      "coords": {
+        "x": 15.62,
+        "y": 24.15
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4958,
+        4942,
+        4975,
+        4974,
+        4968,
+        4973,
+        7920
+      ]
+    },
+    {
+      "id": 5,
+      "mapId": 4,
+      "placeId": 54,
+      "zoneId": 104,
+      "level": 35,
+      "category": 2,
+      "coords": {
+        "x": 14.82,
+        "y": 21.24
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4950,
+        4958,
+        4964,
+        4942,
+        4939,
+        4979,
+        4976,
+        7934
+      ]
+    },
+    {
+      "id": 6,
+      "mapId": 5,
+      "placeId": 55,
+      "zoneId": 155,
+      "level": 15,
+      "category": 2,
+      "coords": {
+        "x": 9.03,
+        "y": 22.91
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4929,
+        4927,
+        4932,
+        4936,
+        4941,
+        4945,
+        4952,
+        7694
+      ]
+    },
+    {
+      "id": 7,
+      "mapId": 5,
+      "placeId": 55,
+      "zoneId": 953,
+      "level": 25,
+      "category": 2,
+      "coords": {
+        "x": 20.48,
+        "y": 21.53
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4940,
+        4941,
+        4948,
+        4958,
+        4962,
+        4967,
+        4968,
+        4992,
+        7912
+      ]
+    },
+    {
+      "id": 8,
+      "mapId": 5,
+      "placeId": 55,
+      "zoneId": 954,
+      "level": 15,
+      "category": 2,
+      "coords": {
+        "x": 24.03,
+        "y": 25.31
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4935,
+        4936,
+        4940,
+        4941,
+        4942,
+        4949,
+        4952,
+        7683
+      ]
+    },
+    {
+      "id": 9,
+      "mapId": 5,
+      "placeId": 55,
+      "zoneId": 955,
+      "level": 45,
+      "category": 2,
+      "coords": {
+        "x": 26.03,
+        "y": 20.74
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4981,
+        4982,
+        4994,
+        4995,
+        4996,
+        5022,
+        8773
+      ]
+    },
+    {
+      "id": 10,
+      "mapId": 5,
+      "placeId": 55,
+      "zoneId": 112,
+      "level": 20,
+      "category": 2,
+      "coords": {
+        "x": 17.68,
+        "y": 16.98
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4929,
+        4941,
+        4944,
+        4947,
+        4951,
+        4954,
+        4959,
+        7907
+      ]
+    },
+    {
+      "id": 11,
+      "mapId": 6,
+      "placeId": 56,
+      "zoneId": 956,
+      "level": 20,
+      "category": 2,
+      "coords": {
+        "x": 18.02,
+        "y": 19.02
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4940,
+        4941,
+        4942,
+        4943,
+        4945,
+        4952,
+        4958,
+        4982,
+        7908
+      ]
+    },
+    {
+      "id": 12,
+      "mapId": 6,
+      "placeId": 56,
+      "zoneId": 957,
+      "level": 30,
+      "category": 2,
+      "coords": {
+        "x": 19.96,
+        "y": 22.55
+      },
+      "radius": 4.878048780487805,
+      "fishes": [
+        4940,
+        4945,
+        4961,
+        4967,
+        4974,
+        4976,
+        4980,
+        4982,
+        7921
+      ]
+    },
+    {
+      "id": 13,
+      "mapId": 6,
+      "placeId": 56,
+      "zoneId": 958,
+      "level": 25,
+      "category": 2,
+      "coords": {
+        "x": 18.36,
+        "y": 24.83
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4940,
+        4942,
+        4943,
+        4950,
+        4952,
+        4958,
+        4962,
+        4967,
+        4982,
+        7913
+      ]
+    },
+    {
+      "id": 14,
+      "mapId": 6,
+      "placeId": 56,
+      "zoneId": 959,
+      "level": 25,
+      "category": 2,
+      "coords": {
+        "x": 23.87,
+        "y": 22.37
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4940,
+        4943,
+        4945,
+        4948,
+        4950,
+        4952,
+        4958,
+        4982,
+        7914
+      ]
+    },
+    {
+      "id": 15,
+      "mapId": 6,
+      "placeId": 56,
+      "zoneId": 960,
+      "level": 30,
+      "category": 2,
+      "coords": {
+        "x": 27.51,
+        "y": 21.48
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4942,
+        4950,
+        4959,
+        4961,
+        4964,
+        4967,
+        4973,
+        4978,
+        5000,
+        7922
+      ]
+    },
+    {
+      "id": 16,
+      "mapId": 6,
+      "placeId": 56,
+      "zoneId": 126,
+      "level": 35,
+      "category": 2,
+      "coords": {
+        "x": 18.62,
+        "y": 29.05
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4929,
+        4962,
+        4972,
+        4974,
+        4980,
+        5023,
+        7936
+      ]
+    },
+    {
+      "id": 17,
+      "mapId": 6,
+      "placeId": 56,
+      "zoneId": 82,
+      "level": 45,
+      "category": 2,
+      "coords": {
+        "x": 32.56,
+        "y": 23.97
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4942,
+        4975,
+        4973,
+        4974,
+        4982,
+        4996,
+        5008,
+        5028,
+        8774,
+        8775
+      ]
+    },
+    {
+      "id": 18,
+      "mapId": 7,
+      "placeId": 57,
+      "zoneId": 961,
+      "level": 15,
+      "category": 2,
+      "coords": {
+        "x": 26.39,
+        "y": 25.11
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4935,
+        4936,
+        4940,
+        4941,
+        4949,
+        4951,
+        7699
+      ]
+    },
+    {
+      "id": 19,
+      "mapId": 7,
+      "placeId": 57,
+      "zoneId": 962,
+      "level": 15,
+      "category": 2,
+      "coords": {
+        "x": 21.02,
+        "y": 24.67
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4927,
+        4935,
+        4936,
+        4940,
+        4942,
+        4943,
+        4945,
+        4963,
+        7695
+      ]
+    },
+    {
+      "id": 20,
+      "mapId": 7,
+      "placeId": 57,
+      "zoneId": 86,
+      "level": 40,
+      "category": 2,
+      "coords": {
+        "x": 20.82,
+        "y": 20.82
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4954,
+        4974,
+        4976,
+        4984,
+        4990,
+        4994,
+        4996,
+        5029,
+        7947
+      ]
+    },
+    {
+      "id": 21,
+      "mapId": 7,
+      "placeId": 57,
+      "zoneId": 963,
+      "level": 50,
+      "category": 2,
+      "coords": {
+        "x": 17.82,
+        "y": 19.82
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4950,
+        4954,
+        4973,
+        4978,
+        5002,
+        5008,
+        5011,
+        5026,
+        8760
+      ]
+    },
+    {
+      "id": 22,
+      "mapId": 25,
+      "placeId": 67,
+      "zoneId": 410,
+      "level": 45,
+      "category": 2,
+      "coords": {
+        "x": 25.09,
+        "y": 13.06
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        5544,
+        4978,
+        4989,
+        5003,
+        5002,
+        5006,
+        5011,
+        5027,
+        7951
+      ]
+    },
+    {
+      "id": 23,
+      "mapId": 25,
+      "placeId": 67,
+      "zoneId": 414,
+      "level": 50,
+      "category": 2,
+      "coords": {
+        "x": 18.74,
+        "y": 17.68
+      },
+      "radius": 4.878048780487805,
+      "fishes": [
+        5544,
+        4978,
+        4981,
+        4989,
+        4993,
+        5002,
+        5006,
+        5011,
+        5024,
+        8759
+      ]
+    },
+    {
+      "id": 24,
+      "mapId": 25,
+      "placeId": 67,
+      "zoneId": 413,
+      "level": 50,
+      "category": 2,
+      "coords": {
+        "x": 14.42,
+        "y": 13.32
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4929,
+        4942,
+        4978,
+        5003,
+        5002,
+        5004,
+        5006,
+        5021,
+        8761
+      ]
+    },
+    {
+      "id": 25,
+      "mapId": 25,
+      "placeId": 67,
+      "zoneId": 966,
+      "level": 45,
+      "category": 2,
+      "coords": {
+        "x": 12.92,
+        "y": 11.58
+      },
+      "radius": 4.878048780487805,
+      "fishes": [
+        4942,
+        4959,
+        4974,
+        4981,
+        4989,
+        4993,
+        5008,
+        4975,
+        8758
+      ]
+    },
+    {
+      "id": 26,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 968,
+      "level": 35,
+      "category": 2,
+      "coords": {
+        "x": 20.46,
+        "y": 30.59
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4927,
+        4936,
+        4940,
+        4976,
+        4981,
+        4986,
+        5009,
+        7932
+      ]
+    },
+    {
+      "id": 27,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 389,
+      "level": 50,
+      "category": 4,
+      "coords": {
+        "x": 33.7,
+        "y": 18.78
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        5038,
+        5039,
+        5040,
+        5041,
+        5042,
+        5044,
+        5046,
+        8771,
+        8772
+      ]
+    },
+    {
+      "id": 28,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 969,
+      "level": 40,
+      "category": 2,
+      "coords": {
+        "x": 15.64,
+        "y": 21.4
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4927,
+        4937,
+        4981,
+        4986,
+        4988,
+        4997,
+        5009,
+        5025,
+        7945
+      ]
+    },
+    {
+      "id": 29,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 392,
+      "level": 45,
+      "category": 2,
+      "coords": {
+        "x": 31.53,
+        "y": 7.51
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        5544,
+        4937,
+        4981,
+        4986,
+        4995,
+        4997,
+        5010,
+        8769
+      ]
+    },
+    {
+      "id": 30,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 970,
+      "level": 40,
+      "category": 2,
+      "coords": {
+        "x": 27.91,
+        "y": 16.939999999999998
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4927,
+        4940,
+        4937,
+        4976,
+        4986,
+        5009,
+        7944
+      ]
+    },
+    {
+      "id": 31,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 398,
+      "level": 35,
+      "category": 2,
+      "coords": {
+        "x": 13.26,
+        "y": 22.81
+      },
+      "radius": 7.317073170731708,
+      "fishes": [
+        4927,
+        4938,
+        5544,
+        4937,
+        4984,
+        5014,
+        7933
+      ]
+    },
+    {
+      "id": 32,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 971,
+      "level": 40,
+      "category": 2,
+      "coords": {
+        "x": 6.45,
+        "y": 22.63
+      },
+      "radius": 4.878048780487805,
+      "fishes": [
+        5544,
+        4937,
+        4997,
+        5009,
+        7946
+      ]
+    },
+    {
+      "id": 33,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 404,
+      "level": 45,
+      "category": 2,
+      "coords": {
+        "x": 3.17,
+        "y": 21.3
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4940,
+        4976,
+        4986,
+        5013,
+        8770
+      ]
+    },
+    {
+      "id": 34,
+      "mapId": 53,
+      "placeId": 63,
+      "zoneId": 972,
+      "level": 45,
+      "category": 4,
+      "coords": {
+        "x": 14.22,
+        "y": 13.42
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        5038,
+        5039,
+        5040,
+        5041,
+        5042,
+        7949
+      ]
+    },
+    {
+      "id": 35,
+      "mapId": 12,
+      "placeId": 29,
+      "zoneId": 29,
+      "level": 1,
+      "category": 1,
+      "coords": {
+        "x": 7.69,
+        "y": 12.22
+      },
+      "radius": 73.17073170731707,
+      "fishes": [
+        4869,
+        4870,
+        4776,
+        4871,
+        4872,
+        4874,
+        4876,
+        4885,
+        7707
+      ]
+    },
+    {
+      "id": 36,
+      "mapId": 11,
+      "placeId": 28,
+      "zoneId": 28,
+      "level": 1,
+      "category": 1,
+      "coords": {
+        "x": 10.31,
+        "y": 11.34
+      },
+      "radius": 73.17073170731707,
+      "fishes": [
+        4869,
+        4870,
+        4776,
+        4871,
+        4872,
+        4874,
+        4876,
+        4885,
+        7685
+      ]
+    },
+    {
+      "id": 37,
+      "mapId": 15,
+      "placeId": 30,
+      "zoneId": 973,
+      "level": 1,
+      "category": 1,
+      "coords": {
+        "x": 18.7,
+        "y": 22.01
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4869,
+        4870,
+        4871,
+        4872,
+        4873,
+        4874,
+        4876,
+        4883,
+        4885,
+        7678
+      ]
+    },
+    {
+      "id": 38,
+      "mapId": 15,
+      "placeId": 30,
+      "zoneId": 974,
+      "level": 5,
+      "category": 1,
+      "coords": {
+        "x": 14.66,
+        "y": 15.7
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4869,
+        4871,
+        5460,
+        4872,
+        4874,
+        4875,
+        4885,
+        4888,
+        4903,
+        7686
+      ]
+    },
+    {
+      "id": 39,
+      "mapId": 15,
+      "placeId": 30,
+      "zoneId": 182,
+      "level": 1,
+      "category": 2,
+      "coords": {
+        "x": 22.11,
+        "y": 22.19
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4925,
+        4926,
+        4928,
+        4930,
+        4946,
+        7679
+      ]
+    },
+    {
+      "id": 40,
+      "mapId": 15,
+      "placeId": 30,
+      "zoneId": 975,
+      "level": 1,
+      "category": 2,
+      "coords": {
+        "x": 20.22,
+        "y": 18.02
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4925,
+        4926,
+        4928,
+        4930,
+        4934,
+        4946,
+        7688
+      ]
+    },
+    {
+      "id": 41,
+      "mapId": 15,
+      "placeId": 30,
+      "zoneId": 193,
+      "level": 5,
+      "category": 2,
+      "coords": {
+        "x": 18.24,
+        "y": 14.88
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4926,
+        4928,
+        4930,
+        4931,
+        4934,
+        4936,
+        4946,
+        7709
+      ]
+    },
+    {
+      "id": 42,
+      "mapId": 15,
+      "placeId": 30,
+      "zoneId": 192,
+      "level": 15,
+      "category": 2,
+      "coords": {
+        "x": 20.8,
+        "y": 12.18
+      },
+      "radius": 4.878048780487805,
+      "fishes": [
+        4928,
+        4931,
+        4941,
+        4946,
+        4948,
+        4952,
+        4956,
+        7682
+      ]
+    },
+    {
+      "id": 43,
+      "mapId": 16,
+      "placeId": 31,
+      "zoneId": 197,
+      "level": 1,
+      "category": 2,
+      "coords": {
+        "x": 24.79,
+        "y": 23.03
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4925,
+        4926,
+        4928,
+        4930,
+        4931,
+        4934,
+        4936,
+        7681
+      ]
+    },
+    {
+      "id": 44,
+      "mapId": 16,
+      "placeId": 31,
+      "zoneId": 976,
+      "level": 5,
+      "category": 1,
+      "coords": {
+        "x": 26.91,
+        "y": 25.99
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4869,
+        4776,
+        4872,
+        4873,
+        4875,
+        4877,
+        4878,
+        4885,
+        7680
+      ]
+    },
+    {
+      "id": 45,
+      "mapId": 16,
+      "placeId": 31,
+      "zoneId": 977,
+      "level": 10,
+      "category": 1,
+      "coords": {
+        "x": 35.28,
+        "y": 18.02
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4869,
+        4872,
+        4874,
+        4877,
+        4878,
+        4879,
+        4885,
+        4897,
+        7710
+      ]
+    },
+    {
+      "id": 46,
+      "mapId": 16,
+      "placeId": 31,
+      "zoneId": 337,
+      "level": 15,
+      "category": 1,
+      "coords": {
+        "x": 26.43,
+        "y": 34.48
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4872,
+        4874,
+        4877,
+        4878,
+        4879,
+        4881,
+        4882,
+        4885,
+        7712
+      ]
+    },
+    {
+      "id": 47,
+      "mapId": 16,
+      "placeId": 31,
+      "zoneId": 341,
+      "level": 10,
+      "category": 1,
+      "coords": {
+        "x": 24.51,
+        "y": 39.72
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4873,
+        4875,
+        4877,
+        4878,
+        4879,
+        4881,
+        4915,
+        7690
+      ]
+    },
+    {
+      "id": 48,
+      "mapId": 16,
+      "placeId": 31,
+      "zoneId": 338,
+      "level": 20,
+      "category": 1,
+      "coords": {
+        "x": 17.38,
+        "y": 36.08
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4873,
+        4878,
+        4880,
+        4884,
+        4886,
+        4890,
+        4892,
+        6185,
+        7903
+      ]
+    },
+    {
+      "id": 49,
+      "mapId": 16,
+      "placeId": 31,
+      "zoneId": 339,
+      "level": 10,
+      "category": 1,
+      "coords": {
+        "x": 20.62,
+        "y": 39.04
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4870,
+        4875,
+        4877,
+        4878,
+        4879,
+        4881,
+        4914,
+        7691
+      ]
+    },
+    {
+      "id": 50,
+      "mapId": 16,
+      "placeId": 31,
+      "zoneId": 340,
+      "level": 15,
+      "category": 2,
+      "coords": {
+        "x": 22.01,
+        "y": 35.02
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4931,
+        4933,
+        4943,
+        4944,
+        4947,
+        4948,
+        4952,
+        4970,
+        7697
+      ]
+    },
+    {
+      "id": 51,
+      "mapId": 17,
+      "placeId": 32,
+      "zoneId": 978,
+      "level": 25,
+      "category": 1,
+      "coords": {
+        "x": 32.94,
+        "y": 34.48
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4869,
+        4876,
+        4885,
+        5461,
+        4890,
+        4891,
+        4898,
+        4903,
+        10123,
+        7909
+      ]
+    },
+    {
+      "id": 52,
+      "mapId": 17,
+      "placeId": 32,
+      "zoneId": 206,
+      "level": 30,
+      "category": 1,
+      "coords": {
+        "x": 32.9,
+        "y": 29.31
+      },
+      "radius": 19.51219512195122,
+      "fishes": [
+        4883,
+        4886,
+        4891,
+        4895,
+        4896,
+        4898,
+        4901,
+        4903,
+        4913,
+        7915
+      ]
+    },
+    {
+      "id": 53,
+      "mapId": 17,
+      "placeId": 32,
+      "zoneId": 979,
+      "level": 35,
+      "category": 1,
+      "coords": {
+        "x": 33.04,
+        "y": 24.23
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4874,
+        4888,
+        4892,
+        4894,
+        4896,
+        4900,
+        4902,
+        5462,
+        4917,
+        7924
+      ]
+    },
+    {
+      "id": 54,
+      "mapId": 17,
+      "placeId": 32,
+      "zoneId": 211,
+      "level": 35,
+      "category": 2,
+      "coords": {
+        "x": 30.83,
+        "y": 23.03
+      },
+      "radius": 4.878048780487805,
+      "fishes": [
+        4933,
+        4945,
+        4974,
+        4983,
+        4987,
+        4998,
+        7925
+      ]
+    },
+    {
+      "id": 55,
+      "mapId": 17,
+      "placeId": 32,
+      "zoneId": 980,
+      "level": 40,
+      "category": 2,
+      "coords": {
+        "x": 20.2,
+        "y": 25.97
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4948,
+        4965,
+        4975,
+        4974,
+        4987,
+        4990,
+        4999,
+        5001,
+        7938
+      ]
+    },
+    {
+      "id": 56,
+      "mapId": 17,
+      "placeId": 32,
+      "zoneId": 168,
+      "level": 40,
+      "category": 2,
+      "coords": {
+        "x": 20.48,
+        "y": 30.27
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4948,
+        4965,
+        4974,
+        4981,
+        4987,
+        4990,
+        4991,
+        4999,
+        5001,
+        7939
+      ]
+    },
+    {
+      "id": 57,
+      "mapId": 17,
+      "placeId": 32,
+      "zoneId": 981,
+      "level": 40,
+      "category": 2,
+      "coords": {
+        "x": 16.84,
+        "y": 32.04
+      },
+      "radius": 9.75609756097561,
+      "fishes": [
+        4948,
+        4950,
+        4965,
+        4970,
+        4978,
+        5003,
+        5012,
+        7940
+      ]
+    },
+    {
+      "id": 58,
+      "mapId": 17,
+      "placeId": 32,
+      "zoneId": 214,
+      "level": 45,
+      "category": 2,
+      "coords": {
+        "x": 15.36,
+        "y": 27.47
+      },
+      "radius": 4.878048780487805,
+      "fishes": [
+        4974,
+        4978,
+        4979,
+        4987,
+        4993,
+        5001,
+        5011,
+        5031,
+        8752
+      ]
+    },
+    {
+      "id": 59,
+      "mapId": 18,
+      "placeId": 33,
+      "zoneId": 218,
+      "level": 10,
+      "category": 1,
+      "coords": {
+        "x": 33.86,
+        "y": 31.88
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4870,
+        5460,
+        4874,
+        4877,
+        4878,
+        4879,
+        4881,
+        4885,
+        4916,
+        7687
+      ]
+    },
+    {
+      "id": 60,
+      "mapId": 18,
+      "placeId": 33,
+      "zoneId": 982,
+      "level": 15,
+      "category": 1,
+      "coords": {
+        "x": 26.69,
+        "y": 26.99
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4869,
+        4879,
+        4881,
+        4884,
+        4885,
+        4904,
+        4912,
+        7684
+      ]
+    },
+    {
+      "id": 61,
+      "mapId": 18,
+      "placeId": 33,
+      "zoneId": 983,
+      "level": 35,
+      "category": 1,
+      "coords": {
+        "x": 17.56,
+        "y": 20.98
+      },
+      "radius": 14.634146341463415,
+      "fishes": [
+        4887,
+        5461,
+        4893,
+        4894,
+        4900,
+        4901,
+        4902,
+        7926
+      ]
+    }
+  ]
+}

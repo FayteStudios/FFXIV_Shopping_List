@@ -6,22 +6,23 @@ import {
   ShoppingBasket,
 } from "lucide-react";
 import "./App.css";
+
 import recipes from "./data/recipes/index.js";
 import icons from "./data/icons.json";
 import materialSources from "./data/materialSources.json";
+import recipeObjectives from "./data/recipeObjectives.json";
+
 import {
   calculateCraftingListRawMaterials,
-  createRecipeOutputIndex,
   findBestRecipeForItem,
   isCraftable,
   normalizeIngredientType,
 } from "./utils/recipeUtils";
+
 import { loadCraftingList, saveCraftingList } from "./utils/storageUtils";
-import recipeObjectives from "./data/recipeObjectives.json";
 
 const RECIPES = recipes;
-
-const [shoppingViewMode, setShoppingViewMode] = useState("grouped");
+const ICON_BASE_PATH = `${import.meta.env.BASE_URL}icons/items/`;
 
 const CRAFTING_JOBS = [
   "Carpenter",
@@ -66,6 +67,46 @@ const RECIPE_TYPE_FILTERS = [
   { label: "Quests", value: "quests" },
 ];
 
+const ELEMENT_ORDER = ["Fire", "Ice", "Wind", "Earth", "Lightning", "Water"];
+const CATALYST_TYPE_ORDER = ["Shard", "Crystal", "Cluster"];
+
+const SHOPPING_GROUP_ORDER = [
+  "crystals",
+  "vendor",
+  "gathering",
+  "monsterDrop",
+  "fishing",
+  "crafted",
+  "loot",
+  "instance",
+  "special",
+  "unknown",
+];
+
+const SHOPPING_GROUP_LABELS = {
+  crystals: "Crystals / Shards / Clusters",
+  vendor: "Vendor Purchases",
+  gathering: "Gathering",
+  monsterDrop: "Monster Drops",
+  fishing: "Fishing",
+  crafted: "Crafted / Intermediate",
+  loot: "Loot",
+  instance: "Dungeon / Trial / Raid",
+  special: "Special / Manual Review",
+  unknown: "Unknown Source",
+};
+
+const ROUTE_SOURCE_PRIORITY = [
+  "shop",
+  "gathering",
+  "monsterDrop",
+  "fishing",
+  "loot",
+  "instance",
+  "crafted",
+  "special",
+];
+
 function useDebouncedValue(value, delay = 300) {
   const [debouncedValue, setDebouncedValue] = useState(value);
 
@@ -82,22 +123,6 @@ function useDebouncedValue(value, delay = 300) {
   return debouncedValue;
 }
 
-function getRecipeObjectiveEntry(recipeId) {
-  return recipeObjectives[recipeId] || null;
-}
-
-function recipeHasLeves(recipeId) {
-  const entry = getRecipeObjectiveEntry(recipeId);
-  return Array.isArray(entry?.leves) && entry.leves.length > 0;
-}
-
-function recipeHasQuests(recipeId) {
-  const entry = getRecipeObjectiveEntry(recipeId);
-  return Array.isArray(entry?.quests) && entry.quests.length > 0;
-}
-
-const ICON_BASE_PATH = `${import.meta.env.BASE_URL}icons/items/`;
-
 function slugifyItemName(name) {
   return String(name || "")
     .toLowerCase()
@@ -109,44 +134,41 @@ function slugifyItemName(name) {
     .replace(/^-+|-+$/g, "");
 }
 
-function getIconEntryForName(name) {
-  return icons[slugifyItemName(name)] || null;
+function normalizeLookupName(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[’']/g, "'")
+    .replace(/[^a-z0-9']+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-function getIconEntryForRecipe(recipe) {
-  if (recipe?.icon && icons[recipe.icon]) {
-    return icons[recipe.icon];
-  }
-
-  return getIconEntryForName(recipe?.name || "");
+function toTitleCase(value) {
+  return String(value || "")
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
-function ItemIcon({ name, recipe, small = false }) {
-  const iconEntry = recipe
-    ? getIconEntryForRecipe(recipe)
-    : getIconEntryForName(name);
+function createRecipeOutputIndex(recipes) {
+  const index = new Map();
 
-  const className = small ? "item-icon small" : "item-icon";
-  const fallbackClassName = small
-    ? "item-icon-fallback small"
-    : "item-icon-fallback";
+  for (const [recipeId, recipe] of Object.entries(recipes)) {
+    const normalizedName = normalizeLookupName(recipe.name);
 
-  if (!iconEntry) {
-    return (
-      <span className={fallbackClassName} aria-hidden="true">
-        ?
-      </span>
-    );
+    if (!index.has(normalizedName)) {
+      index.set(normalizedName, []);
+    }
+
+    index.get(normalizedName).push({
+      recipeId,
+      recipe,
+    });
   }
 
-  return (
-    <img
-      className={className}
-      src={`${ICON_BASE_PATH}${iconEntry.file}`}
-      alt=""
-      loading="lazy"
-    />
-  );
+  return index;
 }
 
 function recipeMatchesJob(recipe, selectedJob) {
@@ -167,33 +189,54 @@ function recipeMatchesSearch(recipe, search) {
     return true;
   }
 
-  const terms = query.split(/\s+/).filter(Boolean);
-
   const searchableText = [
     recipe.name,
     recipe.job,
-    recipe.category,
-    recipe.level,
-    recipe.stars ? "star starred expert" : "",
-    ...(recipe.ingredients || []).map((ingredient) => ingredient.name),
+    String(recipe.level),
+    ...(recipe.ingredients ?? []).map((ingredient) => ingredient.name),
   ]
-    .filter((value) => value !== undefined && value !== null)
     .join(" ")
     .toLowerCase();
 
-  return terms.every((term) => searchableText.includes(term));
+  return searchableText.includes(query);
 }
 
-function isSpecialRecipe(recipe) {
-  return recipe.category === "Other" || recipe.category === "Skybuilders";
+function getStarLabel(stars = 0) {
+  if (!stars) {
+    return "";
+  }
+
+  return " " + "★".repeat(stars);
 }
 
 function isFurnitureRecipe(recipe) {
-  return recipe.category === "Furniture";
+  return recipe.category === "furniture" || recipe.recipeType === "furniture";
+}
+
+function isSpecialRecipe(recipe) {
+  return (
+    recipe.category === "special" ||
+    recipe.recipeType === "special" ||
+    recipe.isSpecial === true
+  );
 }
 
 function isStarredRecipe(recipe) {
-  return (recipe.stars || 0) > 0;
+  return Number(recipe.stars || 0) > 0;
+}
+
+function getRecipeObjectiveEntry(recipeId) {
+  return recipeObjectives[recipeId] || null;
+}
+
+function recipeHasLeves(recipeId) {
+  const entry = getRecipeObjectiveEntry(recipeId);
+  return Array.isArray(entry?.leves) && entry.leves.length > 0;
+}
+
+function recipeHasQuests(recipeId) {
+  const entry = getRecipeObjectiveEntry(recipeId);
+  return Array.isArray(entry?.quests) && entry.quests.length > 0;
 }
 
 function recipeMatchesTypeFilter(recipe, selectedRecipeType, recipeId) {
@@ -224,14 +267,6 @@ function recipeMatchesTypeFilter(recipe, selectedRecipeType, recipeId) {
   return !isSpecialRecipe(recipe) && !isFurnitureRecipe(recipe);
 }
 
-function getStarLabel(stars = 0) {
-  if (!stars) {
-    return "";
-  }
-
-  return " " + "★".repeat(stars);
-}
-
 function getFilteredRecipeIds(
   recipes,
   selectedJob,
@@ -239,13 +274,17 @@ function getFilteredRecipeIds(
   search,
   selectedRecipeType
 ) {
-  const hasSearch = search.trim().length > 0;
+  const isGlobalSearchMode = search.trim().length > 0;
 
   return Object.keys(recipes)
     .filter((recipeId) => {
       const recipe = recipes[recipeId];
 
-      if (hasSearch) {
+      if (!recipe) {
+        return false;
+      }
+
+      if (isGlobalSearchMode) {
         return recipeMatchesSearch(recipe, search);
       }
 
@@ -259,7 +298,7 @@ function getFilteredRecipeIds(
       const recipeA = recipes[a];
       const recipeB = recipes[b];
 
-      if (hasSearch && recipeA.job !== recipeB.job) {
+      if (recipeA.job !== recipeB.job) {
         return recipeA.job.localeCompare(recipeB.job);
       }
 
@@ -267,143 +306,153 @@ function getFilteredRecipeIds(
         return recipeA.level - recipeB.level;
       }
 
-      const starsA = recipeA.stars || 0;
-      const starsB = recipeB.stars || 0;
-
-      if (starsA !== starsB) {
-        return starsA - starsB;
-      }
-
       return recipeA.name.localeCompare(recipeB.name);
     });
 }
 
-function sortShoppingMaterials(entries) {
-  return [...entries].sort(([nameA], [nameB]) =>
-    nameA.localeCompare(nameB)
-  );
-}
-function getMaterialSourceEntry(materialName) {
-  return materialSources[slugifyItemName(materialName)] || null;
+function getCatalystSortInfo(materialName) {
+  const parts = materialName.split(" ");
+
+  if (parts.length !== 2) {
+    return null;
+  }
+
+  const [element, catalystType] = parts;
+
+  const elementIndex = ELEMENT_ORDER.indexOf(element);
+  const catalystTypeIndex = CATALYST_TYPE_ORDER.indexOf(catalystType);
+
+  if (elementIndex === -1 || catalystTypeIndex === -1) {
+    return null;
+  }
+
+  return {
+    elementIndex,
+    catalystTypeIndex,
+  };
 }
 
-function toTitleCase(value) {
-  return String(value || "")
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((word) => {
-      if (word.length <= 2 && word === word.toUpperCase()) {
-        return word;
+function sortShoppingMaterials(entries) {
+  return [...entries].sort(([materialA], [materialB]) => {
+    const catalystA = getCatalystSortInfo(materialA);
+    const catalystB = getCatalystSortInfo(materialB);
+
+    if (catalystA && catalystB) {
+      if (catalystA.catalystTypeIndex !== catalystB.catalystTypeIndex) {
+        return catalystA.catalystTypeIndex - catalystB.catalystTypeIndex;
       }
 
-      return word.charAt(0).toUpperCase() + word.slice(1);
-    })
-    .join(" ");
+      return catalystA.elementIndex - catalystB.elementIndex;
+    }
+
+    if (catalystA) {
+      return -1;
+    }
+
+    if (catalystB) {
+      return 1;
+    }
+
+    return materialA.localeCompare(materialB);
+  });
+}
+
+function getIconEntryForName(name) {
+  const normalizedName = normalizeLookupName(name);
+
+  return (
+    icons[normalizedName] ||
+    icons[slugifyItemName(name)] ||
+    icons[name] ||
+    null
+  );
+}
+
+function getIconEntryForRecipe(recipe) {
+  return getIconEntryForName(recipe?.name);
+}
+
+function ItemIcon({ name = null, recipe = null, small = false }) {
+  const iconEntry = recipe
+    ? getIconEntryForRecipe(recipe)
+    : getIconEntryForName(name);
+
+  const className = small ? "item-icon small" : "item-icon";
+  const fallbackClassName = small
+    ? "item-icon-fallback small"
+    : "item-icon-fallback";
+
+  if (!iconEntry) {
+    return (
+      <span className={fallbackClassName} aria-hidden="true">
+        ?
+      </span>
+    );
+  }
+
+  return (
+    <img
+      className={className}
+      src={`${ICON_BASE_PATH}${iconEntry.file}`}
+      alt=""
+      loading="lazy"
+    />
+  );
+}
+
+function getMaterialSourceEntry(materialName) {
+  const slug = slugifyItemName(materialName);
+  const normalizedName = normalizeLookupName(materialName);
+
+  return (
+    materialSources[slug] ||
+    materialSources[normalizedName] ||
+    Object.values(materialSources).find(
+      (entry) => normalizeLookupName(entry?.name) === normalizedName
+    ) ||
+    null
+  );
 }
 
 function getNpcNames(source) {
-  if (!Array.isArray(source.npcs)) {
-    return [];
+  if (Array.isArray(source?.npcs) && source.npcs.length > 0) {
+    return source.npcs
+      .map((npc) => npc.name || npc.npcName)
+      .filter(Boolean);
   }
 
-  return source.npcs
-    .map((npc) => npc?.name)
-    .filter(Boolean)
-    .filter((name, index, names) => names.indexOf(name) === index);
+  return [source?.npcName, source?.vendorName].filter(Boolean);
 }
 
 function getFirstMonsterPosition(source) {
-  if (!Array.isArray(source.positions) || source.positions.length === 0) {
+  if (!Array.isArray(source?.positions) || source.positions.length === 0) {
     return null;
   }
 
-  return source.positions.find((position) => !position?.fate) || source.positions[0];
+  return (
+    source.positions.find(
+      (position) =>
+        position?.zone ||
+        position?.area ||
+        position?.region ||
+        position?.coordinates
+    ) || source.positions[0]
+  );
 }
 
-function getCoordinatesText(coordinates) {
-  if (!coordinates) {
-    return null;
-  }
-
-  const x = coordinates.x ?? null;
-  const y = coordinates.y ?? null;
-
-  if (x === null || y === null) {
-    return null;
-  }
-
-  return `X: ${x} · Y: ${y}`;
+function getSourceAvailabilityText(source) {
+  return (
+    source?.availability ||
+    source?.timing ||
+    source?.spawnType ||
+    source?.nodeType ||
+    "Always available / check source"
+  );
 }
-
-function getSourceTitle(source) {
-  if (!source) {
-    return "Source";
-  }
-
-  if (source.type === "monsterDrop") {
-    return `Monster Drop · ${toTitleCase(source.monsterName || "Unknown Monster")}`;
-  }
-
-  if (source.type === "shop") {
-    const shopType = source.shopType || source.gatheringType || "Shop";
-    return `Vendor · ${shopType}`;
-  }
-
-  if (source.type === "loot") {
-    return source.sourceCategory
-      ? `Loot · ${source.sourceCategory}`
-      : "Loot Source";
-  }
-
-  if (source.type === "fishing") {
-    const parts = [
-      "Fisher",
-      source.gatheringType,
-      source.level ? `Lv. ${source.level}` : null,
-    ].filter(Boolean);
-
-    return parts.join(" · ");
-  }
-
-  if (source.type === "instance") {
-    return source.instanceCategory
-      ? `${source.instanceCategory} · Loot`
-      : "Instance Loot";
-  }
-
-  if (source.type === "crafted") {
-    const parts = [
-      "Crafted",
-      source.recipeJobName,
-      source.level ? `Lv. ${source.level}` : null,
-    ].filter(Boolean);
-
-    return parts.join(" · ");
-  }
-
-  if (source.type === "special") {
-    const parts = [
-      "Special",
-      source.gatheringType || source.sourceCategory,
-    ].filter(Boolean);
-
-    return parts.join(" · ");
-  }
-
-  const parts = [
-    source.gatheringClass,
-    source.gatheringType,
-    source.level ? `Lv. ${source.level}` : null,
-  ].filter(Boolean);
-
-  return parts.length > 0 ? parts.join(" · ") : "Source";
-}
-
-
 
 function getSourceLocation(source) {
   if (!source) {
-    return "Location unknown";
+    return "Source location not listed";
   }
 
   if (source.type === "monsterDrop") {
@@ -419,146 +468,112 @@ function getSourceLocation(source) {
       return locationParts.join(" — ");
     }
 
+    if (position.mapId || position.zoneId) {
+      return `Map ID ${position.mapId ?? "?"} · Zone ID ${
+        position.zoneId ?? "?"
+      }`;
+    }
+
     return "Monster location not listed";
   }
 
-  if (source.type === "shop") {
-    const npcNames = getNpcNames(source);
-
-    if (npcNames.length > 0) {
-      const visibleNames = npcNames.slice(0, 3).join(", ");
-      const extraCount = npcNames.length - 3;
-
-      return extraCount > 0
-        ? `${visibleNames}, +${extraCount} more`
-        : visibleNames;
-    }
-
-    return "Vendor location unknown";
-  }
-
-  if (source.type === "loot") {
-    return source.sourceItemName || "Loot source unknown";
-  }
-
-  if (source.type === "instance") {
-    return source.instanceName || source.zone || "Instance location unknown";
-  }
-
-  if (source.type === "special") {
-    return source.sourceCategory || "Special source";
-  }
-
-  if (source.type === "crafted") {
-    return source.recipeJobName || "Crafting recipe";
-  }
-
-  const locationParts = [source.zone, source.area].filter(Boolean);
+  const locationParts = [source.region, source.zone, source.area].filter(
+    Boolean
+  );
 
   if (locationParts.length > 0) {
     return locationParts.join(" — ");
   }
 
-  if (source.zoneId || source.mapId) {
-    return `Map ID ${source.mapId ?? "?"}, Zone ID ${source.zoneId ?? "?"}`;
+  if (source.mapId || source.zoneId) {
+    return `Map ID ${source.mapId ?? "?"} · Zone ID ${source.zoneId ?? "?"}`;
   }
 
-  return "Location unknown";
+  return "Source location not listed";
 }
 
-function getSourceAvailabilityText(source) {
-  if (!source?.timed) {
-    return "Always available";
+function getSourceTitle(source) {
+  if (!source) {
+    return "Unknown Source";
   }
 
-  const times =
-    source.spawnTimes && source.spawnTimes.length > 0
-      ? source.spawnTimes.join(", ")
-      : "Timed";
+  if (source.type === "shop") {
+    return "Vendor";
+  }
 
-  return source.duration ? `${times} for ${source.duration}` : times;
+  if (source.type === "monsterDrop") {
+    return "Monster Drop";
+  }
+
+  if (source.type === "fishing") {
+    return "Fishing";
+  }
+
+  if (source.type === "crafted") {
+    return "Crafted";
+  }
+
+  if (source.type === "instance") {
+    return "Dungeon / Trial / Raid";
+  }
+
+  if (source.type === "loot") {
+    return "Loot";
+  }
+
+  if (source.type === "special") {
+    return source.sourceCategory || "Special";
+  }
+
+  return source.gatheringClass || source.type || "Source";
 }
 
 function getSourceDetailLines(source) {
   if (!source) {
-    return [];
+    return ["No source details available."];
   }
 
   const lines = [];
 
   if (source.type === "monsterDrop") {
+    if (source.monsterName) {
+      lines.push(toTitleCase(source.monsterName));
+    }
+
     const position = getFirstMonsterPosition(source);
 
     if (position?.level) {
       lines.push(`Monster level: ${position.level}`);
     }
 
-    const positionCoordinates = getCoordinatesText(position?.coordinates);
+    if (position?.coordinates) {
+      const coordinateText = getRouteCoordinateText(position.coordinates);
 
-    if (positionCoordinates) {
-      lines.push(positionCoordinates);
+      if (coordinateText) {
+        lines.push(coordinateText);
+      }
     }
 
-    if (source.positions?.length > 1) {
+    if (Array.isArray(source.positions) && source.positions.length > 1) {
       lines.push(`${source.positions.length} known spawn entries`);
     }
 
     lines.push("Monster drop");
-
     return lines;
   }
 
   if (source.type === "shop") {
-    if (source.priceText) {
-      lines.push(`Cost: ${source.priceText}`);
-    } else if (Array.isArray(source.currencies) && source.currencies.length > 0) {
-      lines.push(
-        `Cost: ${source.currencies
-          .map((currency) => `${currency.amount} ${currency.name}`)
-          .join(", ")}`
-      );
+    const npcNames = getNpcNames(source);
+
+    if (npcNames.length > 0) {
+      lines.push(`NPC: ${npcNames.slice(0, 3).join(", ")}`);
     }
 
-    if (source.purchasedItem?.amount && source.purchasedItem.amount > 1) {
-      lines.push(`Purchase amount: ${source.purchasedItem.amount}`);
+    if (source.price) {
+      lines.push(`Price: ${source.price}`);
     }
 
-    lines.push(`${source.nodeType || "Shop Purchase"} · ${getSourceAvailabilityText(source)}`);
-
-    return lines;
-  }
-
-  if (source.type === "loot") {
-    if (source.sourceItemName) {
-      lines.push(`From: ${source.sourceItemName}`);
-    }
-
-    lines.push(`${source.nodeType || "Loot Source"} · ${getSourceAvailabilityText(source)}`);
-
-    return lines;
-  }
-
-  if (source.type === "instance") {
-    lines.push(`${source.nodeType || "Instance Loot"} · ${getSourceAvailabilityText(source)}`);
-    return lines;
-  }
-
-  if (source.type === "crafted") {
-    if (source.amountCreated) {
-      lines.push(`Creates: ${source.amountCreated}`);
-    }
-
-    if (Array.isArray(source.ingredients) && source.ingredients.length > 0) {
-      const ingredientPreview = source.ingredients
-        .slice(0, 3)
-        .map((ingredient) => `${ingredient.quantity} ${ingredient.name}`)
-        .join(", ");
-
-      lines.push(`Ingredients: ${ingredientPreview}`);
-    }
-
-    lines.push("Crafting recipe");
-
+    lines.push(source.shopType || "Shop purchase");
     return lines;
   }
 
@@ -591,88 +606,89 @@ function getSourceDetailLines(source) {
       lines.push(`Confidence: ${source.confidence}`);
     }
 
-    lines.push(`${source.nodeType || "Special Source"} · ${getSourceAvailabilityText(source)}`);
+    lines.push(
+      `${source.nodeType || "Special Source"} · ${getSourceAvailabilityText(
+        source
+      )}`
+    );
 
     return lines;
   }
 
-  const coordinatesText = getCoordinatesText(source.coordinates);
-
-  if (coordinatesText) {
-    lines.push(coordinatesText);
+  if (source.gatheringClass) {
+    lines.push(source.gatheringClass);
   }
 
-  lines.push(`${source.nodeType || "Source"} · ${getSourceAvailabilityText(source)}`);
-
-  if (source.hidden) {
-    lines.push("Hidden item/node");
+  if (source.gatheringType) {
+    lines.push(source.gatheringType);
   }
+
+  if (source.level) {
+    lines.push(`Level ${source.level}`);
+  }
+
+  if (source.coordinates) {
+    const coordinateText = getRouteCoordinateText(source.coordinates);
+
+    if (coordinateText) {
+      lines.push(coordinateText);
+    }
+  }
+
+  lines.push(getSourceAvailabilityText(source));
 
   return lines;
 }
 
 function MaterialSourceDetails({ materialName }) {
-  if (!materialName) {
+  const sourceEntry = getMaterialSourceEntry(materialName);
+
+  if (!sourceEntry?.sources || sourceEntry.sources.length === 0) {
     return (
-      <div className="material-source-box empty small-empty">
-        Select a material to see where it comes from.
+      <div className="material-source-panel">
+        <div className="material-source-box">
+          <div className="material-source-header">
+            <strong>Source details</strong>
+          </div>
+
+          <p className="source-overflow-note">
+            No source data found for this material yet.
+          </p>
+        </div>
       </div>
     );
   }
 
-  const entry = getMaterialSourceEntry(materialName);
-
-  if (!entry) {
-    return (
-      <div className="material-source-box empty small-empty">
-        No source data found for {materialName}.
-      </div>
-    );
-  }
-
-  if (!entry.sources || entry.sources.length === 0) {
-    return (
-      <div className="material-source-box empty small-empty">
-        {materialName} does not have a direct source yet.
-        <br />
-        Status: {entry.status}
-      </div>
-    );
-  }
+  const visibleSources = sourceEntry.sources.slice(0, 4);
+  const hiddenSourceCount = sourceEntry.sources.length - visibleSources.length;
 
   return (
-    <div className="material-source-box">
-      <div className="material-source-header">
-        <span className="item-title-row">
-          <ItemIcon name={materialName} small />
-          <strong>{materialName}</strong>
-        </span>
+    <div className="material-source-panel">
+      <div className="material-source-box">
+        <div className="material-source-header">
+          <strong>Source details</strong>
+          <span className="badge">{sourceEntry.sources.length} source(s)</span>
+        </div>
 
-        <span className="badge">{entry.sources.length} source(s)</span>
-      </div>
-
-      <div className="material-source-list">
-        {entry.sources.slice(0, 8).map((source, index) => {
-          const detailLines = getSourceDetailLines(source);
-
-          return (
-            <div key={`${materialName}-source-${index}`} className="source-card">
+        <div className="material-source-list">
+          {visibleSources.map((source, index) => (
+            <div
+              key={`${source.type || "source"}-${index}`}
+              className="source-card"
+            >
               <strong>{getSourceTitle(source)}</strong>
-
               <span>{getSourceLocation(source)}</span>
 
-              {detailLines.map((line, lineIndex) => (
-                <span key={`${materialName}-source-${index}-line-${lineIndex}`}>
-                  {line}
-                </span>
+              {getSourceDetailLines(source).map((line) => (
+                <span key={line}>{line}</span>
               ))}
             </div>
-          );
-        })}
+          ))}
+        </div>
 
-        {entry.sources.length > 8 && (
+        {hiddenSourceCount > 0 && (
           <p className="source-overflow-note">
-            Showing first 8 of {entry.sources.length} sources.
+            +{hiddenSourceCount} more source(s) not shown.
           </p>
         )}
       </div>
@@ -680,31 +696,42 @@ function MaterialSourceDetails({ materialName }) {
   );
 }
 
-const SHOPPING_GROUP_ORDER = [
-  "crystals",
-  "vendor",
-  "gathering",
-  "monsterDrop",
-  "fishing",
-  "crafted",
-  "loot",
-  "instance",
-  "special",
-  "unknown",
-];
+function ExpandableMaterialRow({
+  materialName,
+  quantity,
+  sourceKey,
+  selectedSourceKey,
+  onToggle,
+  largeIcon = false,
+  showMaterialBadge = false,
+}) {
+  const expanded = selectedSourceKey === sourceKey;
 
-const SHOPPING_GROUP_LABELS = {
-  crystals: "Crystals / Shards / Clusters",
-  vendor: "Vendor Purchases",
-  gathering: "Gathering",
-  monsterDrop: "Monster Drops",
-  fishing: "Fishing",
-  crafted: "Crafted / Intermediate",
-  loot: "Loot",
-  instance: "Dungeon / Trial / Raid",
-  special: "Special / Manual Review",
-  unknown: "Unknown Source",
-};
+  return (
+    <div className={expanded ? "card material-card expanded" : "card material-card"}>
+      <button
+        className="material-card-button"
+        onClick={() => onToggle(sourceKey)}
+        type="button"
+      >
+        <span className="item-title-row">
+          <ItemIcon name={materialName} small={!largeIcon} />
+          <strong>{materialName}</strong>
+        </span>
+
+        <span className="material-row-actions">
+          {showMaterialBadge && <span className="badge">material</span>}
+          <strong>{quantity}</strong>
+          <span className="material-expand-indicator">
+            {expanded ? "−" : "+"}
+          </span>
+        </span>
+      </button>
+
+      {expanded && <MaterialSourceDetails materialName={materialName} />}
+    </div>
+  );
+}
 
 function isCrystalShardOrCluster(materialName) {
   return /\b(shard|crystal|cluster)\b/i.test(materialName);
@@ -729,7 +756,9 @@ function getPrimaryShoppingGroup(materialName) {
 
   if (
     sourceTypes.has("gathering") ||
-    Array.from(sourceTypes).some((type) => type === "botanist" || type === "miner")
+    Array.from(sourceTypes).some(
+      (type) => type === "botanist" || type === "miner"
+    )
   ) {
     return "gathering";
   }
@@ -761,16 +790,30 @@ function getPrimaryShoppingGroup(materialName) {
   return "unknown";
 }
 
-const ROUTE_SOURCE_PRIORITY = [
-  "shop",
-  "gathering",
-  "monsterDrop",
-  "fishing",
-  "loot",
-  "instance",
-  "crafted",
-  "special",
-];
+function groupShoppingMaterials(materialRows) {
+  const groups = Object.fromEntries(
+    SHOPPING_GROUP_ORDER.map((groupKey) => [groupKey, []])
+  );
+
+  for (const [materialName, quantity] of materialRows) {
+    const groupKey = getPrimaryShoppingGroup(materialName);
+
+    if (!groups[groupKey]) {
+      groups.unknown.push([materialName, quantity]);
+      continue;
+    }
+
+    groups[groupKey].push([materialName, quantity]);
+  }
+
+  return SHOPPING_GROUP_ORDER
+    .map((groupKey) => ({
+      key: groupKey,
+      label: SHOPPING_GROUP_LABELS[groupKey],
+      rows: groups[groupKey],
+    }))
+    .filter((group) => group.rows.length > 0);
+}
 
 function getRouteCoordinateText(coordinates) {
   if (!coordinates) {
@@ -788,7 +831,7 @@ function getRouteCoordinateText(coordinates) {
 }
 
 function getNpcRouteLocation(source) {
-  if (!Array.isArray(source.npcs) || source.npcs.length === 0) {
+  if (!Array.isArray(source?.npcs) || source.npcs.length === 0) {
     return null;
   }
 
@@ -854,7 +897,9 @@ function getRouteSourceDetail(source) {
   }
 
   if (source.type === "monsterDrop") {
-    return `Monster Drop · ${toTitleCase(source.monsterName || "Unknown Monster")}`;
+    return `Monster Drop · ${toTitleCase(
+      source.monsterName || "Unknown Monster"
+    )}`;
   }
 
   if (source.type === "shop") {
@@ -908,17 +953,17 @@ function getBestRouteSource(materialName) {
   }
 
   for (const sourceType of ROUTE_SOURCE_PRIORITY) {
-    const source = entry.sources.find((candidate) => candidate.type === sourceType);
+    const source = entry.sources.find(
+      (candidate) => candidate.type === sourceType
+    );
 
     if (!source) {
       continue;
     }
 
-    const routeLocation = getSourceRouteLocation(source);
-
     return {
       source,
-      routeLocation,
+      routeLocation: getSourceRouteLocation(source),
       sourceType,
     };
   }
@@ -960,9 +1005,7 @@ function getRouteStopTitle(routeLocation, sourceType) {
     return "Location Needs Review";
   }
 
-  return [routeLocation.zone, routeLocation.area]
-    .filter(Boolean)
-    .join(" — ");
+  return [routeLocation.zone, routeLocation.area].filter(Boolean).join(" — ");
 }
 
 function getRouteStopSortValue(stop) {
@@ -996,7 +1039,8 @@ function buildShoppingRoutePlan(materialRows) {
       continue;
     }
 
-    const { source, routeLocation, sourceType } = getBestRouteSource(materialName);
+    const { source, routeLocation, sourceType } =
+      getBestRouteSource(materialName);
 
     if (!source || sourceType === "special" || sourceType === "crafted") {
       specialRows.push({
@@ -1042,82 +1086,6 @@ function buildShoppingRoutePlan(materialRows) {
   };
 }
 
-function groupShoppingMaterials(materialRows) {
-  const groups = Object.fromEntries(
-    SHOPPING_GROUP_ORDER.map((groupKey) => [groupKey, []])
-  );
-
-  for (const [materialName, quantity] of materialRows) {
-    const groupKey = getPrimaryShoppingGroup(materialName);
-
-    if (!groups[groupKey]) {
-      groups.unknown.push([materialName, quantity]);
-      continue;
-    }
-
-    groups[groupKey].push([materialName, quantity]);
-  }
-
-  return SHOPPING_GROUP_ORDER
-    .map((groupKey) => ({
-      key: groupKey,
-      label: SHOPPING_GROUP_LABELS[groupKey],
-      rows: groups[groupKey],
-    }))
-    .filter((group) => group.rows.length > 0);
-}
-
-function ExpandableMaterialRow({
-  materialName,
-  quantity,
-  sourceKey,
-  selectedSourceKey,
-  onToggle,
-  largeIcon = false,
-  showMaterialBadge = false,
-}) {
-  const isExpanded = selectedSourceKey === sourceKey;
-
-  return (
-    <div
-      className={
-        isExpanded ? "card material-card expanded" : "card material-card"
-      }
-    >
-      <button
-        className="material-card-button"
-        onClick={() => onToggle(sourceKey)}
-        type="button"
-      >
-        <span className="item-title-row">
-          <ItemIcon name={materialName} small={!largeIcon} />
-          <strong>{materialName}</strong>
-        </span>
-
-        <span className="material-row-actions">
-          {showMaterialBadge && <span className="badge">material</span>}
-
-          {quantity !== undefined && quantity !== null && (
-            <strong>{quantity}</strong>
-          )}
-
-          <span className="material-expand-indicator">
-            {isExpanded ? "−" : "+"}
-          </span>
-        </span>
-      </button>
-
-      {isExpanded && (
-        <div className="material-source-panel">
-          <MaterialSourceDetails materialName={materialName} />
-        </div>
-      )}
-    </div>
-  );
-}
-
-
-
 function App() {
   const [searchInput, setSearchInput] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
@@ -1131,6 +1099,7 @@ function App() {
   const [selectedSourceKey, setSelectedSourceKey] = useState(null);
   const [craftingList, setCraftingList] = useState(() => loadCraftingList());
   const [copyStatus, setCopyStatus] = useState("");
+  const [shoppingViewMode, setShoppingViewMode] = useState("grouped");
 
   const recipeOutputIndex = useMemo(() => {
     return createRecipeOutputIndex(RECIPES);
@@ -1181,7 +1150,7 @@ function App() {
     return groupShoppingMaterials(shoppingMaterialRows);
   }, [shoppingMaterialRows]);
 
-    const shoppingRoutePlan = useMemo(() => {
+  const shoppingRoutePlan = useMemo(() => {
     return buildShoppingRoutePlan(shoppingMaterialRows);
   }, [shoppingMaterialRows]);
 
@@ -1275,7 +1244,6 @@ function App() {
       return [...currentList, ...newEntries];
     });
   }
-
 
   function addSelectedRecipeToList() {
     if (!selectedRecipeId || !mainRecipe) {
@@ -1508,10 +1476,17 @@ function App() {
                         {getRecipeObjectiveEntry(recipeId) && (
                           <span>
                             {recipeHasLeves(recipeId) &&
-                              `Leves: ${getRecipeObjectiveEntry(recipeId).leves.length}`}
-                            {recipeHasLeves(recipeId) && recipeHasQuests(recipeId) ? " | " : ""}
+                              `Leves: ${
+                                getRecipeObjectiveEntry(recipeId).leves.length
+                              }`}
+                            {recipeHasLeves(recipeId) &&
+                            recipeHasQuests(recipeId)
+                              ? " | "
+                              : ""}
                             {recipeHasQuests(recipeId) &&
-                              `Quests: ${getRecipeObjectiveEntry(recipeId).quests.length}`}
+                              `Quests: ${
+                                getRecipeObjectiveEntry(recipeId).quests.length
+                              }`}
                           </span>
                         )}
                       </span>
@@ -1831,148 +1806,173 @@ function App() {
 
             {craftingList.length > 0 && (
               <>
-              <div className="section-heading-row">
-                <h3>Materials Needed</h3>
+                <div className="section-heading-row">
+                  <h3>Materials Needed</h3>
 
-                <button
-                  className="secondary-button"
-                  onClick={copyShoppingList}
-                  type="button"
-                >
-                  Copy List
-                </button>
-              </div>
+                  <button
+                    className="secondary-button"
+                    onClick={copyShoppingList}
+                    type="button"
+                  >
+                    Copy List
+                  </button>
+                </div>
 
-              <div className="shopping-view-toggle">
-                <button
-                  className={
-                    shoppingViewMode === "grouped"
-                      ? "quick-filter-button active"
-                      : "quick-filter-button"
-                  }
-                  onClick={() => setShoppingViewMode("grouped")}
-                  type="button"
-                >
-                  Grouped List
-                </button>
+                <div className="shopping-view-toggle">
+                  <button
+                    className={
+                      shoppingViewMode === "grouped"
+                        ? "quick-filter-button active"
+                        : "quick-filter-button"
+                    }
+                    onClick={() => setShoppingViewMode("grouped")}
+                    type="button"
+                  >
+                    Grouped List
+                  </button>
 
-                <button
-                  className={
-                    shoppingViewMode === "route"
-                      ? "quick-filter-button active"
-                      : "quick-filter-button"
-                  }
-                  onClick={() => setShoppingViewMode("route")}
-                  type="button"
-                >
-                  Route View
-                </button>
-              </div>
+                  <button
+                    className={
+                      shoppingViewMode === "route"
+                        ? "quick-filter-button active"
+                        : "quick-filter-button"
+                    }
+                    onClick={() => setShoppingViewMode("route")}
+                    type="button"
+                  >
+                    Route View
+                  </button>
+                </div>
 
                 {copyStatus && <p className="copy-status">{copyStatus}</p>}
 
-              <div className="raw-breakdown no-top-border">
-                {shoppingViewMode === "grouped" &&
-                  groupedShoppingMaterials.map((group) => (
-                    <div key={group.key} className="shopping-group">
-                      <h3 className="shopping-group-title">{group.label}</h3>
-
-                      <div className="material-list">
-                        {group.rows.map(([materialName, quantity]) => (
-                          <ExpandableMaterialRow
-                            key={materialName}
-                            materialName={materialName}
-                            quantity={quantity}
-                            sourceKey={`grand-${group.key}-${slugifyItemName(materialName)}`}
-                            selectedSourceKey={selectedSourceKey}
-                            onToggle={toggleSourceMaterial}
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-
-                {shoppingViewMode === "route" && (
-                  <div className="route-plan">
-                    {shoppingRoutePlan.crystalRows.length > 0 && (
-                      <div className="shopping-group">
-                        <h3 className="shopping-group-title">
-                          Crystals / Shards / Clusters
-                        </h3>
-
-                        <p className="route-note">
-                          Check your stock first. These are not included in routing.
-                        </p>
+                <div className="raw-breakdown no-top-border">
+                  {shoppingViewMode === "grouped" &&
+                    groupedShoppingMaterials.map((group) => (
+                      <div key={group.key} className="shopping-group">
+                        <h3 className="shopping-group-title">{group.label}</h3>
 
                         <div className="material-list">
-                          {shoppingRoutePlan.crystalRows.map(([materialName, quantity]) => (
+                          {group.rows.map(([materialName, quantity]) => (
                             <ExpandableMaterialRow
                               key={materialName}
                               materialName={materialName}
                               quantity={quantity}
-                              sourceKey={`route-crystals-${slugifyItemName(materialName)}`}
+                              sourceKey={`grand-${
+                                group.key
+                              }-${slugifyItemName(materialName)}`}
                               selectedSourceKey={selectedSourceKey}
                               onToggle={toggleSourceMaterial}
                             />
                           ))}
                         </div>
                       </div>
-                    )}
-
-                    {shoppingRoutePlan.routeStops.map((stop) => (
-                      <div key={stop.key} className="route-stop">
-                        <h3 className="shopping-group-title">{stop.title}</h3>
-
-                        <div className="material-list">
-                          {stop.rows.map((row) => (
-                            <div key={row.materialName} className="route-material-card">
-                              <ExpandableMaterialRow
-                                materialName={row.materialName}
-                                quantity={row.quantity}
-                                sourceKey={`route-${stop.key}-${slugifyItemName(
-                                  row.materialName
-                                )}`}
-                                selectedSourceKey={selectedSourceKey}
-                                onToggle={toggleSourceMaterial}
-                              />
-
-                              <div className="route-source-summary">
-                                <span>{row.sourceDetail}</span>
-                                {row.coordinatesText && <span>{row.coordinatesText}</span>}
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
                     ))}
 
-                    {shoppingRoutePlan.specialRows.length > 0 && (
-                      <div className="shopping-group">
-                        <h3 className="shopping-group-title">Special / Needs Review</h3>
+                  {shoppingViewMode === "route" && (
+                    <div className="route-plan">
+                      {shoppingRoutePlan.crystalRows.length > 0 && (
+                        <div className="shopping-group">
+                          <h3 className="shopping-group-title">
+                            Crystals / Shards / Clusters
+                          </h3>
 
-                        <div className="material-list">
-                          {shoppingRoutePlan.specialRows.map((row) => (
-                            <div key={row.materialName} className="route-material-card">
-                              <ExpandableMaterialRow
-                                materialName={row.materialName}
-                                quantity={row.quantity}
-                                sourceKey={`route-special-${slugifyItemName(row.materialName)}`}
-                                selectedSourceKey={selectedSourceKey}
-                                onToggle={toggleSourceMaterial}
-                              />
+                          <p className="route-note">
+                            Check your stock first. These are not included in
+                            routing.
+                          </p>
 
-                              <div className="route-source-summary">
-                                <span>{row.sourceDetail}</span>
-                              </div>
-                            </div>
-                          ))}
+                          <div className="material-list">
+                            {shoppingRoutePlan.crystalRows.map(
+                              ([materialName, quantity]) => (
+                                <ExpandableMaterialRow
+                                  key={materialName}
+                                  materialName={materialName}
+                                  quantity={quantity}
+                                  sourceKey={`route-crystals-${slugifyItemName(
+                                    materialName
+                                  )}`}
+                                  selectedSourceKey={selectedSourceKey}
+                                  onToggle={toggleSourceMaterial}
+                                />
+                              )
+                            )}
+                          </div>
                         </div>
-                      </div>
-                    )}
-                  </div>
-                )}
-              </div>
-                
+                      )}
+
+                      {shoppingRoutePlan.routeStops.map((stop) => (
+                        <div key={stop.key} className="route-stop">
+                          <h3 className="shopping-group-title">{stop.title}</h3>
+
+                          <div className="material-list">
+                            {stop.rows.map((row) => (
+                              <div
+                                key={row.materialName}
+                                className="route-material-card"
+                              >
+                                <ExpandableMaterialRow
+                                  materialName={row.materialName}
+                                  quantity={row.quantity}
+                                  sourceKey={`route-${
+                                    stop.key
+                                  }-${slugifyItemName(row.materialName)}`}
+                                  selectedSourceKey={selectedSourceKey}
+                                  onToggle={toggleSourceMaterial}
+                                />
+
+                                <div className="route-source-summary">
+                                  <span>{row.sourceDetail}</span>
+                                  {row.coordinatesText && (
+                                    <span>{row.coordinatesText}</span>
+                                  )}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+
+                      {shoppingRoutePlan.specialRows.length > 0 && (
+                        <div className="shopping-group">
+                          <h3 className="shopping-group-title">
+                            Special / Needs Review
+                          </h3>
+
+                          <div className="material-list">
+                            {shoppingRoutePlan.specialRows.map((row) => (
+                              <div
+                                key={row.materialName}
+                                className="route-material-card"
+                              >
+                                <ExpandableMaterialRow
+                                  materialName={row.materialName}
+                                  quantity={row.quantity}
+                                  sourceKey={`route-special-${slugifyItemName(
+                                    row.materialName
+                                  )}`}
+                                  selectedSourceKey={selectedSourceKey}
+                                  onToggle={toggleSourceMaterial}
+                                />
+
+                                <div className="route-source-summary">
+                                  <span>{row.sourceDetail}</span>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+
+                <textarea
+                  className="shopping-list-box"
+                  readOnly
+                  value={buildShoppingListText()}
+                  aria-label="Copyable shopping list"
+                />
               </>
             )}
           </div>

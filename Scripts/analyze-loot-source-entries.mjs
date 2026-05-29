@@ -2,11 +2,11 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const INPUT_PATH = path.resolve(
-  "src/data/materialSources.withDropsAndShops.unresolved-categories.json"
+  "src/data/materialSources.withDropsShopsLootSpecialAndFishingCraftedInstancesBroadSpecialFinal.unresolved-report.json"
 );
 
 const OUTPUT_PATH = path.resolve(
-  "src/data/debug-loot-source-entry-analysis.json"
+  "src/data/materialSources.withDropsShopsLootSpecialAndFishingCraftedInstancesBroadSpecialFinal.unresolved-categories.json"
 );
 
 const TEAMCRAFT_BASE =

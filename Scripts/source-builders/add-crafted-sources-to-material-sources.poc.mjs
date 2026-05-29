@@ -381,9 +381,13 @@ function collectRecipeIdsFromValue(value, output = []) {
 }
 
 function getRecipeIdsForItem(itemId, recipesPerItemData, recipeIndex) {
+  if (itemId === null || itemId === undefined || itemId === "") {
+    return [];
+  }
+
   const id = Number(itemId);
 
-  if (!Number.isFinite(id)) {
+  if (!Number.isFinite(id) || id <= 0) {
     return [];
   }
 
@@ -447,8 +451,22 @@ function getCraftedSourcesForMaterial(
   itemIndex,
   jobNameIndex
 ) {
+  if (
+    material.itemId === null ||
+    material.itemId === undefined ||
+    material.itemId === ""
+  ) {
+    return [];
+  }
+
+  const itemId = Number(material.itemId);
+
+  if (!Number.isFinite(itemId) || itemId <= 0) {
+    return [];
+  }
+
   const recipeIds = getRecipeIdsForItem(
-    material.itemId,
+    itemId,
     recipesPerItemData,
     recipeIndex
   ).slice(0, MAX_CRAFTING_SOURCES_PER_MATERIAL);
@@ -458,6 +476,12 @@ function getCraftedSourcesForMaterial(
       const recipe = recipeIndex.get(recipeId);
 
       if (!recipe) {
+        return null;
+      }
+
+      const resultItemId = getRecipeResultItemId(recipe);
+
+      if (resultItemId !== itemId) {
         return null;
       }
 

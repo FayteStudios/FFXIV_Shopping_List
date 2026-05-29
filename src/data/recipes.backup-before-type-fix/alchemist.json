@@ -5459,7 +5459,7 @@
       {
         "name": "Firebricks",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
@@ -5525,7 +5525,7 @@
       {
         "name": "Roof Tile",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elm Lumber",
@@ -5597,7 +5597,7 @@
       {
         "name": "Roof Tile",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yew Lumber",
@@ -5756,7 +5756,7 @@
       {
         "name": "Roof Tile",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elm Lumber",
@@ -6716,7 +6716,7 @@
       {
         "name": "Roof Tile",
         "quantity": 30,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oak Lumber",
@@ -7008,7 +7008,7 @@
       {
         "name": "Roof Tile",
         "quantity": 30,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Walnut Lumber",
@@ -7459,7 +7459,7 @@
       {
         "name": "Clinker Bricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
@@ -7570,7 +7570,7 @@
       {
         "name": "Archaeornis Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Electrum Ingot",
@@ -7580,7 +7580,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -8322,7 +8322,7 @@
       {
         "name": "Roof Tile",
         "quantity": 30,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rosewood Lumber",
@@ -8342,7 +8342,7 @@
       {
         "name": "Clinker Bricks",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -8481,7 +8481,7 @@
       {
         "name": "Roof Tile",
         "quantity": 45,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spruce Lumber",
@@ -9496,7 +9496,7 @@
       {
         "name": "Suspended Trillium Flower",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Darksteel Nugget",
@@ -10637,12 +10637,12 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ancient Lumber",
@@ -10682,7 +10682,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wolfram Square",
@@ -10762,17 +10762,17 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cashmere Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Vanya Silk",
@@ -10807,7 +10807,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wolfram Square",
@@ -10847,7 +10847,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wolfram Square",
@@ -10887,12 +10887,12 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cashmere Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ancient Lumber",
@@ -10932,7 +10932,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wolfram Square",
@@ -10942,7 +10942,7 @@
       {
         "name": "Cashmere Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Vanya Silk",
@@ -10977,17 +10977,17 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cashmere Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Vanya Silk",
@@ -11022,12 +11022,12 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wolfram Ingot",
@@ -11067,17 +11067,17 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hard Hippogryph Leather",
@@ -11357,7 +11357,7 @@
       {
         "name": "Spirits of Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fieldcraft Demimateria III",
@@ -11447,7 +11447,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -11522,7 +11522,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -11562,7 +11562,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -11602,7 +11602,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -11647,7 +11647,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Delta",
@@ -11692,7 +11692,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Delta",
@@ -11737,7 +11737,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -11847,7 +11847,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -11887,7 +11887,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -11927,7 +11927,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spoken Blood",
@@ -11967,7 +11967,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Raptor Sinew",
@@ -12007,7 +12007,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Delta",
@@ -12047,7 +12047,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
@@ -12087,7 +12087,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Amber",
@@ -12127,7 +12127,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyvern Obsidian",
@@ -12172,7 +12172,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
@@ -12212,7 +12212,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
@@ -12252,7 +12252,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Woolen Cloth",
@@ -12297,12 +12297,12 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Uraeus Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earth Crystal",
@@ -12337,7 +12337,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Ingot",
@@ -12377,7 +12377,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
@@ -12417,7 +12417,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Amber",
@@ -12457,7 +12457,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -12497,7 +12497,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -12527,7 +12527,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Blind to the Dark",
@@ -12562,7 +12562,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Footsteps in the Snow",
@@ -12597,7 +12597,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of From the Ashes",
@@ -12632,7 +12632,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Hubris",
@@ -12667,7 +12667,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Hunger",
@@ -12702,7 +12702,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Now I Know the Truth",
@@ -12737,7 +12737,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Oblivion",
@@ -12772,7 +12772,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Out of the Labyrinth",
@@ -12807,7 +12807,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Rise of the White Raven",
@@ -12842,7 +12842,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of The Corpse Hall",
@@ -12877,7 +12877,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Thunder Rolls",
@@ -12912,7 +12912,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Thunderer",
@@ -12947,7 +12947,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Tumbling Down",
@@ -12987,7 +12987,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ebony Lumber",
@@ -12997,7 +12997,7 @@
       {
         "name": "Kirimu Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -13032,7 +13032,7 @@
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wootz Ingot",
@@ -13042,7 +13042,7 @@
       {
         "name": "Kirimu Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -13072,12 +13072,12 @@
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -13117,12 +13117,12 @@
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Gold Ink",
@@ -13272,7 +13272,7 @@
       {
         "name": "Archaeornis Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hippogryph Leather",
@@ -13287,7 +13287,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -13312,7 +13312,7 @@
       {
         "name": "Archaeornis Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hippogryph Leather",
@@ -13327,7 +13327,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -13472,17 +13472,17 @@
       {
         "name": "Rainbow Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rainbow Thread",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Epsilon",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -13507,7 +13507,7 @@
       {
         "name": "Archaeornis Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hippogryph Leather",
@@ -13517,7 +13517,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -13543,7 +13543,7 @@
       {
         "name": "Wyvern Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythrite Ingot",
@@ -13553,7 +13553,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -13578,7 +13578,7 @@
       {
         "name": "Wyvern Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythrite Ingot",
@@ -13588,7 +13588,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15439,7 +15439,7 @@
       {
         "name": "Growth Formula Epsilon",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15475,7 +15475,7 @@
       {
         "name": "Growth Formula Epsilon",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15511,7 +15511,7 @@
       {
         "name": "Growth Formula Epsilon",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15547,7 +15547,7 @@
       {
         "name": "Growth Formula Epsilon",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15583,7 +15583,7 @@
       {
         "name": "Growth Formula Epsilon",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15619,7 +15619,7 @@
       {
         "name": "Growth Formula Epsilon",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15645,12 +15645,12 @@
       {
         "name": "Dhalmel Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rubellite",
@@ -15660,7 +15660,7 @@
       {
         "name": "Enchanted Hardsilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15685,12 +15685,12 @@
       {
         "name": "Dhalmel Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spinel",
@@ -15700,7 +15700,7 @@
       {
         "name": "Enchanted Hardsilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15755,12 +15755,12 @@
       {
         "name": "Hardsilver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Epsilon",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15785,17 +15785,17 @@
       {
         "name": "Dhalmel Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Hardsilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15873,12 +15873,12 @@
       {
         "name": "Dragon Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythrite Ingot",
@@ -15888,7 +15888,7 @@
       {
         "name": "Enchanted Hardsilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -15913,12 +15913,12 @@
       {
         "name": "Dragon Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythrite Ingot",
@@ -15928,7 +15928,7 @@
       {
         "name": "Enchanted Hardsilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -16091,22 +16091,22 @@
       {
         "name": "Aurum Regis Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Ruby",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -16299,22 +16299,22 @@
       {
         "name": "Aurum Regis Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Sapphire",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -16545,7 +16545,7 @@
       {
         "name": "Growth Formula Zeta",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -17156,7 +17156,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Against the Wind",
@@ -17191,7 +17191,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Against the Wind",
@@ -17226,7 +17226,7 @@
       {
         "name": "Enchanted Hardsilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Blood for Blood",
@@ -17281,7 +17281,7 @@
       {
         "name": "Holy Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -17311,7 +17311,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Lost in the Clouds",
@@ -17346,7 +17346,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Engage",
@@ -17396,7 +17396,7 @@
       {
         "name": "Enchanted Hardsilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       }
     ],
     "icon": "imagination-orchestrion-roll"
@@ -17416,7 +17416,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Landlords",
@@ -17451,7 +17451,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Lost in the Clouds",
@@ -17486,7 +17486,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Missing Pages",
@@ -17521,7 +17521,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Painted Foothills",
@@ -17556,7 +17556,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Landlords",
@@ -17591,7 +17591,7 @@
       {
         "name": "Enchanted Hardsilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Starved",
@@ -17626,7 +17626,7 @@
       {
         "name": "Enchanted Mythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Missing Pages",
@@ -17772,7 +17772,7 @@
       {
         "name": "Firebricks",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -17813,7 +17813,7 @@
       {
         "name": "Firebricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Joint Plate",
@@ -17859,7 +17859,7 @@
       {
         "name": "Firebricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -17905,7 +17905,7 @@
       {
         "name": "Firebricks",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Joint Plate",
@@ -17951,7 +17951,7 @@
       {
         "name": "Firebricks",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -17997,7 +17997,7 @@
       {
         "name": "Cloud Mica Whetstone",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
@@ -18037,7 +18037,7 @@
       {
         "name": "Firebricks",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Joint Plate",
@@ -18083,7 +18083,7 @@
       {
         "name": "Firebricks",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -18235,27 +18235,27 @@
       {
         "name": "Aurum Regis Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chrysolite",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mormorion",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -18280,27 +18280,27 @@
       {
         "name": "Aurum Regis Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chrysolite",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dragon Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -18365,17 +18365,17 @@
       {
         "name": "Aurum Regis Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -18811,7 +18811,7 @@
       {
         "name": "Growth Formula Zeta",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Glazenut",
@@ -18842,7 +18842,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Down the Up Staircase",
@@ -18877,7 +18877,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Tumbling Down",
@@ -18922,7 +18922,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Fiend",
@@ -18957,7 +18957,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Heroes",
@@ -18992,7 +18992,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Limitless Blue",
@@ -19027,7 +19027,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of The Hand That Gives the Rose",
@@ -19062,7 +19062,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Unbending Steel",
@@ -19097,7 +19097,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Woe That Is Madness",
@@ -19167,7 +19167,7 @@
       {
         "name": "Astral Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Duskborne Aethersand",
@@ -19202,7 +19202,7 @@
       {
         "name": "Astral Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Duskborne Aethersand",
@@ -19237,7 +19237,7 @@
       {
         "name": "Astral Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Duskborne Aethersand",
@@ -19272,7 +19272,7 @@
       {
         "name": "Holy Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Sand",
@@ -19312,7 +19312,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Thunderer",
@@ -19357,7 +19357,7 @@
       {
         "name": "Growth Formula Zeta",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -19388,7 +19388,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Equilibrium",
@@ -19423,7 +19423,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Revenge of the Horde",
@@ -19463,17 +19463,17 @@
       {
         "name": "Holy Water",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Zeta",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Larimar",
         "quantity": 8,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -19499,17 +19499,17 @@
       {
         "name": "Clinker Bricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Camphor",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Firebricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
@@ -19539,7 +19539,7 @@
       {
         "name": "Tempered Glass",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bomb Ash",
@@ -19604,12 +19604,12 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hive Forewing",
@@ -19654,12 +19654,12 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hive Forewing",
@@ -19704,12 +19704,12 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Expanse Baleen",
@@ -19754,12 +19754,12 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Expanse Baleen",
@@ -20079,7 +20079,7 @@
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Infinity",
@@ -20119,12 +20119,12 @@
       {
         "name": "Hallowed Water",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Zeta",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Deep-blue Cluster",
@@ -20155,7 +20155,7 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Treated Camphorwood Lumber",
@@ -20165,17 +20165,17 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -20205,7 +20205,7 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Treated Camphorwood Lumber",
@@ -20215,17 +20215,17 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -20465,17 +20465,17 @@
       {
         "name": "Kirimu Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -20515,17 +20515,17 @@
       {
         "name": "Kirimu Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -20565,17 +20565,17 @@
       {
         "name": "Kirimu Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -20615,17 +20615,17 @@
       {
         "name": "Kirimu Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -20665,7 +20665,7 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nidhogg's Scale",
@@ -20710,7 +20710,7 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nidhogg's Scale",
@@ -20755,7 +20755,7 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zurvanite Carapace Fragment",
@@ -20800,12 +20800,12 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fiend Sap",
@@ -20850,7 +20850,7 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sophic Bead Fragment",
@@ -20895,7 +20895,7 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zurvanite Carapace Fragment",
@@ -20940,12 +20940,12 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Aurum Regis Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fiend Sap",
@@ -20990,7 +20990,7 @@
       {
         "name": "Eikon Iron Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sophic Bead Fragment",
@@ -21230,17 +21230,17 @@
       {
         "name": "Scintillant Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sapphire",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -21280,17 +21280,17 @@
       {
         "name": "Scintillant Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iolite",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Platinum Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -21637,7 +21637,7 @@
       {
         "name": "Koppranickel Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythrite Nugget",
@@ -21652,12 +21652,12 @@
       {
         "name": "Star Ruby",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Koppranickel Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -21682,7 +21682,7 @@
       {
         "name": "Koppranickel Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythrite Nugget",
@@ -21697,12 +21697,12 @@
       {
         "name": "Amphiptere Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Koppranickel Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -21883,12 +21883,12 @@
       {
         "name": "Gyuki Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Koppranickel Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Larch Lumber",
@@ -21898,7 +21898,7 @@
       {
         "name": "Enchanted Koppranickel Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -21923,12 +21923,12 @@
       {
         "name": "Gyuki Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Koppranickel Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Larch Lumber",
@@ -21938,7 +21938,7 @@
       {
         "name": "Enchanted Koppranickel Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -22003,7 +22003,7 @@
       {
         "name": "Koppranickel Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beech Lumber",
@@ -22013,7 +22013,7 @@
       {
         "name": "Enchanted Koppranickel Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -22431,7 +22431,7 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gyr Abanian Mineral Water",
@@ -22513,12 +22513,12 @@
       {
         "name": "Ruby Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kudzu Thread",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Natron",
@@ -22695,12 +22695,12 @@
       {
         "name": "Tiger Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Durium Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pine Lumber",
@@ -22710,12 +22710,12 @@
       {
         "name": "Star Spinel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Durium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -22740,12 +22740,12 @@
       {
         "name": "Tiger Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Durium Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pine Lumber",
@@ -22755,12 +22755,12 @@
       {
         "name": "Kyanite",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Durium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -22790,7 +22790,7 @@
       {
         "name": "Persimmon Tannin",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perlite",
@@ -24204,7 +24204,7 @@
       {
         "name": "Tiger Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pine Lumber",
@@ -24214,7 +24214,7 @@
       {
         "name": "Enchanted Durium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -25014,7 +25014,7 @@
       {
         "name": "Marid Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Persimmon Lumber",
@@ -25024,12 +25024,12 @@
       {
         "name": "Durium Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Durium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -25054,7 +25054,7 @@
       {
         "name": "Marid Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Persimmon Lumber",
@@ -25064,12 +25064,12 @@
       {
         "name": "Durium Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Durium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -25202,7 +25202,7 @@
       {
         "name": "Gazelle Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zelkova Lumber",
@@ -25212,12 +25212,12 @@
       {
         "name": "Durium Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -25242,7 +25242,7 @@
       {
         "name": "Gazelle Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zelkova Lumber",
@@ -25252,12 +25252,12 @@
       {
         "name": "Durium Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -25287,7 +25287,7 @@
       {
         "name": "Persimmon Tannin",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perlite",
@@ -26425,7 +26425,7 @@
       {
         "name": "Gazelle Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zelkova Lumber",
@@ -26435,7 +26435,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -26556,7 +26556,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Beauty's Wicked Wiles",
@@ -26581,7 +26581,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Revelation",
@@ -26616,7 +26616,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of The Worm's Tail",
@@ -26651,7 +26651,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of The Worm's Tail",
@@ -26766,7 +26766,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Ambient Abyss",
@@ -26831,12 +26831,12 @@
       {
         "name": "X-Potion",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "X-Ether",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mega-Potion",
@@ -26881,7 +26881,7 @@
       {
         "name": "Riviera Armchair",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -26912,7 +26912,7 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -26952,7 +26952,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chromite Ingot",
@@ -26962,7 +26962,7 @@
       {
         "name": "Rhea Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -26987,7 +26987,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -26997,7 +26997,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Byakko's Mane",
@@ -27032,7 +27032,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27042,7 +27042,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Byakko's Mane",
@@ -27077,7 +27077,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27087,12 +27087,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -27102,7 +27102,7 @@
       {
         "name": "Grade 2 Reisui of Mind",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -27327,7 +27327,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27337,12 +27337,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -27352,7 +27352,7 @@
       {
         "name": "Grade 2 Reisui of Intelligence",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -27377,7 +27377,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27387,7 +27387,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Seiryu's Scale",
@@ -27422,7 +27422,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27432,7 +27432,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Seiryu's Scale",
@@ -27467,7 +27467,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27477,7 +27477,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shinryu's Scale",
@@ -27512,7 +27512,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27522,7 +27522,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shinryu's Scale",
@@ -27557,7 +27557,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27567,7 +27567,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blade of Revelry",
@@ -27602,7 +27602,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27612,7 +27612,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blade of Revelry",
@@ -27647,7 +27647,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27657,7 +27657,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scarlet Tailfeather",
@@ -27692,7 +27692,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27702,7 +27702,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scarlet Tailfeather",
@@ -27737,7 +27737,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27747,7 +27747,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestial Kimono Remnant",
@@ -27782,7 +27782,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Torreya Lumber",
@@ -27792,7 +27792,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestial Kimono Remnant",
@@ -28032,7 +28032,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of the Jade Stoa",
@@ -28067,7 +28067,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of the Jade Stoa",
@@ -28102,7 +28102,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Under the Moonlight",
@@ -28137,7 +28137,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Under the Moonlight",
@@ -28402,7 +28402,7 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -28412,12 +28412,12 @@
       {
         "name": "Imperial Jade",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -28427,7 +28427,7 @@
       {
         "name": "Grade 3 Reisui of Mind",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -28452,7 +28452,7 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -28462,12 +28462,12 @@
       {
         "name": "Rhodonite",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -28477,7 +28477,7 @@
       {
         "name": "Grade 3 Reisui of Intelligence",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -28742,7 +28742,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of From the Dragon's Wake",
@@ -28777,7 +28777,7 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Sunrise",
@@ -29007,12 +29007,12 @@
       {
         "name": "Evergleam Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Procoptodon Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chigusa Ingot",
@@ -29022,12 +29022,12 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Mind",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -29052,12 +29052,12 @@
       {
         "name": "Evergleam Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Procoptodon Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chigusa Ingot",
@@ -29067,12 +29067,12 @@
       {
         "name": "Enchanted Palladium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Intelligence",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -29265,12 +29265,12 @@
       {
         "name": "Enchanted Truegold Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Oak Lumber",
@@ -29280,7 +29280,7 @@
       {
         "name": "Smilodon Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -29305,12 +29305,12 @@
       {
         "name": "Enchanted Truegold Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Oak Lumber",
@@ -29320,7 +29320,7 @@
       {
         "name": "Smilodon Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -29423,12 +29423,12 @@
       {
         "name": "Enchanted Truegold Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Green Glider Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Deepgold Ingot",
@@ -29463,12 +29463,12 @@
       {
         "name": "Enchanted Truegold Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Green Glider Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Deepgold Ingot",
@@ -29807,12 +29807,12 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steppe Milk",
@@ -31303,7 +31303,7 @@
       {
         "name": "Enchanted Manasilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bluespirit Tile",
@@ -31313,12 +31313,12 @@
       {
         "name": "Manasilver Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Ruby",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rose Gold Nugget",
@@ -31348,7 +31348,7 @@
       {
         "name": "Enchanted Manasilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bluespirit Tile",
@@ -31358,12 +31358,12 @@
       {
         "name": "Manasilver Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Ruby",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rose Gold Nugget",
@@ -31673,12 +31673,12 @@
       {
         "name": "Enchanted Truegold Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Green Glider Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Deepgold Ingot",
@@ -32368,7 +32368,7 @@
       {
         "name": "Enchanted Manasilver Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bluespirit Tile",
@@ -32378,7 +32378,7 @@
       {
         "name": "Manasilver Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -32930,22 +32930,22 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zonure Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Titanbronze Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wildfowl Feather",
@@ -32975,22 +32975,22 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zonure Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Titanbronze Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wildfowl Feather",
@@ -33065,7 +33065,7 @@
       {
         "name": "Hollandaise Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak Milk",
@@ -33106,22 +33106,22 @@
       {
         "name": "Dwarven Cotton",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zonure Leather",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manasilver Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -33157,22 +33157,22 @@
       {
         "name": "Dwarven Cotton",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Titanbronze Nugget",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pixie Cotton",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -33208,7 +33208,7 @@
       {
         "name": "Dwarven Cotton",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yellow Tulips",
@@ -33223,7 +33223,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -33264,7 +33264,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Potting Soil",
@@ -33365,7 +33365,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -33380,7 +33380,7 @@
       {
         "name": "Stonegold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -33405,7 +33405,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -33420,7 +33420,7 @@
       {
         "name": "Stonegold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -34560,7 +34560,7 @@
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -35001,7 +35001,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lime Basil",
@@ -35047,7 +35047,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -35082,7 +35082,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -35108,12 +35108,12 @@
       {
         "name": "Firebricks",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Kappa",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oldrose Seeds",
@@ -35154,12 +35154,12 @@
       {
         "name": "Clinker Bricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Firebricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
@@ -35205,7 +35205,7 @@
       {
         "name": "Starch Glue",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -35235,7 +35235,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Red Pigment",
@@ -35275,12 +35275,12 @@
       {
         "name": "Dwarven Cotton",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pixie Cotton",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crystal Glass",
@@ -35361,7 +35361,7 @@
       {
         "name": "Refined Natron",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -35406,7 +35406,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -35432,12 +35432,12 @@
       {
         "name": "Clinker Bricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Firebricks",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shroud Seedling",
@@ -35452,7 +35452,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -35519,12 +35519,12 @@
       {
         "name": "Clinker Bricks",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Firebricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lignum Vitae Lumber",
@@ -35606,12 +35606,12 @@
       {
         "name": "Firebricks",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Kappa",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Underground Spring Water",
@@ -35652,7 +35652,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Humus",
@@ -35687,12 +35687,12 @@
       {
         "name": "Clinker Bricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Firebricks",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lignum Vitae Lumber",
@@ -35727,7 +35727,7 @@
       {
         "name": "Firebricks",
         "quantity": 12,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Titanbronze Ingot",
@@ -35778,7 +35778,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -35804,7 +35804,7 @@
       {
         "name": "Dwarven Mythril Nugget",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cut Stone",
@@ -35910,7 +35910,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -36091,12 +36091,12 @@
       {
         "name": "Dwarven Cotton",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Refined Natron",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -36126,7 +36126,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Insanity",
@@ -36161,7 +36161,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of What Angel Wakes Me",
@@ -36406,7 +36406,7 @@
       {
         "name": "Refined Natron",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -36466,7 +36466,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Invincible",
@@ -36501,7 +36501,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Ultima (The Primals)",
@@ -36531,7 +36531,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -36541,7 +36541,7 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Diamond Plating",
@@ -36576,7 +36576,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -36586,7 +36586,7 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Diamond Plating",
@@ -36621,7 +36621,7 @@
       {
         "name": "Chalicotherium Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sandalwood Lumber",
@@ -36631,7 +36631,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hades's Auracite",
@@ -36666,7 +36666,7 @@
       {
         "name": "Chalicotherium Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sandalwood Lumber",
@@ -36676,7 +36676,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hades's Auracite",
@@ -36716,17 +36716,17 @@
       {
         "name": "Chalicotherium Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 2 Intelligence Alkahest",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -36936,17 +36936,17 @@
       {
         "name": "Chalicotherium Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 2 Mind Alkahest",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -36976,12 +36976,12 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ruby Plating",
@@ -37021,12 +37021,12 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ruby Plating",
@@ -37066,12 +37066,12 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Emerald Plating",
@@ -37111,12 +37111,12 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Emerald Plating",
@@ -37151,7 +37151,7 @@
       {
         "name": "Chalicotherium Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sandalwood Lumber",
@@ -37161,7 +37161,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dancing Wing",
@@ -37196,7 +37196,7 @@
       {
         "name": "Chalicotherium Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sandalwood Lumber",
@@ -37206,7 +37206,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dancing Wing",
@@ -37522,7 +37522,7 @@
       {
         "name": "Refined Natron",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -37552,7 +37552,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of To the Edge",
@@ -37587,7 +37587,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of The Black Wolf Stalks Again",
@@ -37622,7 +37622,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of To the Edge",
@@ -37827,7 +37827,7 @@
       {
         "name": "Megalania Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Merbau Lumber",
@@ -37837,12 +37837,12 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 3 Mind Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ageflow Aethersand",
@@ -37872,7 +37872,7 @@
       {
         "name": "Megalania Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Merbau Lumber",
@@ -37882,12 +37882,12 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 3 Intelligence Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agewood Aethersand",
@@ -38286,22 +38286,22 @@
       {
         "name": "Thylacoleo Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Solstice Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Mind Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Levinstrike Aethersand",
@@ -38331,22 +38331,22 @@
       {
         "name": "Thylacoleo Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Solstice Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Intelligence Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Levinstrike Aethersand",
@@ -38556,7 +38556,7 @@
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of In the Arms of War",
@@ -38720,22 +38720,22 @@
       {
         "name": "Gaja Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Cotton",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -38760,17 +38760,17 @@
       {
         "name": "Gaja Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lignum Vitae Lumber",
@@ -38800,17 +38800,17 @@
       {
         "name": "Gaja Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Dimythrite Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -38914,22 +38914,22 @@
       {
         "name": "Luncheon Toad Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Hempen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -38954,17 +38954,17 @@
       {
         "name": "Luncheon Toad Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Horse Chestnut Lumber",
@@ -38999,17 +38999,17 @@
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Hempen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -39262,7 +39262,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Amra",
@@ -39298,17 +39298,17 @@
       {
         "name": "Luncheon Toad Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -39575,17 +39575,17 @@
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Snow Linen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -39645,22 +39645,22 @@
       {
         "name": "Saiga Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Snow Linen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -39685,17 +39685,17 @@
       {
         "name": "Saiga Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ametrine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Lumber",
@@ -39928,12 +39928,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 5 Mind Alkahest",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -40530,17 +40530,17 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blue Zircon",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Snow Linen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -40565,22 +40565,22 @@
       {
         "name": "Kumbhira Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blue Zircon",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Snow Linen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -40605,17 +40605,17 @@
       {
         "name": "Kumbhira Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blue Zircon",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Red Pine Lumber",
@@ -40655,12 +40655,12 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Starch Glue",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -40830,7 +40830,7 @@
       {
         "name": "Moon Gel",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beeswax",
@@ -40840,7 +40840,7 @@
       {
         "name": "Dishware",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -40885,7 +40885,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -41427,7 +41427,7 @@
       {
         "name": "Coconut Milk",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Berkanan Sap",
@@ -41538,17 +41538,17 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blue Zircon",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scarlet Moko Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -41608,22 +41608,22 @@
       {
         "name": "Ophiotauros Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blue Zircon",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scarlet Moko Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -41648,17 +41648,17 @@
       {
         "name": "Ophiotauros Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blue Zircon",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ironwood Lumber",
@@ -42993,7 +42993,7 @@
       {
         "name": "Coconut Milk",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cherimoya",
@@ -43060,12 +43060,12 @@
       {
         "name": "Phrygian Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Kappa",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -43110,7 +43110,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
@@ -43150,7 +43150,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -43180,7 +43180,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shroud Seedling",
@@ -43340,7 +43340,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shroud Seedling",
@@ -43420,7 +43420,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -43450,7 +43450,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crystal Glass",
@@ -43490,7 +43490,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ambrosial Water",
@@ -43535,7 +43535,7 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Glade Pendant Lamp",
@@ -43571,12 +43571,12 @@
       {
         "name": "Growth Formula Kappa",
         "quantity": 7,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Iota",
         "quantity": 7,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Potter's Clay",
@@ -43607,17 +43607,17 @@
       {
         "name": "Ophiotauros Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Quartz",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -43683,12 +43683,12 @@
       {
         "name": "Chloroschist Whetstone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Firebricks",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Limestone",
@@ -43786,7 +43786,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of The Final Day",
@@ -43821,7 +43821,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of The Final Day",
@@ -43856,7 +43856,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Endcaller",
@@ -43891,7 +43891,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Your Answer",
@@ -44161,12 +44161,12 @@
       {
         "name": "Grade 5 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 5 Mind Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -44192,12 +44192,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rhodium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mempisang Lumber",
@@ -44237,12 +44237,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rhodium Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mempisang Lumber",
@@ -44282,7 +44282,7 @@
       {
         "name": "Amynodon Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mempisang Lumber",
@@ -44292,12 +44292,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 6 Mind Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Endtide Aethersand",
@@ -44327,7 +44327,7 @@
       {
         "name": "Amynodon Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mempisang Lumber",
@@ -44337,12 +44337,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 6 Intelligence Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Endwood Aethersand",
@@ -44377,7 +44377,7 @@
       {
         "name": "Grade 5 Dexterity Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -44412,7 +44412,7 @@
       {
         "name": "Grade 5 Intelligence Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -44447,7 +44447,7 @@
       {
         "name": "Grade 5 Mind Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -44482,7 +44482,7 @@
       {
         "name": "Grade 5 Strength Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -44517,7 +44517,7 @@
       {
         "name": "Grade 5 Vitality Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -44552,7 +44552,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Battle with the Four Fiends (Buried Memory)",
@@ -44587,7 +44587,7 @@
       {
         "name": "Enchanted High Durium Ink",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -44852,12 +44852,12 @@
       {
         "name": "Grade 5 Intelligence Alkahest",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Kappa",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -44893,12 +44893,12 @@
       {
         "name": "Grade 5 Vitality Alkahest",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Kappa",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -45001,7 +45001,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Forged in Crimson",
@@ -45036,7 +45036,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Voidcast Savior",
@@ -45071,7 +45071,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of FINAL FANTASY IV: The Final Battle (Endwalker)",
@@ -45106,7 +45106,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of FINAL FANTASY IV: The Final Battle (Endwalker)",
@@ -45141,7 +45141,7 @@
       {
         "name": "Grade 5 Dexterity Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -45176,7 +45176,7 @@
       {
         "name": "Grade 5 Intelligence Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -45211,7 +45211,7 @@
       {
         "name": "Grade 5 Mind Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -45246,7 +45246,7 @@
       {
         "name": "Grade 5 Strength Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -45281,7 +45281,7 @@
       {
         "name": "Grade 5 Vitality Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moonlight Aethersand",
@@ -45311,7 +45311,7 @@
       {
         "name": "Titanoboa Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Paldao Lumber",
@@ -45321,12 +45321,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 7 Mind Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Endtide Aethersand",
@@ -45356,22 +45356,22 @@
       {
         "name": "Titanoboa Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bayberry Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 7 Intelligence Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Endwood Aethersand",
@@ -45724,17 +45724,17 @@
       {
         "name": "Spodumene",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 8 Mind Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earthbreak Aethersand",
@@ -45769,17 +45769,17 @@
       {
         "name": "Spodumene",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 8 Intelligence Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earthbreak Aethersand",
@@ -45814,7 +45814,7 @@
       {
         "name": "Grade 5 Dexterity Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earthbreak Aethersand",
@@ -45849,7 +45849,7 @@
       {
         "name": "Grade 5 Intelligence Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earthbreak Aethersand",
@@ -45884,7 +45884,7 @@
       {
         "name": "Grade 5 Mind Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earthbreak Aethersand",
@@ -45919,7 +45919,7 @@
       {
         "name": "Grade 5 Strength Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earthbreak Aethersand",
@@ -45954,7 +45954,7 @@
       {
         "name": "Grade 5 Vitality Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earthbreak Aethersand",
@@ -46081,17 +46081,17 @@
       {
         "name": "Silver Lobo Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moon Gel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46116,7 +46116,7 @@
       {
         "name": "Silver Lobo Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ginseng Lumber",
@@ -46126,12 +46126,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moon Gel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46156,7 +46156,7 @@
       {
         "name": "Silver Lobo Leather",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ginseng Lumber",
@@ -46166,12 +46166,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moon Gel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46196,7 +46196,7 @@
       {
         "name": "Silver Lobo Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ginseng Lumber",
@@ -46206,7 +46206,7 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46263,17 +46263,17 @@
       {
         "name": "Hammerhead Crocodile Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Quartz",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46298,7 +46298,7 @@
       {
         "name": "Hammerhead Crocodile Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ceiba Lumber",
@@ -46308,12 +46308,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moon Gel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46338,7 +46338,7 @@
       {
         "name": "Hammerhead Crocodile Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ceiba Lumber",
@@ -46348,12 +46348,12 @@
       {
         "name": "Enchanted Manganese Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moon Gel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46554,7 +46554,7 @@
       {
         "name": "Grade 1 Gemsap of Dexterity",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Turali Aloe",
@@ -46661,22 +46661,22 @@
       {
         "name": "Br'aax Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mountain Linen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moon Gel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46706,17 +46706,17 @@
       {
         "name": "Tungsten Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ihuykanite",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moon Gel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46761,7 +46761,7 @@
       {
         "name": "Grade 1 Gemsap of Vitality",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wild Ja Tiika Bananas",
@@ -46823,22 +46823,22 @@
       {
         "name": "Br'aax Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mountain Linen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Moon Gel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46903,17 +46903,17 @@
       {
         "name": "Br'aax Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sarcenet Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -46944,17 +46944,17 @@
       {
         "name": "Gomphotherium Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sarcenet Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -47019,17 +47019,17 @@
       {
         "name": "Gomphotherium Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Mahogany Lumber",
@@ -47069,7 +47069,7 @@
       {
         "name": "Growth Formula Lambda",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -47164,17 +47164,17 @@
       {
         "name": "Gomphotherium Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Mahogany Lumber",
@@ -47240,7 +47240,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nopalitender Tuna",
@@ -47286,12 +47286,12 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -47321,17 +47321,17 @@
       {
         "name": "Thunderyards Silk",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -47356,7 +47356,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pearl Grass",
@@ -47396,7 +47396,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Windsbalm Bay Leaf",
@@ -47436,7 +47436,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Windsbalm Bay Leaf",
@@ -47482,12 +47482,12 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -47543,7 +47543,7 @@
       {
         "name": "Growth Formula Lambda",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Mahogany Lumber",
@@ -47553,7 +47553,7 @@
       {
         "name": "White Gold Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Humus",
@@ -47584,7 +47584,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kozama'uka Chamomile",
@@ -47624,7 +47624,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Eucalyptus",
@@ -47664,7 +47664,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Parsley",
@@ -47704,7 +47704,7 @@
       {
         "name": "Growth Formula Lambda",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Island Seedling",
@@ -47744,7 +47744,7 @@
       {
         "name": "Growth Formula Lambda",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ceiba Lumber",
@@ -47789,7 +47789,7 @@
       {
         "name": "Growth Formula Lambda",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ginseng Lumber",
@@ -47830,7 +47830,7 @@
       {
         "name": "Growth Formula Lambda",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Mahogany Lumber",
@@ -47880,12 +47880,12 @@
       {
         "name": "Thunderyards Silk",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Crystal",
@@ -47956,7 +47956,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Paved in Solitude",
@@ -47991,7 +47991,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Paved in Solitude",
@@ -48026,7 +48026,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Roses of May (Dawntrail)",
@@ -48061,7 +48061,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of Seeking Purpose",
@@ -48096,7 +48096,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Faded Copy of The Skyruin",
@@ -48361,7 +48361,7 @@
       {
         "name": "Sterling Silver Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ipe Lumber",
@@ -48371,12 +48371,12 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 2 Gemsap of Mind",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythbrine Aethersand",
@@ -48416,12 +48416,12 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 2 Gemsap of Intelligence",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythroot Aethersand",
@@ -48451,22 +48451,22 @@
       {
         "name": "Sterling Silver Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blackseed Cotton Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 2 Gemsap of Intelligence",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythbrine Aethersand",
@@ -48496,7 +48496,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kozama'uka Chamomile",
@@ -48536,7 +48536,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Eucalyptus",
@@ -48576,7 +48576,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pearl Grass",
@@ -48616,7 +48616,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Parsley",
@@ -48656,7 +48656,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Windsbalm Bay Leaf",
@@ -48966,7 +48966,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Octahedrite Nugget",
@@ -48976,12 +48976,12 @@
       {
         "name": "Cronopio Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 3 Gemsap of Mind",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythbrine Aethersand",
@@ -49011,7 +49011,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Octahedrite Nugget",
@@ -49021,12 +49021,12 @@
       {
         "name": "Diatryma Felt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 3 Gemsap of Intelligence",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythbrine Aethersand",
@@ -49056,7 +49056,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Octahedrite Nugget",
@@ -49066,12 +49066,12 @@
       {
         "name": "Cronopio Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 3 Gemsap of Intelligence",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythloam Aethersand",
@@ -49106,7 +49106,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kozama'uka Chamomile",
@@ -49146,7 +49146,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Eucalyptus",
@@ -49186,7 +49186,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pearl Grass",
@@ -49226,7 +49226,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Parsley",
@@ -49266,7 +49266,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Windsbalm Bay Leaf",
@@ -49536,12 +49536,12 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rose Garnet",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fulgurpine Lumber",
@@ -49551,7 +49551,7 @@
       {
         "name": "Grade 4 Gemsap of Mind",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Levinchrome Aethersand",
@@ -49581,7 +49581,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Double Duraluminum Ingot",
@@ -49591,12 +49591,12 @@
       {
         "name": "Urqopacha Linen",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Gemsap of Intelligence",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Levinchrome Aethersand",
@@ -49626,7 +49626,7 @@
       {
         "name": "Tungsten Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Double Duraluminum Ingot",
@@ -49641,7 +49641,7 @@
       {
         "name": "Grade 4 Gemsap of Intelligence",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Levinchrome Aethersand",
@@ -49676,7 +49676,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kozama'uka Chamomile",
@@ -49716,7 +49716,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Eucalyptus",
@@ -49756,7 +49756,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pearl Grass",
@@ -49796,7 +49796,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Parsley",
@@ -49836,7 +49836,7 @@
       {
         "name": "Sanctified Water",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Windsbalm Bay Leaf",

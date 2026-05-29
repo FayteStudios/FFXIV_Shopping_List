@@ -153,7 +153,7 @@
       {
         "name": "Fish Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -216,7 +216,7 @@
       {
         "name": "Fish Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -284,7 +284,7 @@
       {
         "name": "Fish Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -313,7 +313,7 @@
       {
         "name": "Undyed Hempen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Maple Lumber",
@@ -415,7 +415,7 @@
       {
         "name": "Ragstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -575,7 +575,7 @@
       {
         "name": "Ragstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -633,7 +633,7 @@
       {
         "name": "Undyed Hempen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Maple Lumber",
@@ -672,7 +672,7 @@
       {
         "name": "Fish Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -735,7 +735,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -764,12 +764,12 @@
       {
         "name": "Undyed Hempen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -798,7 +798,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -827,7 +827,7 @@
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -856,7 +856,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -890,7 +890,7 @@
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -919,7 +919,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -948,12 +948,12 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ragstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -982,12 +982,12 @@
       {
         "name": "Undyed Hempen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1016,12 +1016,12 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Jellyfish Humours",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1050,12 +1050,12 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ragstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1084,7 +1084,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1118,7 +1118,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1147,12 +1147,12 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ragstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1181,12 +1181,12 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Animal Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1244,7 +1244,7 @@
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1273,7 +1273,7 @@
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ram Horn",
@@ -1302,7 +1302,7 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bronze Ingot",
@@ -1341,7 +1341,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1370,12 +1370,12 @@
       {
         "name": "Ragstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1404,17 +1404,17 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Jellyfish Humours",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1443,12 +1443,12 @@
       {
         "name": "Bronze Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1515,7 +1515,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1544,12 +1544,12 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1578,7 +1578,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1631,7 +1631,7 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1660,12 +1660,12 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1694,7 +1694,7 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1723,7 +1723,7 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1752,12 +1752,12 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1786,12 +1786,12 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1820,12 +1820,12 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1859,7 +1859,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1888,12 +1888,12 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Jellyfish Humours",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1922,7 +1922,7 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1951,12 +1951,12 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -1985,7 +1985,7 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2014,12 +2014,12 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2043,12 +2043,12 @@
       {
         "name": "Brass Bastard Sword",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2082,7 +2082,7 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2111,12 +2111,12 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2145,7 +2145,7 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2174,12 +2174,12 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2208,7 +2208,7 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2237,12 +2237,12 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2276,7 +2276,7 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2305,12 +2305,12 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2339,7 +2339,7 @@
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2373,7 +2373,7 @@
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2402,7 +2402,7 @@
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Soiled Femur",
@@ -2436,12 +2436,12 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2470,12 +2470,12 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2504,12 +2504,12 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2533,7 +2533,7 @@
       {
         "name": "Iron Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Ingot",
@@ -2543,7 +2543,7 @@
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2577,7 +2577,7 @@
       {
         "name": "Elm Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2606,12 +2606,12 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crab Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2640,7 +2640,7 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2669,12 +2669,12 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2703,12 +2703,12 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2737,12 +2737,12 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2771,12 +2771,12 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2805,12 +2805,12 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2839,7 +2839,7 @@
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Antelope Horn",
@@ -2897,17 +2897,17 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2936,12 +2936,12 @@
       {
         "name": "Iron Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -2975,7 +2975,7 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3009,7 +3009,7 @@
       {
         "name": "Silver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3057,7 +3057,7 @@
       {
         "name": "Toad Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3091,7 +3091,7 @@
       {
         "name": "Crab Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3120,17 +3120,17 @@
       {
         "name": "Iron Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3164,12 +3164,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3198,12 +3198,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Toad Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3232,7 +3232,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wolf Fang",
@@ -3285,12 +3285,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3319,7 +3319,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chocobo Feather",
@@ -3348,7 +3348,7 @@
       {
         "name": "Steel Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -3358,12 +3358,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3397,7 +3397,7 @@
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3426,12 +3426,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Toad Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3465,7 +3465,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3499,7 +3499,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3528,7 +3528,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3557,12 +3557,12 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3591,12 +3591,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3625,12 +3625,12 @@
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Silver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3659,12 +3659,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crab Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3693,12 +3693,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crab Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3727,12 +3727,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3771,7 +3771,7 @@
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3800,12 +3800,12 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3834,12 +3834,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3868,7 +3868,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3902,7 +3902,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3931,17 +3931,17 @@
       {
         "name": "Steel Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Velveteen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3970,7 +3970,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -3999,12 +3999,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4033,12 +4033,12 @@
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4067,7 +4067,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4096,17 +4096,17 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4135,7 +4135,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4164,7 +4164,7 @@
       {
         "name": "Toad Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4193,12 +4193,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4227,12 +4227,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Toad Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyvern Obsidian",
@@ -4242,7 +4242,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4276,7 +4276,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4305,7 +4305,7 @@
       {
         "name": "Yew Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chocobo Feather",
@@ -4339,7 +4339,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Ingot",
@@ -4378,7 +4378,7 @@
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4407,7 +4407,7 @@
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -4431,12 +4431,12 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4465,7 +4465,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4494,12 +4494,12 @@
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4528,12 +4528,12 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4562,12 +4562,12 @@
       {
         "name": "Toad Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4596,12 +4596,12 @@
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4630,12 +4630,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4683,7 +4683,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wolf Fang",
@@ -4722,12 +4722,12 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4756,7 +4756,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4785,17 +4785,17 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyvern Obsidian",
@@ -4805,7 +4805,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4834,12 +4834,12 @@
       {
         "name": "Undyed Linen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wildfowl Feather",
@@ -4887,7 +4887,7 @@
       {
         "name": "Mythril Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythril Ingot",
@@ -4897,12 +4897,12 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4931,12 +4931,12 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4970,7 +4970,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -4999,12 +4999,12 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythril Ingot",
@@ -5038,7 +5038,7 @@
       {
         "name": "Walnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5067,12 +5067,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5101,7 +5101,7 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5130,12 +5130,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5164,12 +5164,12 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5198,12 +5198,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peiste Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5237,12 +5237,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peiste Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyvern Obsidian",
@@ -5252,7 +5252,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5305,12 +5305,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5339,17 +5339,17 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5378,7 +5378,7 @@
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5412,7 +5412,7 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5446,7 +5446,7 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5480,7 +5480,7 @@
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5509,17 +5509,17 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peiste Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5572,7 +5572,7 @@
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5601,12 +5601,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5635,7 +5635,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Rivets",
@@ -5669,12 +5669,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5708,7 +5708,7 @@
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5756,12 +5756,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5790,12 +5790,12 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5824,12 +5824,12 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5863,7 +5863,7 @@
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5892,12 +5892,12 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5926,17 +5926,17 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5965,7 +5965,7 @@
       {
         "name": "Raptor Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -5994,7 +5994,7 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6023,12 +6023,12 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6057,17 +6057,17 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Raptor Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyvern Obsidian",
@@ -6077,7 +6077,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6106,12 +6106,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Jadeite",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -6145,7 +6145,7 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6174,17 +6174,17 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6218,7 +6218,7 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6247,17 +6247,17 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6286,12 +6286,12 @@
       {
         "name": "Cobalt Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Rivets",
@@ -6330,17 +6330,17 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tourmaline",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6369,12 +6369,12 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyvern Obsidian",
@@ -6384,7 +6384,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6413,17 +6413,17 @@
       {
         "name": "Cobalt Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6452,7 +6452,7 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6476,7 +6476,7 @@
       {
         "name": "Cobalt Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Ingot",
@@ -6486,17 +6486,17 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6525,12 +6525,12 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Horn",
@@ -6569,17 +6569,17 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Raptor Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -6654,7 +6654,7 @@
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6689,7 +6689,7 @@
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6719,12 +6719,12 @@
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6754,12 +6754,12 @@
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6789,12 +6789,12 @@
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6824,7 +6824,7 @@
       {
         "name": "Hippogryph Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6854,7 +6854,7 @@
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6889,7 +6889,7 @@
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6919,12 +6919,12 @@
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -6954,12 +6954,12 @@
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -7014,7 +7014,7 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7049,12 +7049,12 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7084,7 +7084,7 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7119,12 +7119,12 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hippogryph Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7154,7 +7154,7 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7189,12 +7189,12 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7259,7 +7259,7 @@
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7319,12 +7319,12 @@
       {
         "name": "Darksteel Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7359,12 +7359,12 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -7399,12 +7399,12 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyvern Obsidian",
@@ -7414,7 +7414,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -16144,7 +16144,7 @@
       {
         "name": "Ovim Wool",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30204,7 +30204,7 @@
       {
         "name": "Cobalt Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ishgardian Steel Ingot",
@@ -30244,7 +30244,7 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -30279,12 +30279,12 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Electrum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -30324,7 +30324,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -30369,12 +30369,12 @@
       {
         "name": "Clinker Bricks",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -30409,7 +30409,7 @@
       {
         "name": "Vanya Silk",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fieldcraft Demimateria II",
@@ -30444,7 +30444,7 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "ADS Frame",
@@ -30479,7 +30479,7 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Marble",
@@ -30599,7 +30599,7 @@
       {
         "name": "Ruby",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Darksteel Nugget",
@@ -30609,7 +30609,7 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Ingot",
@@ -30654,12 +30654,12 @@
       {
         "name": "Spruce Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cut Stone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Coke",
@@ -30699,7 +30699,7 @@
       {
         "name": "Vanya Silk",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fieldcraft Demimateria III",
@@ -30739,7 +30739,7 @@
       {
         "name": "Rose Gold Nugget",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -30814,7 +30814,7 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -30889,7 +30889,7 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wildfowl Feather",
@@ -30924,7 +30924,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Marble",
@@ -30979,7 +30979,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -31004,12 +31004,12 @@
       {
         "name": "Treated Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Quick-hardening Sealant",
@@ -31044,12 +31044,12 @@
       {
         "name": "Treated Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Quick-hardening Sealant",
@@ -31084,12 +31084,12 @@
       {
         "name": "Treated Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Quick-hardening Sealant",
@@ -31129,7 +31129,7 @@
       {
         "name": "Hippogryph Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Quick-hardening Sealant",
@@ -31164,7 +31164,7 @@
       {
         "name": "Treated Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Ingot",
@@ -31209,7 +31209,7 @@
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Quick-hardening Sealant",
@@ -31274,12 +31274,12 @@
       {
         "name": "Treated Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Quick-hardening Sealant",
@@ -31314,12 +31314,12 @@
       {
         "name": "Treated Spruce Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Quick-hardening Sealant",
@@ -31369,7 +31369,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aqueous Whetstone",
@@ -31414,7 +31414,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -31534,7 +31534,7 @@
       {
         "name": "Uraeus Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -31614,7 +31614,7 @@
       {
         "name": "Uraeus Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -31744,7 +31744,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -31784,7 +31784,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aqueous Whetstone",
@@ -31929,7 +31929,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -31974,7 +31974,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32019,7 +32019,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32064,7 +32064,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32139,7 +32139,7 @@
       {
         "name": "Peiste Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32224,7 +32224,7 @@
       {
         "name": "Uraeus Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -32369,12 +32369,12 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Large Levin Orb",
@@ -32409,12 +32409,12 @@
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Large Levin Orb",
@@ -32449,17 +32449,17 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Large Levin Orb",
@@ -32494,12 +32494,12 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Large Levin Orb",
@@ -32534,12 +32534,12 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Large Levin Orb",
@@ -32574,12 +32574,12 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Large Levin Orb",
@@ -32619,12 +32619,12 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Large Levin Orb",
@@ -32669,12 +32669,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sapphire",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32714,12 +32714,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32759,12 +32759,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rose Gold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32834,12 +32834,12 @@
       {
         "name": "Kirimu Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32879,7 +32879,7 @@
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyvern Obsidian",
@@ -32889,7 +32889,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -32929,12 +32929,12 @@
       {
         "name": "Platinum Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rose Gold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -33654,7 +33654,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hive Forewing",
@@ -33699,7 +33699,7 @@
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Landborne Aethersand",
@@ -33839,7 +33839,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Expanse Baleen",
@@ -34074,7 +34074,7 @@
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Landborne Aethersand",
@@ -34809,12 +34809,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -34854,12 +34854,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -34899,12 +34899,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -35069,7 +35069,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Zurvanite Carapace Fragment",
@@ -35119,7 +35119,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fiend Sap",
@@ -35164,7 +35164,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sophic Bead Fragment",
@@ -35209,17 +35209,17 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -35384,12 +35384,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -35604,12 +35604,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -35654,12 +35654,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -35699,12 +35699,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -36039,12 +36039,12 @@
       {
         "name": "Kirimu Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36084,12 +36084,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36129,7 +36129,7 @@
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36169,12 +36169,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36214,12 +36214,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36259,12 +36259,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36304,12 +36304,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyrm Obsidian",
@@ -36354,12 +36354,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36399,12 +36399,12 @@
       {
         "name": "Kirimu Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36444,12 +36444,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36489,7 +36489,7 @@
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36529,12 +36529,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36574,12 +36574,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36619,12 +36619,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36664,12 +36664,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wyrm Obsidian",
@@ -36714,12 +36714,12 @@
       {
         "name": "Ebony Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Platinum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Allagan Catalyst",
@@ -36984,12 +36984,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -37029,12 +37029,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -37094,7 +37094,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37114,7 +37114,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37144,7 +37144,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37154,12 +37154,12 @@
       {
         "name": "Cashmere Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37189,7 +37189,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37209,7 +37209,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37239,7 +37239,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37259,7 +37259,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37289,7 +37289,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37309,7 +37309,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37339,7 +37339,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37359,7 +37359,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37389,7 +37389,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37409,7 +37409,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37439,7 +37439,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37459,7 +37459,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37489,7 +37489,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37509,7 +37509,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37539,7 +37539,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37554,7 +37554,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37584,7 +37584,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37604,7 +37604,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37634,7 +37634,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37654,7 +37654,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37684,7 +37684,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37704,7 +37704,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37734,7 +37734,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37754,7 +37754,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37784,7 +37784,7 @@
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Mythrite Ingot",
@@ -37804,7 +37804,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mastercraft Demimateria",
@@ -37844,12 +37844,12 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -37894,7 +37894,7 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -37909,7 +37909,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -37944,7 +37944,7 @@
       {
         "name": "Cashmere Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -37989,12 +37989,12 @@
       {
         "name": "Ancient Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -38074,7 +38074,7 @@
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -38124,7 +38124,7 @@
       {
         "name": "Saurian Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -38189,7 +38189,7 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Rivets",
@@ -38224,7 +38224,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Odin's Mantle",
@@ -38289,17 +38289,17 @@
       {
         "name": "Mythrite Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cedar Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Archaeornis Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -39089,7 +39089,7 @@
       {
         "name": "Dark Chestnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -39129,7 +39129,7 @@
       {
         "name": "Dark Chestnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -39169,7 +39169,7 @@
       {
         "name": "Dark Chestnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -39204,7 +39204,7 @@
       {
         "name": "Dark Chestnut Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -39239,7 +39239,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -39309,7 +39309,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -39379,7 +39379,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -39449,7 +39449,7 @@
       {
         "name": "Cut Stone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -40099,7 +40099,7 @@
       {
         "name": "Pine Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -40139,7 +40139,7 @@
       {
         "name": "Pine Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -40179,7 +40179,7 @@
       {
         "name": "Pine Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -40219,7 +40219,7 @@
       {
         "name": "Pine Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -40674,12 +40674,12 @@
       {
         "name": "Gazelle Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ruby Cotton Yarn",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -40709,7 +40709,7 @@
       {
         "name": "Tama-hagane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -40814,7 +40814,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -40859,12 +40859,12 @@
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Byakko's Mane",
@@ -40904,7 +40904,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -40949,7 +40949,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -40994,7 +40994,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -41039,12 +41039,12 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Byakko's Mane",
@@ -41084,7 +41084,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -41129,17 +41129,17 @@
       {
         "name": "Torreya Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -41149,7 +41149,7 @@
       {
         "name": "Grade 2 Reisui of Dexterity",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -41179,12 +41179,12 @@
       {
         "name": "Torreya Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -41194,7 +41194,7 @@
       {
         "name": "Grade 2 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -41223,17 +41223,17 @@
       {
         "name": "Torreya Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -41243,7 +41243,7 @@
       {
         "name": "Grade 2 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -41272,12 +41272,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -41287,7 +41287,7 @@
       {
         "name": "Grade 2 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -41316,12 +41316,12 @@
       {
         "name": "Torreya Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -41331,7 +41331,7 @@
       {
         "name": "Grade 2 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -41361,12 +41361,12 @@
       {
         "name": "Torreya Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -41376,7 +41376,7 @@
       {
         "name": "Grade 2 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -41406,12 +41406,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gazelle Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -41421,7 +41421,7 @@
       {
         "name": "Grade 2 Reisui of Vitality",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -41451,12 +41451,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gazelle Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -41466,7 +41466,7 @@
       {
         "name": "Grade 2 Reisui of Vitality",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -41496,7 +41496,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -41541,7 +41541,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -41586,7 +41586,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -41631,12 +41631,12 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Seiryu's Scale",
@@ -41676,7 +41676,7 @@
       {
         "name": "Rhea Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -41721,7 +41721,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -41766,12 +41766,12 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Seiryu's Scale",
@@ -41811,12 +41811,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shinryu's Scale",
@@ -41856,7 +41856,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -41901,12 +41901,12 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shinryu's Scale",
@@ -41946,12 +41946,12 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shinryu's Scale",
@@ -41991,7 +41991,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42036,7 +42036,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42081,7 +42081,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42126,7 +42126,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42171,12 +42171,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shinryu's Scale",
@@ -42216,7 +42216,7 @@
       {
         "name": "Rhea Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42261,12 +42261,12 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shinryu's Scale",
@@ -42306,7 +42306,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42351,7 +42351,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42396,7 +42396,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42441,12 +42441,12 @@
       {
         "name": "True Griffin Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blade of Revelry",
@@ -42486,7 +42486,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42531,7 +42531,7 @@
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42576,12 +42576,12 @@
       {
         "name": "True Griffin Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blade of Revelry",
@@ -42621,7 +42621,7 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42666,7 +42666,7 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42711,7 +42711,7 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42756,12 +42756,12 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scarlet Tailfeather",
@@ -42801,7 +42801,7 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42846,7 +42846,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -42891,12 +42891,12 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scarlet Tailfeather",
@@ -42936,12 +42936,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scarlet Tailfeather",
@@ -42981,7 +42981,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -43026,7 +43026,7 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -43071,12 +43071,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestial Kimono Remnant",
@@ -43116,7 +43116,7 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -43161,7 +43161,7 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -43206,12 +43206,12 @@
       {
         "name": "Torreya Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestial Kimono Remnant",
@@ -43251,7 +43251,7 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -43296,12 +43296,12 @@
       {
         "name": "Palladium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palladium Nugget",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestial Kimono Remnant",
@@ -43370,7 +43370,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -43380,12 +43380,12 @@
       {
         "name": "Steppe Serge",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -43420,12 +43420,12 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rhodonite",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -43435,7 +43435,7 @@
       {
         "name": "Grade 3 Reisui of Vitality",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -43465,7 +43465,7 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Molybdenum Ingot",
@@ -43475,7 +43475,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -43485,7 +43485,7 @@
       {
         "name": "Grade 3 Reisui of Dexterity",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -43510,7 +43510,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -43520,12 +43520,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -43560,12 +43560,12 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Triphane",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -43575,7 +43575,7 @@
       {
         "name": "Grade 3 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -43600,7 +43600,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -43610,12 +43610,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -43645,7 +43645,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -43655,12 +43655,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -43695,17 +43695,17 @@
       {
         "name": "Ground Sloth Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "True Linen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oroshigane Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -43715,7 +43715,7 @@
       {
         "name": "Grade 3 Reisui of Dexterity",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -43740,7 +43740,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -43750,12 +43750,12 @@
       {
         "name": "Ground Sloth Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -43790,12 +43790,12 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rhodonite",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -43805,7 +43805,7 @@
       {
         "name": "Grade 3 Reisui of Vitality",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -43830,7 +43830,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -43840,12 +43840,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -43880,17 +43880,17 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oroshigane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Slate Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -43900,7 +43900,7 @@
       {
         "name": "Grade 3 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -43925,7 +43925,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -43935,17 +43935,17 @@
       {
         "name": "Silvergrace Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -43975,7 +43975,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -43985,12 +43985,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -44020,7 +44020,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -44030,12 +44030,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -44065,7 +44065,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -44075,12 +44075,12 @@
       {
         "name": "Palladium Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -44110,7 +44110,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -44120,12 +44120,12 @@
       {
         "name": "Ground Sloth Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -44155,7 +44155,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -44165,12 +44165,12 @@
       {
         "name": "Ground Sloth Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -44200,7 +44200,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -44210,12 +44210,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -44245,7 +44245,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -44255,12 +44255,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -44290,7 +44290,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nightsteel Ingot",
@@ -44300,12 +44300,12 @@
       {
         "name": "Black Willow Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -44340,7 +44340,7 @@
       {
         "name": "Rhodonite",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Everborn Aethersand",
@@ -44350,7 +44350,7 @@
       {
         "name": "Grade 3 Reisui of Vitality",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44385,7 +44385,7 @@
       {
         "name": "Tama-hagane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44415,17 +44415,17 @@
       {
         "name": "Evergleam Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oroshigane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Vitality",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44455,12 +44455,12 @@
       {
         "name": "Oroshigane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Vitality",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44490,17 +44490,17 @@
       {
         "name": "Procoptodon Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Stardust Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Dexterity",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44530,22 +44530,22 @@
       {
         "name": "Evergleam Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oroshigane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Slate Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44575,17 +44575,17 @@
       {
         "name": "Evergleam Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oroshigane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44615,17 +44615,17 @@
       {
         "name": "Urunday Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oroshigane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Strength",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44655,17 +44655,17 @@
       {
         "name": "Evergleam Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oroshigane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Vitality",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -44695,22 +44695,22 @@
       {
         "name": "Evergleam Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oroshigane Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Reisui of Dexterity",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -45025,7 +45025,7 @@
       {
         "name": "Bluespirit Tile",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -45065,7 +45065,7 @@
       {
         "name": "Titanbronze Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -45145,7 +45145,7 @@
       {
         "name": "Bluespirit Tile",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -45549,7 +45549,7 @@
       {
         "name": "Lignum Vitae Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -45614,7 +45614,7 @@
       {
         "name": "Lignum Vitae Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -45649,7 +45649,7 @@
       {
         "name": "Deepgold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -45709,7 +45709,7 @@
       {
         "name": "Titanbronze Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -45769,7 +45769,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -45814,7 +45814,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -45858,7 +45858,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -45903,7 +45903,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -45947,7 +45947,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -45962,7 +45962,7 @@
       {
         "name": "Black Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kingcraft Demimateria",
@@ -45991,7 +45991,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -46036,7 +46036,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -46081,7 +46081,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -46126,7 +46126,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -46171,7 +46171,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -46216,7 +46216,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -46226,7 +46226,7 @@
       {
         "name": "Lignum Vitae Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sublime Solution",
@@ -46261,7 +46261,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tungsten Steel Ingot",
@@ -46271,7 +46271,7 @@
       {
         "name": "Lignum Vitae Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sublime Solution",
@@ -46311,22 +46311,22 @@
       {
         "name": "Prismatic Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Onyx",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Stonegold Nugget",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 2 Vitality Alkahest",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -46356,17 +46356,17 @@
       {
         "name": "Prismatic Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crimson Firesand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 2 Dexterity Alkahest",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -46396,12 +46396,12 @@
       {
         "name": "Prismatic Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Onyx",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hades's Auracite",
@@ -46441,12 +46441,12 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Onyx",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ruby Plating",
@@ -46486,7 +46486,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46531,7 +46531,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46576,7 +46576,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46620,7 +46620,7 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46665,7 +46665,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46710,7 +46710,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46755,7 +46755,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46800,7 +46800,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46844,12 +46844,12 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crimson Firesand",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ruby Plating",
@@ -46889,12 +46889,12 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Onyx",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ruby Plating",
@@ -46933,7 +46933,7 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -46978,7 +46978,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47023,7 +47023,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47068,7 +47068,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47113,7 +47113,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47158,7 +47158,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47203,7 +47203,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47248,7 +47248,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47293,12 +47293,12 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lignum Vitae Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Emerald Plating",
@@ -47338,12 +47338,12 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lignum Vitae Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Emerald Plating",
@@ -47383,12 +47383,12 @@
       {
         "name": "Pliable Glass Fiber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crimson Firesand",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Emerald Plating",
@@ -47428,7 +47428,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47472,7 +47472,7 @@
       {
         "name": "Alumina Whetstone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47512,7 +47512,7 @@
       {
         "name": "Brashgold Plate",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Alloy Ingot",
@@ -47522,7 +47522,7 @@
       {
         "name": "Purpure Bead",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Slithersand",
@@ -47552,7 +47552,7 @@
       {
         "name": "Brashgold Plate",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Alloy Ingot",
@@ -47562,7 +47562,7 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Slithersand",
@@ -47592,7 +47592,7 @@
       {
         "name": "Brashgold Plate",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Alloy Ingot",
@@ -47602,7 +47602,7 @@
       {
         "name": "Megalania Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Slithersand",
@@ -47632,7 +47632,7 @@
       {
         "name": "Brashgold Plate",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Alloy Ingot",
@@ -47642,7 +47642,7 @@
       {
         "name": "Megalania Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Slithersand",
@@ -47672,7 +47672,7 @@
       {
         "name": "Brashgold Plate",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Alloy Ingot",
@@ -47682,7 +47682,7 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Slithersand",
@@ -47712,7 +47712,7 @@
       {
         "name": "Brashgold Plate",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Alloy Ingot",
@@ -47722,7 +47722,7 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Slithersand",
@@ -47757,17 +47757,17 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Cotton",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 3 Strength Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agedeep Aethersand",
@@ -47802,7 +47802,7 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -47812,7 +47812,7 @@
       {
         "name": "Grade 3 Dexterity Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agedeep Aethersand",
@@ -47847,7 +47847,7 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Nugget",
@@ -47857,7 +47857,7 @@
       {
         "name": "Grade 3 Strength Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agedeep Aethersand",
@@ -47892,7 +47892,7 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Nugget",
@@ -47902,7 +47902,7 @@
       {
         "name": "Grade 3 Dexterity Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agedeep Aethersand",
@@ -47937,7 +47937,7 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Nugget",
@@ -47947,7 +47947,7 @@
       {
         "name": "Grade 3 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agewood Aethersand",
@@ -47982,17 +47982,17 @@
       {
         "name": "Purpure Bead",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sea Swallow Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 3 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agewood Aethersand",
@@ -48027,7 +48027,7 @@
       {
         "name": "Purpure Bead",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48037,7 +48037,7 @@
       {
         "name": "Grade 3 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agewood Aethersand",
@@ -48072,7 +48072,7 @@
       {
         "name": "Purpure Bead",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48082,7 +48082,7 @@
       {
         "name": "Grade 3 Dexterity Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agedeep Aethersand",
@@ -48122,7 +48122,7 @@
       {
         "name": "Grade 3 Vitality Alkahest",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agewood Aethersand",
@@ -48157,7 +48157,7 @@
       {
         "name": "Merbau Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48167,7 +48167,7 @@
       {
         "name": "Grade 3 Strength Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Agedeep Aethersand",
@@ -48358,12 +48358,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48403,12 +48403,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Strength Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Megatherium Leather",
@@ -48448,12 +48448,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Strength Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48493,12 +48493,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Dexterity Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Megatherium Leather",
@@ -48538,12 +48538,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Dexterity Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48583,12 +48583,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48628,12 +48628,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48673,12 +48673,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Dexterity Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48718,12 +48718,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48762,12 +48762,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Strength Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48806,12 +48806,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Strength Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -48851,12 +48851,12 @@
       {
         "name": "Solstice Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 4 Vitality Alkahest",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dwarven Mythril Ingot",
@@ -49420,12 +49420,12 @@
       {
         "name": "Phrygian Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "AR-Caean Velvet",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -49460,7 +49460,7 @@
       {
         "name": "Integral Lumber",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "AR-Caean Cotton Boll",
@@ -49494,12 +49494,12 @@
       {
         "name": "Integral Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ophiotauros Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -49533,7 +49533,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -49568,12 +49568,12 @@
       {
         "name": "Integral Lumber",
         "quantity": 8,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "AR-Caean Velvet",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -49603,7 +49603,7 @@
       {
         "name": "Integral Lumber",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -49633,7 +49633,7 @@
       {
         "name": "AR-Caean Velvet",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bismuth Ingot",
@@ -49667,7 +49667,7 @@
       {
         "name": "AR-Caean Velvet",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bismuth Ingot",
@@ -49706,7 +49706,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -49740,12 +49740,12 @@
       {
         "name": "Integral Lumber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Quartz",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -49780,7 +49780,7 @@
       {
         "name": "Phrygian Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -49809,12 +49809,12 @@
       {
         "name": "Integral Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "AR-Caean Velvet",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -49843,7 +49843,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -49882,7 +49882,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -49921,7 +49921,7 @@
       {
         "name": "Integral Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -49950,17 +49950,17 @@
       {
         "name": "Ironwood Lumber",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "AR-Caean Velvet",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Refined Natron",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -49995,12 +49995,12 @@
       {
         "name": "Star Quartz",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Phrygian Gold Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50030,7 +50030,7 @@
       {
         "name": "Phrygian Gold Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bismuth Ingot",
@@ -50100,7 +50100,7 @@
       {
         "name": "Pewter Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -50135,7 +50135,7 @@
       {
         "name": "Pewter Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -50145,7 +50145,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50180,7 +50180,7 @@
       {
         "name": "Cut Stone",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Firewood",
@@ -50220,7 +50220,7 @@
       {
         "name": "AR-Caean Velvet",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50285,12 +50285,12 @@
       {
         "name": "Twinsilk",
         "quantity": 7,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ebony Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50320,7 +50320,7 @@
       {
         "name": "Phrygian Gold Ingot",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -50330,7 +50330,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50395,12 +50395,12 @@
       {
         "name": "Star Quartz",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Integral Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50425,7 +50425,7 @@
       {
         "name": "Star Quartz",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chondrite Ingot",
@@ -50435,7 +50435,7 @@
       {
         "name": "Phrygian Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50465,12 +50465,12 @@
       {
         "name": "Integral Lumber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pewter Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50495,12 +50495,12 @@
       {
         "name": "Phrygian Gold Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Quartz",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -50510,7 +50510,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -50600,12 +50600,12 @@
       {
         "name": "Integral Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Quartz",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -50635,7 +50635,7 @@
       {
         "name": "Star Quartz",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chondrite Ingot",
@@ -50670,12 +50670,12 @@
       {
         "name": "Rhodium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Annite Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crystal of Divine Light",
@@ -50715,12 +50715,12 @@
       {
         "name": "Rhodium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Quartz",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crystal of Divine Light",
@@ -50760,12 +50760,12 @@
       {
         "name": "Rhodium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Annite Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crystal of Divine Light",
@@ -50805,7 +50805,7 @@
       {
         "name": "Rhodium Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chondrite Ingot",
@@ -50850,7 +50850,7 @@
       {
         "name": "Rhodium Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Chondrite Ingot",
@@ -52209,7 +52209,7 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -52292,7 +52292,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ash Lumber",
@@ -52530,7 +52530,7 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bronze Ingot",
@@ -52540,7 +52540,7 @@
       {
         "name": "Ash Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -52622,7 +52622,7 @@
       {
         "name": "Brass Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -52652,7 +52652,7 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -52712,7 +52712,7 @@
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crow Feather",
@@ -52826,7 +52826,7 @@
       {
         "name": "Elm Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -52857,12 +52857,12 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elm Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -52898,7 +52898,7 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -53357,12 +53357,12 @@
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Velveteen",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fine Wax",
@@ -53449,7 +53449,7 @@
       {
         "name": "Cut Stone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -53480,7 +53480,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Rivets",
@@ -53567,7 +53567,7 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ahriman Tears",
@@ -53684,7 +53684,7 @@
       {
         "name": "Mudstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -53714,7 +53714,7 @@
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -53888,12 +53888,12 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -53928,7 +53928,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -53963,12 +53963,12 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -53998,7 +53998,7 @@
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -54033,7 +54033,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -54064,12 +54064,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -54095,7 +54095,7 @@
       {
         "name": "Cobalt Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythril Ingot",
@@ -54136,12 +54136,12 @@
       {
         "name": "Electrum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cut Stone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clear Glass Lens",
@@ -54217,7 +54217,7 @@
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -54243,7 +54243,7 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ishgardian Steel Ingot",
@@ -54279,17 +54279,17 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Felt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -54320,7 +54320,7 @@
       {
         "name": "Cobalt Rings",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nymian Orb",
@@ -54356,17 +54356,17 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -54397,7 +54397,7 @@
       {
         "name": "Cut Stone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clear Glass Lens",
@@ -54438,7 +54438,7 @@
       {
         "name": "Oak Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -54473,17 +54473,17 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Raptor Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -54513,7 +54513,7 @@
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Earth Crystal",
@@ -54539,12 +54539,12 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rosewood Lumber",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Shard",
@@ -54574,12 +54574,12 @@
       {
         "name": "Rosewood Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Horn",
@@ -54620,7 +54620,7 @@
       {
         "name": "Mahogany Lumber",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythril Rivets",
@@ -54655,7 +54655,7 @@
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -54721,7 +54721,7 @@
       {
         "name": "Turquoise",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -54792,7 +54792,7 @@
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -54902,7 +54902,7 @@
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -54937,7 +54937,7 @@
       {
         "name": "Basilisk Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -56508,12 +56508,12 @@
       {
         "name": "Iron Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -57069,7 +57069,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -57282,12 +57282,12 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -57510,12 +57510,12 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 20,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 20,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -59475,7 +59475,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",

@@ -234,7 +234,7 @@
       {
         "name": "Olive Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Table Salt",
@@ -7302,7 +7302,7 @@
       {
         "name": "Highland Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Popoto",
@@ -7312,7 +7312,7 @@
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -9134,7 +9134,7 @@
       {
         "name": "Highland Flour",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Old World Fig",
@@ -9144,7 +9144,7 @@
       {
         "name": "Sour Cream",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rolanberry",
@@ -9274,7 +9274,7 @@
       {
         "name": "Highland Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -9450,7 +9450,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Volcanic Rock Salt",
@@ -9500,7 +9500,7 @@
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Abalathian Rock Salt",
@@ -9545,7 +9545,7 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Popoto",
@@ -9555,7 +9555,7 @@
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -9625,7 +9625,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Volcanic Rock Salt",
@@ -9671,7 +9671,7 @@
       {
         "name": "Highland Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -9706,7 +9706,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Pepper",
@@ -9731,17 +9731,17 @@
       {
         "name": "Sohm Al Tart",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fig Bavarois",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ishgardian Tea",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -9771,7 +9771,7 @@
       {
         "name": "Highland Flour",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak Milk",
@@ -9801,7 +9801,7 @@
       {
         "name": "Highland Flour",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dravanian Spring Water",
@@ -9831,22 +9831,22 @@
       {
         "name": "Royal Eggs",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sauteed Porcini",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fig Bavarois",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sohm Al Tart",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Roasted Coffee Beans",
@@ -9976,7 +9976,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Abalathian Rock Salt",
@@ -10016,7 +10016,7 @@
       {
         "name": "Vermicelli",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tomato Sauce",
@@ -10106,7 +10106,7 @@
       {
         "name": "Hollandaise Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Seema Patrician",
@@ -10116,7 +10116,7 @@
       {
         "name": "Ishgardian Muffin",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -10142,7 +10142,7 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gastornis Egg",
@@ -10234,7 +10234,7 @@
       {
         "name": "Ishgardian Tea",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pineapple Ponzecake",
@@ -10339,7 +10339,7 @@
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -10374,7 +10374,7 @@
       {
         "name": "Hollandaise Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Seema Patrician",
@@ -10384,7 +10384,7 @@
       {
         "name": "Ishgardian Muffin",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -10502,7 +10502,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -10685,7 +10685,7 @@
       {
         "name": "Vermicelli",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Garlic",
@@ -11011,7 +11011,7 @@
       {
         "name": "Kaiser Roll",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cream Cheese",
@@ -11046,7 +11046,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cooking Sherry",
@@ -11391,17 +11391,17 @@
       {
         "name": "Deep-fried Okeanis",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beet Soup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kaiser Roll",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Heavenly Kukuru Powder",
@@ -11486,7 +11486,7 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Olive Oil",
@@ -11633,7 +11633,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sour Red",
@@ -11736,7 +11736,7 @@
       {
         "name": "Hollandaise Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Abalathian Rock Salt",
@@ -12109,7 +12109,7 @@
       {
         "name": "Highland Flour",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sweet Cream",
@@ -12124,7 +12124,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beeswax Candle",
@@ -12159,17 +12159,17 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Duskborne Aethersand",
@@ -12214,7 +12214,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Duskborne Aethersand",
@@ -12254,7 +12254,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Duskborne Aethersand",
@@ -12289,7 +12289,7 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak Milk",
@@ -12304,7 +12304,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tiny Crown",
@@ -12394,12 +12394,12 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Duskborne Aethersand",
@@ -12499,7 +12499,7 @@
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Okeanis Egg",
@@ -12554,7 +12554,7 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak Milk",
@@ -12634,7 +12634,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -12664,17 +12664,17 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Vanilla Beans",
@@ -12709,7 +12709,7 @@
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tomato Sauce",
@@ -12769,7 +12769,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cooking Sherry",
@@ -12809,7 +12809,7 @@
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Solstice Garlic",
@@ -12949,7 +12949,7 @@
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tomato Sauce",
@@ -13009,7 +13009,7 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sweet Cream Milk",
@@ -13024,7 +13024,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -13064,7 +13064,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cinnamon",
@@ -13114,7 +13114,7 @@
       {
         "name": "Highland Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mature Olive Oil",
@@ -13199,7 +13199,7 @@
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Smoked Bacon",
@@ -13249,7 +13249,7 @@
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mountain Kraken",
@@ -13421,7 +13421,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gagana Egg",
@@ -13722,7 +13722,7 @@
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -13792,7 +13792,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gagana Egg",
@@ -14232,7 +14232,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fish Stock",
@@ -14247,12 +14247,12 @@
       {
         "name": "Firm Tofu",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Green Leek",
@@ -14282,12 +14282,12 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Firm Tofu",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gauntlet Crab",
@@ -14307,7 +14307,7 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -14342,7 +14342,7 @@
       {
         "name": "Firm Tofu",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Green Leek",
@@ -14397,7 +14397,7 @@
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -14484,7 +14484,7 @@
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ama Nori",
@@ -14529,7 +14529,7 @@
       {
         "name": "Rice Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yugr'am Salmon",
@@ -14644,7 +14644,7 @@
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -14674,12 +14674,12 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kudzu Root",
@@ -14689,12 +14689,12 @@
       {
         "name": "Rice Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -14873,7 +14873,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sun Cabbage",
@@ -14893,7 +14893,7 @@
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -14918,7 +14918,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gagana Egg",
@@ -14928,7 +14928,7 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yanxian Tiger Prawn",
@@ -14984,17 +14984,17 @@
       {
         "name": "Rice Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -15019,7 +15019,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gagana Egg",
@@ -15029,7 +15029,7 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yanxian Tiger Prawn",
@@ -15094,7 +15094,7 @@
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -15293,7 +15293,7 @@
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crescent Spring Water",
@@ -15328,7 +15328,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gagana Egg",
@@ -15343,7 +15343,7 @@
       {
         "name": "Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steppe Milk",
@@ -15476,7 +15476,7 @@
       {
         "name": "Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -15521,7 +15521,7 @@
       {
         "name": "Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -15591,7 +15591,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gagana Egg",
@@ -15606,7 +15606,7 @@
       {
         "name": "Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steppe Milk",
@@ -15637,7 +15637,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crescent Spring Water",
@@ -15652,7 +15652,7 @@
       {
         "name": "Beet Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -15682,7 +15682,7 @@
       {
         "name": "Rice Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shiitake Mushroom",
@@ -15777,7 +15777,7 @@
       {
         "name": "Firm Tofu",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Doman Eggplant",
@@ -15797,7 +15797,7 @@
       {
         "name": "Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cooking Sake",
@@ -16754,7 +16754,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steppe Milk",
@@ -16789,7 +16789,7 @@
       {
         "name": "Rice Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shiitake Mushroom",
@@ -16845,7 +16845,7 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cooking Sake",
@@ -16895,7 +16895,7 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kudzu Root",
@@ -16950,7 +16950,7 @@
       {
         "name": "Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dusklight Aethersand",
@@ -16990,7 +16990,7 @@
       {
         "name": "Rice Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Persimmon Leaf",
@@ -17190,12 +17190,12 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Heavens Lemon",
@@ -17380,12 +17380,12 @@
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cooking Sherry",
@@ -17485,7 +17485,7 @@
       {
         "name": "Rice Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -17510,7 +17510,7 @@
       {
         "name": "Beet Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Honeydew Honey",
@@ -17645,7 +17645,7 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -17670,7 +17670,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Usuginu Octopus",
@@ -17695,7 +17695,7 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -17725,7 +17725,7 @@
       {
         "name": "Firm Tofu",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gagana Egg",
@@ -17860,7 +17860,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dzo Chuck",
@@ -17900,7 +17900,7 @@
       {
         "name": "Gyr Abanian Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gagana Egg",
@@ -17910,12 +17910,12 @@
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Reunion Cheese",
@@ -17985,7 +17985,7 @@
       {
         "name": "Ishgardian Muffin",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lordly Salmon",
@@ -18183,7 +18183,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Abalathian Rock Salt",
@@ -18391,17 +18391,17 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sour Cream",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -18431,7 +18431,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Abalathian Rock Salt",
@@ -18565,12 +18565,12 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gyr Abanian Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steppe Milk",
@@ -18610,7 +18610,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Purple Carrot",
@@ -18680,17 +18680,17 @@
       {
         "name": "Squid Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Vermicelli",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blood Tomato",
@@ -18786,7 +18786,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Highland Spring Water",
@@ -18821,7 +18821,7 @@
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blood Tomato",
@@ -18856,7 +18856,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pixie Apple",
@@ -18866,12 +18866,12 @@
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cinnamon",
@@ -18901,17 +18901,17 @@
       {
         "name": "Squid Ink",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Vermicelli",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blood Tomato",
@@ -19081,7 +19081,7 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blood Tomato",
@@ -19131,7 +19131,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Abalathian Rock Salt",
@@ -19141,7 +19141,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -19166,12 +19166,12 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lorikeet Egg",
@@ -19231,7 +19231,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -19306,7 +19306,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steppe Milk",
@@ -19357,7 +19357,7 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Pepper",
@@ -19412,7 +19412,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Table Salt",
@@ -19518,7 +19518,7 @@
       {
         "name": "Sausage Links",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Russet Popoto",
@@ -19568,7 +19568,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steppe Milk",
@@ -19628,7 +19628,7 @@
       {
         "name": "Hollandaise Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak Milk",
@@ -19674,7 +19674,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Highland Spring Water",
@@ -19918,12 +19918,12 @@
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cinnamon",
@@ -19958,12 +19958,12 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Pepper",
@@ -20003,12 +20003,12 @@
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cinnamon",
@@ -20039,7 +20039,7 @@
       {
         "name": "Squid Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bomba Rice",
@@ -20059,7 +20059,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ala Mhigan Salt Crystal",
@@ -20094,7 +20094,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rose Shrimp",
@@ -20139,7 +20139,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Coffee Beans",
@@ -20149,7 +20149,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -20184,7 +20184,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Maneater Clam",
@@ -21089,7 +21089,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lime Basil",
@@ -21170,7 +21170,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 7,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Underground Spring Water",
@@ -21210,7 +21210,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 7,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Underground Spring Water",
@@ -21296,7 +21296,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovim Meat",
@@ -21356,7 +21356,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -21386,7 +21386,7 @@
       {
         "name": "Baguette",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak Milk",
@@ -21457,12 +21457,12 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garden Beet Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lorikeet Egg",
@@ -21607,7 +21607,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cyan Sea Devil",
@@ -21632,7 +21632,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -21667,7 +21667,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Volcanic Rock Salt",
@@ -21707,7 +21707,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -21747,7 +21747,7 @@
       {
         "name": "Golden Honey",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Underground Spring Water",
@@ -21812,7 +21812,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cream Cheese",
@@ -21827,7 +21827,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ala Mhigan Salt Crystal",
@@ -21892,7 +21892,7 @@
       {
         "name": "Golden Honey",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Underground Spring Water",
@@ -21933,7 +21933,7 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -21993,7 +21993,7 @@
       {
         "name": "Squid Ink",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bomba Rice",
@@ -22038,7 +22038,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mist Spinach",
@@ -22053,7 +22053,7 @@
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sweet Cream",
@@ -22088,7 +22088,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Russet Popoto",
@@ -22138,7 +22138,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -22153,7 +22153,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -22183,7 +22183,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ala Mhigan Salt Crystal",
@@ -22228,7 +22228,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -22238,12 +22238,12 @@
       {
         "name": "Sour Cream",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Royal Kukuru Bean",
@@ -22278,7 +22278,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Curly Parsley",
@@ -22323,7 +22323,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -22333,7 +22333,7 @@
       {
         "name": "Sour Cream",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak Milk",
@@ -22373,7 +22373,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -22418,7 +22418,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Russet Popoto",
@@ -22468,7 +22468,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -22518,7 +22518,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mist Spinach",
@@ -22609,7 +22609,7 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -22639,7 +22639,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blood Tomato",
@@ -22684,7 +22684,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lorikeet Egg",
@@ -22729,7 +22729,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Russet Popoto",
@@ -22779,7 +22779,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mist Spinach",
@@ -22829,7 +22829,7 @@
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -22879,7 +22879,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -22894,12 +22894,12 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cottonseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -22929,7 +22929,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -22944,7 +22944,7 @@
       {
         "name": "Birch Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Galago Mint",
@@ -22979,7 +22979,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Russet Popoto",
@@ -23029,7 +23029,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -23079,7 +23079,7 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -23129,7 +23129,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -23179,7 +23179,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mist Spinach",
@@ -23398,7 +23398,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Broad Beans",
@@ -23418,7 +23418,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -23448,7 +23448,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -23468,7 +23468,7 @@
       {
         "name": "Vermicelli",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -23498,7 +23498,7 @@
       {
         "name": "Golden Honey",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -23548,7 +23548,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -23568,7 +23568,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -23598,7 +23598,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mist Spinach",
@@ -23648,7 +23648,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -23698,7 +23698,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -23748,7 +23748,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -23798,7 +23798,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Russet Popoto",
@@ -23848,7 +23848,7 @@
       {
         "name": "Garden Beet Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -24037,7 +24037,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Northern Herring",
@@ -24077,7 +24077,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Northern Herring",
@@ -24118,7 +24118,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iceberg Lettuce",
@@ -24286,7 +24286,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -24361,7 +24361,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Thavnairian Paprika",
@@ -24474,7 +24474,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Amra",
@@ -24525,12 +24525,12 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -24560,7 +24560,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lorikeet Egg",
@@ -24570,7 +24570,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cyclops Onion",
@@ -24605,7 +24605,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lorikeet Egg",
@@ -24615,7 +24615,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -24656,7 +24656,7 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Solstice Garlic",
@@ -24762,7 +24762,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Pepper",
@@ -24812,7 +24812,7 @@
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Peppermint",
@@ -24920,7 +24920,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 5 Mind Alkahest",
@@ -24956,7 +24956,7 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cyclops Onion",
@@ -25041,7 +25041,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -25072,12 +25072,12 @@
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elder Nutmeg Seeds",
@@ -25117,7 +25117,7 @@
       {
         "name": "Coconut Milk",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elder Nutmeg Seeds",
@@ -25127,12 +25127,12 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -25177,7 +25177,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elder Nutmeg Seeds",
@@ -25217,7 +25217,7 @@
       {
         "name": "Coconut Milk",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elder Nutmeg Seeds",
@@ -25227,7 +25227,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bomba Rice",
@@ -25262,7 +25262,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "La Noscean Lettuce",
@@ -25272,7 +25272,7 @@
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blood Tomato",
@@ -25282,7 +25282,7 @@
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -25307,7 +25307,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -25367,7 +25367,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -25438,7 +25438,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Pepper",
@@ -25488,7 +25488,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -25534,7 +25534,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cucumber",
@@ -25564,7 +25564,7 @@
       {
         "name": "Coconut Milk",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Berkanan Sap",
@@ -25605,7 +25605,7 @@
       {
         "name": "Coconut Milk",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Thavnairian Paprika",
@@ -25655,12 +25655,12 @@
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elder Nutmeg Seeds",
@@ -25670,7 +25670,7 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -25700,7 +25700,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iceberg Lettuce",
@@ -25755,7 +25755,7 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -25785,7 +25785,7 @@
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yakow Chuck",
@@ -25800,7 +25800,7 @@
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Pepper",
@@ -25840,12 +25840,12 @@
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elder Nutmeg Seeds",
@@ -25881,17 +25881,17 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -25931,7 +25931,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cinnamon",
@@ -26590,7 +26590,7 @@
       {
         "name": "Coconut Milk",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cherimoya",
@@ -26652,22 +26652,22 @@
       {
         "name": "Sideritis Cookie",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Coffee Biscuit",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sesame Cookie",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -26702,7 +26702,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -26712,12 +26712,12 @@
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Northern Sea Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -26757,7 +26757,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Effervescent Water",
@@ -26792,12 +26792,12 @@
       {
         "name": "Garlean Cheese",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Rye Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Carrot of Happiness",
@@ -26837,7 +26837,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sweet Cream",
@@ -26877,17 +26877,17 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Northern Sea Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blood Tomato",
@@ -26932,12 +26932,12 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Pepper",
@@ -26982,7 +26982,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sharlayan Rock Salt",
@@ -27027,7 +27027,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -27072,7 +27072,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -27118,12 +27118,12 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Jade Peas",
@@ -27158,7 +27158,7 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -27193,7 +27193,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -27243,7 +27243,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -27328,12 +27328,12 @@
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "La Noscean Orange",
@@ -27440,12 +27440,12 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -27481,7 +27481,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -27531,7 +27531,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -27581,7 +27581,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sykon",
@@ -27631,7 +27631,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -27681,7 +27681,7 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -27731,7 +27731,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cucumber",
@@ -27781,7 +27781,7 @@
       {
         "name": "Coconut Milk",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Elder Nutmeg Seeds",
@@ -27831,7 +27831,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iceberg Lettuce",
@@ -27881,7 +27881,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sykon",
@@ -27931,7 +27931,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sideritis Leaves",
@@ -27981,7 +27981,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 9,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Water Cluster",
@@ -28006,12 +28006,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -28056,12 +28056,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Rye Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Curly Parsley",
@@ -28106,12 +28106,12 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -28142,17 +28142,17 @@
       {
         "name": "Perilla Oil",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Vermicelli",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Cluster",
@@ -28255,12 +28255,12 @@
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -28305,12 +28305,12 @@
       {
         "name": "Garlean Cheese",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -28355,12 +28355,12 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iceberg Lettuce",
@@ -28405,12 +28405,12 @@
       {
         "name": "Coconut Milk",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -28455,12 +28455,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Thavnairian Paprika",
@@ -28505,12 +28505,12 @@
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ambrosial Water",
@@ -28555,12 +28555,12 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -28605,12 +28605,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Thavnairian Paprika",
@@ -28655,12 +28655,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -28705,12 +28705,12 @@
       {
         "name": "Coconut Milk",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -28755,12 +28755,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Northern Sea Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bomba Rice",
@@ -28805,12 +28805,12 @@
       {
         "name": "Coconut Milk",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Blood Tomato",
@@ -28973,12 +28973,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Algae Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Thavnairian Paprika",
@@ -29023,12 +29023,12 @@
       {
         "name": "Garlean Cheese",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Giant Popoto",
@@ -29073,12 +29073,12 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Carrot of Happiness",
@@ -29123,12 +29123,12 @@
       {
         "name": "Garlean Cheese",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -29173,12 +29173,12 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -29223,12 +29223,12 @@
       {
         "name": "Coconut Milk",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garden Beet Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -29273,12 +29273,12 @@
       {
         "name": "Palm Sugar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Golden Honey",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ambrosial Water",
@@ -29323,12 +29323,12 @@
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Thavnairian Paprika",
@@ -29373,12 +29373,12 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sour Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -29423,12 +29423,12 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -29580,7 +29580,7 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alpaca Fillet",
@@ -29595,7 +29595,7 @@
       {
         "name": "Northern Sea Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Galago Mint",
@@ -29625,7 +29625,7 @@
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bomba Rice",
@@ -29645,7 +29645,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -29670,7 +29670,7 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alpaca Fillet",
@@ -29711,7 +29711,7 @@
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Stardust Shrimp",
@@ -29726,7 +29726,7 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -29802,7 +29802,7 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Urqotrout",
@@ -29837,7 +29837,7 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Swampmonk Thigh",
@@ -29847,12 +29847,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perilla Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -29959,7 +29959,7 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wild Ja Tiika Bananas",
@@ -29969,7 +29969,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -30004,17 +30004,17 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bird of Elpis Breast",
@@ -30024,7 +30024,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30049,7 +30049,7 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wild Ja Tiika Bananas",
@@ -30059,7 +30059,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -30090,12 +30090,12 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -30110,7 +30110,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30155,7 +30155,7 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dragon Pepper",
@@ -30165,7 +30165,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ambrosial Water",
@@ -30175,7 +30175,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30200,7 +30200,7 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sweet Kukuru Bean",
@@ -30220,7 +30220,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30327,7 +30327,7 @@
       {
         "name": "Whipped Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sweet Kukuru Bean",
@@ -30337,7 +30337,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -30347,12 +30347,12 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30382,12 +30382,12 @@
       {
         "name": "Whipped Cream",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -30423,12 +30423,12 @@
       {
         "name": "Whipped Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Lemonette",
@@ -30463,7 +30463,7 @@
       {
         "name": "Whipped Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sweet Kukuru Bean",
@@ -30483,7 +30483,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30513,7 +30513,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak T'el Spring Water",
@@ -30553,12 +30553,12 @@
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -30618,7 +30618,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -30648,7 +30648,7 @@
       {
         "name": "Whipped Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Nopalitender Tuna",
@@ -30658,12 +30658,12 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -30713,7 +30713,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30738,7 +30738,7 @@
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Stardust Shrimp",
@@ -30758,7 +30758,7 @@
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bomba Rice",
@@ -30788,7 +30788,7 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shaaloani Salmon",
@@ -30798,7 +30798,7 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak T'el Spring Water",
@@ -30829,7 +30829,7 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Shaaloani Salmon",
@@ -30839,7 +30839,7 @@
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak T'el Spring Water",
@@ -30905,7 +30905,7 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Devotion Clam",
@@ -30930,7 +30930,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -30955,7 +30955,7 @@
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Driftwood Catfish",
@@ -30970,7 +30970,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Creamtop Mushroom",
@@ -31000,7 +31000,7 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Turali Aloe",
@@ -31075,7 +31075,7 @@
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -31100,7 +31100,7 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rroneek Chuck",
@@ -31120,7 +31120,7 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -31145,12 +31145,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alpaca Fillet",
@@ -31186,12 +31186,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rroneek Chuck",
@@ -31211,7 +31211,7 @@
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -31236,12 +31236,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alpaca Fillet",
@@ -31307,12 +31307,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Broccoli",
@@ -31357,7 +31357,7 @@
       {
         "name": "Whipped Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Broccoli",
@@ -31372,7 +31372,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alpaca Fillet",
@@ -31382,7 +31382,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Crystal",
@@ -31407,12 +31407,12 @@
       {
         "name": "Whipped Cream",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -31422,7 +31422,7 @@
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crescent Spring Water",
@@ -31457,12 +31457,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cooking Mezcal",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Koshu Pork",
@@ -31507,7 +31507,7 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Parsley",
@@ -31522,7 +31522,7 @@
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Giant Popoto",
@@ -31552,12 +31552,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Turali Corn Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Giant Popoto",
@@ -31592,7 +31592,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Pepper",
@@ -31628,12 +31628,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Giant Popoto",
@@ -31683,7 +31683,7 @@
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Pepper",
@@ -31728,7 +31728,7 @@
       {
         "name": "Mountain Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Broccoli",
@@ -31788,7 +31788,7 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Maneater Clam",
@@ -31833,12 +31833,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Northern Sea Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak T'el Spring Water",
@@ -31883,12 +31883,12 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yyasulani Garlic",
@@ -31898,7 +31898,7 @@
       {
         "name": "Vermicelli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sungilt Aethersand",
@@ -31933,12 +31933,12 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rroneek Chuck",
@@ -31983,12 +31983,12 @@
       {
         "name": "Whipped Cream",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak T'el Spring Water",
@@ -32033,7 +32033,7 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Rye",
@@ -32083,12 +32083,12 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ut'ohmu Tomato",
@@ -32133,12 +32133,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Coconut Milk",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Swampmonk Thigh",
@@ -32183,12 +32183,12 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mesquite Beans",
@@ -32198,7 +32198,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Sungilt Aethersand",
@@ -32233,7 +32233,7 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Turali Pineapple",
@@ -32283,12 +32283,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yyasulani Garlic",
@@ -32333,12 +32333,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Northern Sea Salt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Thavnairian Paprika",
@@ -32383,12 +32383,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -32468,12 +32468,12 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alpaca Fillet",
@@ -32518,12 +32518,12 @@
       {
         "name": "Whipped Cream",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -32568,12 +32568,12 @@
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yyasulani Garlic",
@@ -32618,12 +32618,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rroneek Chuck",
@@ -32668,12 +32668,12 @@
       {
         "name": "Whipped Cream",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -32718,12 +32718,12 @@
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ut'ohmu Tomato",
@@ -32768,12 +32768,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -32818,12 +32818,12 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ut'ohmu Tomato",
@@ -32868,12 +32868,12 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Coconut Milk",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yak T'el Spring Water",
@@ -32918,12 +32918,12 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Pepper",
@@ -32968,12 +32968,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Perilla Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Thavnairian Paprika",
@@ -33018,12 +33018,12 @@
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Pepper",
@@ -33103,12 +33103,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Palm Sugar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -33118,7 +33118,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Levinchrome Aethersand",
@@ -33153,12 +33153,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -33203,12 +33203,12 @@
       {
         "name": "Ut'ohmu Chili Sauce",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlean Cheese",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ut'ohmu Tomato",
@@ -33253,12 +33253,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Frantoio Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Alien Onion",
@@ -33303,12 +33303,12 @@
       {
         "name": "Royal Maple Syrup",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -33318,7 +33318,7 @@
       {
         "name": "Fermented Butter",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Levinchrome Aethersand",
@@ -33353,12 +33353,12 @@
       {
         "name": "Cooking Mezcal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dark Rye Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Egg of Elpis",
@@ -33403,12 +33403,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovibos Milk",
@@ -33453,12 +33453,12 @@
       {
         "name": "Turali Corn Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Night Vinegar",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Pepper",
@@ -33503,12 +33503,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ambrosial Water",
@@ -33553,12 +33553,12 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Upland Wheat Flour",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Yyasulani Garlic",

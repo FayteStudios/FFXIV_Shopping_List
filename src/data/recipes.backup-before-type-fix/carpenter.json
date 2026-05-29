@@ -58,7 +58,7 @@
       {
         "name": "Hempen Yarn",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -93,7 +93,7 @@
       {
         "name": "Animal Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -158,7 +158,7 @@
       {
         "name": "Undyed Hempen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Leather",
@@ -253,7 +253,7 @@
       {
         "name": "Fish Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bronze Ingot",
@@ -288,7 +288,7 @@
       {
         "name": "Growth Formula Alpha",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -323,7 +323,7 @@
       {
         "name": "Hempen Yarn",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -713,7 +713,7 @@
       {
         "name": "Animal Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -748,7 +748,7 @@
       {
         "name": "Fish Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -778,7 +778,7 @@
       {
         "name": "Undyed Hempen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Leather",
@@ -813,7 +813,7 @@
       {
         "name": "Fish Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bronze Ingot",
@@ -823,7 +823,7 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -858,7 +858,7 @@
       {
         "name": "Hempen Yarn",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -923,7 +923,7 @@
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1013,7 +1013,7 @@
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1043,7 +1043,7 @@
       {
         "name": "Growth Formula Beta",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1108,7 +1108,7 @@
       {
         "name": "Cotton Yarn",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1263,7 +1263,7 @@
       {
         "name": "Animal Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1358,12 +1358,12 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1428,7 +1428,7 @@
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1523,7 +1523,7 @@
       {
         "name": "Jellyfish Humours",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1588,12 +1588,12 @@
       {
         "name": "Growth Formula Beta",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beastkin Blood",
@@ -1603,7 +1603,7 @@
       {
         "name": "Hempen Yarn",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1633,7 +1633,7 @@
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Ingot",
@@ -1673,12 +1673,12 @@
       {
         "name": "Silver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crab Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1778,7 +1778,7 @@
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -1818,7 +1818,7 @@
       {
         "name": "Growth Formula Beta",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -1853,7 +1853,7 @@
       {
         "name": "Crab Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2013,12 +2013,12 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2143,7 +2143,7 @@
       {
         "name": "Toad Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -2183,7 +2183,7 @@
       {
         "name": "Linen Yarn",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -2303,7 +2303,7 @@
       {
         "name": "Fish Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2333,12 +2333,12 @@
       {
         "name": "Growth Formula Gamma",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scalekin Blood",
@@ -2348,7 +2348,7 @@
       {
         "name": "Cotton Yarn",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2383,7 +2383,7 @@
       {
         "name": "Fish Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Aldgoat Horn",
@@ -2418,7 +2418,7 @@
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythril Ingot",
@@ -2473,12 +2473,12 @@
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2728,7 +2728,7 @@
       {
         "name": "Lanolin",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -2753,7 +2753,7 @@
       {
         "name": "Silver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Oak Lumber",
@@ -2763,7 +2763,7 @@
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2793,7 +2793,7 @@
       {
         "name": "Jadeite",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Spoken Blood",
@@ -2803,7 +2803,7 @@
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2863,7 +2863,7 @@
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2903,7 +2903,7 @@
       {
         "name": "Crab Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -2968,12 +2968,12 @@
       {
         "name": "Siltstone Whetstone",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ice Crystal",
@@ -3043,7 +3043,7 @@
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -3113,7 +3113,7 @@
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -3168,12 +3168,12 @@
       {
         "name": "Undyed Felt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Boar Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -3203,7 +3203,7 @@
       {
         "name": "Growth Formula Gamma",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythril Ingot",
@@ -3218,7 +3218,7 @@
       {
         "name": "Dew Thread",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -3253,12 +3253,12 @@
       {
         "name": "Shark Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -3293,7 +3293,7 @@
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -3638,12 +3638,12 @@
       {
         "name": "Undyed Felt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Raptor Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -3703,7 +3703,7 @@
       {
         "name": "Rose Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Astral Rock",
@@ -5228,7 +5228,7 @@
       {
         "name": "Cassia Lumber",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Astral Oil",
@@ -5263,7 +5263,7 @@
       {
         "name": "Blessed Fletchings",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hallowed Chestnut Lumber",
@@ -9389,7 +9389,7 @@
       {
         "name": "Duskcourt Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -9429,7 +9429,7 @@
       {
         "name": "Duskcourt Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -9464,7 +9464,7 @@
       {
         "name": "Duskcourt Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -9504,7 +9504,7 @@
       {
         "name": "Duskcourt Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -9539,7 +9539,7 @@
       {
         "name": "Duskcourt Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -14509,7 +14509,7 @@
       {
         "name": "Alexandrian Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ipe Lumber",
@@ -14559,7 +14559,7 @@
       {
         "name": "Alexandrian Plate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ipe Lumber",
@@ -14920,12 +14920,12 @@
       {
         "name": "Iron Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beeswax",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -14956,7 +14956,7 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Straw",
@@ -15022,12 +15022,12 @@
       {
         "name": "Lapis Lazuli",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clove Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Leather",
@@ -15102,7 +15102,7 @@
       {
         "name": "Hard Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15133,7 +15133,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15169,7 +15169,7 @@
       {
         "name": "Iron Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Nails",
@@ -15235,7 +15235,7 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beeswax Candle",
@@ -15271,12 +15271,12 @@
       {
         "name": "Brass Ingot",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Nails",
@@ -15317,7 +15317,7 @@
       {
         "name": "Iron Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Nails",
@@ -15353,12 +15353,12 @@
       {
         "name": "Brass Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beeswax",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15394,7 +15394,7 @@
       {
         "name": "Mortar",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15425,12 +15425,12 @@
       {
         "name": "Roof Tile",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Nails",
@@ -15466,7 +15466,7 @@
       {
         "name": "Beeswax",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15502,12 +15502,12 @@
       {
         "name": "Brass Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beeswax",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15538,7 +15538,7 @@
       {
         "name": "Beeswax",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15569,7 +15569,7 @@
       {
         "name": "Beeswax",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15600,7 +15600,7 @@
       {
         "name": "Steel Hinge",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -15641,12 +15641,12 @@
       {
         "name": "Roof Tile",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Brass Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15677,7 +15677,7 @@
       {
         "name": "Beeswax",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15708,7 +15708,7 @@
       {
         "name": "Beeswax",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -15770,7 +15770,7 @@
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fine Wax",
@@ -15806,7 +15806,7 @@
       {
         "name": "Steel Hinge",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -15878,12 +15878,12 @@
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fine Wax",
@@ -15919,12 +15919,12 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Hinge",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fine Wax",
@@ -15960,12 +15960,12 @@
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Hinge",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fine Wax",
@@ -16011,7 +16011,7 @@
       {
         "name": "Beeswax",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16078,7 +16078,7 @@
       {
         "name": "Steel Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Rivets",
@@ -16114,7 +16114,7 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fine Wax",
@@ -16150,7 +16150,7 @@
       {
         "name": "Mortar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Matron's Mistletoe",
@@ -16160,7 +16160,7 @@
       {
         "name": "Growth Formula Gamma",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16196,7 +16196,7 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16231,7 +16231,7 @@
       {
         "name": "Steel Hinge",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16324,7 +16324,7 @@
       {
         "name": "Steel Hinge",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Adventurers' Guild Aduyses",
@@ -16401,7 +16401,7 @@
       {
         "name": "Beeswax",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16432,7 +16432,7 @@
       {
         "name": "Beeswax",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16494,7 +16494,7 @@
       {
         "name": "Animal Glue",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16530,12 +16530,12 @@
       {
         "name": "Beeswax",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ink & Quill",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16566,7 +16566,7 @@
       {
         "name": "Beeswax",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16628,12 +16628,12 @@
       {
         "name": "Steel Hinge",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Silver Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16674,7 +16674,7 @@
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16705,7 +16705,7 @@
       {
         "name": "Steel Hinge",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -16741,7 +16741,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Rivets",
@@ -16808,7 +16808,7 @@
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Rivets",
@@ -16844,12 +16844,12 @@
       {
         "name": "Brass Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Beeswax",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16895,7 +16895,7 @@
       {
         "name": "Growth Formula Beta",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16962,7 +16962,7 @@
       {
         "name": "Steel Hinge",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -16993,7 +16993,7 @@
       {
         "name": "Cut Stone",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -17003,7 +17003,7 @@
       {
         "name": "Mortar",
         "quantity": 20,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17034,12 +17034,12 @@
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cotton Canvas",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17075,7 +17075,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Ingot",
@@ -17116,7 +17116,7 @@
       {
         "name": "Linseed Oil",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17152,7 +17152,7 @@
       {
         "name": "Growth Formula Gamma",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Ingot",
@@ -17229,7 +17229,7 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Nails",
@@ -17270,7 +17270,7 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Nails",
@@ -17316,7 +17316,7 @@
       {
         "name": "Horn Glue",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17352,7 +17352,7 @@
       {
         "name": "Linseed Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17388,7 +17388,7 @@
       {
         "name": "Linseed Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17424,7 +17424,7 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Nails",
@@ -17460,12 +17460,12 @@
       {
         "name": "Silver Ingot",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Nails",
@@ -17501,12 +17501,12 @@
       {
         "name": "Cut Stone",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Nails",
@@ -17542,7 +17542,7 @@
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17717,12 +17717,12 @@
       {
         "name": "Cut Stone",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 30,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17753,7 +17753,7 @@
       {
         "name": "Linseed Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17789,12 +17789,12 @@
       {
         "name": "Linseed Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cotton Canvas",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17830,12 +17830,12 @@
       {
         "name": "Brass Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Hinge",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17897,12 +17897,12 @@
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Linseed Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17933,12 +17933,12 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Linseed Oil",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -17969,12 +17969,12 @@
       {
         "name": "Roof Tile",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Nails",
@@ -18010,7 +18010,7 @@
       {
         "name": "Undyed Felt",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Apkallu Down",
@@ -18128,7 +18128,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -18169,7 +18169,7 @@
       {
         "name": "Silver Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -18277,7 +18277,7 @@
       {
         "name": "Horn Glue",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -18313,7 +18313,7 @@
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ishgardian Steel Ingot",
@@ -18431,12 +18431,12 @@
       {
         "name": "Electrum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clear Glass Lens",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -18575,7 +18575,7 @@
       {
         "name": "Cobalt Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Ingot",
@@ -18611,7 +18611,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -18765,12 +18765,12 @@
       {
         "name": "Electrum Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -18837,7 +18837,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tallow Candle",
@@ -19017,7 +19017,7 @@
       {
         "name": "Cut Stone",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -19027,7 +19027,7 @@
       {
         "name": "Mortar",
         "quantity": 45,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -19063,7 +19063,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -19073,7 +19073,7 @@
       {
         "name": "Felt Lining",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -19109,7 +19109,7 @@
       {
         "name": "Jadeite",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -19150,7 +19150,7 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cherry Bomb",
@@ -19191,7 +19191,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -19222,7 +19222,7 @@
       {
         "name": "Darksteel Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -19232,7 +19232,7 @@
       {
         "name": "Steel Hinge",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Pile of Tomes",
@@ -19268,12 +19268,12 @@
       {
         "name": "Electrum Ingot",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -19314,12 +19314,12 @@
       {
         "name": "Cut Stone",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -19329,7 +19329,7 @@
       {
         "name": "Felt Lining",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -19401,7 +19401,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -19442,12 +19442,12 @@
       {
         "name": "Roof Tile",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -19457,7 +19457,7 @@
       {
         "name": "Felt Lining",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -19488,12 +19488,12 @@
       {
         "name": "Cut Stone",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -19575,12 +19575,12 @@
       {
         "name": "Electrum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Felt",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Apkallu Down",
@@ -19621,7 +19621,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -19657,7 +19657,7 @@
       {
         "name": "Linen Yarn",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -19765,7 +19765,7 @@
       {
         "name": "Cotton Canvas",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -19801,17 +19801,17 @@
       {
         "name": "Cut Stone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clinker Bricks",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -19847,12 +19847,12 @@
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Woolen Yarn",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -20042,7 +20042,7 @@
       {
         "name": "Woolen Yarn",
         "quantity": 6,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -20104,7 +20104,7 @@
       {
         "name": "Horn Glue",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -20238,7 +20238,7 @@
       {
         "name": "Roof Tile",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -20294,12 +20294,12 @@
       {
         "name": "Silver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Hinge",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -20335,12 +20335,12 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Hinge",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -20417,7 +20417,7 @@
       {
         "name": "Steel Hinge",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -20597,12 +20597,12 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clear Glass Lens",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Limestone",
@@ -21503,7 +21503,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -21585,7 +21585,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Ingot",
@@ -21641,7 +21641,7 @@
       {
         "name": "Dew Thread",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -21687,7 +21687,7 @@
       {
         "name": "Dew Thread",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -21774,7 +21774,7 @@
       {
         "name": "Raptor Leather",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Rivets",
@@ -21810,7 +21810,7 @@
       {
         "name": "Silver Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bronze Ingot",
@@ -21820,7 +21820,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Matron's Mistletoe",
@@ -21861,7 +21861,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Petrified Log",
@@ -22092,7 +22092,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -22133,17 +22133,17 @@
       {
         "name": "Cashmere Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Woolen Yarn",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -22184,12 +22184,12 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Jadeite",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -22225,17 +22225,17 @@
       {
         "name": "Gold Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Jadeite",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -22271,7 +22271,7 @@
       {
         "name": "Eye of Fire",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Bronze Ingot",
@@ -22281,7 +22281,7 @@
       {
         "name": "Lavender Oil",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -22317,7 +22317,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mythril Ingot",
@@ -22327,7 +22327,7 @@
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -22357,12 +22357,12 @@
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cashmere Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -22392,7 +22392,7 @@
       {
         "name": "Growth Formula Delta Concentrate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Savage Aim Materia III",
@@ -22427,7 +22427,7 @@
       {
         "name": "Growth Formula Delta Concentrate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Savage Might Materia III",
@@ -22461,12 +22461,12 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Dodore Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -22530,12 +22530,12 @@
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cashmere Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -22564,7 +22564,7 @@
       {
         "name": "Growth Formula Delta Concentrate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Quicktongue Materia III",
@@ -22598,7 +22598,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cashmere Fleece",
@@ -22647,7 +22647,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -22687,7 +22687,7 @@
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -22712,7 +22712,7 @@
       {
         "name": "Growth Formula Delta Concentrate",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Savage Might Materia III",
@@ -22752,7 +22752,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tawny Latex",
@@ -22786,7 +22786,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Tawny Latex",
@@ -22827,7 +22827,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -22837,7 +22837,7 @@
       {
         "name": "Felt Lining",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -22868,12 +22868,12 @@
       {
         "name": "Cut Stone",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 30,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -22909,7 +22909,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -22919,7 +22919,7 @@
       {
         "name": "Felt Lining",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -22955,7 +22955,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -22996,12 +22996,12 @@
       {
         "name": "Roof Tile",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -23011,7 +23011,7 @@
       {
         "name": "Felt Lining",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -23042,12 +23042,12 @@
       {
         "name": "Roof Tile",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Nails",
@@ -23057,7 +23057,7 @@
       {
         "name": "Felt Lining",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -23098,7 +23098,7 @@
       {
         "name": "Iron Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -23170,12 +23170,12 @@
       {
         "name": "Brass Ingot",
         "quantity": 7,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Silver Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -23386,7 +23386,7 @@
       {
         "name": "Linen Canvas",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -23417,7 +23417,7 @@
       {
         "name": "Celestine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -23458,12 +23458,12 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cut Stone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -23473,7 +23473,7 @@
       {
         "name": "Felt Lining",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -23519,12 +23519,12 @@
       {
         "name": "Stuffed Moogle",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Stuffed Ahriman",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -23684,7 +23684,7 @@
       {
         "name": "Cut Stone",
         "quantity": 9,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -23803,17 +23803,17 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Glade Lantern",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ink & Quill",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Shard",
@@ -23844,7 +23844,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crystal Glass",
@@ -23864,7 +23864,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -24139,12 +24139,12 @@
       {
         "name": "Cotton Canvas",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fire Ward Hi-Potion",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cloud Acorn",
@@ -24742,7 +24742,7 @@
       {
         "name": "Cut Stone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -24773,22 +24773,22 @@
       {
         "name": "Cut Stone",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Roof Tile",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Joint Plate",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -24824,7 +24824,7 @@
       {
         "name": "Roof Tile",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -24834,7 +24834,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -24865,7 +24865,7 @@
       {
         "name": "Cut Stone",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -24901,22 +24901,22 @@
       {
         "name": "Cut Stone",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Roof Tile",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Joint Plate",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -24952,7 +24952,7 @@
       {
         "name": "Roof Tile",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -24962,7 +24962,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -24993,7 +24993,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -25024,22 +25024,22 @@
       {
         "name": "Cut Stone",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Roof Tile",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Joint Plate",
         "quantity": 20,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Mortar",
         "quantity": 20,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -25075,7 +25075,7 @@
       {
         "name": "Roof Tile",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -25085,7 +25085,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -25116,7 +25116,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -25157,7 +25157,7 @@
       {
         "name": "Roof Tile",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -25198,7 +25198,7 @@
       {
         "name": "Cut Stone",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -25952,7 +25952,7 @@
       {
         "name": "Vanya Silk",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Star Ruby",
@@ -25993,7 +25993,7 @@
       {
         "name": "Cut Stone",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -26029,7 +26029,7 @@
       {
         "name": "Cut Stone",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -26106,17 +26106,17 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Garlond Steel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Farreach Canvas",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cobalt Rivets",
@@ -26162,17 +26162,17 @@
       {
         "name": "Garlond Steel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rose Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -26213,12 +26213,12 @@
       {
         "name": "Garlond Steel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Electrum Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Rivets",
@@ -26269,7 +26269,7 @@
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Apkallu Down",
@@ -26315,17 +26315,17 @@
       {
         "name": "Garlond Steel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Farreach Canvas",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -26371,7 +26371,7 @@
       {
         "name": "Gold Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scale Glue",
@@ -26499,7 +26499,7 @@
       {
         "name": "Cut Stone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Astral Moraine",
@@ -26545,17 +26545,17 @@
       {
         "name": "Garlond Steel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "High Allagan Chimera Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -26596,7 +26596,7 @@
       {
         "name": "Tempered Glass",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Petrified Log",
@@ -26611,7 +26611,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -26647,12 +26647,12 @@
       {
         "name": "Saurian Leather",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Linen Canvas",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Iron Rivets",
@@ -26698,7 +26698,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -26739,17 +26739,17 @@
       {
         "name": "Galvanized Garlond Steel",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Farreach Canvas",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Celestine",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Astral Oil",
@@ -27210,22 +27210,22 @@
       {
         "name": "Ishgardian Muffin",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Kaiser Roll",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Honey Muffin",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Walnut Bread",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -27266,7 +27266,7 @@
       {
         "name": "Linen Canvas",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -27307,7 +27307,7 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -27528,12 +27528,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -27568,12 +27568,12 @@
       {
         "name": "Opal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 1 Dexterity Dissolvent",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -27603,12 +27603,12 @@
       {
         "name": "Opal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 1 Intelligence Dissolvent",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -27638,12 +27638,12 @@
       {
         "name": "Opal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 1 Vitality Dissolvent",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -27673,12 +27673,12 @@
       {
         "name": "Opal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 1 Mind Dissolvent",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -27708,12 +27708,12 @@
       {
         "name": "Opal",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Grade 1 Strength Dissolvent",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -27793,12 +27793,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -27838,12 +27838,12 @@
       {
         "name": "Platinum Ingot",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Luminous Fiber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -28308,7 +28308,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
@@ -28358,7 +28358,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
@@ -28408,7 +28408,7 @@
       {
         "name": "Celestine",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fieldcraft Demimateria III",
@@ -28453,7 +28453,7 @@
       {
         "name": "Celestine",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Fieldcraft Demimateria III",
@@ -28588,7 +28588,7 @@
       {
         "name": "Wolfram Ingot",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Gold Ingot",
@@ -28638,7 +28638,7 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -28673,7 +28673,7 @@
       {
         "name": "Tempered Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Petrified Log",
@@ -28688,7 +28688,7 @@
       {
         "name": "Terminus Putty",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -28728,7 +28728,7 @@
       {
         "name": "Saurian Leather",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -29268,7 +29268,7 @@
       {
         "name": "Cashmere Cloth",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Battlecraft Demimateria III",
@@ -29398,12 +29398,12 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -29478,7 +29478,7 @@
       {
         "name": "Cut Stone",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -29488,7 +29488,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -29523,7 +29523,7 @@
       {
         "name": "Felt Lining",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -29533,7 +29533,7 @@
       {
         "name": "Varnish",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -29568,7 +29568,7 @@
       {
         "name": "Cut Stone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -29598,7 +29598,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -29823,7 +29823,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wildfowl Feather",
@@ -29873,7 +29873,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wildfowl Feather",
@@ -30123,7 +30123,7 @@
       {
         "name": "Undyed Woolen Cloth",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rose Gold Nugget",
@@ -30163,7 +30163,7 @@
       {
         "name": "Cut Stone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -30228,7 +30228,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -30420,7 +30420,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Durium Nugget",
@@ -30560,7 +30560,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -30600,7 +30600,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -30720,7 +30720,7 @@
       {
         "name": "Cut Stone",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -30730,7 +30730,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -30765,7 +30765,7 @@
       {
         "name": "Felt Lining",
         "quantity": 10,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -30805,12 +30805,12 @@
       {
         "name": "Cut Stone",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clear Glass Lens",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -31090,7 +31090,7 @@
       {
         "name": "Cut Stone",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -31165,7 +31165,7 @@
       {
         "name": "Cut Stone",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -31175,7 +31175,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -31210,7 +31210,7 @@
       {
         "name": "Felt Lining",
         "quantity": 15,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Granite",
@@ -32305,7 +32305,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -32336,12 +32336,12 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Clear Glass Lens",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -32382,7 +32382,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -32423,7 +32423,7 @@
       {
         "name": "Steel Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -32469,7 +32469,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -32546,7 +32546,7 @@
       {
         "name": "Darksteel Plate",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Hardsilver Nugget",
@@ -32592,7 +32592,7 @@
       {
         "name": "Cobalt Joint Plate",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -32766,7 +32766,7 @@
       {
         "name": "Tempered Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -32807,12 +32807,12 @@
       {
         "name": "Cut Stone",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Steel Hinge",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -34148,7 +34148,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Willow Lumber",
@@ -34358,7 +34358,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Willow Lumber",
@@ -34528,7 +34528,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Willow Lumber",
@@ -34688,7 +34688,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Willow Lumber",
@@ -34773,7 +34773,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Willow Lumber",
@@ -34818,7 +34818,7 @@
       {
         "name": "Hawk's Eye Sand",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Willow Lumber",
@@ -34863,7 +34863,7 @@
       {
         "name": "Veteran Tree Sap",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Black Willow Lumber",
@@ -35847,7 +35847,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Ash Lumber",
@@ -35971,7 +35971,7 @@
       {
         "name": "Pixie Cotton",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Ash Lumber",
@@ -36208,7 +36208,7 @@
       {
         "name": "Royal Dowager Tea Set",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -36571,7 +36571,7 @@
       {
         "name": "Pixie Cotton",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -36612,7 +36612,7 @@
       {
         "name": "Ovim Wool",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -36694,7 +36694,7 @@
       {
         "name": "Pixie Cotton",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -37207,7 +37207,7 @@
       {
         "name": "Wine Glass",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Set of Liquor Bottles",
@@ -37397,7 +37397,7 @@
       {
         "name": "Ovim Wool",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Ovim Wool Yarn",
@@ -37438,7 +37438,7 @@
       {
         "name": "Cut Stone",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -37474,7 +37474,7 @@
       {
         "name": "Mortar",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -37654,12 +37654,12 @@
       {
         "name": "Ink & Quill",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Rubber",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Snow White Dye",
@@ -37936,7 +37936,7 @@
       {
         "name": "Cut Stone",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -38013,7 +38013,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -38281,7 +38281,7 @@
       {
         "name": "Undyed Velveteen",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Cloudsbreath",
@@ -40823,7 +40823,7 @@
       {
         "name": "Chirurgeon's Essentials",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -40854,7 +40854,7 @@
       {
         "name": "Shroud Broadleaf",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Growth Formula Kappa",
@@ -40900,7 +40900,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -41049,7 +41049,7 @@
       {
         "name": "Mortar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42054,7 +42054,7 @@
       {
         "name": "Glade Lantern",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42095,7 +42095,7 @@
       {
         "name": "Riviera Lunch",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42131,7 +42131,7 @@
       {
         "name": "Vanity Mirror",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42162,7 +42162,7 @@
       {
         "name": "Ink & Quill",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Classified Documents",
@@ -42413,7 +42413,7 @@
       {
         "name": "Undyed Cotton Cloth",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42490,7 +42490,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42526,7 +42526,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42602,7 +42602,7 @@
       {
         "name": "Chilled Red",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42720,7 +42720,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42818,7 +42818,7 @@
       {
         "name": "Mortar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -42895,7 +42895,7 @@
       {
         "name": "Mortar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -43126,7 +43126,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -43244,7 +43244,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -43404,7 +43404,7 @@
       {
         "name": "Linen Canvas",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Cluster",
@@ -44780,7 +44780,7 @@
       {
         "name": "Crystal Glass",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -44811,7 +44811,7 @@
       {
         "name": "Mountain Salt",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "White Pepper",
@@ -44888,7 +44888,7 @@
       {
         "name": "Hand-poured Coffee",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Open Book",
@@ -44944,7 +44944,7 @@
       {
         "name": "Astroscope",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -45016,7 +45016,7 @@
       {
         "name": "Hand-poured Coffee",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Scattered Documents",
@@ -45098,12 +45098,12 @@
       {
         "name": "Mortar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Crystal Glass",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -45391,7 +45391,7 @@
       {
         "name": "Clear Glass Lens",
         "quantity": 3,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -45478,7 +45478,7 @@
       {
         "name": "Mortar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Varnish",
@@ -45565,7 +45565,7 @@
       {
         "name": "Ink & Quill",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -45652,7 +45652,7 @@
       {
         "name": "Mortar",
         "quantity": 4,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -45852,7 +45852,7 @@
       {
         "name": "Steel Nails",
         "quantity": 2,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -45985,7 +45985,7 @@
       {
         "name": "Wine Glass",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -46154,7 +46154,7 @@
       {
         "name": "Firebricks",
         "quantity": 5,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",
@@ -46323,7 +46323,7 @@
       {
         "name": "Sofa Cushions",
         "quantity": 1,
-        "type": "recipe"
+        "type": "material"
       },
       {
         "name": "Wind Crystal",

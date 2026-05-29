@@ -1,0 +1,1249 @@
+{
+  "metadata": {
+    "generatedAt": "2026-05-29T07:49:57.611Z",
+    "outputFile": "src/data/recipeObjectives.json",
+    "reportFile": "src/data/debug/debug-recipe-objectives-report.json",
+    "recipeCount": 11946,
+    "matchedRecipeItemCount": 11875,
+    "unmatchedRecipeCount": 71,
+    "ambiguousRecipeCount": 0,
+    "objectiveRecipeCount": 1019,
+    "leveRecipeCount": 1019,
+    "questRecipeCount": 0,
+    "note": "Maps local recipe outputs to Teamcraft item IDs, then attaches leve and quest usage data by output item."
+  },
+  "summaryByJob": {
+    "Alchemist": {
+      "total": 125,
+      "leveRecipes": 125,
+      "questRecipes": 0,
+      "leveAndQuestRecipes": 0
+    },
+    "Armorer": {
+      "total": 137,
+      "leveRecipes": 137,
+      "questRecipes": 0,
+      "leveAndQuestRecipes": 0
+    },
+    "Blacksmith": {
+      "total": 136,
+      "leveRecipes": 136,
+      "questRecipes": 0,
+      "leveAndQuestRecipes": 0
+    },
+    "Carpenter": {
+      "total": 119,
+      "leveRecipes": 119,
+      "questRecipes": 0,
+      "leveAndQuestRecipes": 0
+    },
+    "Culinarian": {
+      "total": 122,
+      "leveRecipes": 122,
+      "questRecipes": 0,
+      "leveAndQuestRecipes": 0
+    },
+    "Goldsmith": {
+      "total": 128,
+      "leveRecipes": 128,
+      "questRecipes": 0,
+      "leveAndQuestRecipes": 0
+    },
+    "Leatherworker": {
+      "total": 129,
+      "leveRecipes": 129,
+      "questRecipes": 0,
+      "leveAndQuestRecipes": 0
+    },
+    "Weaver": {
+      "total": 123,
+      "leveRecipes": 123,
+      "questRecipes": 0,
+      "leveAndQuestRecipes": 0
+    }
+  },
+  "sampleLeveRecipes": {
+    "distilled-water-alchemist-1": {
+      "name": "Distilled Water",
+      "job": "Alchemist",
+      "level": 1,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 5,
+          "name": "Leve 5",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 328,
+          "name": "Distill, My Heart",
+          "level": 5,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "quicksilver-alchemist-1": {
+      "name": "Quicksilver",
+      "job": "Alchemist",
+      "level": 1,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 321,
+          "name": "Mercury Rising",
+          "level": 1,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "animal-glue-alchemist-2": {
+      "name": "Animal Glue",
+      "job": "Alchemist",
+      "level": 2,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 324,
+          "name": "Met a Sticky End",
+          "level": 1,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "growth-formula-alpha-alchemist-3": {
+      "name": "Growth Formula Alpha",
+      "job": "Alchemist",
+      "level": 3,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 323,
+          "name": "Root Rush",
+          "level": 1,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "maple-wand-alchemist-4": {
+      "name": "Maple Wand",
+      "job": "Alchemist",
+      "level": 4,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 326,
+          "name": "The Bleat Is On",
+          "level": 1,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "antidote-alchemist-5": {
+      "name": "Antidote",
+      "job": "Alchemist",
+      "level": 5,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 325,
+          "name": "Days of Chunder",
+          "level": 1,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "leather-grimoire-alchemist-5": {
+      "name": "Leather Grimoire",
+      "job": "Alchemist",
+      "level": 5,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 322,
+          "name": "One for the Books",
+          "level": 1,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "eye-drops-alchemist-6": {
+      "name": "Eye Drops",
+      "job": "Alchemist",
+      "level": 6,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 5,
+          "name": "Leve 5",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 327,
+          "name": "On the Drip",
+          "level": 5,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "rubber-alchemist-7": {
+      "name": "Rubber",
+      "job": "Alchemist",
+      "level": 7,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 5,
+          "name": "Leve 5",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 330,
+          "name": "Gotta Bounce",
+          "level": 5,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "maple-picatrix-alchemist-8": {
+      "name": "Maple Picatrix",
+      "job": "Alchemist",
+      "level": 8,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 5,
+          "name": "Leve 5",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 332,
+          "name": "The Hexster Runoff",
+          "level": 5,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "whispering-maple-wand-alchemist-8": {
+      "name": "Whispering Maple Wand",
+      "job": "Alchemist",
+      "level": 8,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 5,
+          "name": "Leve 5",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 329,
+          "name": "A Jawbreaking Weapon of Staggering Weight",
+          "level": 5,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "beeswax-alchemist-10": {
+      "name": "Beeswax",
+      "job": "Alchemist",
+      "level": 10,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 5,
+          "name": "Leve 5",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 331,
+          "name": "Don't Be So Tallow",
+          "level": 5,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "budding-maple-wand-alchemist-11": {
+      "name": "Budding Maple Wand",
+      "job": "Alchemist",
+      "level": 11,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 10,
+          "name": "Leve 10",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 333,
+          "name": "Wand-full Tonight",
+          "level": 10,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "potion-alchemist-12": {
+      "name": "Potion",
+      "job": "Alchemist",
+      "level": 12,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 10,
+          "name": "Leve 10",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 336,
+          "name": "One for the Road",
+          "level": 10,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "ash-picatrix-alchemist-13": {
+      "name": "Ash Picatrix",
+      "job": "Alchemist",
+      "level": 13,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 10,
+          "name": "Leve 10",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 335,
+          "name": "Using Your Arcane Powers for Fun and Profit",
+          "level": 10,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "growth-formula-beta-alchemist-15": {
+      "name": "Growth Formula Beta",
+      "job": "Alchemist",
+      "level": 15,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 10,
+          "name": "Leve 10",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 337,
+          "name": "You Grow, Girl",
+          "level": 10,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "ether-alchemist-15": {
+      "name": "Ether",
+      "job": "Alchemist",
+      "level": 15,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 10,
+          "name": "Leve 10",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 334,
+          "name": "Morning Glass of Ether",
+          "level": 10,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "ash-wand-alchemist-16": {
+      "name": "Ash Wand",
+      "job": "Alchemist",
+      "level": 16,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 339,
+          "name": "Shut Up and Take My Gil",
+          "level": 15,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "hard-leather-grimoire-alchemist-16": {
+      "name": "Hard Leather Grimoire",
+      "job": "Alchemist",
+      "level": 16,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 342,
+          "name": "There's Something about Bury",
+          "level": 15,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "potion-of-intelligence-alchemist-16": {
+      "name": "Potion of Intelligence",
+      "job": "Alchemist",
+      "level": 16,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 20,
+          "name": "Leve 20",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 346,
+          "name": "Don't Forget to Take Your Meds",
+          "level": 20,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "potion-of-dexterity-alchemist-17": {
+      "name": "Potion of Dexterity",
+      "job": "Alchemist",
+      "level": 17,
+      "leveCount": 4,
+      "leves": [
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 20,
+          "name": "Leve 20",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 349,
+          "name": "Blind Man's Bluff",
+          "level": 20,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "potion-of-vitality-alchemist-18": {
+      "name": "Potion of Vitality",
+      "job": "Alchemist",
+      "level": 18,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 341,
+          "name": "Kiss of Life",
+          "level": 15,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "potion-of-strength-alchemist-19": {
+      "name": "Potion of Strength",
+      "job": "Alchemist",
+      "level": 19,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 344,
+          "name": "Devil Take the Foremost",
+          "level": 15,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "potion-of-mind-alchemist-20": {
+      "name": "Potion of Mind",
+      "job": "Alchemist",
+      "level": 20,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 3,
+          "name": "Leve 3",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 343,
+          "name": "Sanity Points",
+          "level": 15,
+          "client": null,
+          "location": null
+        }
+      ]
+    },
+    "engraved-hard-leather-grimoire-alchemist-20": {
+      "name": "Engraved Hard Leather Grimoire",
+      "job": "Alchemist",
+      "level": 20,
+      "leveCount": 3,
+      "leves": [
+        {
+          "id": 1,
+          "name": "Leve 1",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 15,
+          "name": "Leve 15",
+          "level": 0,
+          "client": null,
+          "location": null
+        },
+        {
+          "id": 340,
+          "name": "Book and a Hard Place",
+          "level": 15,
+          "client": null,
+          "location": null
+        }
+      ]
+    }
+  },
+  "sampleQuestRecipes": {},
+  "unmatchedRecipes": {
+    "axilflower-alchemist-33": {
+      "name": "Axilflower",
+      "job": "Alchemist",
+      "level": 33
+    },
+    "militia-tassets-armorer-50-1star": {
+      "name": "Militia Tassets",
+      "job": "Armorer",
+      "level": 50
+    },
+    "heavy-darksteel-sabatons-armorer-50-2star": {
+      "name": "Heavy Darksteel Sabatons",
+      "job": "Armorer",
+      "level": 50
+    },
+    "chromite-baghnakhs-blacksmith-70-2star": {
+      "name": "Chromite Baghnakhs",
+      "job": "Blacksmith",
+      "level": 70
+    },
+    "chromite-claymore-blacksmith-70-2star": {
+      "name": "Chromite Claymore",
+      "job": "Blacksmith",
+      "level": 70
+    },
+    "chromite-gunblade-blacksmith-70-2star": {
+      "name": "Chromite Gunblade",
+      "job": "Blacksmith",
+      "level": 70
+    },
+    "tsukuyomis-moonlit-war-axe-blacksmith-70-2star": {
+      "name": "Tsukuyomi's Moonlit War Axe",
+      "job": "Blacksmith",
+      "level": 70
+    },
+    "adamant-greatsword-blacksmith-80-2star": {
+      "name": "Adamant Greatsword",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "adamant-longsword-blacksmith-80-2star": {
+      "name": "Adamant Longsword",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "adamant-revolver-blacksmith-80-2star": {
+      "name": "Adamant Revolver",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "rubellux-blade-blacksmith-80-2star": {
+      "name": "Rubellux Blade",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "rubellux-gunblade-blacksmith-80-2star": {
+      "name": "Rubellux Gunblade",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "rubellux-paladin-arms-blacksmith-80-2star": {
+      "name": "Rubellux Paladin Arms",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "smaragdine-samurai-blade-blacksmith-80-2star": {
+      "name": "Smaragdine Samurai Blade",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "artisanal-skybuilders-file-blacksmith-80-4star": {
+      "name": "Artisanal Skybuilders' File",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "oddly-delicate-rivets-blacksmith-80-4star": {
+      "name": "Oddly Delicate Rivets",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "oddly-delicate-fitting-blacksmith-80-4star": {
+      "name": "Oddly Delicate Fitting",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "oddly-delicate-iron-nails-blacksmith-80-4star": {
+      "name": "Oddly Delicate Iron Nails",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "exarchic-longsword-blacksmith-80-4star": {
+      "name": "Exarchic Longsword",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "exarchic-samurai-blade-blacksmith-80-4star": {
+      "name": "Exarchic Samurai Blade",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "paladins-exarchic-arms-blacksmith-80-4star": {
+      "name": "Paladin's Exarchic Arms",
+      "job": "Blacksmith",
+      "level": 80
+    },
+    "country-house-roof-wood-blacksmith-90": {
+      "name": "Country House Roof (Wood)",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "dungeon-torture-rack-blacksmith-90": {
+      "name": "Dungeon Torture Rack",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "hanging-amo-blacksmith-90": {
+      "name": "Hanging Amo",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "hanging-dolls-blacksmith-90": {
+      "name": "Hanging Dolls",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "hanging-palaka-lamp-blacksmith-90": {
+      "name": "Hanging Palaka Lamp",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "marble-fountain-blacksmith-90": {
+      "name": "Marble Fountain",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "outdoor-chocobo-clock-blacksmith-90": {
+      "name": "Outdoor Chocobo Clock",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "outdoor-wall-sconce-blacksmith-90": {
+      "name": "Outdoor Wall Sconce",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "palaka-lamp-blacksmith-90": {
+      "name": "Palaka Lamp",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "rareified-chondrite-pliers-blacksmith-90": {
+      "name": "Rarefied Chondrite Pliers",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "adamantite-dagger-blacksmith-58": {
+      "name": "Adamantite Dagger",
+      "job": "Blacksmith",
+      "level": 58
+    },
+    "adamantite-longsword-blacksmith-58": {
+      "name": "Adamantite Longsword",
+      "job": "Blacksmith",
+      "level": 58
+    },
+    "adamantite-wings-blacksmith-58": {
+      "name": "Adamantite Wings",
+      "job": "Blacksmith",
+      "level": 58
+    },
+    "flamecloaked-bardiche-blacksmith-90": {
+      "name": "Flamecloaked Bardiche",
+      "job": "Blacksmith",
+      "level": 90
+    },
+    "chromite-trident-carpenter-70-2star": {
+      "name": "Chromite Trident",
+      "job": "Carpenter",
+      "level": 70
+    },
+    "palladium-cane-carpenter-70-2star": {
+      "name": "Palladium Cane",
+      "job": "Carpenter",
+      "level": 70
+    },
+    "lignum-vitae-necklace-of-gathering-carpenter-80-2star": {
+      "name": "Lignum Vitae Necklace of Gathering",
+      "job": "Carpenter",
+      "level": 80
+    },
+    "lignum-vitae-ring-of-gathering-carpenter-80-2star": {
+      "name": "Lignum Vitae Ring of Gathering",
+      "job": "Carpenter",
+      "level": 80
+    },
+    "riviera-partition-door-carpenter-21": {
+      "name": "Riviera Partition Door",
+      "job": "Carpenter",
+      "level": 21
+    },
+    "thals-tools-display-stand-carpenter-30": {
+      "name": "Thal's Tools Display Stand",
+      "job": "Carpenter",
+      "level": 30
+    },
+    "ebony-crook-carpenter-50-4star": {
+      "name": "Ebony Crook",
+      "job": "Carpenter",
+      "level": 50
+    },
+    "ebony-fishing-rod-carpenter-50-4star": {
+      "name": "Ebony Fishing Rod",
+      "job": "Carpenter",
+      "level": 50
+    },
+    "ebony-pattens-carpenter-50-4star": {
+      "name": "Ebony Pattens",
+      "job": "Carpenter",
+      "level": 50
+    },
+    "ebony-radical-carpenter-50-4star": {
+      "name": "Ebony Radical",
+      "job": "Carpenter",
+      "level": 50
+    },
+    "ebony-spinning-wheel-carpenter-50-4star": {
+      "name": "Ebony Spinning Wheel",
+      "job": "Carpenter",
+      "level": 50
+    },
+    "artisans-saw-carpenter-50-4star": {
+      "name": "Artisan's Saw",
+      "job": "Carpenter",
+      "level": 50
+    },
+    "thals-tools-confetti-making-tools-carpenter-60": {
+      "name": "Thal's Tools Confetti-making Tools",
+      "job": "Carpenter",
+      "level": 60
+    },
+    "thals-tools-cushion-care-package-carpenter-81": {
+      "name": "Thal's Tools Cushion Care Package",
+      "job": "Carpenter",
+      "level": 81
+    },
+    "imitation-alpine-window-carpenter-90": {
+      "name": "Imitation Alpine Window",
+      "job": "Carpenter",
+      "level": 90
+    },
+    "thals-tools-map-printing-essentials-carpenter-91": {
+      "name": "Thal's Tools Map Printing Essentials",
+      "job": "Carpenter",
+      "level": 91
+    },
+    "cobalt-plated-jackboots-of-gathering-goldsmith-48": {
+      "name": "Cobalt-plated Jackboots of Gathering",
+      "job": "Goldsmith",
+      "level": 48
+    },
+    "boarskin-leg-guards-leatherworker-37": {
+      "name": "Boarskin Leg Guards",
+      "job": "Leatherworker",
+      "level": 37
+    },
+    "boarskin-duckbills-of-gathering-leatherworker-38": {
+      "name": "Boarskin Duckbills of Gathering",
+      "job": "Leatherworker",
+      "level": 38
+    },
+    "boarskin-caligae-leatherworker-39": {
+      "name": "Boarskin Caligae",
+      "job": "Leatherworker",
+      "level": 39
+    },
+    "boarskin-duckbills-of-gathering-leatherworker-40": {
+      "name": "Boarskin Duckbills of Gathering",
+      "job": "Leatherworker",
+      "level": 40
+    },
+    "boarskin-cesti-leatherworker-41": {
+      "name": "Boarskin Cesti",
+      "job": "Leatherworker",
+      "level": 41
+    },
+    "boarskin-targe-leatherworker-41": {
+      "name": "Boarskin Targe",
+      "job": "Leatherworker",
+      "level": 41
+    },
+    "boarskin-shoulder-guards-leatherworker-42": {
+      "name": "Boarskin Shoulder Guards",
+      "job": "Leatherworker",
+      "level": 42
+    },
+    "peisteskin-ringbelt-leatherworker-43": {
+      "name": "Peisteskin Ringbelt",
+      "job": "Leatherworker",
+      "level": 43
+    },
+    "peisteskin-jacket-leatherworker-44": {
+      "name": "Peisteskin Jacket",
+      "job": "Leatherworker",
+      "level": 44
+    },
+    "raptorskin-cesti-leatherworker-45": {
+      "name": "Raptorskin Cesti",
+      "job": "Leatherworker",
+      "level": 45
+    },
+    "raptorskin-himantes-leatherworker-46": {
+      "name": "Raptorskin Himantes",
+      "job": "Leatherworker",
+      "level": 46
+    },
+    "raptorskin-ringbelt-leatherworker-46": {
+      "name": "Raptorskin Ringbelt",
+      "job": "Leatherworker",
+      "level": 46
+    },
+    "raptorskin-shoulder-guards-leatherworker-46": {
+      "name": "Raptorskin Shoulder Guards",
+      "job": "Leatherworker",
+      "level": 46
+    },
+    "raptorskin-tool-belt-leatherworker-46": {
+      "name": "Raptorskin Tool Belt",
+      "job": "Leatherworker",
+      "level": 46
+    },
+    "gryphonskin-bracelets-leatherworker-50-2star": {
+      "name": "Gryphonskin Bracelets",
+      "job": "Leatherworker",
+      "level": 50
+    },
+    "felt-tights-weaver-45": {
+      "name": "Felt Tights",
+      "job": "Weaver",
+      "level": 45
+    },
+    "weavers-tights-weaver-50-1star": {
+      "name": "Weaver's Tights",
+      "job": "Weaver",
+      "level": 50
+    },
+    "felt-bliaud-robes-weaver-50-2star": {
+      "name": "Felt Bliaud Robes",
+      "job": "Weaver",
+      "level": 50
+    },
+    "vanya-crakows-of-casting-weaver-50-2star": {
+      "name": "Vanya Crakows of Casting",
+      "job": "Weaver",
+      "level": 50
+    }
+  },
+  "ambiguousRecipes": {}
+}

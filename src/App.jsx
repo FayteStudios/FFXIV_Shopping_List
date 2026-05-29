@@ -21,6 +21,8 @@ import recipeObjectives from "./data/recipeObjectives.json";
 
 const RECIPES = recipes;
 
+const [shoppingViewMode, setShoppingViewMode] = useState("grouped");
+
 const CRAFTING_JOBS = [
   "Carpenter",
   "Blacksmith",
@@ -759,6 +761,287 @@ function getPrimaryShoppingGroup(materialName) {
   return "unknown";
 }
 
+const ROUTE_SOURCE_PRIORITY = [
+  "shop",
+  "gathering",
+  "monsterDrop",
+  "fishing",
+  "loot",
+  "instance",
+  "crafted",
+  "special",
+];
+
+function getRouteCoordinateText(coordinates) {
+  if (!coordinates) {
+    return null;
+  }
+
+  const x = coordinates.x ?? null;
+  const y = coordinates.y ?? null;
+
+  if (x === null || y === null) {
+    return null;
+  }
+
+  return `X: ${x} · Y: ${y}`;
+}
+
+function getNpcRouteLocation(source) {
+  if (!Array.isArray(source.npcs) || source.npcs.length === 0) {
+    return null;
+  }
+
+  const npcWithLocation = source.npcs.find(
+    (npc) => npc?.zone || npc?.area || npc?.region || npc?.coordinates
+  );
+
+  const npc = npcWithLocation || source.npcs[0];
+
+  return {
+    region: npc.region ?? source.region ?? null,
+    zone: npc.zone ?? source.zone ?? null,
+    area: npc.area ?? source.area ?? null,
+    coordinates: npc.coordinates ?? source.coordinates ?? null,
+    label: npc.name ?? source.npcName ?? "Vendor",
+  };
+}
+
+function getSourceRouteLocation(source) {
+  if (!source) {
+    return null;
+  }
+
+  if (source.type === "monsterDrop") {
+    const position = getFirstMonsterPosition(source);
+
+    if (!position) {
+      return null;
+    }
+
+    return {
+      region: position.region ?? null,
+      zone: position.zone ?? null,
+      area: position.area ?? null,
+      coordinates: position.coordinates ?? null,
+      label: toTitleCase(source.monsterName || "Monster Drop"),
+    };
+  }
+
+  if (source.type === "shop") {
+    return getNpcRouteLocation(source);
+  }
+
+  return {
+    region: source.region ?? null,
+    zone: source.zone ?? null,
+    area: source.area ?? null,
+    coordinates: source.coordinates ?? null,
+    label:
+      source.nodeType ||
+      source.gatheringType ||
+      source.sourceCategory ||
+      source.instanceName ||
+      source.sourceItemName ||
+      source.type ||
+      "Source",
+  };
+}
+
+function getRouteSourceDetail(source) {
+  if (!source) {
+    return "Source unknown";
+  }
+
+  if (source.type === "monsterDrop") {
+    return `Monster Drop · ${toTitleCase(source.monsterName || "Unknown Monster")}`;
+  }
+
+  if (source.type === "shop") {
+    const npcNames = getNpcNames(source);
+
+    if (npcNames.length > 0) {
+      return `Vendor · ${npcNames.slice(0, 2).join(", ")}`;
+    }
+
+    return `Vendor · ${source.shopType || source.gatheringType || "Shop"}`;
+  }
+
+  if (source.type === "fishing") {
+    return `Fishing · ${source.gatheringType || "Fishing Spot"}`;
+  }
+
+  if (source.type === "crafted") {
+    return `Crafted · ${source.recipeJobName || "Recipe"}`;
+  }
+
+  if (source.type === "instance") {
+    return `Instance · ${source.instanceName || source.instanceCategory || "Loot"}`;
+  }
+
+  if (source.type === "loot") {
+    return `Loot · ${source.sourceItemName || source.sourceCategory || "Source"}`;
+  }
+
+  if (source.type === "special") {
+    return `Special · ${source.sourceCategory || "Manual Review"}`;
+  }
+
+  const parts = [
+    source.gatheringClass,
+    source.gatheringType,
+    source.level ? `Lv. ${source.level}` : null,
+  ].filter(Boolean);
+
+  return parts.length > 0 ? parts.join(" · ") : "Source";
+}
+
+function getBestRouteSource(materialName) {
+  const entry = getMaterialSourceEntry(materialName);
+
+  if (!entry?.sources || entry.sources.length === 0) {
+    return {
+      source: null,
+      routeLocation: null,
+      sourceType: "unknown",
+    };
+  }
+
+  for (const sourceType of ROUTE_SOURCE_PRIORITY) {
+    const source = entry.sources.find((candidate) => candidate.type === sourceType);
+
+    if (!source) {
+      continue;
+    }
+
+    const routeLocation = getSourceRouteLocation(source);
+
+    return {
+      source,
+      routeLocation,
+      sourceType,
+    };
+  }
+
+  const fallbackSource = entry.sources[0];
+
+  return {
+    source: fallbackSource,
+    routeLocation: getSourceRouteLocation(fallbackSource),
+    sourceType: fallbackSource.type || "unknown",
+  };
+}
+
+function getRouteStopKey(routeLocation, sourceType) {
+  if (!routeLocation?.zone && !routeLocation?.area && !routeLocation?.region) {
+    return `${sourceType}:unknown`;
+  }
+
+  return [
+    sourceType,
+    routeLocation.region || "Unknown Region",
+    routeLocation.zone || "Unknown Zone",
+    routeLocation.area || "",
+  ].join("|");
+}
+
+function getRouteStopTitle(routeLocation, sourceType) {
+  if (sourceType === "shop") {
+    if (routeLocation?.zone || routeLocation?.area) {
+      return `Vendor Stop · ${[routeLocation.zone, routeLocation.area]
+        .filter(Boolean)
+        .join(" — ")}`;
+    }
+
+    return "Vendor Stops";
+  }
+
+  if (!routeLocation?.zone && !routeLocation?.area && !routeLocation?.region) {
+    return "Location Needs Review";
+  }
+
+  return [routeLocation.zone, routeLocation.area]
+    .filter(Boolean)
+    .join(" — ");
+}
+
+function getRouteStopSortValue(stop) {
+  const sourceRank = {
+    shop: 0,
+    gathering: 1,
+    monsterDrop: 2,
+    fishing: 3,
+    loot: 4,
+    instance: 5,
+    crafted: 6,
+    special: 7,
+    unknown: 8,
+  };
+
+  return [
+    sourceRank[stop.sourceType] ?? 99,
+    stop.region || "",
+    stop.title || "",
+  ].join("|");
+}
+
+function buildShoppingRoutePlan(materialRows) {
+  const crystalRows = [];
+  const routeStopsByKey = new Map();
+  const specialRows = [];
+
+  for (const [materialName, quantity] of materialRows) {
+    if (isCrystalShardOrCluster(materialName)) {
+      crystalRows.push([materialName, quantity]);
+      continue;
+    }
+
+    const { source, routeLocation, sourceType } = getBestRouteSource(materialName);
+
+    if (!source || sourceType === "special" || sourceType === "crafted") {
+      specialRows.push({
+        materialName,
+        quantity,
+        source,
+        sourceType,
+        sourceDetail: getRouteSourceDetail(source),
+      });
+      continue;
+    }
+
+    const stopKey = getRouteStopKey(routeLocation, sourceType);
+
+    if (!routeStopsByKey.has(stopKey)) {
+      routeStopsByKey.set(stopKey, {
+        key: stopKey,
+        sourceType,
+        region: routeLocation?.region ?? null,
+        title: getRouteStopTitle(routeLocation, sourceType),
+        rows: [],
+      });
+    }
+
+    routeStopsByKey.get(stopKey).rows.push({
+      materialName,
+      quantity,
+      source,
+      sourceType,
+      sourceDetail: getRouteSourceDetail(source),
+      coordinatesText: getRouteCoordinateText(routeLocation?.coordinates),
+    });
+  }
+
+  const routeStops = Array.from(routeStopsByKey.values()).sort((a, b) =>
+    getRouteStopSortValue(a).localeCompare(getRouteStopSortValue(b))
+  );
+
+  return {
+    crystalRows,
+    routeStops,
+    specialRows,
+  };
+}
+
 function groupShoppingMaterials(materialRows) {
   const groups = Object.fromEntries(
     SHOPPING_GROUP_ORDER.map((groupKey) => [groupKey, []])
@@ -896,6 +1179,10 @@ function App() {
 
   const groupedShoppingMaterials = useMemo(() => {
     return groupShoppingMaterials(shoppingMaterialRows);
+  }, [shoppingMaterialRows]);
+
+    const shoppingRoutePlan = useMemo(() => {
+    return buildShoppingRoutePlan(shoppingMaterialRows);
   }, [shoppingMaterialRows]);
 
   const craftingRecipeIdSet = useMemo(() => {
@@ -1544,22 +1831,49 @@ function App() {
 
             {craftingList.length > 0 && (
               <>
-                <div className="section-heading-row">
-                  <h3>Materials Needed</h3>
+              <div className="section-heading-row">
+                <h3>Materials Needed</h3>
 
-                  <button
-                    className="secondary-button"
-                    onClick={copyShoppingList}
-                    type="button"
-                  >
-                    Copy List
-                  </button>
-                </div>
+                <button
+                  className="secondary-button"
+                  onClick={copyShoppingList}
+                  type="button"
+                >
+                  Copy List
+                </button>
+              </div>
+
+              <div className="shopping-view-toggle">
+                <button
+                  className={
+                    shoppingViewMode === "grouped"
+                      ? "quick-filter-button active"
+                      : "quick-filter-button"
+                  }
+                  onClick={() => setShoppingViewMode("grouped")}
+                  type="button"
+                >
+                  Grouped List
+                </button>
+
+                <button
+                  className={
+                    shoppingViewMode === "route"
+                      ? "quick-filter-button active"
+                      : "quick-filter-button"
+                  }
+                  onClick={() => setShoppingViewMode("route")}
+                  type="button"
+                >
+                  Route View
+                </button>
+              </div>
 
                 {copyStatus && <p className="copy-status">{copyStatus}</p>}
 
-                <div className="raw-breakdown no-top-border">
-                  {groupedShoppingMaterials.map((group) => (
+              <div className="raw-breakdown no-top-border">
+                {shoppingViewMode === "grouped" &&
+                  groupedShoppingMaterials.map((group) => (
                     <div key={group.key} className="shopping-group">
                       <h3 className="shopping-group-title">{group.label}</h3>
 
@@ -1577,7 +1891,87 @@ function App() {
                       </div>
                     </div>
                   ))}
-                </div>
+
+                {shoppingViewMode === "route" && (
+                  <div className="route-plan">
+                    {shoppingRoutePlan.crystalRows.length > 0 && (
+                      <div className="shopping-group">
+                        <h3 className="shopping-group-title">
+                          Crystals / Shards / Clusters
+                        </h3>
+
+                        <p className="route-note">
+                          Check your stock first. These are not included in routing.
+                        </p>
+
+                        <div className="material-list">
+                          {shoppingRoutePlan.crystalRows.map(([materialName, quantity]) => (
+                            <ExpandableMaterialRow
+                              key={materialName}
+                              materialName={materialName}
+                              quantity={quantity}
+                              sourceKey={`route-crystals-${slugifyItemName(materialName)}`}
+                              selectedSourceKey={selectedSourceKey}
+                              onToggle={toggleSourceMaterial}
+                            />
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {shoppingRoutePlan.routeStops.map((stop) => (
+                      <div key={stop.key} className="route-stop">
+                        <h3 className="shopping-group-title">{stop.title}</h3>
+
+                        <div className="material-list">
+                          {stop.rows.map((row) => (
+                            <div key={row.materialName} className="route-material-card">
+                              <ExpandableMaterialRow
+                                materialName={row.materialName}
+                                quantity={row.quantity}
+                                sourceKey={`route-${stop.key}-${slugifyItemName(
+                                  row.materialName
+                                )}`}
+                                selectedSourceKey={selectedSourceKey}
+                                onToggle={toggleSourceMaterial}
+                              />
+
+                              <div className="route-source-summary">
+                                <span>{row.sourceDetail}</span>
+                                {row.coordinatesText && <span>{row.coordinatesText}</span>}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+
+                    {shoppingRoutePlan.specialRows.length > 0 && (
+                      <div className="shopping-group">
+                        <h3 className="shopping-group-title">Special / Needs Review</h3>
+
+                        <div className="material-list">
+                          {shoppingRoutePlan.specialRows.map((row) => (
+                            <div key={row.materialName} className="route-material-card">
+                              <ExpandableMaterialRow
+                                materialName={row.materialName}
+                                quantity={row.quantity}
+                                sourceKey={`route-special-${slugifyItemName(row.materialName)}`}
+                                selectedSourceKey={selectedSourceKey}
+                                onToggle={toggleSourceMaterial}
+                              />
+
+                              <div className="route-source-summary">
+                                <span>{row.sourceDetail}</span>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
                 
               </>
             )}

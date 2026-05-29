@@ -11,7 +11,6 @@ import icons from "./data/icons.json";
 import materialSources from "./data/materialSources.json";
 import {
   calculateCraftingListRawMaterials,
-  calculateRawMaterials,
   createRecipeOutputIndex,
   findBestRecipeForItem,
   isCraftable,
@@ -61,6 +60,23 @@ const RECIPE_TYPE_FILTERS = [
   { label: "Furniture", value: "furniture" },
   { label: "Special", value: "special" },
 ];
+
+function useDebouncedValue(value, delay = 300) {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [value, delay]);
+
+  return debouncedValue;
+}
+
 
 const ICON_BASE_PATH = `${import.meta.env.BASE_URL}icons/items/`;
 
@@ -356,6 +372,8 @@ function getSourceTitle(source) {
 
   return parts.length > 0 ? parts.join(" · ") : "Source";
 }
+
+
 
 function getSourceLocation(source) {
   if (!source) {
@@ -683,12 +701,15 @@ function ExpandableMaterialRow({
       )}
     </div>
   );
-
-  
-  
 }
+
+
+
 function App() {
-  const [search, setSearch] = useState("");
+  const [searchInput, setSearchInput] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
+  const debouncedSearchInput = useDebouncedValue(searchInput, 300);
+
   const [selectedJob, setSelectedJob] = useState("Carpenter");
   const [selectedLevelRange, setSelectedLevelRange] = useState(LEVEL_RANGES[0]);
   const [selectedRecipeType, setSelectedRecipeType] = useState("standard");
@@ -703,6 +724,10 @@ function App() {
   }, []);
 
   useEffect(() => {
+    setSearchQuery(debouncedSearchInput);
+  }, [debouncedSearchInput]);
+
+  useEffect(() => {
     saveCraftingList(craftingList);
   }, [craftingList]);
 
@@ -711,26 +736,12 @@ function App() {
       RECIPES,
       selectedJob,
       selectedLevelRange,
-      search,
+      searchQuery,
       selectedRecipeType
     );
-  }, [selectedJob, selectedLevelRange, search, selectedRecipeType]);
+  }, [selectedJob, selectedLevelRange, searchQuery, selectedRecipeType]);
 
   const mainRecipe = selectedRecipeId ? RECIPES[selectedRecipeId] : null;
-
-  const rawMaterialTotals = useMemo(() => {
-    if (!selectedRecipeId) {
-      return {};
-    }
-
-    return calculateRawMaterials(
-      RECIPES,
-      selectedRecipeId,
-      1,
-      null,
-      recipeOutputIndex
-    );
-  }, [selectedRecipeId, recipeOutputIndex]);
 
   const expandedRecipe = useMemo(() => {
     if (selectedIngredient?.type !== "recipe") {
@@ -757,12 +768,17 @@ function App() {
     return new Set(craftingList.map((entry) => entry.recipeId));
   }, [craftingList]);
 
-  const isGlobalSearchMode = search.trim().length > 0;
+  const isGlobalSearchMode = searchQuery.trim().length > 0;
 
   function toggleSourceMaterial(sourceKey) {
     setSelectedSourceKey((currentKey) =>
       currentKey === sourceKey ? null : sourceKey
     );
+  }
+
+  function clearSearch() {
+    setSearchInput("");
+    setSearchQuery("");
   }
 
   function selectJob(job) {
@@ -771,7 +787,7 @@ function App() {
     setSelectedRecipeId(null);
     setSelectedIngredient(null);
     setSelectedSourceKey(null);
-    setSearch("");
+    clearSearch();
   }
 
   function selectLevelRange(levelRange) {
@@ -979,8 +995,17 @@ function App() {
 
           <input
             className="search panel-search"
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
+            value={searchInput}
+            onChange={(event) => setSearchInput(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === "Enter") {
+                setSearchQuery(searchInput);
+              }
+
+              if (event.key === "Escape") {
+                clearSearch();
+              }
+            }}
             placeholder="Search all recipes, jobs, levels, or ingredients..."
           />
 

@@ -245,7 +245,109 @@ function getMaterialSourceEntry(materialName) {
   return materialSources[slugifyItemName(materialName)] || null;
 }
 
+function toTitleCase(value) {
+  return String(value || "")
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((word) => {
+      if (word.length <= 2 && word === word.toUpperCase()) {
+        return word;
+      }
+
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
+}
+
+function getNpcNames(source) {
+  if (!Array.isArray(source.npcs)) {
+    return [];
+  }
+
+  return source.npcs
+    .map((npc) => npc?.name)
+    .filter(Boolean)
+    .filter((name, index, names) => names.indexOf(name) === index);
+}
+
+function getFirstMonsterPosition(source) {
+  if (!Array.isArray(source.positions) || source.positions.length === 0) {
+    return null;
+  }
+
+  return source.positions.find((position) => !position?.fate) || source.positions[0];
+}
+
+function getCoordinatesText(coordinates) {
+  if (!coordinates) {
+    return null;
+  }
+
+  const x = coordinates.x ?? null;
+  const y = coordinates.y ?? null;
+
+  if (x === null || y === null) {
+    return null;
+  }
+
+  return `X: ${x} · Y: ${y}`;
+}
+
 function getSourceTitle(source) {
+  if (!source) {
+    return "Source";
+  }
+
+  if (source.type === "monsterDrop") {
+    return `Monster Drop · ${toTitleCase(source.monsterName || "Unknown Monster")}`;
+  }
+
+  if (source.type === "shop") {
+    const shopType = source.shopType || source.gatheringType || "Shop";
+    return `Vendor · ${shopType}`;
+  }
+
+  if (source.type === "loot") {
+    return source.sourceCategory
+      ? `Loot · ${source.sourceCategory}`
+      : "Loot Source";
+  }
+
+  if (source.type === "fishing") {
+    const parts = [
+      "Fisher",
+      source.gatheringType,
+      source.level ? `Lv. ${source.level}` : null,
+    ].filter(Boolean);
+
+    return parts.join(" · ");
+  }
+
+  if (source.type === "instance") {
+    return source.instanceCategory
+      ? `${source.instanceCategory} · Loot`
+      : "Instance Loot";
+  }
+
+  if (source.type === "crafted") {
+    const parts = [
+      "Crafted",
+      source.recipeJobName,
+      source.level ? `Lv. ${source.level}` : null,
+    ].filter(Boolean);
+
+    return parts.join(" · ");
+  }
+
+  if (source.type === "special") {
+    const parts = [
+      "Special",
+      source.gatheringType || source.sourceCategory,
+    ].filter(Boolean);
+
+    return parts.join(" · ");
+  }
+
   const parts = [
     source.gatheringClass,
     source.gatheringType,
@@ -256,6 +358,57 @@ function getSourceTitle(source) {
 }
 
 function getSourceLocation(source) {
+  if (!source) {
+    return "Location unknown";
+  }
+
+  if (source.type === "monsterDrop") {
+    const position = getFirstMonsterPosition(source);
+
+    if (!position) {
+      return "Monster location not listed";
+    }
+
+    const locationParts = [position.zone, position.area].filter(Boolean);
+
+    if (locationParts.length > 0) {
+      return locationParts.join(" — ");
+    }
+
+    return "Monster location not listed";
+  }
+
+  if (source.type === "shop") {
+    const npcNames = getNpcNames(source);
+
+    if (npcNames.length > 0) {
+      const visibleNames = npcNames.slice(0, 3).join(", ");
+      const extraCount = npcNames.length - 3;
+
+      return extraCount > 0
+        ? `${visibleNames}, +${extraCount} more`
+        : visibleNames;
+    }
+
+    return "Vendor location unknown";
+  }
+
+  if (source.type === "loot") {
+    return source.sourceItemName || "Loot source unknown";
+  }
+
+  if (source.type === "instance") {
+    return source.instanceName || source.zone || "Instance location unknown";
+  }
+
+  if (source.type === "special") {
+    return source.sourceCategory || "Special source";
+  }
+
+  if (source.type === "crafted") {
+    return source.recipeJobName || "Crafting recipe";
+  }
+
   const locationParts = [source.zone, source.area].filter(Boolean);
 
   if (locationParts.length > 0) {
@@ -269,8 +422,8 @@ function getSourceLocation(source) {
   return "Location unknown";
 }
 
-function getSourceTimeText(source) {
-  if (!source.timed) {
+function getSourceAvailabilityText(source) {
+  if (!source?.timed) {
     return "Always available";
   }
 
@@ -280,6 +433,118 @@ function getSourceTimeText(source) {
       : "Timed";
 
   return source.duration ? `${times} for ${source.duration}` : times;
+}
+
+function getSourceDetailLines(source) {
+  if (!source) {
+    return [];
+  }
+
+  const lines = [];
+
+  if (source.type === "monsterDrop") {
+    const position = getFirstMonsterPosition(source);
+
+    if (position?.level) {
+      lines.push(`Monster level: ${position.level}`);
+    }
+
+    const positionCoordinates = getCoordinatesText(position?.coordinates);
+
+    if (positionCoordinates) {
+      lines.push(positionCoordinates);
+    }
+
+    if (source.positions?.length > 1) {
+      lines.push(`${source.positions.length} known spawn entries`);
+    }
+
+    lines.push("Monster drop");
+
+    return lines;
+  }
+
+  if (source.type === "shop") {
+    if (source.priceText) {
+      lines.push(`Cost: ${source.priceText}`);
+    } else if (Array.isArray(source.currencies) && source.currencies.length > 0) {
+      lines.push(
+        `Cost: ${source.currencies
+          .map((currency) => `${currency.amount} ${currency.name}`)
+          .join(", ")}`
+      );
+    }
+
+    if (source.purchasedItem?.amount && source.purchasedItem.amount > 1) {
+      lines.push(`Purchase amount: ${source.purchasedItem.amount}`);
+    }
+
+    lines.push(`${source.nodeType || "Shop Purchase"} · ${getSourceAvailabilityText(source)}`);
+
+    return lines;
+  }
+
+  if (source.type === "loot") {
+    if (source.sourceItemName) {
+      lines.push(`From: ${source.sourceItemName}`);
+    }
+
+    lines.push(`${source.nodeType || "Loot Source"} · ${getSourceAvailabilityText(source)}`);
+
+    return lines;
+  }
+
+  if (source.type === "instance") {
+    lines.push(`${source.nodeType || "Instance Loot"} · ${getSourceAvailabilityText(source)}`);
+    return lines;
+  }
+
+  if (source.type === "crafted") {
+    if (source.amountCreated) {
+      lines.push(`Creates: ${source.amountCreated}`);
+    }
+
+    if (Array.isArray(source.ingredients) && source.ingredients.length > 0) {
+      const ingredientPreview = source.ingredients
+        .slice(0, 3)
+        .map((ingredient) => `${ingredient.quantity} ${ingredient.name}`)
+        .join(", ");
+
+      lines.push(`Ingredients: ${ingredientPreview}`);
+    }
+
+    lines.push("Crafting recipe");
+
+    return lines;
+  }
+
+  if (source.type === "special") {
+    if (source.acquisitionNote) {
+      lines.push(source.acquisitionNote);
+    }
+
+    if (source.confidence) {
+      lines.push(`Confidence: ${source.confidence}`);
+    }
+
+    lines.push(`${source.nodeType || "Special Source"} · ${getSourceAvailabilityText(source)}`);
+
+    return lines;
+  }
+
+  const coordinatesText = getCoordinatesText(source.coordinates);
+
+  if (coordinatesText) {
+    lines.push(coordinatesText);
+  }
+
+  lines.push(`${source.nodeType || "Source"} · ${getSourceAvailabilityText(source)}`);
+
+  if (source.hidden) {
+    lines.push("Hidden item/node");
+  }
+
+  return lines;
 }
 
 function MaterialSourceDetails({ materialName }) {
@@ -304,7 +569,7 @@ function MaterialSourceDetails({ materialName }) {
   if (!entry.sources || entry.sources.length === 0) {
     return (
       <div className="material-source-box empty small-empty">
-        {materialName} does not have a direct gathering source yet.
+        {materialName} does not have a direct source yet.
         <br />
         Status: {entry.status}
       </div>
@@ -323,36 +588,27 @@ function MaterialSourceDetails({ materialName }) {
       </div>
 
       <div className="material-source-list">
-        {entry.sources.slice(0, 5).map((source, index) => (
-          <div key={`${materialName}-source-${index}`} className="source-card">
-            <strong>{getSourceTitle(source)}</strong>
+        {entry.sources.slice(0, 8).map((source, index) => {
+          const detailLines = getSourceDetailLines(source);
 
-            <span>{getSourceLocation(source)}</span>
+          return (
+            <div key={`${materialName}-source-${index}`} className="source-card">
+              <strong>{getSourceTitle(source)}</strong>
 
-            {source.coordinates && (
-              <span>
-                X: {source.coordinates.x} · Y: {source.coordinates.y}
-              </span>
-            )}
+              <span>{getSourceLocation(source)}</span>
 
-            <span>
-              {source.nodeType ? `${source.nodeType} · ` : ""}
-              {getSourceTimeText(source)}
-            </span>
+              {detailLines.map((line, lineIndex) => (
+                <span key={`${materialName}-source-${index}-line-${lineIndex}`}>
+                  {line}
+                </span>
+              ))}
+            </div>
+          );
+        })}
 
-            {source.cost && (
-              <span>
-                Cost: {source.cost}
-              </span>
-            )}
-
-            {source.hidden && <span>Hidden item/node</span>}
-          </div>
-        ))}
-
-        {entry.sources.length > 5 && (
+        {entry.sources.length > 8 && (
           <p className="source-overflow-note">
-            Showing first 5 of {entry.sources.length} sources.
+            Showing first 8 of {entry.sources.length} sources.
           </p>
         )}
       </div>

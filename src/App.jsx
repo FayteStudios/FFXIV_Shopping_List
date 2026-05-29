@@ -519,11 +519,31 @@ function getSourceDetailLines(source) {
   }
 
   if (source.type === "special") {
+    const categoryKey = source.sourceCategoryKey || "";
+
+    if (categoryKey === "manual_gathering_fallback") {
+      lines.push("Normal gathering item.");
+      lines.push("Exact node details need verification.");
+      return lines;
+    }
+
+    if (categoryKey === "manual_special_material") {
+      lines.push("Special or uncommon source.");
+      lines.push("Exact acquisition needs verification.");
+      return lines;
+    }
+
+    if (categoryKey === "manual_review_name_mismatch") {
+      lines.push("Item name did not match cleanly during source lookup.");
+      lines.push("Exact source needs manual verification.");
+      return lines;
+    }
+
     if (source.acquisitionNote) {
       lines.push(source.acquisitionNote);
     }
 
-    if (source.confidence) {
+    if (source.confidence && source.confidence !== "manual") {
       lines.push(`Confidence: ${source.confidence}`);
     }
 

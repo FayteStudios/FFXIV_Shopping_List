@@ -1052,6 +1052,21 @@ button:active {
   align-items: flex-start;
 }
 
+.shopping-group {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.shopping-group-title {
+  margin: 0;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(180, 130, 45, 0.18);
+  border: 1px solid rgba(130, 90, 35, 0.25);
+  font-size: 1rem;
+}
+
 .card-row .item-title-row {
   min-width: 0;
 }

@@ -17,6 +17,7 @@ import {
   normalizeIngredientType,
 } from "./utils/recipeUtils";
 import { loadCraftingList, saveCraftingList } from "./utils/storageUtils";
+import recipeObjectives from "./data/recipeObjectives.json";
 
 const RECIPES = recipes;
 
@@ -59,6 +60,8 @@ const RECIPE_TYPE_FILTERS = [
   { label: "★ Starred", value: "starred" },
   { label: "Furniture", value: "furniture" },
   { label: "Special", value: "special" },
+  { label: "Leves", value: "leves" },
+  { label: "Quests", value: "quests" },
 ];
 
 function useDebouncedValue(value, delay = 300) {
@@ -77,6 +80,19 @@ function useDebouncedValue(value, delay = 300) {
   return debouncedValue;
 }
 
+function getRecipeObjectiveEntry(recipeId) {
+  return recipeObjectives[recipeId] || null;
+}
+
+function recipeHasLeves(recipeId) {
+  const entry = getRecipeObjectiveEntry(recipeId);
+  return Array.isArray(entry?.leves) && entry.leves.length > 0;
+}
+
+function recipeHasQuests(recipeId) {
+  const entry = getRecipeObjectiveEntry(recipeId);
+  return Array.isArray(entry?.quests) && entry.quests.length > 0;
+}
 
 const ICON_BASE_PATH = `${import.meta.env.BASE_URL}icons/items/`;
 
@@ -178,7 +194,15 @@ function isStarredRecipe(recipe) {
   return (recipe.stars || 0) > 0;
 }
 
-function recipeMatchesTypeFilter(recipe, selectedRecipeType) {
+function recipeMatchesTypeFilter(recipe, selectedRecipeType, recipeId) {
+  if (selectedRecipeType === "leves") {
+    return recipeHasLeves(recipeId);
+  }
+
+  if (selectedRecipeType === "quests") {
+    return recipeHasQuests(recipeId);
+  }
+
   if (selectedRecipeType === "special") {
     return isSpecialRecipe(recipe);
   }
@@ -226,7 +250,7 @@ function getFilteredRecipeIds(
       return (
         recipeMatchesJob(recipe, selectedJob) &&
         recipeMatchesLevelRange(recipe, selectedLevelRange) &&
-        recipeMatchesTypeFilter(recipe, selectedRecipeType)
+        recipeMatchesTypeFilter(recipe, selectedRecipeType, recipeId)
       );
     })
     .sort((a, b) => {
@@ -654,6 +678,112 @@ function MaterialSourceDetails({ materialName }) {
   );
 }
 
+const SHOPPING_GROUP_ORDER = [
+  "crystals",
+  "vendor",
+  "gathering",
+  "monsterDrop",
+  "fishing",
+  "crafted",
+  "loot",
+  "instance",
+  "special",
+  "unknown",
+];
+
+const SHOPPING_GROUP_LABELS = {
+  crystals: "Crystals / Shards / Clusters",
+  vendor: "Vendor Purchases",
+  gathering: "Gathering",
+  monsterDrop: "Monster Drops",
+  fishing: "Fishing",
+  crafted: "Crafted / Intermediate",
+  loot: "Loot",
+  instance: "Dungeon / Trial / Raid",
+  special: "Special / Manual Review",
+  unknown: "Unknown Source",
+};
+
+function isCrystalShardOrCluster(materialName) {
+  return /\b(shard|crystal|cluster)\b/i.test(materialName);
+}
+
+function getPrimaryShoppingGroup(materialName) {
+  if (isCrystalShardOrCluster(materialName)) {
+    return "crystals";
+  }
+
+  const entry = getMaterialSourceEntry(materialName);
+
+  if (!entry?.sources || entry.sources.length === 0) {
+    return "unknown";
+  }
+
+  const sourceTypes = new Set(entry.sources.map((source) => source.type));
+
+  if (sourceTypes.has("shop")) {
+    return "vendor";
+  }
+
+  if (
+    sourceTypes.has("gathering") ||
+    Array.from(sourceTypes).some((type) => type === "botanist" || type === "miner")
+  ) {
+    return "gathering";
+  }
+
+  if (sourceTypes.has("monsterDrop")) {
+    return "monsterDrop";
+  }
+
+  if (sourceTypes.has("fishing")) {
+    return "fishing";
+  }
+
+  if (sourceTypes.has("crafted")) {
+    return "crafted";
+  }
+
+  if (sourceTypes.has("loot")) {
+    return "loot";
+  }
+
+  if (sourceTypes.has("instance")) {
+    return "instance";
+  }
+
+  if (sourceTypes.has("special")) {
+    return "special";
+  }
+
+  return "unknown";
+}
+
+function groupShoppingMaterials(materialRows) {
+  const groups = Object.fromEntries(
+    SHOPPING_GROUP_ORDER.map((groupKey) => [groupKey, []])
+  );
+
+  for (const [materialName, quantity] of materialRows) {
+    const groupKey = getPrimaryShoppingGroup(materialName);
+
+    if (!groups[groupKey]) {
+      groups.unknown.push([materialName, quantity]);
+      continue;
+    }
+
+    groups[groupKey].push([materialName, quantity]);
+  }
+
+  return SHOPPING_GROUP_ORDER
+    .map((groupKey) => ({
+      key: groupKey,
+      label: SHOPPING_GROUP_LABELS[groupKey],
+      rows: groups[groupKey],
+    }))
+    .filter((group) => group.rows.length > 0);
+}
+
 function ExpandableMaterialRow({
   materialName,
   quantity,
@@ -764,6 +894,10 @@ function App() {
     return sortShoppingMaterials(Object.entries(craftingListRawTotals));
   }, [craftingListRawTotals]);
 
+  const groupedShoppingMaterials = useMemo(() => {
+    return groupShoppingMaterials(shoppingMaterialRows);
+  }, [shoppingMaterialRows]);
+
   const craftingRecipeIdSet = useMemo(() => {
     return new Set(craftingList.map((entry) => entry.recipeId));
   }, [craftingList]);
@@ -783,7 +917,6 @@ function App() {
 
   function selectJob(job) {
     setSelectedJob(job);
-    setSelectedRecipeType("standard");
     setSelectedRecipeId(null);
     setSelectedIngredient(null);
     setSelectedSourceKey(null);
@@ -792,7 +925,6 @@ function App() {
 
   function selectLevelRange(levelRange) {
     setSelectedLevelRange(levelRange);
-    setSelectedRecipeType("standard");
     setSelectedRecipeId(null);
     setSelectedIngredient(null);
     setSelectedSourceKey(null);
@@ -856,6 +988,7 @@ function App() {
       return [...currentList, ...newEntries];
     });
   }
+
 
   function addSelectedRecipeToList() {
     if (!selectedRecipeId || !mainRecipe) {
@@ -1084,6 +1217,16 @@ function App() {
                           {getStarLabel(recipe.stars)} | {recipe.job} | Makes{" "}
                           {recipe.amountCreated}
                         </span>
+
+                        {getRecipeObjectiveEntry(recipeId) && (
+                          <span>
+                            {recipeHasLeves(recipeId) &&
+                              `Leves: ${getRecipeObjectiveEntry(recipeId).leves.length}`}
+                            {recipeHasLeves(recipeId) && recipeHasQuests(recipeId) ? " | " : ""}
+                            {recipeHasQuests(recipeId) &&
+                              `Quests: ${getRecipeObjectiveEntry(recipeId).quests.length}`}
+                          </span>
+                        )}
                       </span>
                     </button>
 
@@ -1416,26 +1559,26 @@ function App() {
                 {copyStatus && <p className="copy-status">{copyStatus}</p>}
 
                 <div className="raw-breakdown no-top-border">
-                  <div className="material-list">
-                    {shoppingMaterialRows.map(([materialName, quantity]) => (
-                      <ExpandableMaterialRow
-                        key={materialName}
-                        materialName={materialName}
-                        quantity={quantity}
-                        sourceKey={`grand-${slugifyItemName(materialName)}`}
-                        selectedSourceKey={selectedSourceKey}
-                        onToggle={toggleSourceMaterial}
-                      />
-                    ))}
-                  </div>
-                </div>
+                  {groupedShoppingMaterials.map((group) => (
+                    <div key={group.key} className="shopping-group">
+                      <h3 className="shopping-group-title">{group.label}</h3>
 
-                <textarea
-                  className="shopping-list-box"
-                  readOnly
-                  value={buildShoppingListText()}
-                  aria-label="Copyable shopping list"
-                />
+                      <div className="material-list">
+                        {group.rows.map(([materialName, quantity]) => (
+                          <ExpandableMaterialRow
+                            key={materialName}
+                            materialName={materialName}
+                            quantity={quantity}
+                            sourceKey={`grand-${group.key}-${slugifyItemName(materialName)}`}
+                            selectedSourceKey={selectedSourceKey}
+                            onToggle={toggleSourceMaterial}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                
               </>
             )}
           </div>
